@@ -1,0 +1,212 @@
+<!-- ##### SECTION Title ##### -->
+GOComponent
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOComponent ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOComponent::changed ##### -->
+<para>
+
+</para>
+
+@gocomponent: the object which received the signal.
+
+<!-- ##### ARG GOComponent:ascent ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GOComponent:descent ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GOComponent:height ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GOComponent:mime-type ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GOComponent:width ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT GOComponentClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+@edit: 
+@get_data: 
+@mime_type_set: 
+@set_data: 
+@set_default_size: 
+@set_size: 
+@set_window: 
+@render: 
+@changed: 
+
+<!-- ##### FUNCTION go_component_new_by_mime_type ##### -->
+<para>
+
+</para>
+
+@mime_type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_component_set_default_size ##### -->
+<para>
+
+</para>
+
+@component: 
+@width: 
+@ascent: 
+@descent: 
+
+
+<!-- ##### FUNCTION go_component_needs_window ##### -->
+<para>
+
+</para>
+
+@component: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_component_set_window ##### -->
+<para>
+
+</para>
+
+@component: 
+@window: 
+
+
+<!-- ##### FUNCTION go_component_set_data ##### -->
+<para>
+
+</para>
+
+@component: 
+@data: 
+@length: 
+
+
+<!-- ##### FUNCTION go_component_get_data ##### -->
+<para>
+
+</para>
+
+@component: 
+@data: 
+@length: 
+@clearfunc: 
+@user_data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_component_set_size ##### -->
+<para>
+
+</para>
+
+@component: 
+@width: 
+@height: 
+
+
+<!-- ##### FUNCTION go_component_is_resizable ##### -->
+<para>
+
+</para>
+
+@component: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_component_is_editable ##### -->
+<para>
+
+</para>
+
+@component: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_component_edit ##### -->
+<para>
+
+</para>
+
+@component: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_component_emit_changed ##### -->
+<para>
+
+</para>
+
+@component: 
+
+
+<!-- ##### FUNCTION go_component_set_command_context ##### -->
+<para>
+
+</para>
+
+@cc: 
+
+
+<!-- ##### FUNCTION go_component_get_command_context ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_component_render ##### -->
+<para>
+
+</para>
+
+@component: 
+@cr: 
+@width: 
+@height: 
+
+

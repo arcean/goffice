@@ -1,0 +1,341 @@
+<!-- ##### SECTION Title ##### -->
+GogAxis
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GogAxis ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GogAxis:assigned-format-string-XL ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxis:circular-rotation ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxis:invert-axis ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxis:map-name ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxis:polar-unit ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxis:type ##### -->
+<para>
+
+</para>
+
+<!-- ##### ENUM GogAxisSet ##### -->
+<para>
+
+</para>
+
+@GOG_AXIS_SET_UNKNOWN: 
+@GOG_AXIS_SET_NONE: 
+@GOG_AXIS_SET_X: 
+@GOG_AXIS_SET_XY: 
+@GOG_AXIS_SET_XY_pseudo_3d: 
+@GOG_AXIS_SET_XY_COLOR: 
+@GOG_AXIS_SET_XY_BUBBLE: 
+@GOG_AXIS_SET_XYZ: 
+@GOG_AXIS_SET_RADAR: 
+@GOG_AXIS_SET_FUNDAMENTAL: 
+@GOG_AXIS_SET_ALL: 
+
+<!-- ##### ENUM GogAxisType ##### -->
+<para>
+
+</para>
+
+@GOG_AXIS_UNKNOWN: 
+@GOG_AXIS_X: 
+@GOG_AXIS_Y: 
+@GOG_AXIS_Z: 
+@GOG_AXIS_CIRCULAR: 
+@GOG_AXIS_RADIAL: 
+@GOG_AXIS_VIRTUAL: 
+@GOG_AXIS_PSEUDO_3D: 
+@GOG_AXIS_COLOR: 
+@GOG_AXIS_BUBBLE: 
+@GOG_AXIS_TYPES: 
+
+<!-- ##### ENUM GogAxisElemType ##### -->
+<para>
+
+</para>
+
+@GOG_AXIS_ELEM_MIN: 
+@GOG_AXIS_ELEM_MAX: 
+@GOG_AXIS_ELEM_MAJOR_TICK: 
+@GOG_AXIS_ELEM_MINOR_TICK: 
+@GOG_AXIS_ELEM_CROSS_POINT: 
+@GOG_AXIS_ELEM_MAX_ENTRY: 
+
+<!-- ##### FUNCTION gog_axis_get_atype ##### -->
+<para>
+
+</para>
+
+@axis: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_is_center_on_ticks ##### -->
+<para>
+
+</para>
+
+@axis: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_is_discrete ##### -->
+<para>
+
+</para>
+
+@axis: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_is_inverted ##### -->
+<para>
+
+</para>
+
+@axis: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_get_bounds ##### -->
+<para>
+
+</para>
+
+@axis: 
+@minima: 
+@maxima: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_set_bounds ##### -->
+<para>
+
+</para>
+
+@axis: 
+@minimum: 
+@maximum: 
+
+
+<!-- ##### FUNCTION gog_axis_set_extents ##### -->
+<para>
+
+</para>
+
+@axis: 
+@start: 
+@stop: 
+
+
+<!-- ##### FUNCTION gog_axis_get_format ##### -->
+<para>
+
+</para>
+
+@axis: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_set_format ##### -->
+<para>
+
+</para>
+
+@axis: 
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_get_ticks ##### -->
+<para>
+
+</para>
+
+@axis: 
+@ticks: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_get_labels ##### -->
+<para>
+
+</para>
+
+@axis: 
+@plot_that_labeled_axis: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_get_entry ##### -->
+<para>
+
+</para>
+
+@axis: 
+@i: 
+@user_defined: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_add_contributor ##### -->
+<para>
+
+</para>
+
+@axis: 
+@contrib: 
+
+
+<!-- ##### FUNCTION gog_axis_del_contributor ##### -->
+<para>
+
+</para>
+
+@axis: 
+@contrib: 
+
+
+<!-- ##### FUNCTION gog_axis_contributors ##### -->
+<para>
+
+</para>
+
+@axis: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_clear_contributors ##### -->
+<para>
+
+</para>
+
+@axis: 
+
+
+<!-- ##### FUNCTION gog_axis_bound_changed ##### -->
+<para>
+
+</para>
+
+@axis: 
+@contrib: 
+
+
+<!-- ##### FUNCTION gog_axis_get_grid_line ##### -->
+<para>
+
+</para>
+
+@axis: 
+@major: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_get_circular_rotation ##### -->
+<para>
+
+</para>
+
+@axis: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_get_date_conv ##### -->
+<para>
+
+</para>
+
+@axis: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_get_effective_format ##### -->
+<para>
+
+</para>
+
+@axis: 
+@Returns: 
+
+
+<!-- ##### ENUM GogAxisPolarUnit ##### -->
+<para>
+
+</para>
+
+@GOG_AXIS_POLAR_UNIT_DEGREES: 
+@GOG_AXIS_POLAR_UNIT_RADIANS: 
+@GOG_AXIS_POLAR_UNIT_GRADS: 
+@GOG_AXIS_POLAR_UNIT_MAX: 
+
+<!-- ##### FUNCTION gog_axis_get_polar_perimeter ##### -->
+<para>
+
+</para>
+
+@axis: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_axis_set_polar_unit ##### -->
+<para>
+
+</para>
+
+@axis: 
+@unit: 
+
+
+<!-- ##### FUNCTION gog_axis_get_polar_unit ##### -->
+<para>
+
+</para>
+
+@axis: 
+@Returns: 
+
+

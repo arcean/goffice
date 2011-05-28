@@ -1,0 +1,709 @@
+-*- mode: m4 -*-
+dnl We require Automake 1.7.2, which requires Autoconf 2.54.
+dnl (It needs _AC_AM_CONFIG_HEADER_HOOK, for example.)
+AC_PREREQ(2.54)
+
+m4_define([goffice_version_epoch], [0])
+m4_define([goffice_version_major], [8])
+m4_define([goffice_version_minor], [14])
+m4_define([goffice_version_extra], [])
+m4_define([goffice_full_version],
+	  [goffice_version_epoch.goffice_version_major.goffice_version_minor[]goffice_version_extra])
+
+dnl Emphasize some of the checks.
+m4_define([BIG_CHECKING], [AC_MSG_CHECKING([
+======== $1])])
+
+AC_INIT([goffice], [goffice_full_version],
+	[http://bugzilla.gnome.org/enter_bug.cgi?product=libgoffice])
+
+AC_CONFIG_SRCDIR(goffice/goffice.h)
+AM_INIT_AUTOMAKE([dist-bzip2])
+
+dnl Version info for libraries = CURRENT:REVISION:AGE
+dnl
+dnl Within each x.y.*, ABI is maintained backward and _forward_ compatible.
+dnl (As a consequence, no exported function may be added.)
+dnl So it's enough to have one interface number per each x.y.* branch.
+dnl
+dnl OTOH, we are not able to keep ABI strictly backward compatible throughout
+dnl the whole x.*.*.
+dnl The easiest way is to declare no ABI compatibility, ie. AGE is always 0.
+dnl
+m4_define([version_iface],
+	  m4_eval(100 * goffice_version_epoch + goffice_version_major))
+
+AC_SUBST([VERSION_INFO], [version_iface:goffice_version_minor:0])
+AC_SUBST([VERSION_IFACE], [version_iface])
+
+dnl Almost like epoch.major but development versions look forward to the next
+dnl stable release.
+AC_SUBST([GOFFICE_API_VER], [0.8])
+
+dnl This one is created by autoheader, ...
+AC_CONFIG_HEADERS(goffice/goffice-config.h)
+
+dnl ... and this one is a small subset, maintained manually,
+dnl which will be installed.
+AC_CONFIG_HEADERS(goffice/goffice-features.h)
+dnl
+dnl Make sure these two won't clash.  Put the following to goffice-config.h:
+AH_BOTTOM([/* Don't include goffice-features.h, it's a subset of goffice-config.h. */
+#define GOFFICE_FEATURES_H])
+
+AM_MAINTAINER_MODE
+
+m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
+
+# Make --disable-static the default
+AC_DISABLE_STATIC
+
+dnl We need intltool >= 0.35.0 to use the LINGUAS file in the po dir 
+IT_PROG_INTLTOOL([0.35.0])
+
+dnl We use $host_os:
+AC_CANONICAL_HOST
+
+AC_ISC_POSIX
+AC_PROG_CC
+AC_PROG_YACC
+AM_PROG_LEX
+AC_PROG_LN_S
+AM_PROG_LIBTOOL
+DOLT
+AC_STDC_HEADERS
+AC_SYS_LARGEFILE
+
+dnl Propagate Gnome-specific variable ACLOCAL_FLAGS to Makefile.
+AC_SUBST(ACLOCAL_AMFLAGS, $ACLOCAL_FLAGS)
+
+dnl The first call to PKG_CHECK_MODULES is inside an `if.'
+dnl We have to call PKG_PROG_PKG_CONFIG explicitly; otherwise it would
+dnl get expanded just before the first occurence of PKG_CHECK_MODULES
+dnl and might escape execution.
+dnl
+dnl While we're at it, we might require a version that supports private libraries
+dnl	PKG_PROG_PKG_CONFIG([0.18])
+dnl but there are two problems:
+dnl 1) we cannot rule out something as new as SuSE 9.3
+dnl 2) current versions of PKG_PROG_PKG_CONFIG choke on old versions and woe a
+dnl	"syntax error" instead of "your pkgconfig/pkg-config is too old".
+dnl Let it be, for now.
+PKG_PROG_PKG_CONFIG
+
+dnl *****************************
+goffice_reqs="
+	glib-2.0		>= 2.8.0
+	gobject-2.0		>= 2.16.0
+	gmodule-2.0		>= 2.16.0
+	gio-2.0			>= 2.16.0
+	libgsf-1		>= 1.14.9
+	libxml-2.0		>= 2.4.12
+	pango			>= 1.8.1
+	pangocairo		>= 1.8.1
+	cairo			>= 1.2.0
+"
+goffice_gtk_reqs="
+	gtk+-2.0		>= 2.12.0
+"
+
+surfaces_reqs="
+	cairo-ps		>= 1.2.0
+	cairo-pdf		>= 1.2.0
+	cairo-svg		>= 1.2.0
+"
+
+PKG_CHECK_MODULES(surfaces, $surfaces_reqs)
+
+EXTRA_DEPS=
+
+dnl ***********************
+dnl Should we use lasem ?
+dnl ***********************
+
+goffice_with_lasem=false
+AC_ARG_WITH(lasem, [  --with-lasem          Build with lasem use])
+if test "x$with_lasem" = xyes; then
+	PKG_CHECK_MODULES(Lasem, lasem-0.2 >= 0.2.0)
+	goffice_with_lasem=true
+fi
+if test "x$goffice_with_lasem" = "xtrue" ; then
+	AC_DEFINE(GOFFICE_WITH_LASEM, 1, [Define if Lasem is used])
+	goffice_reqs="$goffice_reqs lasem-0.2 >= 0.2.0 "
+	EXTRA_DEPS="$EXTRA_DEPS lasem-0.2"
+fi
+
+AM_CONDITIONAL(GOFFICE_WITH_LASEM, $goffice_with_lasem)
+
+dnl *****************************
+AC_MSG_CHECKING([for Win32 platform])
+with_win32=no
+with_native_win32=no
+case $host_os in
+  mingw* | pw32* | cygwin*)
+    with_win32=yes
+    GOFFICE_PLUGIN_LDFLAGS="-Wl,--enable-runtime-pseudo-reloc,--export-all-symbols $GOFFICE_PLUGIN_LDFLAGS"
+    ;;
+esac
+AC_MSG_RESULT($with_win32)
+AM_CONDITIONAL(WITH_WIN32, test $with_win32 = yes)
+
+AC_MSG_CHECKING([for Win32 platform with no Cygwin])
+case $host_os in
+  mingw* | pw32*)
+    with_native_win32=yes
+    AC_ARG_VAR(WINDRES, [The windres executable (used by win32 builds only).])
+    AC_CHECK_TOOL(WINDRES, windres)
+    AC_ARG_VAR(LIBEXE, [The lib.exe executable (used by win32 builds only).])
+    AC_CHECK_PROG(LIBEXE, lib.exe, yes, no)
+    ;;
+esac
+AC_MSG_RESULT($with_native_win32)
+AM_CONDITIONAL(WITH_NATIVE_WIN32, test $with_native_win32 = yes)
+AM_CONDITIONAL(HAVE_LIBEXE, test x$LIBEXE = xyes)
+
+dnl ***********************************
+dnl Which conf backend should be used?
+dnl ***********************************
+AC_ARG_WITH(config-backend, [  --with-config-backend=gconf|gsettings|keyfile|win32           Choose the config backend ])
+case $with_config_backend in
+	win32)
+		if test $with_win32 = no; then AC_MSG_ERROR([ win32 configuration backend only works for win32 builds ]);fi;
+		AC_DEFINE(GOFFICE_WITH_WINREG, 1, [Goffice uses Windows registry])
+		conf_msg="Windows registry"
+		;;
+	gconf)
+		if test $with_win32 = yes; then AC_MSG_ERROR([ gconf configuration backend does not work for win32 builds ]);fi;
+		AC_DEFINE(GOFFICE_WITH_GCONF, 1, [Goffice uses gconf])
+		EXTRA_DEPS="$EXTRA_DEPS gconf-2.0"
+		conf_msg="GConf"
+		goffice_reqs="$goffice_reqs gconf-2.0"
+		;;
+	gsettings)
+		AC_CHECK_LIB(gio-2.0,[g_settings_new],
+		[
+			AC_DEFINE(GOFFICE_WITH_GSETTINGS, 1, [Goffice uses gsettings])
+			conf_msg="GSettings
+
+WARNING: the GSettings backend is experimental, use it with care"
+		],[
+			AC_MSG_ERROR([ GSettings not available ])
+		])
+		;;
+	keyfile)
+		conf_msg="keyfile"
+		;;
+	*)
+		if test $with_win32 = yes; then
+			AC_DEFINE(GOFFICE_WITH_WINREG, 1, [Goffice uses Windows registry])
+			conf_msg="Windows registry"
+		else
+			PKG_CHECK_MODULES(GCONF, gconf-2.0,
+			[
+				EXTRA_DEPS="$EXTRA_DEPS gconf-2.0"
+				AC_DEFINE(GOFFICE_WITH_GCONF, 1, [Goffice uses gconf])
+				conf_msg="GConf"
+				goffice_reqs="$goffice_reqs gconf-2.0"
+			],[
+dnl Never use GSettings if not explicitly requested
+dnl				AC_CHECK_LIB(glib-2.0,[g_settings_new],
+dnl					[
+dnl						AC_DEFINE(GOFFICE_WITH_GSETTINGS, 1, [Goffice uses gsettings])
+dnl						conf_msg="GSettings"
+dnl					],[
+						conf_msg="keyfile"
+dnl					])
+			])
+		fi
+		;;
+esac
+
+
+dnl *******************
+dnl Should we use gtk ?
+dnl *******************
+goffice_with_gtk=true
+AC_ARG_WITH(gtk, [  --without-gtk           Build without UI])
+if test "x$with_gtk" = xno; then
+	ui_msg="None (Gtk disabled by request)"
+	goffice_with_gtk=false
+else
+	dnl We shouldn't silently default to --without-gtk.
+	dnl If the requirements are not met, fail.
+	ui_msg="Gtk"
+	PKG_CHECK_MODULES(GTK, [$goffice_gtk_reqs])
+fi
+
+if test "x$goffice_with_gtk" = "xtrue" ; then
+	AC_DEFINE(GOFFICE_WITH_GTK, 1, [Define if UI is built])
+	goffice_reqs="$goffice_reqs $goffice_gtk_reqs"
+
+	dnl ***************************
+	dnl Is gtk_show_uri available ?
+	dnl ***************************
+
+	SAVE_CFLAGS=$CFLAGS
+	SAVE_LIBS=$LIBS
+	CFLAGS="$CFLAGS $TK_CFLAGS"
+	LIBS="$GTK_LIBS $LIBS"
+	AC_CHECK_FUNC([gtk_show_uri],[have_gtk_show_uri=yes],[have_gtk_show_uri=false])
+	CFLAGS=$SAVE_CFLAGS
+	LIBS=$SAVE_LIBS
+	if test "x$have_gtk_show_uri" = xyes; then
+		AC_DEFINE(HAVE_GTK_SHOW_URI, 1, [Define to 1 if you have the `have_gtk_show_uri' function.])
+	fi
+fi
+
+AM_CONDITIONAL(WITH_GTK,   $goffice_with_gtk)
+
+AC_DEFINE(GOFFICE_WITH_CAIRO, 1, [Goffice uses Cairo])
+
+EXTRA_LIBS=
+EXTRA_INCLUDES=
+
+dnl ****************************
+dnl now that we have selected out libraries the whole collection in one
+dnl shot so that we can have a nice neat compile/link line
+dnl ****************************
+
+PKG_CHECK_MODULES(GOFFICE, $goffice_reqs)
+
+dnl  Checks for Xft/XRender
+have_xrender=no
+xrender_libs="-lXrender -lXext"
+AC_CHECK_LIB(Xrender, XRenderFindFormat, 
+	[have_xrender=yes
+	 dnl See if we really need that -lXext
+	 AC_CHECK_LIB(Xrender, XRenderQueryVersion,
+		      [xrender_libs="-lXrender"],
+		      [],
+		      [])],
+	[],
+	[-lXext])
+if test $have_xrender = yes; then
+  AC_SUBST(RENDER_LIBS, $xrender_libs)
+  AC_DEFINE(HAVE_RENDER, 1, [Define if libXrender is available.])
+else
+  AC_SUBST(RENDER_LIBS, "")
+fi
+unset xrender_libs
+
+dnl *****************************
+dnl FIXME: perhaps declare with AC_ARG_VAR?
+dnl	   If we use the initial value of a variable, we have to make it precious.
+dnl
+GOFFICE_PLUGIN_LDFLAGS="-avoid-version -no-undefined $GOFFICE_PLUGIN_LDFLAGS"
+GOFFICE_PLUGIN_LIBADD="\$(top_builddir)/goffice/libgoffice-\$(GOFFICE_API_VER).la $GOFFICE_LIBS $GOFFICE_PLUGIN_LIBADD"
+AC_SUBST(GOFFICE_PLUGIN_LDFLAGS)
+AC_SUBST(GOFFICE_PLUGIN_LIBADD)
+
+if test `expr goffice_version_major % 2` -eq 1; then
+    AC_MSG_NOTICE([NOTE: This is a development release])
+    goffice_devel=yes
+else
+    goffice_devel=no
+fi
+
+dnl disable for in stable release, re-enable for development series
+gtk_disable_deprecated=no
+if test $goffice_devel = yes; then
+	CFLAGS="$CFLAGS -DG_DISABLE_DEPRECATED"
+	CFLAGS="$CFLAGS -DPANGO_DISABLE_DEPRECATED"
+	if test "x$goffice_with_gtk" = "xtrue"; then
+		CFLAGS="$CFLAGS -DGDK_PIXBUF_DISABLE_DEPRECATED"
+		CFLAGS="$CFLAGS -DGDK_DISABLE_DEPRECATED"
+		CFLAGS="$CFLAGS -DGDK_MULTIHEAD_SAFE"
+	# gtk+ handled later
+		gtk_disable_deprecated=maybe
+	fi
+	if test "x$goffice_with_gnome" = "xtrue"; then
+		CFLAGS="$CFLAGS -DGNOME_DISABLE_DEPRECATED"
+		CFLAGS="$CFLAGS -DBONOBO_DISABLE_DEPRECATED"
+		CFLAGS="$CFLAGS -DBONOBO_UI_DISABLE_DEPRECATED"
+	fi
+fi
+
+dnl ****************************
+dnl prep the pixmap generator
+dnl ****************************
+
+AC_ARG_VAR(GLIB_GENMARSHAL, [The glib-genmarshal executable.])
+AC_CHECK_PROG(GLIB_GENMARSHAL, glib-genmarshal, glib-genmarshal)
+
+AC_ARG_VAR(GDK_PIXBUF_CSOURCE, [The gdk-pixbuf-csource executable.])
+AC_CHECK_PROG(GDK_PIXBUF_CSOURCE, gdk-pixbuf-csource, gdk-pixbuf-csource)
+
+## this should come after `AC_PROG_CC'
+ifdef([GNOME_COMPILE_WARNINGS],
+	[GNOME_COMPILE_WARNINGS] CFLAGS="$CFLAGS $WARN_CFLAGS",
+	[]
+)
+set_more_warnings=yes
+if test "$GCC" = "yes" -a "x$set_more_warnings" != "xno"; then
+	warning_options="-Wsign-compare -Wpointer-arith -Wnested-externs \
+			 -Wchar-subscripts -Wwrite-strings \
+			 -Wdeclaration-after-statement -Wnested-externs \
+			 -Wmissing-noreturn -Wmissing-prototypes \
+			 -Wmissing-declarations -Wno-pointer-sign \
+			 -Wbitwise -Wcast-to-as \
+			 -Wdefault-bitfield-sign -Wdo-while -Wparen-string \
+			 -Wptr-subtraction-blows -Wreturn-void -Wtypesign \
+			 -Werror=format-security"
+	if test goffice_devel = yes; then
+		dnl Avoid triggering a warning in gtk+ headers for stable.
+		warning_options="$warning_options -Wstrict-prototypes"
+	fi
+	for option in $warning_options ; do
+		SAVE_CFLAGS="$CFLAGS"
+		CFLAGS="$CFLAGS $option"
+		AC_MSG_CHECKING([whether gcc understands $option])
+		AC_TRY_COMPILE([], [],
+			has_option=yes,
+			has_option=no,)
+		if test $has_option = no; then
+		  CFLAGS="$SAVE_CFLAGS"
+		fi
+		AC_MSG_RESULT($has_option)
+		unset has_option
+		unset SAVE_CFLAGS
+	done
+	unset option
+fi
+AC_SUBST(WARN_CFLAGS)
+
+AC_CHECK_DECL(fdopen, fdopen_works=yes, fdopen_works=no)
+if test $fdopen_works = no ; then
+	unset ac_cv_have_decl_fdopen
+	CFLAGS="$CFLAGS -D_POSIX_SOURCE"
+	AC_MSG_NOTICE([adding -D_POSIX_SOURCE to CFLAGS])
+	AC_CHECK_DECL(fdopen, fdopen_works=yes, fdopen_works=no)
+	if test $fdopen_works = no ; then
+		AC_MSG_ERROR([fdopen is not available])
+	fi
+fi
+
+# Unfortunately, -D_POSIX_SOURCE turns off struct timeval on Solaris
+AC_MSG_CHECKING([whether struct timeval is available])
+AC_TRY_COMPILE([#include <sys/time.h>], [struct timeval tv;], struct_timeval_works=yes, struct_timeval_works=no)
+AC_MSG_RESULT($struct_timeval_works)
+
+if test $struct_timeval_works = no ; then
+	CFLAGS="$CFLAGS -D__EXTENSIONS__"
+	AC_MSG_CHECKING([whether struct timeval is available with -D__EXTENSIONS__])
+	AC_TRY_COMPILE([#include <sys/time.h>], [struct timeval tv;], struct_timeval_works=yes, struct_timeval_works=no)
+	AC_MSG_RESULT($struct_timeval_works)
+	if test $struct_timeval_works = no ; then
+		AC_MSG_ERROR([struct timeval is not available])
+	fi
+fi
+
+AC_CHECK_FUNC(gettimeofday,
+	[AC_DEFINE(HAVE_GETTIMEOFDAY, 1,
+		[Define if the gettimeofday function is available]
+	)])
+
+dnl M_PI
+AC_MSG_CHECKING([whether M_PI is available])
+AC_TRY_COMPILE([#include <math.h>], [double f = M_PI], works_without_bsd_source=yes, works_without_bsd_source=no)
+AC_MSG_RESULT($works_without_bsd_source)
+
+if test $works_without_bsd_source = no ; then
+	CFLAGS="$CFLAGS -D_BSD_SOURCE"
+	AC_MSG_CHECKING([whether M_PI is available with -D_BSD_SOURCE])
+	AC_TRY_COMPILE([#include <math.h>], [double f = M_PI], m_pi_works=yes, m_pi_works=no)
+	AC_MSG_RESULT($m_pi_works)
+	if test $m_pi_works = no ; then
+		AC_MSG_ERROR([M_PI is not available])
+	fi
+fi
+
+dnl **************************************************
+AC_SUBST(GETTEXT_PACKAGE, goffice-${VERSION})
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE",
+	[The package name, for gettext])
+AM_GLIB_GNU_GETTEXT
+
+dnl
+dnl On Solaris finite() needs ieeefp.h
+dnl Either of these seem to signal IEEE754 math, see mathfunc.c
+dnl
+AC_CHECK_HEADERS(ieeefp.h ieee754.h)
+
+dnl Check for implementations of passwd/group file entry functions
+AC_CHECK_HEADERS(pwd.h grp.h)
+
+AC_CHECK_HEADERS(fpu_control.h)
+
+dnl Check for some functions
+AC_CHECK_FUNCS(random drand48 finite memmove mkdtemp uname times sysconf)
+
+dnl FIXME: Does this really belong here?
+AC_CHECK_FUNC(bind_textdomain_codeset,,[AC_CHECK_LIB(intl,bind_textdomain_codeset)])
+
+dnl isfinite is a macro on HPUX
+AC_TRY_COMPILE([#include <math.h>], [int a = isfinite(0.0)],
+	[AC_DEFINE(HAVE_ISFINITE, 1,
+		[Define if the isfinite() macro is available]
+	 )
+	], [])
+
+dnl
+dnl On BSD, we seem to need -lm for finite
+dnl
+if test $ac_cv_func_finite = no; then
+  AC_CHECK_LIB(m, finite,
+        [AC_DEFINE(HAVE_FINITE, 1,
+		[Define if the finite function is available]
+	 )
+         LIBS="$LIBS -lm"])
+fi
+
+dnl check for complete locale implementation
+AC_CHECK_HEADERS(langinfo.h)
+
+dnl Handle systems that have stuff in -lm.
+AC_CHECK_FUNCS(log)
+if test $ac_cv_func_log = no; then
+  AC_CHECK_LIB(m, log,
+        [AC_DEFINE(HAVE_LOG, 1,
+		[Define if the log function is available]
+	 )
+         LIBS="$LIBS -lm"])
+fi
+
+SAVE_LIBS=$LIBS
+LIBS="$GOFFICE_LIBS $LIBS"
+AC_CHECK_FUNCS(cairo_surface_set_fallback_resolution cairo_ps_surface_set_eps)
+AC_CHECK_FUNCS(g_file_new_for_commandline_arg g_file_new_for_uri g_hash_table_iter_init)
+AC_CHECK_FUNCS(g_content_type_from_mime_type)
+AC_CHECK_FUNCS(gtk_adjustment_get_page_size gtk_adjustment_get_upper \
+	gtk_color_selection_dialog_get_color_selection gtk_dialog_get_action_area \
+	gtk_layout_get_bin_window gtk_menu_shell_get_active gtk_selection_data_get_data \
+	gtk_selection_data_get_length gtk_selection_data_get_target gtk_tearoff_menu_item_get_torn_off \
+	gtk_tearoff_menu_item_set_torn_off gtk_widget_get_allocation gtk_widget_get_has_window \
+	gtk_widget_get_state gtk_widget_get_style gtk_widget_get_visible gtk_widget_get_window \
+	gtk_widget_has_focus gtk_widget_get_mapped gtk_widget_get_realized gtk_widget_set_can_default \
+	gtk_widget_is_sensitive gtk_widget_send_focus_change gtk_widget_set_can_focus \
+	gtk_widget_set_receives_default gtk_window_get_default_widget)
+LIBS=$SAVE_LIBS
+
+SAVE_CFLAGS=$CFLAGS
+SAVE_LIBS=$LIBS
+CFLAGS="$CFLAGS $GOFFICE_CFLAGS"
+LIBS="$GOFFICE_LIBS $LIBS"
+AC_MSG_CHECKING([for G_REGEX_ERROR_STRAY_BACKSLASH])
+AC_LINK_IFELSE([AC_LANG_PROGRAM([[#include <glib/gregex.h>]], [[GRegexError error=G_REGEX_ERROR_STRAY_BACKSLASH;]])],
+               [AC_DEFINE(HAVE_G_REGEX_ERROR_STRAY_BACKSLASH, 1, [Define if G_REGEX_ERROR_STRAY_BACKSLASH is defined])
+	        glib_has_G_REGEX_ERROR_STRAY_BACKSLASH=yes
+                AC_MSG_RESULT(yes)],
+               [AC_MSG_RESULT(no)
+	        glib_has_G_REGEX_ERROR_STRAY_BACKSLASH=no])
+if test "x$goffice_with_gtk" = "xtrue" ; then
+  AC_CHECK_FUNCS(gtk_dialog_get_response_for_widget)
+  AC_CHECK_FUNCS(gtk_widget_set_tooltip_text gtk_tool_item_set_tooltip_text,
+		 [test $gtk_disable_deprecated = no || gtk_disable_deprecated=yes])
+  AC_CHECK_FUNCS(gdk_cairo_set_source_pixbuf gdk_x11_drawable_get_xdisplay)
+fi
+CFLAGS=$SAVE_CFLAGS
+LIBS=$SAVE_LIBS
+if test $gtk_disable_deprecated = yes; then
+  CFLAGS="$CFLAGS -DGTK_DISABLE_DEPRECATED"
+fi
+
+if test "x$glib_has_G_REGEX_ERROR_STRAY_BACKSLASH" = "xno"; then
+  dnl Check for working pcre
+  AC_CHECK_HEADER(pcre.h,[], AC_MSG_ERROR([Header files for PCRE were not found]))
+  AC_CHECK_LIB(pcre,pcre_compile2,[], AC_MSG_ERROR([The PCRE library is missing or too old]))
+  AC_MSG_CHECKING([for UTF-8 support in pcre])
+  if (pcretest -C 2>&1) | grep -i "^ *UTF-8 support" >/dev/null; then
+      AC_MSG_RESULT(yes)
+      LIBS="$LIBS -lpcre"
+      EXTRA_LIBS="$EXTRA_LIBS -lpcre"
+  else
+      AC_MSG_ERROR([The installed PCRE library is not configured for UTF-8 support.])
+  fi
+fi
+
+
+AC_DEFUN([GOFFICE_CHECK_FUNC],
+[AC_CHECK_FUNC([$1],
+	[],
+	[AC_DEFINE([GOFFICE_SUPPLIED_]AS_TR_CPP([$1]),
+		1,
+		[Define if G Office supplies $1.])])dnl
+])
+GOFFICE_CHECK_FUNC(log1p)
+GOFFICE_CHECK_FUNC(expm1)
+GOFFICE_CHECK_FUNC(asinh)
+GOFFICE_CHECK_FUNC(acosh)
+GOFFICE_CHECK_FUNC(atanh)
+
+float_msg=no
+AC_ARG_WITH(long-double,
+        [  --without-long-double   disable support for long double],
+        , [ with_long_double=yes])
+
+if test "x$with_long_double" = "xyes"; then
+  AC_C_LONG_DOUBLE
+  if test $ac_cv_c_long_double = yes; then
+    have_mandatory_funcs=yes
+    need_sunmath=0
+    ss_cc=`which $CC`
+    ss_dir=`dirname "$ss_cc"`"/.."
+    if test ! -f "$ss_dir/lib/libsunmath.so"; then
+        ss_dir="/opt/SUNWspro"
+    fi
+    sunmathlinkstuff="-L$ss_dir/lib -R$ss_dir/lib -lsunmath"
+    for ldfunc in fabsl logl log10l ceill floorl powl isnanl; do
+	    AC_CHECK_FUNC($ldfunc,
+		  ,
+		  [AC_CHECK_LIB(m,
+		      $ldfunc,
+		      ,
+		      [AC_CHECK_LIB(sunmath,
+			  $ldfunc,
+			  [ if test $need_sunmath = 0; then
+				# FIXME: better idea?
+				LDFLAGS="$LDFLAGS $sunmathlinkstuff"
+				sunmathinclude=`ls -d $ss_dir/*/include/cc | sed '$!d'`
+				CPPFLAGS="$CPPFLAGS -I$sunmathinclude"
+			    fi
+			    need_sunmath=1 ],
+			  [have_mandatory_funcs=no],
+			  [-L$ss_dir/lib $GOFFICE_LIBS])])])
+    done
+    if test $need_sunmath = 1; then
+	EXTRA_LIBS="$EXTRA_LIBS $sunmathlinkstuff"
+	EXTRA_INCLUDES="$EXTRA_INCLUDES -I$sunmathinclude"
+	AC_CHECK_HEADERS([sunmath.h floatingpoint.h],
+			 ,
+			 [AC_MSG_WARN([Long doubles require the $ac_header header.])
+			  have_mandatory_funcs=no])
+    fi
+    unset ss_cc
+    unset ss_dir
+    unset need_sunmath
+    unset sunmathlinkstuff
+    unset sunmathinclude
+
+    GOFFICE_CHECK_FUNC(modfl)
+    GOFFICE_CHECK_FUNC(ldexpl)
+    GOFFICE_CHECK_FUNC(frexpl)
+    AC_CHECK_FUNCS(finitel)
+
+    AC_CHECK_FUNCS(strtold)
+    if test "$ac_cv_func_strtold" = yes; then
+	AC_MSG_CHECKING([if we must prototype strtold ourselves])
+	AC_TRY_RUN([#include <stdlib.h>
+		int main ()
+		{
+			const char *s = "+3.1415e+0";
+			char *theend;
+			long double res = strtold (s, &theend);
+			return !(*theend == 0 && res >= 3.14 && res <= 3.15);
+		}],
+		[AC_MSG_RESULT(no)],
+		[AC_MSG_RESULT(yes)
+		 AC_DEFINE([GOFFICE_SUPPLIED_STRTOLD], 1,
+			   [Define if G Office supplies strtold.])
+		],
+		[AC_MSG_RESULT(assuming not)])
+    else 
+	AC_DEFINE([GOFFICE_SUPPLIED_STRTOLD], 1,
+		  [Define if G Office supplies strtold.])
+	AC_CHECK_FUNCS(string_to_decimal decimal_to_quadruple)
+	if test "x$ac_cv_func_string_to_decimal" != "xyes" || \
+	   test "x$ac_cv_func_decimal_to_quadruple" != "xyes" || \
+	   test "x$ac_cv_header_floatingpoint_h" != "xyes"; then
+		AC_MSG_WARN([You lack the strtold function -- precision will be impaired])
+	fi
+    fi
+    if test "$have_mandatory_funcs" = yes; then
+	float_msg=yes
+	AC_DEFINE([GOFFICE_WITH_LONG_DOUBLE], 1,
+		  [Define if G Office supports long double.])
+    else
+	AC_MSG_WARN([Long double support disabled because of library problems])
+    fi
+    unset have_mandatory_funcs
+  fi
+fi
+AC_SUBST(EXTRA_LIBS)
+AC_SUBST(EXTRA_INCLUDES)
+AC_SUBST(EXTRA_DEPS)
+
+dnl ******************
+dnl * Config defaults
+dnl ******************
+dnl
+dnl These are changed in goffice.c for WIN32 packages
+AC_SUBST(goffice_datadir, '${datadir}/goffice/${VERSION}')
+AC_SUBST(goffice_libdir, '${libdir}/goffice/${VERSION}')
+AC_SUBST(goffice_icondir, '${datadir}/pixmaps/goffice/${VERSION}')
+AC_SUBST(goffice_localedir, '${prefix}/${DATADIRNAME}/locale')
+dnl
+AC_SUBST(goffice_plugindir, '${goffice_libdir}/plugins')
+
+dnl Export to goffice-config.h and goffice-features.h
+AC_DEFINE(GOFFICE_VERSION, "goffice_full_version",
+	[The version number of this release, possibly with additional suffix])
+AC_DEFINE(GO_VERSION_EPOCH, goffice_version_epoch,
+	[The Epoch of this release])
+AC_DEFINE(GO_VERSION_MAJOR, goffice_version_major,
+	[The Major version number of this release])
+AC_DEFINE(GO_VERSION_MINOR, goffice_version_minor,
+	[The Minor version number of this release])
+AC_DEFINE(GO_VERSION_EXTRA, "goffice_version_extra",
+	[Extra, possibly empty tag for this release])
+
+GTK_DOC_CHECK([1.11])
+if test "x$with_gtk" = "xno" -a "x$enable_gtk_doc" = "xyes"; then
+	AC_ERROR([Building documentation is not allowed for a without Gtk+ build])
+fi
+
+AC_CONFIG_FILES([
+Makefile
+libgoffice.pc
+goffice/Makefile
+goffice/app/Makefile
+goffice/utils/Makefile
+goffice/data/Makefile
+goffice/gtk/Makefile
+goffice/graph/Makefile
+goffice/drawing/Makefile
+goffice/math/Makefile
+goffice/canvas/Makefile
+goffice/ms-compat/Makefile
+goffice/component/Makefile
+plugins/Makefile
+plugins/plot_barcol/Makefile
+plugins/plot_pie/Makefile
+plugins/plot_radar/Makefile
+plugins/plot_xy/Makefile
+plugins/plot_surface/Makefile
+plugins/plot_distrib/Makefile
+plugins/reg_linear/Makefile
+plugins/reg_logfit/Makefile
+plugins/smoothing/Makefile
+pixmaps/Makefile
+po/Makefile.in
+tests/Makefile
+tools/Makefile
+docs/Makefile
+docs/reference/Makefile
+docs/reference/version.xml
+])
+AC_OUTPUT
+
+echo "
+
+Configuration:
+
+	Source code location:	${srcdir}
+	Compiler:		${CC}
+	Compiler flags:		${CFLAGS}
+	Long double support:	${float_msg}
+
+	UI:			${ui_msg}
+	Configuration backend:	${conf_msg}
+"

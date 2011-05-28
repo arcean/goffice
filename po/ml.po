@@ -1,0 +1,7427 @@
+# SOME DESCRIPTIVE TITL encoding="UTF-8"E.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FSF-India <locale@gnu.org.in>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:gnumeric.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-22 20:44-0400\n"
+"PO-Revision-Date: 2003-07-05 10:29+0530\n"
+"Last-Translator: FSF-India <locale@gnu.org.in>\n"
+"Language-Team: Malayalam <locale@gnu.org.in>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../goffice/app/file.c:459
+msgid "ID"
+msgstr ""
+
+#: ../goffice/app/file.c:460
+msgid "The identifier of the saver."
+msgstr ""
+
+#: ../goffice/app/file.c:470
+msgid "MIME type"
+msgstr ""
+
+#: ../goffice/app/file.c:471
+msgid "The MIME type of the saver."
+msgstr ""
+
+#: ../goffice/app/file.c:480
+msgid "Extension"
+msgstr ""
+
+#: ../goffice/app/file.c:481
+msgid "The standard file name extension of the saver."
+msgstr ""
+
+#: ../goffice/app/file.c:490
+#, fuzzy
+msgid "Description"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#: ../goffice/app/file.c:491
+msgid "The description of the saver."
+msgstr ""
+
+#: ../goffice/app/file.c:500
+msgid "Overwrite"
+msgstr ""
+
+#: ../goffice/app/file.c:501
+msgid "Whether the saver will overwrite files."
+msgstr ""
+
+#: ../goffice/app/file.c:511
+#, fuzzy
+msgid "Format Level"
+msgstr "ക്രമീകരണം"
+
+#: ../goffice/app/file.c:522
+#, fuzzy
+msgid "Scope"
+msgstr "സവിശേഷം"
+
+#: ../goffice/app/file.c:523
+msgid "How much of a document is saved"
+msgstr ""
+
+#: ../goffice/app/file.c:687
+msgid "Saving over old files of this type is disabled for safety."
+msgstr ""
+
+#: ../goffice/app/file.c:697
+msgid ""
+"You can turn this safety feature off by editing appropriate plugin.xml file."
+msgstr ""
+
+#: ../goffice/app/go-cmd-context.c:65
+#, c-format
+msgid "Invalid %s: '%s'"
+msgstr ""
+
+#: ../goffice/app/go-doc.c:136
+msgid "URI"
+msgstr ""
+
+#: ../goffice/app/go-doc.c:137
+msgid "The URI associated with this document."
+msgstr ""
+
+#: ../goffice/app/go-doc.c:141
+#, fuzzy
+msgid "Dirty"
+msgstr "വിയുക്തമാക്കുക"
+
+#: ../goffice/app/go-doc.c:142
+msgid "Whether the document has been changed."
+msgstr ""
+
+#: ../goffice/app/go-doc.c:146
+#, fuzzy
+msgid "Pristine"
+msgstr "വരി‌"
+
+#: ../goffice/app/go-doc.c:147
+msgid "Whether the document is unchanged since it was created."
+msgstr ""
+
+#: ../goffice/app/go-doc.c:380 ../goffice/utils/go-style-prefs.ui.h:8
+#, fuzzy
+msgid "Image"
+msgstr "ചിത്രം..."
+
+#: ../goffice/app/go-object.c:51
+#, fuzzy
+msgid "Objects"
+msgstr "വസ്തു..."
+
+#: ../goffice/app/go-object.c:109
+#, c-format
+msgid "Loading plugin '%s' that contains the object '%s'"
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:56
+msgid "Module file name not given."
+msgstr "ഖണ്ഡരചന നാമം നല്കിയിട്ടില്ല."
+
+#: ../goffice/app/go-plugin-loader-module.c:67
+#, c-format
+msgid "Module \"%s\" has an inconsistent dependency list."
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:75
+#, c-format
+msgid "Module \"%s\" depends on an invalid null dependency."
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:80
+#, c-format
+msgid "Module \"%s\" depends on an unknown dependency '%s'."
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:85
+#, c-format
+msgid ""
+"Module \"%s\" was built with version %s of %s, but this executable supplied "
+"version %s."
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:103
+msgid "Dynamic module loading is not supported in this system."
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:113
+#, c-format
+msgid "Unable to open module file \"%s\"."
+msgstr "ഖണ്ഡരചന \"%s\" തുറക്കാന് കഴിയുന്നില്ല."
+
+#: ../goffice/app/go-plugin-loader-module.c:121
+#, fuzzy, c-format
+msgid "Module \"%s\" doesn't contain (\"go_plugin_header\" symbol)."
+msgstr "രചനയില് \"%s\" എന്ന പ്രവ‌ര്ത്തനം ഉള്‌ക്കൊള്ളുന്നില്ല."
+
+#: ../goffice/app/go-plugin-loader-module.c:125
+#, fuzzy, c-format
+msgid "Module \"%s\" has an invalid magic number."
+msgstr "ഖണ്ഡരചന \"%s\" സാധുതയില്ലാത്ത ക്രമീകരണമാണ‌്‌."
+
+#: ../goffice/app/go-plugin-loader-module.c:152
+#, c-format
+msgid "Unable to close module file \"%s\"."
+msgstr "\"%s\"‌ ഖണ‌്ഡരചന അടയ‌്ക്കാന്‌ കഴിയുന്നില്ല."
+
+#: ../goffice/app/go-plugin-loader-module.c:292
+#: ../goffice/app/go-plugin-loader-module.c:354
+#, c-format
+msgid "Module file \"%s\" has invalid format."
+msgstr "ഖണ്ഡരചന \"%s\" സാധുതയില്ലാത്ത ക്രമീകരണമാണ‌്‌."
+
+#: ../goffice/app/go-plugin-loader-module.c:295
+#: ../goffice/app/go-plugin-loader-module.c:357
+#, c-format
+msgid "File doesn't contain \"%s\" function."
+msgstr "രചനയില് \"%s\" എന്ന പ്രവ‌ര്ത്തനം ഉള്‌ക്കൊള്ളുന്നില്ല."
+
+#: ../goffice/app/go-plugin-loader-module.c:421
+#, c-format
+msgid "Module doesn't contain \"%s\" function."
+msgstr "രചനയില് \"%s\" എന്ന പ്രവ‌ര്ത്തനം ഉള്‌ക്കൊള്ളുന്നില്ല."
+
+#: ../goffice/app/go-plugin-loader.c:47
+msgid "Loader has no set_attributes method.\n"
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader.c:62
+msgid "Loader has no load_base method.\n"
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader.c:107 ../goffice/app/go-plugin-loader.c:145
+#, c-format
+msgid "Service '%s' not supported by loader."
+msgstr ""
+
+#: ../goffice/app/go-plugin-service.c:132
+#: ../goffice/app/go-plugin-service.c:835
+msgid "Error while loading plugin service."
+msgstr ""
+
+#: ../goffice/app/go-plugin-service.c:140
+msgid "Initializing function inside plugin returned error."
+msgstr ""
+
+#: ../goffice/app/go-plugin-service.c:158
+msgid "Cleanup function inside plugin returned error."
+msgstr ""
+
+#: ../goffice/app/go-plugin-service.c:168 ../goffice/gtk/go-format-sel.c:61
+#: ../goffice/utils/go-format.c:733 ../goffice/utils/go-format.c:3679
+msgid "General"
+msgstr "സാര്‍വത്രികമായ"
+
+#: ../goffice/app/go-plugin-service.c:319
+msgid "File opener has no description"
+msgstr ""
+
+#: ../goffice/app/go-plugin-service.c:353
+#, c-format
+msgid "File opener - %s"
+msgstr ""
+
+#: ../goffice/app/go-plugin-service.c:474
+msgid "Error while reading file."
+msgstr "രചന വായിക്കുമ്പോള്‌ തെറ്റുന്നു."
+
+#: ../goffice/app/go-plugin-service.c:642
+msgid "File saver has no description"
+msgstr ""
+
+#: ../goffice/app/go-plugin-service.c:685
+#, c-format
+msgid "File saver - %s"
+msgstr "രചനാനാമം: %s"
+
+#: ../goffice/app/go-plugin-service.c:745
+#, fuzzy
+msgid "Error while loading plugin for saving."
+msgstr "രചന വായിക്കുമ്പോള്‌ തെറ്റുന്നു."
+
+#: ../goffice/app/go-plugin-service.c:747
+msgid "Failed to load plugin for saving"
+msgstr ""
+
+#: ../goffice/app/go-plugin-service.c:872
+msgid "Plugin loader"
+msgstr "സംയോജനി പാലകന്‌"
+
+#: ../goffice/app/go-plugin-service.c:897
+msgid "GObject loader"
+msgstr ""
+
+#: ../goffice/app/go-plugin-service.c:1004
+msgid "No \"type\" attribute on \"service\" element."
+msgstr ""
+
+#: ../goffice/app/go-plugin-service.c:1010
+#, c-format
+msgid "Unknown service type: %s."
+msgstr "അറിയാത്ത സേവന തരം: %s."
+
+#: ../goffice/app/go-plugin-service.c:1026
+msgid "Error reading service information."
+msgstr "രചനാ സൂചിക വായിക്കുന്നതില്‌ പരാജയം"
+
+#: ../goffice/app/go-plugin-service.c:1088
+msgid ""
+"We must load service before activating it (PLUGIN_ALWAYS_LOAD is set) but "
+"loading failed."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:334
+#, c-format
+msgid "File contains plugin info with invalid id (%s), expected %s."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:338
+msgid "Couldn't read plugin info from file."
+msgstr "രചനയില് നിന്ന് സംയോജനി വിവരങ്ങള് വായിക്കാന് കഴിയുന്നില്ല."
+
+#: ../goffice/app/go-plugin.c:483
+msgid "Unknown name"
+msgstr "അറിയാത്ത പേ‌‌ര‌്"
+
+#: ../goffice/app/go-plugin.c:578
+#, c-format
+msgid "Unsupported loader type \"%s\"."
+msgstr "പിന്തുണ‌യ‌്ക്കപ്പെടാത്ത ലോഡ‌ര് തരം \"%s\"."
+
+#: ../goffice/app/go-plugin.c:586
+#, c-format
+msgid "Error while preparing loader \"%s\"."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:664
+#, c-format
+msgid "Error while reading service #%d info."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:745
+#, c-format
+msgid "Can't read plugin info file (\"%s\")."
+msgstr "(\"%s\") സംയോജിനി വിവരരചന വായിക്കാന് കഴിയുന്നില്ല."
+
+#: ../goffice/app/go-plugin.c:749
+#, c-format
+msgid "File \"%s\" is not valid plugin info file."
+msgstr "രചന \"%s\" സാധുതയുള്ള ഒരു സംയോജിനി വിവരരചനയല്ല."
+
+#: ../goffice/app/go-plugin.c:839
+#, c-format
+msgid "Errors while reading services for plugin with id=\"%s\"."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:851
+#, c-format
+msgid "Plugin id contains invalid characters (%s)."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:855
+msgid "Unknown plugin name."
+msgstr "അറിയാത്ത സംയോജിനിനാമം"
+
+#: ../goffice/app/go-plugin.c:859
+#, c-format
+msgid "No loader defined or loader id invalid for plugin with id=\"%s\"."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:865
+msgid "Plugin has no id."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:906
+#, c-format
+msgid "Error initializing plugin loader (\"%s\")."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:937 ../goffice/app/go-plugin.c:1099
+msgid "Detected cyclic plugin dependencies."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:961
+#, c-format
+msgid "Couldn't activate plugin with id=\"%s\"."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:967 ../goffice/app/go-plugin.c:1145
+#, c-format
+msgid "Couldn't find plugin with id=\"%s\"."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:974
+msgid "Error while activating plugin dependencies."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:988
+#, c-format
+msgid "Error while activating plugin service #%d."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1044
+#, c-format
+msgid "Error while deactivating plugin service #%d."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1111 ../goffice/app/go-plugin.c:1132
+msgid "Cannot load plugin loader."
+msgstr "സംയോജിനി ലോഡ‌ര് നിറയ‌്ക്കാന്‌ കഴിയുന്നില്ല"
+
+#: ../goffice/app/go-plugin.c:1139
+#, c-format
+msgid "Couldn't load plugin with id=\"%s\"."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1152
+msgid "Error while loading plugin dependencies."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1342
+#, fuzzy, c-format
+msgid "Errors occurred while reading plugin information from file \"%s\"."
+msgstr "രചന വായിക്കുമ്പോള്‌ തെറ്റുന്നു."
+
+#: ../goffice/app/go-plugin.c:1461
+#, c-format
+msgid "Couldn't activate plugin \"%s\" (ID: %s)."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1496
+#, c-format
+msgid "Couldn't deactivate plugin \"%s\" (ID: %s)."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1621 ../goffice/app/go-plugin.c:1787
+msgid "Errors while reading info about available plugins."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1645
+msgid "Errors while deactivating plugins that are no longer on disk."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1666
+#, c-format
+msgid ""
+"The following plugins are no longer on disk but are still active:\n"
+"%s.\n"
+"You should restart this program now."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1763 ../goffice/app/go-plugin.c:1854
+#, fuzzy
+msgid "Errors while reading info about new plugins."
+msgstr "രചന വായിക്കുമ്പോള്‌ തെറ്റുന്നു."
+
+#: ../goffice/app/go-plugin.c:1811 ../goffice/app/go-plugin.c:1878
+msgid "Errors while activating plugins."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1818 ../goffice/app/go-plugin.c:1885
+msgid "Errors while initializing plugin system."
+msgstr ""
+
+#: ../goffice/app/io-context.c:155
+msgid "exec-main-loop"
+msgstr ""
+
+#: ../goffice/app/io-context.c:156
+msgid "Execute main loop iteration"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:437
+#, fuzzy
+msgid "xc"
+msgstr "x"
+
+#: ../goffice/canvas/goc-arc.c:438
+msgid "The arc center x coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:443
+msgid "yc"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:444
+msgid "The arc center y coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:449
+#, fuzzy
+msgid "xr"
+msgstr "x"
+
+#: ../goffice/canvas/goc-arc.c:450
+msgid "The arc x radius"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:455
+msgid "yr"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:456
+msgid "The arc y radius"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:461
+#, fuzzy
+msgid "ang1"
+msgstr "പരിധി"
+
+#: ../goffice/canvas/goc-arc.c:462
+#, fuzzy
+msgid "The arc start angle"
+msgstr "സ്ഥിരവീതി"
+
+#: ../goffice/canvas/goc-arc.c:467
+#, fuzzy
+msgid "ang2"
+msgstr "പരിധി"
+
+#: ../goffice/canvas/goc-arc.c:468
+#, fuzzy
+msgid "The arc end angle"
+msgstr "സ്ഥിരവീതി"
+
+#: ../goffice/canvas/goc-arc.c:473 ../goffice/canvas/goc-ellipse.c:263
+#: ../goffice/canvas/goc-path.c:251 ../goffice/canvas/goc-rectangle.c:354
+#: ../goffice/canvas/goc-text.c:440 ../goffice/graph/gog-3d-box.c:166
+#, fuzzy
+msgid "Rotation"
+msgstr "ദിശ:"
+
+#: ../goffice/canvas/goc-arc.c:474
+#, fuzzy
+msgid "The rotation around center position"
+msgstr "നേ‌ര്ത്ത തിരശ്ചീനപ്പട്ട"
+
+#: ../goffice/canvas/goc-arc.c:479 ../goffice/canvas/goc-rectangle.c:360
+#: ../goffice/graph/gog-axis.c:2460 ../goffice/graph/gog-grid.c:116
+#: ../plugins/plot_barcol/gog-1.5d.c:332
+#, fuzzy
+msgid "Type"
+msgstr "തരം:"
+
+#: ../goffice/canvas/goc-arc.c:480
+msgid "The type of arc: arc, chord or pie"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:486 ../goffice/canvas/goc-line.c:347
+#, fuzzy
+msgid "Start Arrow"
+msgstr "അവസ്ഥ"
+
+#: ../goffice/canvas/goc-arc.c:487 ../goffice/canvas/goc-line.c:348
+msgid "Arrow for line's start"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:492 ../goffice/canvas/goc-line.c:353
+msgid "End Arrow"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:493 ../goffice/canvas/goc-line.c:354
+msgid "Arrow for line's end"
+msgstr ""
+
+#: ../goffice/canvas/goc-circle.c:169 ../goffice/canvas/goc-ellipse.c:239
+#: ../goffice/canvas/goc-graph.c:412 ../goffice/canvas/goc-group.c:243
+#: ../goffice/canvas/goc-path.c:239 ../goffice/canvas/goc-pixbuf.c:231
+#: ../goffice/canvas/goc-rectangle.c:330 ../goffice/canvas/goc-text.c:428
+#: ../goffice/canvas/goc-widget.c:318 ../goffice/utils/go-marker.c:83
+msgid "x"
+msgstr "x"
+
+#: ../goffice/canvas/goc-circle.c:170
+msgid "The circle center horizontal position"
+msgstr ""
+
+#: ../goffice/canvas/goc-circle.c:175 ../goffice/canvas/goc-ellipse.c:245
+#: ../goffice/canvas/goc-graph.c:418 ../goffice/canvas/goc-group.c:249
+#: ../goffice/canvas/goc-path.c:245 ../goffice/canvas/goc-pixbuf.c:237
+#: ../goffice/canvas/goc-rectangle.c:336 ../goffice/canvas/goc-text.c:434
+#: ../goffice/canvas/goc-widget.c:324
+msgid "y"
+msgstr ""
+
+#: ../goffice/canvas/goc-circle.c:176
+msgid "The circle center vertical position"
+msgstr ""
+
+#: ../goffice/canvas/goc-circle.c:181
+#, fuzzy
+msgid "Radius"
+msgstr "പ്രാമാണിക വീതി"
+
+#: ../goffice/canvas/goc-circle.c:182
+msgid "The circle radius"
+msgstr ""
+
+#: ../goffice/canvas/goc-ellipse.c:240
+msgid "The ellipse left position (or right position in RTL mode)"
+msgstr ""
+
+#: ../goffice/canvas/goc-ellipse.c:246
+#, fuzzy
+msgid "The ellipse top position"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#: ../goffice/canvas/goc-ellipse.c:251 ../goffice/canvas/goc-graph.c:430
+#: ../goffice/canvas/goc-graph.c:431 ../goffice/canvas/goc-pixbuf.c:243
+#: ../goffice/canvas/goc-rectangle.c:342 ../goffice/canvas/goc-widget.c:331
+#: ../goffice/graph/gog-graph.c:368 ../goffice/utils/go-image.c:472
+msgid "Width"
+msgstr "വീതി"
+
+#: ../goffice/canvas/goc-ellipse.c:252
+#, fuzzy
+msgid "The ellipse width"
+msgstr "സ്ഥിരവീതി"
+
+#: ../goffice/canvas/goc-ellipse.c:257 ../goffice/canvas/goc-graph.c:424
+#: ../goffice/canvas/goc-graph.c:425 ../goffice/canvas/goc-pixbuf.c:249
+#: ../goffice/canvas/goc-rectangle.c:348 ../goffice/canvas/goc-widget.c:337
+#: ../goffice/graph/gog-graph.c:374 ../goffice/utils/go-image.c:476
+msgid "Height"
+msgstr "ഉയരം"
+
+#: ../goffice/canvas/goc-ellipse.c:258
+#, fuzzy
+msgid "The ellipse height"
+msgstr "വലതുവശത്തുള്ള പുറംവരകള്‌"
+
+#: ../goffice/canvas/goc-ellipse.c:264 ../goffice/canvas/goc-rectangle.c:355
+#, fuzzy
+msgid "The rotation around top left position"
+msgstr "നേ‌ര്ത്ത തിരശ്ചീനപ്പട്ട"
+
+#: ../goffice/canvas/goc-graph.c:413
+msgid "The graph left position"
+msgstr ""
+
+#: ../goffice/canvas/goc-graph.c:419
+msgid "The graph top position"
+msgstr ""
+
+#. default
+#. Cheat and assign a name here, graphs will not have parents until we
+#. * support graphs in graphs
+#: ../goffice/canvas/goc-graph.c:436 ../goffice/graph/gog-graph.c:161
+#: ../goffice/graph/gog-graph.c:400
+#, fuzzy
+msgid "Graph"
+msgstr "ഗ്രാഫ് ഗുരു"
+
+#: ../goffice/canvas/goc-graph.c:437
+msgid "The GogGraph this object displays"
+msgstr ""
+
+#: ../goffice/canvas/goc-graph.c:442 ../goffice/graph/gog-graph.c:902
+msgid "Renderer"
+msgstr ""
+
+#: ../goffice/canvas/goc-graph.c:443
+msgid "The GogRenderer being displayed"
+msgstr ""
+
+#: ../goffice/canvas/goc-group.c:244
+#, fuzzy
+msgid "The group horizontal offset"
+msgstr "നേ‌ര്ത്ത തിരശ്ചീന രേഖാഖണ‌്ഡം"
+
+#: ../goffice/canvas/goc-group.c:250
+msgid "The group vertical offset"
+msgstr ""
+
+#: ../goffice/canvas/goc-item.c:256
+#, fuzzy
+msgid "Canvas"
+msgstr "സംരംക്ഷിക്കുക"
+
+#: ../goffice/canvas/goc-item.c:257
+msgid "The canvas object on which the item resides"
+msgstr ""
+
+#: ../goffice/canvas/goc-item.c:262 ../goffice/graph/gog-view.c:584
+#, fuzzy
+msgid "Parent"
+msgstr "ശതമാനം"
+
+#: ../goffice/canvas/goc-item.c:263
+msgid "The group in which the item resides"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:323
+#, fuzzy
+msgid "x0"
+msgstr "x"
+
+#: ../goffice/canvas/goc-line.c:324
+msgid "The line start x coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:329
+msgid "y0"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:330
+msgid "The line start y coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:335
+#, fuzzy
+msgid "x1"
+msgstr "x"
+
+#: ../goffice/canvas/goc-line.c:336
+msgid "The line end x coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:341
+msgid "y1"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:342
+msgid "The line end y coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-path.c:240
+msgid "The path first point x coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-path.c:246
+msgid "The path first point y coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-path.c:252
+#, fuzzy
+msgid "The rotation around first point position"
+msgstr "നേ‌ര്ത്ത തിരശ്ചീനപ്പട്ട"
+
+#: ../goffice/canvas/goc-path.c:257
+#, fuzzy
+msgid "Closed"
+msgstr "നിറം:"
+
+#: ../goffice/canvas/goc-path.c:258
+msgid "The flag for closed path"
+msgstr ""
+
+#: ../goffice/canvas/goc-path.c:263
+#, fuzzy
+msgid "Path"
+msgstr "വസ്തുത"
+
+#: ../goffice/canvas/goc-path.c:264
+#, fuzzy
+msgid "The path points"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#: ../goffice/canvas/goc-pixbuf.c:232
+msgid "The image left position"
+msgstr ""
+
+#: ../goffice/canvas/goc-pixbuf.c:238
+msgid "The image top position"
+msgstr ""
+
+#: ../goffice/canvas/goc-pixbuf.c:244
+msgid "The image width or -1 to use the image width"
+msgstr ""
+
+#: ../goffice/canvas/goc-pixbuf.c:250
+msgid "The image height or -1 to use the image height"
+msgstr ""
+
+#: ../goffice/canvas/goc-pixbuf.c:260 ../goffice/utils/go-image.c:481
+msgid "Pixbuf"
+msgstr ""
+
+#: ../goffice/canvas/goc-pixbuf.c:261
+msgid "The GdkPixbuf to display"
+msgstr ""
+
+#: ../goffice/canvas/goc-polyline.c:229 ../goffice/canvas/goc-polygon.c:345
+#, fuzzy
+msgid "points"
+msgstr "ബിന്ദു"
+
+#: ../goffice/canvas/goc-polyline.c:229
+msgid "The polyline vertices"
+msgstr ""
+
+#: ../goffice/canvas/goc-polyline.c:234 ../goffice/canvas/goc-polygon.c:350
+#, fuzzy
+msgid "Use spline"
+msgstr "വരി‌"
+
+#: ../goffice/canvas/goc-polyline.c:235
+msgid "Use a Bezier cubic spline as line"
+msgstr ""
+
+#: ../goffice/canvas/goc-polygon.c:345
+msgid "The polygon vertices"
+msgstr ""
+
+#: ../goffice/canvas/goc-polygon.c:351
+msgid "Use a Bezier closed cubic spline as contour"
+msgstr ""
+
+#: ../goffice/canvas/goc-polygon.c:356
+msgid "Fill rule"
+msgstr ""
+
+#: ../goffice/canvas/goc-polygon.c:357
+msgid "Set fill rule to winding or even/odd"
+msgstr ""
+
+#: ../goffice/canvas/goc-polygon.c:361
+#, fuzzy
+msgid "sizes"
+msgstr "വലിപ്പം:"
+
+#: ../goffice/canvas/goc-polygon.c:362
+msgid ""
+"If set, the polygon will be split as several polygons according to the given "
+"sizes. Each size must be at least 3. Values following an invalid value will "
+"be discarded. Setting the \"point\" property will reset the sizes."
+msgstr ""
+
+#: ../goffice/canvas/goc-rectangle.c:331
+msgid "The rectangle left position (or right position in RTL mode)"
+msgstr ""
+
+#: ../goffice/canvas/goc-rectangle.c:337
+msgid "The rectangle top position"
+msgstr ""
+
+#: ../goffice/canvas/goc-rectangle.c:343
+#, fuzzy
+msgid "The rectangle width"
+msgstr "സ്ഥിരവീതി"
+
+#: ../goffice/canvas/goc-rectangle.c:349
+#, fuzzy
+msgid "The rectangle height"
+msgstr "വലതുവശത്തുള്ള പുറംവരകള്‌"
+
+#: ../goffice/canvas/goc-rectangle.c:361
+#, fuzzy
+msgid "The rectangle type"
+msgstr "സ്ഥിരവീതി"
+
+#: ../goffice/canvas/goc-rectangle.c:366
+#, fuzzy
+msgid "rx"
+msgstr "x"
+
+#: ../goffice/canvas/goc-rectangle.c:367
+#, fuzzy
+msgid "The round rectangle rx"
+msgstr "സ്ഥിരവീതി"
+
+#: ../goffice/canvas/goc-rectangle.c:372
+#, fuzzy
+msgid "ry"
+msgstr "ശ്രേണി"
+
+#: ../goffice/canvas/goc-rectangle.c:373
+#, fuzzy
+msgid "The round rectangle ry"
+msgstr "സ്ഥിരവീതി"
+
+#: ../goffice/canvas/goc-styled-item.c:161
+#: ../goffice/graph/gog-styled-object.c:199 ../goffice/utils/go-style.c:1041
+msgid "Style"
+msgstr "രീതി"
+
+#: ../goffice/canvas/goc-styled-item.c:162
+#: ../goffice/graph/gog-styled-object.c:200
+msgid "A pointer to the GOStyle object"
+msgstr ""
+
+#: ../goffice/canvas/goc-styled-item.c:167
+#, fuzzy
+msgid "Scale line width"
+msgstr "സ്ഥിരവീതി"
+
+#: ../goffice/canvas/goc-styled-item.c:168
+msgid "Whether to scale the line width when zooming"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:429
+#, fuzzy
+msgid "The text horizontal position"
+msgstr "നേ‌ര്ത്ത തിരശ്ചീനപ്പട്ട"
+
+#: ../goffice/canvas/goc-text.c:435
+#, fuzzy
+msgid "The text position"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#: ../goffice/canvas/goc-text.c:441
+msgid "The rotation around the anchor"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:446 ../goffice/graph/gog-object.c:628
+msgid "Anchor"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:447
+msgid "The anchor point for the text"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:452 ../goffice/gtk/go-format-sel.c:70
+#: ../goffice/gtk/go-rotation-sel.c:136 ../goffice/utils/go-style.c:907
+msgid "Text"
+msgstr "വാചകം"
+
+#: ../goffice/canvas/goc-text.c:453
+msgid "The text to display"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:456
+msgid "Attributes"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:456
+msgid "The attributes list as a PangoAttrList"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:461
+msgid "Clip"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:462
+msgid "Whether to clip or not"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:467
+#, fuzzy
+msgid "Clip width"
+msgstr "സ്ഥിരവീതി"
+
+#: ../goffice/canvas/goc-text.c:468
+msgid "Clip width for the text"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:473
+msgid "Clip height"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:474
+msgid "Clip height for the text"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:479
+#, fuzzy
+msgid "Wrap width"
+msgstr "വീതി"
+
+#: ../goffice/canvas/goc-text.c:480
+msgid "Wrap width for the text"
+msgstr ""
+
+#: ../goffice/canvas/goc-widget.c:312
+#, fuzzy
+msgid "Widget"
+msgstr "വീതി"
+
+#: ../goffice/canvas/goc-widget.c:313
+msgid "A pointer to the embedded widget"
+msgstr ""
+
+#: ../goffice/canvas/goc-widget.c:319
+msgid "The widget left position"
+msgstr ""
+
+#: ../goffice/canvas/goc-widget.c:325
+msgid "The widget top position"
+msgstr ""
+
+#: ../goffice/canvas/goc-widget.c:332
+#, fuzzy
+msgid "The widget width"
+msgstr "സ്ഥിരവീതി"
+
+#: ../goffice/canvas/goc-widget.c:338
+msgid "The widget height"
+msgstr ""
+
+#: ../goffice/component/go-component-factory.c:58
+msgid "Component Engine"
+msgstr ""
+
+#: ../goffice/component/go-component-factory.c:197
+#, fuzzy
+msgid "Component Type"
+msgstr " തരം"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:203
+#: ../goffice/drawing/god-paragraph-attributes.c:204
+#, fuzzy
+msgid "Flags"
+msgstr "സൂത്രവാക്യങ്ങള്‌"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:209
+#: ../goffice/drawing/god-paragraph-attributes.c:210
+#, fuzzy
+msgid "Indent"
+msgstr "പൂ‌‌ര്ണസംഖ്യ"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:215
+#: ../goffice/drawing/god-paragraph-attributes.c:216
+#, fuzzy
+msgid "Space Before"
+msgstr "തെരയുക"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:221
+#: ../goffice/drawing/god-paragraph-attributes.c:222
+#, fuzzy
+msgid "Space After"
+msgstr "സ്ഥലശൈലി"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:227
+#: ../goffice/drawing/god-paragraph-attributes.c:228
+#: ../goffice/graph/gog-object.c:616
+msgid "Alignment"
+msgstr "ക്രമീകരണം"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:233
+#: ../goffice/drawing/god-paragraph-attributes.c:234
+#, fuzzy
+msgid "Bullet Character"
+msgstr "അക്ഷരങ്ങള്"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:239
+#: ../goffice/drawing/god-paragraph-attributes.c:240
+msgid "Bullet Indent"
+msgstr ""
+
+#: ../goffice/drawing/god-paragraph-attributes.c:245
+#: ../goffice/drawing/god-paragraph-attributes.c:246
+msgid "Bullet Size"
+msgstr ""
+
+#: ../goffice/drawing/god-paragraph-attributes.c:251
+#: ../goffice/drawing/god-paragraph-attributes.c:252
+msgid "Bullet Family"
+msgstr ""
+
+#: ../goffice/drawing/god-paragraph-attributes.c:257
+#: ../goffice/drawing/god-paragraph-attributes.c:258
+msgid "Bullet On"
+msgstr ""
+
+#: ../goffice/graph/gog-3d-box-prefs.ui.h:1
+#, fuzzy
+msgid "<b>Euler angles</b>"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-3d-box-prefs.ui.h:2
+msgid "Phi:"
+msgstr ""
+
+#: ../goffice/graph/gog-3d-box-prefs.ui.h:3
+msgid "Psi:"
+msgstr ""
+
+#: ../goffice/graph/gog-3d-box-prefs.ui.h:4
+#, fuzzy
+msgid "Theta:"
+msgstr "വാചകം"
+
+#: ../goffice/graph/gog-3d-box.c:215
+msgid "Advanced"
+msgstr ""
+
+#: ../goffice/graph/gog-3d-box.c:284
+#, fuzzy
+msgid "Euler angle psi"
+msgstr "പരിധി"
+
+#: ../goffice/graph/gog-3d-box.c:291
+msgid "Euler angle theta"
+msgstr ""
+
+#: ../goffice/graph/gog-3d-box.c:298
+#, fuzzy
+msgid "Euler angle phi"
+msgstr "പരിധി"
+
+#: ../goffice/graph/gog-3d-box.c:305
+msgid "Field of view"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:636
+msgid "Layout"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:665
+#, fuzzy
+msgid "Axis position"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#: ../goffice/graph/gog-axis-line.c:666 ../goffice/graph/gog-axis-line.c:672
+msgid "Where to position an axis low, high, or crossing"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:671
+#, fuzzy
+msgid "Axis position (as a string)"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#: ../goffice/graph/gog-axis-line.c:677
+msgid "Major labels"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:678
+msgid "Show labels for major ticks"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:683
+#, fuzzy
+msgid "Inside major ticks"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-axis-line.c:684
+msgid "Major tick marks inside the chart area"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:689
+#, fuzzy
+msgid "Outside major ticks"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-axis-line.c:690
+msgid "Major tick marks outside the chart area"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:695
+#, fuzzy
+msgid "Major tick size"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-axis-line.c:696
+msgid "Size of the major tick marks, in points"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:702
+#, fuzzy
+msgid "Inside minor ticks"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-axis-line.c:703
+msgid "Minor tick marks inside the chart area"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:708
+#, fuzzy
+msgid "Outside minor ticks"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-axis-line.c:709
+msgid "Minor tick marks outside the axis"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:714
+#, fuzzy
+msgid "Minor tick size"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-axis-line.c:715
+msgid "Size of the minor tick marks, in points"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:721
+msgid "Cross axis id"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:722
+msgid "Which axis to cross"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:728
+#, fuzzy
+msgid "Axis padding"
+msgstr "വരി‌"
+
+#: ../goffice/graph/gog-axis-line.c:729
+msgid "Distance from axis line to plot area, in points"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:821
+#, fuzzy
+msgid "Select axis"
+msgstr "മുഴുവന്‌ നിരകളും തെരഞ്ഞെടുക്കുക"
+
+#: ../goffice/graph/gog-axis-line.c:927
+msgid "Set start bound"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:938
+msgid "Set stop bound"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:1
+#, fuzzy
+msgid "<b>Bounds</b>"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:2
+#, fuzzy
+msgid "<b>Major ticks</b>"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:3
+#, fuzzy
+msgid "<b>Mapping</b>"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:4
+#, fuzzy
+msgid "<b>Minor ticks</b>"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:5
+#, fuzzy
+msgid "<b>Position</b>"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:6
+#: ../goffice/graph/gog-object-prefs.ui.h:4
+#: ../goffice/graph/gog-plot-prefs.ui.h:3 ../goffice/gtk/go-palette.c:349
+msgid "Automatic"
+msgstr "തനിയെയുള്ള"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:7
+#, fuzzy
+msgid "I_nside"
+msgstr "ഉള്‌തലം"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:8
+#, fuzzy
+msgid "O_utside"
+msgstr "ബാഹ്യരേഖ"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:9
+msgid "Padding:"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:10
+#, fuzzy
+msgid "_Cross"
+msgstr "അടയ്‍ക്കുക"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:11
+#, fuzzy
+msgid "_High"
+msgstr "ഉയരം"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:12
+#, fuzzy
+msgid "_Inside"
+msgstr "ഉള്‌തലം"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:13
+#, fuzzy
+msgid "_Invert axis"
+msgstr "ഇടയ്ക്ക് ചേര്ക്കുക"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:14
+#, fuzzy
+msgid "_Low"
+msgstr "വരി"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:15
+#, fuzzy
+msgid "_Outside"
+msgstr "ബാഹ്യരേഖ"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:16
+#, fuzzy
+msgid "_Rotation:"
+msgstr "ദിശ:"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:17
+#, fuzzy
+msgid "_Show Labels"
+msgstr "ലിഖിതങ്ങള്"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:18
+#: ../goffice/graph/gog-series-prefs.ui.h:8
+#: ../goffice/utils/go-style-prefs.ui.h:24
+msgid "_Type:"
+msgstr "തരം:"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:19
+#, fuzzy
+msgid "_Unit:"
+msgstr "ചേര്ച്ച:"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:20
+#, fuzzy
+msgid "at"
+msgstr "വസ്തുത"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:21
+#: ../goffice/gtk/go-rotation-sel.ui.h:3
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:10
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:11
+msgid "degrees"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:22
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:14
+#: ../goffice/utils/go-style-prefs.ui.h:25
+#, fuzzy
+msgid "pts"
+msgstr "അറിയിക്കല്:"
+
+#: ../goffice/graph/gog-axis.c:46
+#, fuzzy
+msgid "Degrees"
+msgstr "പച്ച"
+
+#: ../goffice/graph/gog-axis.c:47
+#, fuzzy
+msgid "Radians"
+msgstr "പ്രാമാണിക വീതി"
+
+#: ../goffice/graph/gog-axis.c:48
+#, fuzzy
+msgid "Grads"
+msgstr "വെള്ളിയാഴ്ച"
+
+#: ../goffice/graph/gog-axis.c:1284
+msgid "Discrete"
+msgstr "വിയുക്തമാക്കുക"
+
+#: ../goffice/graph/gog-axis.c:1284
+#, fuzzy
+msgid "Discrete mapping"
+msgstr "വിയുക്തമാക്കുക"
+
+#: ../goffice/graph/gog-axis.c:1296 ../goffice/utils/go-line.c:118
+#: ../goffice/utils/go-line.c:329 ../plugins/reg_linear/reg-types.xml.in.h:3
+#, fuzzy
+msgid "Linear"
+msgstr "വരി‌"
+
+#: ../goffice/graph/gog-axis.c:1296
+msgid "Linear mapping"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:1308
+#, fuzzy
+msgid "Log"
+msgstr "യുക്തിയുക്തമായ"
+
+#: ../goffice/graph/gog-axis.c:1308
+#, fuzzy
+msgid "Logarithm mapping"
+msgstr "ലോഗരിതം"
+
+#: ../goffice/graph/gog-axis.c:2321 ../goffice/graph/gog-axis.c:2331
+#, fuzzy
+msgid "M_inimum"
+msgstr "ഏറ്റവും കുറഞ്ഞ"
+
+#: ../goffice/graph/gog-axis.c:2322 ../goffice/graph/gog-axis.c:2332
+#, fuzzy
+msgid "M_aximum"
+msgstr "പരമാവധി"
+
+#: ../goffice/graph/gog-axis.c:2323
+msgid "Categories between _ticks"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2324
+msgid "Categories between _labels"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2333
+#, fuzzy
+msgid "Ma_jor ticks"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-axis.c:2334
+#, fuzzy
+msgid "Mi_nor ticks"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-axis.c:2388 ../goffice/math/go-distribution.c:163
+#: ../goffice/math/go-distribution.c:164
+#, fuzzy
+msgid "Scale"
+msgstr "സവിശേഷം"
+
+#: ../goffice/graph/gog-axis.c:2404
+#, fuzzy
+msgid "Format"
+msgstr "ക്രമീകരണം"
+
+#: ../goffice/graph/gog-axis.c:2436
+#, fuzzy
+msgid "MajorGrid"
+msgstr "വെള്ളിയാഴ്ച"
+
+#: ../goffice/graph/gog-axis.c:2439
+#, fuzzy
+msgid "MinorGrid"
+msgstr "വെള്ളിയാഴ്ച"
+
+#: ../goffice/graph/gog-axis.c:2442
+#, fuzzy
+msgid "AxisLine"
+msgstr "വരി‌"
+
+#: ../goffice/graph/gog-axis.c:2445
+msgid "Label"
+msgstr "ലിഖിതം"
+
+#: ../goffice/graph/gog-axis.c:2461
+msgid "Numerical type of this axis"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2465
+#, fuzzy
+msgid "Invert axis"
+msgstr "ഇടയ്ക്ക് ചേര്ക്കുക"
+
+#: ../goffice/graph/gog-axis.c:2466
+msgid "Scale from high to low rather than low to high"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2470
+#, fuzzy
+msgid "MapName"
+msgstr "പേര‍്"
+
+#: ../goffice/graph/gog-axis.c:2471
+msgid "The name of the map for scaling"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2476
+msgid "Assigned XL format"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2477
+msgid ""
+"The user assigned format to use for non-discrete axis labels (XL format)"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2482 ../goffice/graph/gog-axis.c:2483
+msgid "Rotation of circular axis"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2490 ../goffice/graph/gog-axis.c:2491
+msgid "Polar axis set unit"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:367 ../goffice/graph/gog-chart.c:670
+#, fuzzy
+msgid "Plot area"
+msgstr " തരം"
+
+#: ../goffice/graph/gog-chart.c:576
+msgid "Backplane"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:579
+msgid "XY-Backplane"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:583
+msgid "YZ-Backplane"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:587
+msgid "ZX-Backplane"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:591
+msgid "X-Axis"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:595
+msgid "Y-Axis"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:599
+msgid "Z-Axis"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:603
+msgid "Circular-Axis"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:607
+msgid "Radial-Axis"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:611
+msgid "Pseudo-3D-Axis"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:615
+#, fuzzy
+msgid "Bubble-Axis"
+msgstr "ഡബിള്"
+
+#: ../goffice/graph/gog-chart.c:619
+#, fuzzy
+msgid "Color-Axis"
+msgstr "നിറം:"
+
+#: ../goffice/graph/gog-chart.c:623
+msgid "Plot"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:626 ../goffice/graph/gog-graph.c:301
+#: ../goffice/graph/gog-legend.c:187
+#, fuzzy
+msgid "Title"
+msgstr "തലക്കെട്ട്:"
+
+#: ../goffice/graph/gog-chart.c:631
+msgid "Legend"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:637 ../goffice/graph/gog-reg-curve.c:154
+#, fuzzy
+msgid "Equation"
+msgstr "ചെറുഭാഗം"
+
+#: ../goffice/graph/gog-chart.c:643
+msgid "3D-Box"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:664
+msgid "Valid cardinality"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:665
+msgid "Is the charts cardinality currently valid"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:671
+msgid "Position and size of plot area, in percentage of chart size"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:676
+#, fuzzy
+msgid "Manual plot area"
+msgstr " തരം"
+
+#: ../goffice/graph/gog-chart.c:677
+msgid "Is plot area manual"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:681
+#, fuzzy
+msgid "xpos"
+msgstr "ബിന്ദു"
+
+#: ../goffice/graph/gog-chart.c:682
+msgid "Horizontal chart position in graph grid"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:686
+#, fuzzy
+msgid "ypos"
+msgstr "ബിന്ദു"
+
+#: ../goffice/graph/gog-chart.c:687
+msgid "Vertical chart position in graph grid"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:690
+#, fuzzy
+msgid "columns"
+msgstr "നിര"
+
+#: ../goffice/graph/gog-chart.c:691
+#, fuzzy
+msgid "Number of columns in graph grid"
+msgstr "സംഖ്യാരീതികള്‌"
+
+#: ../goffice/graph/gog-chart.c:694
+#, fuzzy
+msgid "rows"
+msgstr "അടയ്‍ക്കുക"
+
+#: ../goffice/graph/gog-chart.c:695
+#, fuzzy
+msgid "Number of rows in graph grid"
+msgstr "സംഖ്യാരീതികള്‌"
+
+#. Note for translators: first string represent the new child object and second string is the parent object
+#: ../goffice/graph/gog-child-button.c:501
+#, c-format
+msgid "%s to %s"
+msgstr ""
+
+#: ../goffice/graph/gog-equation-prefs.ui.h:1
+#, fuzzy
+msgid "_Compact mode"
+msgstr "ക്രമീകരണം:"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:1
+msgid "(+)"
+msgstr ""
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:2
+msgid "(-)"
+msgstr ""
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:3
+#, fuzzy
+msgid "<b>Error category</b>"
+msgstr "പിശക് സൂചനാധ്വനി "
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:4
+msgid "<b>Style</b>"
+msgstr ""
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:5
+#, fuzzy
+msgid "<b>Values</b>"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:6
+#, fuzzy
+msgid "Absolute"
+msgstr "നീല"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:7
+#, fuzzy
+msgid "Colo_r:"
+msgstr "നിറം:"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:8
+msgid "Dis_play:"
+msgstr ""
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:9
+#: ../goffice/graph/gog-error-bar.c:75 ../goffice/gtk/go-format-sel.c:1105
+#: ../goffice/gtk/go-format-sel.c:1270 ../goffice/utils/formats.c:348
+#: ../goffice/utils/go-line.c:84 ../goffice/utils/go-style-prefs.ui.h:9
+msgid "None"
+msgstr "ഒന്നുമില്ല"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:10
+#, fuzzy
+msgid "Percent"
+msgstr "ശതമാനം"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:11
+msgid "Relative"
+msgstr ""
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:12
+#, fuzzy
+msgid "_Line width:"
+msgstr "സ്ഥിരവീതി"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:13
+#: ../goffice/graph/gog-object-prefs.ui.h:14
+#: ../goffice/graph/gog-plot-prefs.ui.h:7
+#, fuzzy
+msgid "_Width:"
+msgstr "ഒപ്പം:"
+
+#: ../goffice/graph/gog-error-bar.c:76
+#, fuzzy
+msgid "Positive"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#: ../goffice/graph/gog-error-bar.c:77
+msgid "Negative"
+msgstr ""
+
+#: ../goffice/graph/gog-error-bar.c:78
+msgid "Both"
+msgstr ""
+
+#. Note for translator: the angle unit
+#: ../goffice/graph/gog-error-bar.c:308
+msgid "°"
+msgstr ""
+
+#. An MS Excel-ish theme
+#: ../goffice/graph/gog-graph-prefs.ui.h:1 ../goffice/graph/gog-theme.c:500
+msgid "Default"
+msgstr "സ്വതേ"
+
+#: ../goffice/graph/gog-graph-prefs.ui.h:2
+#, fuzzy
+msgid "Forget user styles"
+msgstr "അക്ഷരശൈലി:"
+
+#: ../goffice/graph/gog-graph-prefs.ui.h:3
+#, fuzzy
+msgid "Theme:"
+msgstr "സമയം"
+
+#: ../goffice/graph/gog-graph.c:235 ../goffice/graph/gog-graph.c:356
+#, fuzzy
+msgid "Theme"
+msgstr "സമയം"
+
+#: ../goffice/graph/gog-graph.c:296
+msgid "Chart"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:357
+msgid "The theme for elements of the graph"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:362
+msgid "Theme name"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:363
+msgid "The name of the theme for elements of the graph"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:369
+msgid "Logical graph width, in points"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:375
+msgid "Logical graph height, in points"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:380
+msgid "Document"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:381
+msgid "the document for this graph"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:903
+msgid "the renderer for this view"
+msgstr ""
+
+#: ../goffice/graph/gog-grid-line.c:111
+msgid "Is-minor"
+msgstr ""
+
+#: ../goffice/graph/gog-grid-line.c:112
+msgid "Are these minor grid lines"
+msgstr ""
+
+#: ../goffice/graph/gog-grid.c:117
+msgid "Numerical type of this backplane"
+msgstr ""
+
+#: ../goffice/graph/gog-guru-type-selector.ui.h:1
+#, fuzzy
+msgid "<b>Sample</b>"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-guru-type-selector.ui.h:2
+#, fuzzy
+msgid "<b>_Plot type</b>"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-guru-type-selector.ui.h:3
+#, fuzzy
+msgid "<b>_Subtype</b>"
+msgstr "മാതൃക"
+
+#: ../goffice/graph/gog-guru.c:999 ../goffice/graph/gog-series.c:474
+msgid "Name"
+msgstr "പേര‍്"
+
+#: ../goffice/graph/gog-guru.c:1026
+msgid "Step 1 of 2: Select Chart Type"
+msgstr ""
+
+#: ../goffice/graph/gog-guru.c:1034
+msgid "Step 2 of 2: Customize Chart"
+msgstr ""
+
+#: ../goffice/graph/gog-guru.c:1039
+#, fuzzy
+msgid "Customize Chart"
+msgstr "തലക്കുറിപ്പ് യഥേഷ്ടമാക്കുക"
+
+#: ../goffice/graph/gog-guru.c:1114
+msgid "_Insert"
+msgstr "ഇടയ്ക്ക് ചേര്ക്കുക"
+
+#: ../goffice/graph/gog-guru.c:1181
+#, fuzzy
+msgid "_Plot Type"
+msgstr " തരം"
+
+#: ../goffice/graph/gog-label.c:108
+msgid "Allow markup"
+msgstr ""
+
+#: ../goffice/graph/gog-label.c:109
+msgid "Support basic html-ish markup"
+msgstr ""
+
+#: ../goffice/graph/gog-label.c:171
+#, fuzzy
+msgid "_Text:"
+msgstr "വാചകം"
+
+#: ../goffice/graph/gog-label.c:176 ../goffice/graph/gog-series.c:515
+msgid "Data"
+msgstr "വസ്തുത"
+
+#: ../goffice/graph/gog-label.c:330 ../goffice/graph/gog-reg-curve.c:71
+#: ../plugins/plot_xy/gog-xy.c:1925
+#, fuzzy
+msgid "Details"
+msgstr "വിശദാംശങ്ങള് കാണിക്കുക"
+
+#: ../goffice/graph/gog-label.c:351
+msgid "Regression Equation"
+msgstr ""
+
+#: ../goffice/graph/gog-label.c:390
+#, fuzzy
+msgid "Show equation"
+msgstr "ചെറുഭാഗം"
+
+#: ../goffice/graph/gog-label.c:391
+msgid "Show the equation on the graph"
+msgstr ""
+
+#: ../goffice/graph/gog-label.c:396
+msgid "Show coefficient"
+msgstr ""
+
+#: ../goffice/graph/gog-label.c:397
+msgid "Show the correlation coefficient on the graph"
+msgstr ""
+
+#: ../goffice/graph/gog-legend.c:210
+msgid "Swatch Size pts"
+msgstr ""
+
+#: ../goffice/graph/gog-legend.c:211
+msgid "size of the swatches in pts."
+msgstr ""
+
+#: ../goffice/graph/gog-legend.c:216
+msgid "Swatch Padding pts"
+msgstr ""
+
+#: ../goffice/graph/gog-legend.c:217
+msgid "padding between the swatches in pts."
+msgstr ""
+
+#: ../goffice/graph/gog-object-prefs.ui.h:2
+#: ../goffice/graph/gog-plot-prefs.ui.h:2
+#: ../plugins/plot_barcol/gog-barcol-prefs.ui.h:2
+#: ../plugins/plot_barcol/gog-minmax-prefs.ui.h:2
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:2
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:2
+#: ../plugins/plot_pie/gog-pie-series.ui.h:2
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:2
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:3
+msgid "Anchor:"
+msgstr ""
+
+#: ../goffice/graph/gog-object-prefs.ui.h:5
+#, fuzzy
+msgid "Column:"
+msgstr "നിര"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:6
+#, fuzzy
+msgid "Height in rows:"
+msgstr "ഉയരം"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:7
+#: ../goffice/graph/gog-plot-prefs.ui.h:4
+#, fuzzy
+msgid "Manual"
+msgstr "മജന്ത"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:8
+#, fuzzy
+msgid "Row:"
+msgstr "വരി"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:9
+msgid "Width in columns:"
+msgstr ""
+
+#: ../goffice/graph/gog-object-prefs.ui.h:10
+#, fuzzy
+msgid "_Alignment:"
+msgstr "ക്രമീകരണം"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:11
+#: ../goffice/graph/gog-plot-prefs.ui.h:5
+#, fuzzy
+msgid "_Height:"
+msgstr "ഉയരം"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:12
+#: ../goffice/graph/gog-plot-prefs.ui.h:6
+#, fuzzy
+msgid "_Object position:"
+msgstr "ദിശ:"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:13
+#, fuzzy
+msgid "_Position:"
+msgstr "ദിശ:"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:15
+#: ../goffice/graph/gog-plot-prefs.ui.h:8
+msgid "_X:"
+msgstr ""
+
+#: ../goffice/graph/gog-object-prefs.ui.h:16
+#: ../goffice/graph/gog-plot-prefs.ui.h:9
+msgid "_Y:"
+msgstr ""
+
+#: ../goffice/graph/gog-object-prefs.ui.h:17
+msgid "page 3"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:38 ../goffice/graph/gog-object.c:57
+#: ../goffice/graph/gog-series.c:40
+msgid "Top"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:39 ../goffice/graph/gog-object.c:58
+msgid "Top right"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:40 ../goffice/graph/gog-object.c:61
+#: ../goffice/graph/gog-series.c:41
+#, fuzzy
+msgid "Right"
+msgstr "ഉയരം"
+
+#: ../goffice/graph/gog-object.c:41 ../goffice/graph/gog-object.c:64
+msgid "Bottom right"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:42 ../goffice/graph/gog-object.c:63
+#: ../goffice/graph/gog-series.c:38
+msgid "Bottom"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:43 ../goffice/graph/gog-object.c:62
+msgid "Bottom left"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:44 ../goffice/graph/gog-object.c:59
+#: ../goffice/graph/gog-series.c:39
+msgid "Left"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:45 ../goffice/graph/gog-object.c:56
+msgid "Top left"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:49
+msgid "Fill"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:50 ../plugins/plot_barcol/gog-dropbar.c:61
+#, fuzzy
+msgid "Start"
+msgstr "അവസ്ഥ"
+
+#: ../goffice/graph/gog-object.c:51 ../plugins/plot_barcol/gog-dropbar.c:63
+#, fuzzy
+msgid "End"
+msgstr "ഉം"
+
+#: ../goffice/graph/gog-object.c:52 ../goffice/graph/gog-object.c:60
+#: ../goffice/graph/gog-series.c:43
+#, fuzzy
+msgid "Center"
+msgstr "ചിഹ്ന വലിപ്പം"
+
+#: ../goffice/graph/gog-object.c:559 ../goffice/graph/gog-object.c:604
+#, fuzzy
+msgid "Position"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#: ../goffice/graph/gog-object.c:598
+#, fuzzy
+msgid "Object ID"
+msgstr "വസ്തു..."
+
+#: ../goffice/graph/gog-object.c:599
+msgid "Object numerical ID"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:605
+msgid "Position and size of object, in percentage of parent size"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:610
+#, fuzzy
+msgid "Compass"
+msgstr "അടയ്‍ക്കുക"
+
+#: ../goffice/graph/gog-object.c:611
+msgid "Compass auto position flags"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:617
+#, fuzzy
+msgid "Alignment flag"
+msgstr "ക്രമീകരണം"
+
+#: ../goffice/graph/gog-object.c:622 ../goffice/graph/gog-object.c:623
+msgid "Is position manual"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:629
+msgid "Anchor for manual position"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:634 ../goffice/graph/gog-object.c:635
+msgid "Should the object be hidden"
+msgstr ""
+
+#: ../goffice/graph/gog-outlined-object.c:74
+msgid "Padding Pts"
+msgstr ""
+
+#: ../goffice/graph/gog-outlined-object.c:75
+msgid "Number of pts separating charts in the grid"
+msgstr ""
+
+#: ../goffice/graph/gog-plot-engine.c:56
+msgid "Plot Engine"
+msgstr ""
+
+#: ../goffice/graph/gog-plot-engine.c:297
+msgid "Plot Type"
+msgstr " തരം"
+
+#: ../goffice/graph/gog-plot-engine.c:394
+msgid "Chart Theme"
+msgstr ""
+
+#: ../goffice/graph/gog-plot-engine.c:425
+msgid "Regression Curve Engine"
+msgstr ""
+
+#: ../goffice/graph/gog-plot-engine.c:615
+msgid "Regression Curve Type"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:161
+msgid "X axis:"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:162
+msgid "Y axis:"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:163
+msgid "Z axis:"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:164
+msgid "Circular axis:"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:165
+msgid "Radial axis:"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:166
+msgid "Pseudo 3D axis:"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:167
+#, fuzzy
+msgid "Color axis:"
+msgstr "നിറം:"
+
+#: ../goffice/graph/gog-plot.c:168
+#, fuzzy
+msgid "Bubble axis:"
+msgstr "ഡബിള്"
+
+#: ../goffice/graph/gog-plot.c:232
+#, fuzzy
+msgid "Axes"
+msgstr "സ്ഥലങ്ങളില്‌"
+
+#: ../goffice/graph/gog-plot.c:334
+msgid "Series"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:355
+msgid "Vary style by element"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:356
+msgid "Use a different style for each segments"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:361
+#, fuzzy
+msgid "X axis"
+msgstr "തരം:"
+
+#: ../goffice/graph/gog-plot.c:362
+msgid "Reference to X axis"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:367
+#, fuzzy
+msgid "Y axis"
+msgstr "തരം:"
+
+#: ../goffice/graph/gog-plot.c:368
+msgid "Reference to Y axis"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:373
+#, fuzzy
+msgid "Plot group"
+msgstr " തരം"
+
+#: ../goffice/graph/gog-plot.c:374
+msgid "Name of plot group if any"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:379
+msgid "Guru hints"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:380
+msgid ""
+"Semicolon separated list of hints for automatic addition of objects in guru "
+"dialog"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:386
+#, fuzzy
+msgid "Default interpolation"
+msgstr "വേ‍ര്തിരി:"
+
+#: ../goffice/graph/gog-plot.c:387
+msgid "Default type of series line interpolation"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:992
+#, fuzzy
+msgid "Move plot area"
+msgstr " തരം"
+
+#: ../goffice/graph/gog-plot.c:1044
+#, fuzzy
+msgid "Resize plot area"
+msgstr " തരം"
+
+#: ../goffice/graph/gog-reg-curve-prefs.ui.h:1
+#, fuzzy
+msgid "(_Name):"
+msgstr "പേര‍്"
+
+#: ../goffice/graph/gog-reg-curve-prefs.ui.h:2
+msgid "High bound:"
+msgstr ""
+
+#: ../goffice/graph/gog-reg-curve-prefs.ui.h:3
+msgid "Low bound:"
+msgstr ""
+
+#: ../goffice/graph/gog-reg-curve-prefs.ui.h:4
+#: ../goffice/graph/gog-reg-curve.c:183
+#, fuzzy
+msgid "Skip invalid data"
+msgstr "സാധുതയില്ലാത്ത അടയാളവാക്ക്"
+
+#: ../goffice/graph/gog-reg-curve.c:147
+msgid "Regression Curve"
+msgstr ""
+
+#: ../goffice/graph/gog-reg-curve.c:182
+#, fuzzy
+msgid "Skip invalid"
+msgstr "സാധുതയില്ലാത്ത അടയാളവാക്ക്"
+
+#: ../goffice/graph/gog-reg-eqn-prefs.ui.h:1
+msgid "Display _equation"
+msgstr ""
+
+#: ../goffice/graph/gog-reg-eqn-prefs.ui.h:2
+msgid "Display _regression coefficient R&#xB2;"
+msgstr ""
+
+#: ../goffice/graph/gog-renderer.c:1525 ../goffice/graph/gog-view.c:590
+msgid "Model"
+msgstr ""
+
+#: ../goffice/graph/gog-renderer.c:1526
+msgid "The GogGraph this renderer displays"
+msgstr ""
+
+#: ../goffice/graph/gog-renderer.c:1531
+msgid "View"
+msgstr ""
+
+#: ../goffice/graph/gog-renderer.c:1532
+msgid "the GogView this renderer is displaying"
+msgstr ""
+
+#: ../goffice/graph/gog-series-prefs.ui.h:1
+#, fuzzy
+msgid "<b>Interpolation</b>"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#. derivative (curve slope) at first point for the clamped cubic spline
+#: ../goffice/graph/gog-series-prefs.ui.h:3
+msgid "<i>y'</i>(<i>x</i><sub>first</sub>):"
+msgstr ""
+
+#. derivative (curve slope) at last point for the clamped cubic spline
+#: ../goffice/graph/gog-series-prefs.ui.h:5
+msgid "<i>y'</i>(<i>x</i><sub>last</sub>):"
+msgstr ""
+
+#: ../goffice/graph/gog-series-prefs.ui.h:6
+#, fuzzy
+msgid "Fill _to:"
+msgstr "ചേര്ച്ച:"
+
+#: ../goffice/graph/gog-series-prefs.ui.h:7
+#, fuzzy
+msgid "S_kip invalid data"
+msgstr "സാധുതയില്ലാത്ത അടയാളവാക്ക്"
+
+#: ../goffice/graph/gog-series-prefs.ui.h:9
+#, fuzzy
+msgid "content"
+msgstr "പൂ‌‌ര്ണസംഖ്യ"
+
+#: ../goffice/graph/gog-series.c:36
+msgid "Y origin"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:37
+msgid "X origin"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:42
+msgid "Origin"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:44
+msgid "Edge"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:45
+msgid "Self"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:46
+msgid "Next series"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:151
+#, fuzzy
+msgid "Index:"
+msgstr "ഉള്‌തലം"
+
+#: ../goffice/graph/gog-series.c:170 ../plugins/plot_pie/gog-pie.c:89
+#, fuzzy
+msgid "Settings"
+msgstr "വാക്യങ്ങള്"
+
+#: ../goffice/graph/gog-series.c:211
+#, fuzzy
+msgid "Index"
+msgstr "ഉള്‌തലം"
+
+#: ../goffice/graph/gog-series.c:212
+msgid "Index of the corresponding data element"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:560
+msgid "Derivative at first point of the clamped cubic spline."
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:564
+msgid "Derivative at last point of the clamped cubic spline."
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:629
+msgid "Point"
+msgstr "ബിന്ദു"
+
+#: ../goffice/graph/gog-series.c:635
+msgid "Regression curve"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:643
+msgid "Trend line"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:678
+msgid "Has-legend"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:679
+msgid "Should the series show up in legends"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:684
+#, fuzzy
+msgid "Interpolation"
+msgstr "വിവരണം"
+
+#: ../goffice/graph/gog-series.c:685
+#, fuzzy
+msgid "Type of line interpolation"
+msgstr "വിവരണം"
+
+#: ../goffice/graph/gog-series.c:690
+#, fuzzy
+msgid "Interpolation skip invalid"
+msgstr "വിവരണം"
+
+#: ../goffice/graph/gog-series.c:691
+msgid "Should the series interpolation ignore the invalid data"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:696
+msgid "Fill type"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:697
+msgid "How to fill the area"
+msgstr ""
+
+#: ../goffice/graph/gog-smoothed-curve.c:52
+msgid "Smoothed Curve"
+msgstr ""
+
+#. Guppi
+#: ../goffice/graph/gog-theme.c:636
+msgid "Guppi"
+msgstr ""
+
+#: ../goffice/graph/gog-trend-line.c:39
+#, fuzzy
+msgid "Trend Line"
+msgstr "ശതമാനങ്ങള്"
+
+#: ../goffice/graph/gog-view.c:56
+msgid "Select object"
+msgstr ""
+
+#: ../goffice/graph/gog-view.c:127
+msgid "Move"
+msgstr ""
+
+#: ../goffice/graph/gog-view.c:179
+msgid "Resize object"
+msgstr ""
+
+#: ../goffice/graph/gog-view.c:585
+msgid "the GogView parent"
+msgstr ""
+
+#: ../goffice/graph/gog-view.c:591
+msgid "The GogObject this view displays"
+msgstr ""
+
+#: ../goffice/gtk/go-3d-rotation-sel.ui.h:1
+#, fuzzy
+msgid "<b>Rotation</b>"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#: ../goffice/gtk/go-action-combo-text.c:253
+msgid "Case Sensitive"
+msgstr ""
+
+#: ../goffice/gtk/go-action-combo-text.c:254
+msgid "Should the text comparison be case sensitive"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:68
+msgid "Arabic"
+msgstr "അറബിക്"
+
+#: ../goffice/gtk/go-charmap-sel.c:69
+msgid "Baltic"
+msgstr "ബാള്ട്ടിക്"
+
+#: ../goffice/gtk/go-charmap-sel.c:70
+msgid "Central European"
+msgstr "മധ്യ യൂറോപ്യന്"
+
+#: ../goffice/gtk/go-charmap-sel.c:71
+msgid "Chinese"
+msgstr "ചൈനീസ്‌"
+
+#: ../goffice/gtk/go-charmap-sel.c:72
+msgid "Cyrillic"
+msgstr "സിറിലിക്"
+
+#: ../goffice/gtk/go-charmap-sel.c:73
+msgid "Greek"
+msgstr "ഗ്രീക്ക്"
+
+#: ../goffice/gtk/go-charmap-sel.c:74
+msgid "Hebrew"
+msgstr "ഹീബ്ര‍ു"
+
+#: ../goffice/gtk/go-charmap-sel.c:75
+msgid "Indian"
+msgstr "ഇന്‌ഡ്യന്‌"
+
+#: ../goffice/gtk/go-charmap-sel.c:76
+msgid "Japanese"
+msgstr "ജാപ്പനിസ്"
+
+#: ../goffice/gtk/go-charmap-sel.c:77
+msgid "Korean"
+msgstr "കൊറിയന്"
+
+#: ../goffice/gtk/go-charmap-sel.c:78
+msgid "Turkish"
+msgstr "തുര്ക്കിഷ്"
+
+#: ../goffice/gtk/go-charmap-sel.c:79
+msgid "Unicode"
+msgstr "യുണികോഡ്"
+
+#: ../goffice/gtk/go-charmap-sel.c:80
+msgid "Vietnamese"
+msgstr "വിയറ്ര്നാമിസ്"
+
+#: ../goffice/gtk/go-charmap-sel.c:81
+msgid "Western"
+msgstr "പടിഞ്ഞാറന്‌"
+
+#: ../goffice/gtk/go-charmap-sel.c:82 ../goffice/gtk/go-locale-sel.c:70
+msgid "Other"
+msgstr "മറ്റുള്ളവ"
+
+#: ../goffice/gtk/go-charmap-sel.c:113
+msgid "Arabic (IBM-864)"
+msgstr "അറബിക്(IBM-864)"
+
+#: ../goffice/gtk/go-charmap-sel.c:114
+msgid "Arabic (IBM-864-I)"
+msgstr "അറബിക്(IBM-864-I)"
+
+#: ../goffice/gtk/go-charmap-sel.c:115
+msgid "Arabic (ISO-8859-6)"
+msgstr "അറബിക്(ISO-8859-6)"
+
+#: ../goffice/gtk/go-charmap-sel.c:116
+msgid "Arabic (ISO-8859-6-E)"
+msgstr "അറബിക്(ISO-8859-6-E)"
+
+#: ../goffice/gtk/go-charmap-sel.c:118
+msgid "Arabic (ISO-8859-6-I)"
+msgstr "അറബിക്(ISO-8859-6-I)"
+
+#: ../goffice/gtk/go-charmap-sel.c:119
+msgid "Arabic (MacArabic)"
+msgstr "അറബിക്(മാക് അരബിക്)"
+
+#: ../goffice/gtk/go-charmap-sel.c:120
+msgid "Arabic (Windows-1256)"
+msgstr "അറബിക്(Windows-1256)"
+
+#: ../goffice/gtk/go-charmap-sel.c:121
+msgid "Armenian (ARMSCII-8)"
+msgstr "അര്‌മേനിയന്‌(ARMSCII-8)"
+
+#: ../goffice/gtk/go-charmap-sel.c:122
+msgid "Baltic (ISO-8859-13)"
+msgstr "ബാല്‌ട്രിക്(ISO-8859-13)"
+
+#: ../goffice/gtk/go-charmap-sel.c:123
+msgid "Baltic (ISO-8859-4)"
+msgstr "ബാല്‌ട്രിക്(ISO-8859-4)"
+
+#: ../goffice/gtk/go-charmap-sel.c:124
+msgid "Baltic (Windows-1257)"
+msgstr "ബാല്‌ട്രിക്(Windows-1257)"
+
+#: ../goffice/gtk/go-charmap-sel.c:125
+msgid "Celtic (ISO-8859-14)"
+msgstr "സെല്‌ടിക്(ISO-8859-14)"
+
+#: ../goffice/gtk/go-charmap-sel.c:126
+msgid "Central European (IBM-852)"
+msgstr "സെന്‌ട്രല് യൂറോപ്പിയന്(IBM-852)"
+
+#: ../goffice/gtk/go-charmap-sel.c:127
+msgid "Central European (ISO-8859-2)"
+msgstr "സെന്‌ട്രല് യൂറോപ്പിയന്(ISO-8859-2)"
+
+#: ../goffice/gtk/go-charmap-sel.c:128
+msgid "Central European (MacCE)"
+msgstr "സെന്‌ട്രല് യൂറോപ്പിയന്"
+
+#: ../goffice/gtk/go-charmap-sel.c:129
+msgid "Central European (Windows-1250)"
+msgstr "സെന്‌ട്രല് യൂറോപ്പിയന്"
+
+#: ../goffice/gtk/go-charmap-sel.c:130
+msgid "Chinese Simplified (GB18030)"
+msgstr "ചൈനീസ് ലളിതം/സിംപ്ളിഫൈഡ്"
+
+#: ../goffice/gtk/go-charmap-sel.c:131
+msgid "Chinese Simplified (GB2312)"
+msgstr "ചൈനീസ് ലളിതം/സിംപ്ളിഫൈഡ്"
+
+#: ../goffice/gtk/go-charmap-sel.c:132
+msgid "Chinese Simplified (GBK)"
+msgstr "ചൈനീസ് ലളിതം/സിംപ്ളിഫൈഡ്"
+
+#: ../goffice/gtk/go-charmap-sel.c:133
+msgid "Chinese Simplified (HZ)"
+msgstr "ചൈനീസ് ലളിതം/സിംപ്ളിഫൈഡ്"
+
+#: ../goffice/gtk/go-charmap-sel.c:134
+msgid "Chinese Simplified (Windows-936)"
+msgstr "ചൈനീസ് ലളിതം/സിംപ്ളിഫൈഡ്"
+
+#: ../goffice/gtk/go-charmap-sel.c:135
+msgid "Chinese Traditional (Big5)"
+msgstr "ചൈനീസ് ട്റഡിഷണല്‌/പരന്പരാഗതം"
+
+#: ../goffice/gtk/go-charmap-sel.c:136
+msgid "Chinese Traditional (Big5-HKSCS)"
+msgstr "ചൈനീസ് ട്റഡിഷണല്‌/പരന്പരാഗതം"
+
+#: ../goffice/gtk/go-charmap-sel.c:137
+msgid "Chinese Traditional (EUC-TW)"
+msgstr "ചൈനീസ് ട്റഡിഷണല്‌/പരന്പരാഗതം"
+
+#: ../goffice/gtk/go-charmap-sel.c:138
+msgid "Croatian (MacCroatian)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:139
+msgid "Cyrillic (IBM-855)"
+msgstr "സിറിലിക്"
+
+#: ../goffice/gtk/go-charmap-sel.c:140
+msgid "Cyrillic (ISO-8859-5)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:141
+msgid "Cyrillic (ISO-IR-111)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:142
+msgid "Cyrillic (KOI8-R)"
+msgstr "സിറിലിക്"
+
+#: ../goffice/gtk/go-charmap-sel.c:143
+msgid "Cyrillic (MacCyrillic)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:144
+msgid "Cyrillic (Windows-1251)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:145
+msgid "Russian (CP-866)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:146
+msgid "Ukrainian (KOI8-U)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:147
+msgid "Ukrainian (MacUkrainian)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:148
+msgid "English (ASCII)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:149
+msgid "Farsi (MacFarsi)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:150
+msgid "Georgian (GEOSTD8)"
+msgstr "ജോര്‌ജ്ജിയന്"
+
+#: ../goffice/gtk/go-charmap-sel.c:151
+msgid "Greek (ISO-8859-7)"
+msgstr "ഗ്രീക്ക്(ISO-8859-7)"
+
+#: ../goffice/gtk/go-charmap-sel.c:152
+msgid "Greek (MacGreek)"
+msgstr "ഗ്രീക്ക് (മാക് ഗ്രീക്ക്)"
+
+#: ../goffice/gtk/go-charmap-sel.c:153
+msgid "Greek (Windows-1253)"
+msgstr "ഗ്രീക്ക് (ജാലകം-1253)"
+
+#: ../goffice/gtk/go-charmap-sel.c:154
+msgid "Gujarati (MacGujarati)"
+msgstr "ഗുജറാത്തി(മാക് ഗുജറാത്തി)"
+
+#: ../goffice/gtk/go-charmap-sel.c:155
+msgid "Gurmukhi (MacGurmukhi)"
+msgstr "ഗുരുമുഖി (മാക് ഗുരുമുഖി)"
+
+#: ../goffice/gtk/go-charmap-sel.c:156
+msgid "Hebrew (IBM-862)"
+msgstr "ഹീബ്രു(IBM-862)"
+
+#: ../goffice/gtk/go-charmap-sel.c:157
+msgid "Hebrew (ISO-8859-8-E)"
+msgstr "ഹീബ്രു(ISO-8859-8-E)"
+
+#: ../goffice/gtk/go-charmap-sel.c:158
+msgid "Hebrew (ISO-8859-8-I)"
+msgstr "ഹീബ്രു(ISO-8859-8-I)"
+
+#: ../goffice/gtk/go-charmap-sel.c:159
+msgid "Hebrew (MacHebrew)"
+msgstr "ഹീബ്രു (മാക് ഹീബ്രു)"
+
+#: ../goffice/gtk/go-charmap-sel.c:160
+msgid "Hebrew (Windows-1255)"
+msgstr "ഹീബ്രൂ (ജാലകം-1255)"
+
+#: ../goffice/gtk/go-charmap-sel.c:161
+msgid "Hindi (MacDevanagari)"
+msgstr "ഹിന്ദി (മാക് ദേവനാഗിരി)"
+
+#: ../goffice/gtk/go-charmap-sel.c:162
+msgid "Icelandic (MacIcelandic)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:163
+msgid "Japanese (EUC-JP)"
+msgstr "ജാപ്പനിസ്(EUC-JP)"
+
+#: ../goffice/gtk/go-charmap-sel.c:164
+msgid "Japanese (ISO-2022-JP)"
+msgstr "ജാപ്പനിസ്(ISO-2022-JP)"
+
+#: ../goffice/gtk/go-charmap-sel.c:165
+msgid "Japanese (Shift_JIS)"
+msgstr "ജാപ്പനിസ്(Shift_JIS)"
+
+#: ../goffice/gtk/go-charmap-sel.c:166
+msgid "Korean (EUC-KR)"
+msgstr "കൊറിയന്‌(EUC-KR)"
+
+#: ../goffice/gtk/go-charmap-sel.c:167
+msgid "Korean (ISO-2022-KR)"
+msgstr "കൊറിയന്‌(ISO-2022-KR)"
+
+#: ../goffice/gtk/go-charmap-sel.c:168
+msgid "Korean (JOHAB)"
+msgstr "കൊറിയന്‌(JOHAB)"
+
+#: ../goffice/gtk/go-charmap-sel.c:169
+msgid "Korean (UHC)"
+msgstr "കൊറിയന്"
+
+#: ../goffice/gtk/go-charmap-sel.c:170
+msgid "Nordic (ISO-8859-10)"
+msgstr "നോര്‌ഡിക്(ISO-8859-10)"
+
+#: ../goffice/gtk/go-charmap-sel.c:171
+msgid "Romanian (MacRomanian)"
+msgstr "റൊമേനിയന്‌(മാക് റൊമേനിയന്‌)"
+
+#: ../goffice/gtk/go-charmap-sel.c:172
+msgid "Romanian (ISO-8859-16)"
+msgstr "റൊമേനിയന്(ISO-8859-16)"
+
+#: ../goffice/gtk/go-charmap-sel.c:173
+msgid "South European (ISO-8859-3)"
+msgstr "ദക്ഷിണ/സൌത്ത് യൂറോപ്യന്‌"
+
+#: ../goffice/gtk/go-charmap-sel.c:174
+msgid "Thai (TIS-620)"
+msgstr "തായ്(TIS-620)"
+
+#: ../goffice/gtk/go-charmap-sel.c:175
+msgid "Turkish (IBM-857)"
+msgstr "ടര്‌ക്കിഷ്(IBM-857)"
+
+#: ../goffice/gtk/go-charmap-sel.c:176
+msgid "Turkish (ISO-8859-9)"
+msgstr "ടര്‌ക്കിഷ്(ISO-8859-9)"
+
+#: ../goffice/gtk/go-charmap-sel.c:177
+msgid "Turkish (MacTurkish)"
+msgstr "ടര്‌ക്കിഷ്(MacTurkish)"
+
+#: ../goffice/gtk/go-charmap-sel.c:178
+msgid "Turkish (Windows-1254)"
+msgstr "ടര്‌ിഷ്(ജാലകം-1245)"
+
+#: ../goffice/gtk/go-charmap-sel.c:179
+msgid "Unicode (UTF-7)"
+msgstr "യുണികോഡ്"
+
+#: ../goffice/gtk/go-charmap-sel.c:180
+msgid "Unicode (UTF-8)"
+msgstr "യുണികോഡ്"
+
+#: ../goffice/gtk/go-charmap-sel.c:181
+msgid "Unicode (UTF-16BE)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:182
+msgid "Unicode (UTF-16LE)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:183
+msgid "Unicode (UTF-32BE)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:184
+msgid "Unicode (UTF-32LE)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:185
+msgid "User Defined"
+msgstr "ഉപയോക്തൃ നാമം"
+
+#: ../goffice/gtk/go-charmap-sel.c:186
+msgid "Vietnamese (TCVN)"
+msgstr "വിയറ്ര്നാമിസ്"
+
+#: ../goffice/gtk/go-charmap-sel.c:187
+msgid "Vietnamese (VISCII)"
+msgstr "വിയറ്ര്നാമിസ്"
+
+#: ../goffice/gtk/go-charmap-sel.c:188
+msgid "Vietnamese (VPS)"
+msgstr "വിയറ്ര്നാമിസ്"
+
+#: ../goffice/gtk/go-charmap-sel.c:189
+msgid "Vietnamese (Windows-1258)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:190
+msgid "Visual Hebrew (ISO-8859-8)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:191
+msgid "Western (IBM-850)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:192
+msgid "Western (ISO-8859-1)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:193
+msgid "Western (ISO-8859-15)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:194
+msgid "Western (MacRoman)"
+msgstr "പടിഞ്ഞാറന് (മാക്‌റോമന്‌)"
+
+#: ../goffice/gtk/go-charmap-sel.c:195
+msgid "Western (Windows-1252)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:412
+msgid "Locale: "
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:452
+msgid "Conversion Direction"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:453
+msgid "This value determines which iconv test to perform."
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:77
+#, fuzzy
+msgid "black"
+msgstr "അയഞ്ഞ"
+
+#: ../goffice/gtk/go-color-palette.c:78
+msgid "light brown"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:79
+msgid "brown gold"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:80
+msgid "dark green #2"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:81
+#, fuzzy
+msgid "navy"
+msgstr "തിങ്കളാഴ്ച"
+
+#: ../goffice/gtk/go-color-palette.c:82 ../goffice/gtk/go-color-palette.c:134
+msgid "dark blue"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:83
+msgid "purple #2"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:84
+msgid "very dark gray"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:86 ../goffice/gtk/go-color-palette.c:139
+msgid "dark red"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:87
+#, fuzzy
+msgid "red-orange"
+msgstr "പരിധി"
+
+#: ../goffice/gtk/go-color-palette.c:88
+#, fuzzy
+msgid "gold"
+msgstr "സ്ഥൂലം"
+
+#: ../goffice/gtk/go-color-palette.c:89
+msgid "dark green"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:90 ../goffice/gtk/go-color-palette.c:140
+msgid "dull blue"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:91 ../goffice/gtk/go-color-palette.c:141
+#, fuzzy
+msgid "blue"
+msgstr "നീല"
+
+#: ../goffice/gtk/go-color-palette.c:92
+msgid "dull purple"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:93
+#, fuzzy
+msgid "dark gray"
+msgstr "ശ്രേണി"
+
+#: ../goffice/gtk/go-color-palette.c:95
+#, fuzzy
+msgid "red"
+msgstr "ചെമപ്പ്"
+
+#: ../goffice/gtk/go-color-palette.c:96
+#, fuzzy
+msgid "orange"
+msgstr "പരിധി"
+
+#: ../goffice/gtk/go-color-palette.c:97
+#, fuzzy
+msgid "lime"
+msgstr "സമയം"
+
+#: ../goffice/gtk/go-color-palette.c:98
+msgid "dull green"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:99
+msgid "dull blue #2"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:100
+msgid "sky blue #2"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:101 ../goffice/gtk/go-color-palette.c:138
+msgid "purple"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:102
+#, fuzzy
+msgid "gray"
+msgstr "ശ്രേണി"
+
+#: ../goffice/gtk/go-color-palette.c:104 ../goffice/gtk/go-color-palette.c:135
+#, fuzzy
+msgid "magenta"
+msgstr "മജന്ത"
+
+#: ../goffice/gtk/go-color-palette.c:105
+msgid "bright orange"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:106 ../goffice/gtk/go-color-palette.c:136
+#, fuzzy
+msgid "yellow"
+msgstr "മഞ്ഞ"
+
+#: ../goffice/gtk/go-color-palette.c:107
+#, fuzzy
+msgid "green"
+msgstr "പച്ച"
+
+#: ../goffice/gtk/go-color-palette.c:108 ../goffice/gtk/go-color-palette.c:137
+#, fuzzy
+msgid "cyan"
+msgstr "സിയന്"
+
+#: ../goffice/gtk/go-color-palette.c:109
+msgid "bright blue"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:110 ../goffice/gtk/go-color-palette.c:126
+msgid "red purple"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:111
+msgid "light gray"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:113 ../goffice/gtk/go-color-palette.c:130
+#, fuzzy
+msgid "pink"
+msgstr "ഹൈപ്പ‌ര്ലിംഗ്"
+
+#: ../goffice/gtk/go-color-palette.c:114
+#, fuzzy
+msgid "light orange"
+msgstr "വലത് ക്രമീകരണം"
+
+#: ../goffice/gtk/go-color-palette.c:115 ../goffice/gtk/go-color-palette.c:127
+msgid "light yellow"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:116
+#, fuzzy
+msgid "light green"
+msgstr "വലത് ക്രമീകരണം"
+
+#: ../goffice/gtk/go-color-palette.c:117
+#, fuzzy
+msgid "light cyan"
+msgstr "വലത് ക്രമീകരണം"
+
+#: ../goffice/gtk/go-color-palette.c:118 ../goffice/gtk/go-color-palette.c:128
+msgid "light blue"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:119 ../goffice/gtk/go-color-palette.c:132
+msgid "light purple"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:120
+#, fuzzy
+msgid "white"
+msgstr "ധവളം"
+
+#. Disable these for now, they are mostly repeats
+#: ../goffice/gtk/go-color-palette.c:125
+msgid "purplish blue"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:129
+msgid "dark purple"
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:131
+#, fuzzy
+msgid "sky blue"
+msgstr "മൂല്യമനുസരിച്ച്"
+
+#: ../goffice/gtk/go-color-palette.c:453
+#, fuzzy
+msgid "custom"
+msgstr "യഥേഷ്ടം"
+
+#: ../goffice/gtk/go-color-palette.c:460 ../goffice/gtk/go-color-palette.c:714
+#, fuzzy
+msgid "Custom Color..."
+msgstr "പാദക്കുറിപ്പ് യഥേഷ്ടമാക്കുക"
+
+#: ../goffice/gtk/go-color-selector.c:206
+#, fuzzy
+msgid "Custom color..."
+msgstr "പാദക്കുറിപ്പ് യഥേഷ്ടമാക്കുക"
+
+#: ../goffice/gtk/go-combo-box.c:274
+msgid "Add tearoffs to menus"
+msgstr ""
+
+#: ../goffice/gtk/go-combo-box.c:275
+msgid "Whether dropdowns should have a tearoff menu item"
+msgstr ""
+
+#: ../goffice/gtk/go-font-sel.c:174 ../goffice/math/go-distribution.c:67
+msgid "Normal"
+msgstr "സാധാരണ"
+
+#: ../goffice/gtk/go-font-sel.c:175
+msgid "Bold"
+msgstr "സ്ഥൂലം"
+
+#: ../goffice/gtk/go-font-sel.c:176
+msgid "Bold italic"
+msgstr ""
+
+#: ../goffice/gtk/go-font-sel.c:177
+msgid "Italic"
+msgstr "ചരിഞ്ഞ"
+
+#. xgettext: This text is used as a sample when selecting a font
+#. * please choose a translation that would produce common
+#. * characters specific to the target alphabet.
+#: ../goffice/gtk/go-font-sel.c:460
+msgid "AaBbCcDdEe12345"
+msgstr ""
+
+#: ../goffice/gtk/go-font-sel.ui.h:1
+msgid "Font style:"
+msgstr "അക്ഷരശൈലി:"
+
+#: ../goffice/gtk/go-font-sel.ui.h:2
+msgid "Font:"
+msgstr "അക്ഷരരൂപം:"
+
+#: ../goffice/gtk/go-font-sel.ui.h:3
+msgid "Preview"
+msgstr "തിരനോട്ടം"
+
+#: ../goffice/gtk/go-font-sel.ui.h:4
+msgid "Size:"
+msgstr "വലിപ്പം:"
+
+#: ../goffice/gtk/go-format-sel.c:62
+msgid "Number"
+msgstr "സംഖ്യകള്‌"
+
+#: ../goffice/gtk/go-format-sel.c:63
+#, fuzzy
+msgid "Currency"
+msgstr "നാണയം"
+
+#: ../goffice/gtk/go-format-sel.c:64
+#, fuzzy
+msgid "Accounting"
+msgstr "കണക്കെഴുത്ത്"
+
+#: ../goffice/gtk/go-format-sel.c:65
+msgid "Date"
+msgstr "തിയ്യതി"
+
+#: ../goffice/gtk/go-format-sel.c:66
+msgid "Time"
+msgstr "സമയം"
+
+#: ../goffice/gtk/go-format-sel.c:67
+msgid "Percentage"
+msgstr "ശതമാനം"
+
+#: ../goffice/gtk/go-format-sel.c:68
+#, fuzzy
+msgid "Fraction"
+msgstr "ചെറുഭാഗം"
+
+#: ../goffice/gtk/go-format-sel.c:69
+#, fuzzy
+msgid "Scientific"
+msgstr "ശാസ്ത്രീയമായ"
+
+#: ../goffice/gtk/go-format-sel.c:71
+#, fuzzy
+msgid "Special"
+msgstr "സവിശേഷം"
+
+#: ../goffice/gtk/go-format-sel.c:72
+msgid "Custom"
+msgstr "യഥേഷ്ടം"
+
+#: ../goffice/gtk/go-format-sel.c:1047
+msgid "Negative Number Format"
+msgstr "ഋണ സംഖ്യാരീതി"
+
+#: ../goffice/gtk/go-format-sel.c:1075
+msgid "Number Formats"
+msgstr "സംഖ്യാരീതികള്‌"
+
+#: ../goffice/gtk/go-format-sel.ui.h:1
+#, fuzzy
+msgid "Ca_tegories:"
+msgstr "വിഭാഗം:"
+
+#: ../goffice/gtk/go-format-sel.ui.h:2
+msgid "Deci_mal places:"
+msgstr "ദശാംശ സ്ഥാനങ്ങള്‌:‌"
+
+#: ../goffice/gtk/go-format-sel.ui.h:3
+msgid "Display amounts in traditional accounting styles."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:4
+msgid "Display and input values as strings with no interpretation."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:5
+msgid "Display currency amounts."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:6
+msgid "Display dates and optionally times of day."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:7
+msgid "Display numeric values with a fixed number of decimals."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:8
+#, fuzzy
+msgid "Display times of day."
+msgstr "ബാഹ്യ‌രേഖകള്‌ പ്രദര്‌ശിപ്പിക്കുക"
+
+#: ../goffice/gtk/go-format-sel.ui.h:9
+msgid "Display values as closest fractional approximation."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:10
+msgid "Display values as percentages."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:11
+msgid "Display values with power-of-ten scaling."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:12
+#, fuzzy
+msgid "Format c_ode:"
+msgstr "ക്രമീകരണം:"
+
+#: ../goffice/gtk/go-format-sel.ui.h:13
+#, fuzzy
+msgid "Negative number _format:"
+msgstr "ഋണ സംഖ്യാരീതി"
+
+#: ../goffice/gtk/go-format-sel.ui.h:14
+#, fuzzy
+msgid "Preview:"
+msgstr "തിരനോട്ടം"
+
+#: ../goffice/gtk/go-format-sel.ui.h:15
+msgid "Restrict exponent to multiples of 3"
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:16
+msgid "S_ymbol:"
+msgstr "അടയാളം:"
+
+#: ../goffice/gtk/go-format-sel.ui.h:17
+msgid "Select an appropriate format automatically."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:18
+msgid "Specify an XL-style format directly"
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:19
+msgid "Use _superscript"
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:20
+msgid "Use superscript for exponent (e.g. 4&#xD7;10&#xB2;)"
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:21
+msgid "When mantissa is equal to 1, only show exponent part (e.g. 10&#xB2;)"
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:22
+msgid "_Don't show 1xs"
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:23
+msgid "_Engineering notation"
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:24
+msgid "_Format:"
+msgstr "ക്രമീകരണം:"
+
+#: ../goffice/gtk/go-format-sel.ui.h:25
+#, fuzzy
+msgid "_Use separator for 1000s"
+msgstr "1000ങ്ങള്‌ക്ക് വേ‌‌ര്തിരിവ് ഉപയോഗിക്കുക"
+
+#: ../goffice/gtk/go-image-save-dialog-extra.ui.h:1
+#, fuzzy
+msgid "Export settings"
+msgstr "വാക്യങ്ങള്"
+
+#: ../goffice/gtk/go-image-save-dialog-extra.ui.h:2
+#, fuzzy
+msgid "Resolution:"
+msgstr "ദിശ:"
+
+#: ../goffice/gtk/go-image-save-dialog-extra.ui.h:3
+#, fuzzy
+msgid "_File type:"
+msgstr "ചേര്ച്ച:"
+
+#: ../goffice/gtk/go-image-save-dialog-extra.ui.h:4
+msgid "pixels/in"
+msgstr ""
+
+#: ../goffice/gtk/go-image-sel.ui.h:1
+#, fuzzy
+msgid "<b>Add an image</b>"
+msgstr "മാതൃക"
+
+#: ../goffice/gtk/go-image-sel.ui.h:2
+#, fuzzy
+msgid "Name:"
+msgstr "പേര‍്"
+
+#: ../goffice/gtk/go-image-sel.ui.h:3 ../goffice/utils/go-style-prefs.ui.h:22
+#, fuzzy
+msgid "_Select..."
+msgstr "തെരഞ്ഞെടുക്കുക"
+
+#: ../goffice/gtk/go-locale-sel.c:63
+#, fuzzy
+msgid "Western Europe"
+msgstr "പടിഞ്ഞാറന്‌"
+
+#: ../goffice/gtk/go-locale-sel.c:64
+#, fuzzy
+msgid "Eastern Europe"
+msgstr "മധ്യ യൂറോപ്യന്"
+
+#: ../goffice/gtk/go-locale-sel.c:65
+msgid "North America"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:66
+msgid "South & Central America"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:67
+#, fuzzy
+msgid "Asia"
+msgstr "സിഗ്മ"
+
+#: ../goffice/gtk/go-locale-sel.c:68
+#, fuzzy
+msgid "Africa"
+msgstr "അറബിക്"
+
+#: ../goffice/gtk/go-locale-sel.c:69
+#, fuzzy
+msgid "Australia"
+msgstr "ഓസ്‌ട്രേലിയ, ഡോളേഴ്സ്"
+
+#.
+#. * The format here is "Country/Language (locale)" or just
+#. * "Country (locale)" when there is only one choice or one
+#. * very dominant language.
+#. *
+#. * Note: lots of people get very emotional over this.  Please
+#. * err on the safe side, if any.
+#.
+#: ../goffice/gtk/go-locale-sel.c:102
+msgid "United States/English (C)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:103
+msgid "South Africa Afrikaans (af_ZA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:104
+msgid "Ethiopia/Amharic (am_ET)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:105
+#, fuzzy
+msgid "United Arab Emirates (ar_AE)"
+msgstr "യുണൈറ്റഡ് അറബ് എമിറൈറ്റ്സ്, ദിറം"
+
+#: ../goffice/gtk/go-locale-sel.c:106
+#, fuzzy
+msgid "Bahrain (ar_BH)"
+msgstr "ബഹറിന്, ദിനാഴ്സ്"
+
+#: ../goffice/gtk/go-locale-sel.c:107
+msgid "Algeria (ar_DZ)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:108
+msgid "Egypt (ar_EG)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:109
+msgid "India/Arabic (ar_IN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:110
+msgid "Iraq (ar_IQ)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:111
+#, fuzzy
+msgid "Jordan (ar_JO)"
+msgstr "ജോ‌ര്ദാന്, ഡിനാര്‌സ്"
+
+#: ../goffice/gtk/go-locale-sel.c:112
+#, fuzzy
+msgid "Kuwait (ar_KW)"
+msgstr "കുവൈറ്റ്, ദിനാര്സ്"
+
+#: ../goffice/gtk/go-locale-sel.c:113
+msgid "Lebanon (ar_LB)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:114
+#, fuzzy
+msgid "Libya (ar_LY)"
+msgstr "ലിബിയ, ദിനാര്സ്"
+
+#: ../goffice/gtk/go-locale-sel.c:115
+msgid "Morocco (ar_MA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:116
+msgid "Oman (ar_OM)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:117
+msgid "Qatar (ar_QA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:118
+#, fuzzy
+msgid "Saudi Arabia (ar_SA)"
+msgstr "സൌദി അറേബ്യ, റിയാല്സ്"
+
+#: ../goffice/gtk/go-locale-sel.c:119
+#, fuzzy
+msgid "Sudan (ar_SD)"
+msgstr "സുഡാന്, ദിനാര്സ്"
+
+#: ../goffice/gtk/go-locale-sel.c:120
+msgid "Syria (ar_SY)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:121
+#, fuzzy
+msgid "Tunisia (ar_TN)"
+msgstr "ടുണീഷ്യ, ദിനാര്സ്"
+
+#: ../goffice/gtk/go-locale-sel.c:122
+msgid "Yemen (ar_YE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:123
+#, fuzzy
+msgid "Azerbaijan (az_AZ)"
+msgstr "അസ‌ര്‌ബൈജാന്, മണറ്റ്സ്"
+
+#: ../goffice/gtk/go-locale-sel.c:124
+#, fuzzy
+msgid "Belarus (be_BY)"
+msgstr "ബെലാറസ്, റൂബിള്സ്‌"
+
+#: ../goffice/gtk/go-locale-sel.c:125
+#, fuzzy
+msgid "Bulgaria (bg_BG)"
+msgstr "ബള്‌ഗേറിയ, ലവ"
+
+#: ../goffice/gtk/go-locale-sel.c:126
+#, fuzzy
+msgid "Bangladesh (bn_BD)"
+msgstr "ബംഗ്ളാദേശ്, ധാക്ക"
+
+#: ../goffice/gtk/go-locale-sel.c:127
+msgid "India/Bengali (bn_IN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:128
+msgid "France/Breton (br_FR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:129
+#, fuzzy
+msgid "Bosnia and Herzegowina (bs_BA)"
+msgstr "ബോസ്നിയ ആന്ഡ് ഹെ‌ര്സിഗോവിന, കണ്‌വ‌ര്ട്ടിബിള് മാ‌ര്ക്ക"
+
+#: ../goffice/gtk/go-locale-sel.c:130
+msgid "Spain/Catalan (ca_ES)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:131
+#, fuzzy
+msgid "Czech Republic (cs_CZ)"
+msgstr "ചെക്ക് റിപ്പബ്ളിക്ക്, കൊറൂണി"
+
+#: ../goffice/gtk/go-locale-sel.c:132
+msgid "Great Britain/Welsh (cy_GB)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:133
+#, fuzzy
+msgid "Denmark (da_DK)"
+msgstr "ഡെന്മാര്ക്ക്, റോണര്"
+
+#: ../goffice/gtk/go-locale-sel.c:134
+msgid "Austria (de_AT)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:135
+msgid "Belgium/German (de_BE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:136
+#, fuzzy
+msgid "Switzerland/German (de_CH)"
+msgstr "സ്വിറ്റ്സ‌ര്ലാന്ഡ്, ഫ്രാങ്ക്സ്"
+
+#: ../goffice/gtk/go-locale-sel.c:137
+msgid "Germany (de_DE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:138
+msgid "Luxembourg/German (de_LU)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:139
+msgid "Greece (el_GR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:140
+msgid "Australia (en_AU)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:141
+msgid "Botswana (en_BW)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:142
+msgid "Canada/English (en_CA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:143
+msgid "Great Britain (en_GB)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:144
+msgid "Hong Kong/English (en_HK)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:145
+msgid "Ireland (en_IE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:146
+msgid "India/English (en_IN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:147
+#, fuzzy
+msgid "New Zealand (en_NZ)"
+msgstr "ന്യ‌ൂസിലാന്റ്, ഡോളേഴ്സ്"
+
+#: ../goffice/gtk/go-locale-sel.c:148
+#, fuzzy
+msgid "Philippines (en_PH)"
+msgstr "ഫിലിപ്പൈന്‌സ്, പെസോസ്"
+
+#: ../goffice/gtk/go-locale-sel.c:149
+msgid "Singapore/English (en_SG)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:150
+msgid "United States/English (en_US)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:151
+msgid "South Africa/English (en_ZA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:152
+msgid "Zimbabwe (en_ZW)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:153
+msgid "Esperanto (eo_EO)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:154
+#, fuzzy
+msgid "Argentina (es_AR)"
+msgstr "അര്‍ജന്റീന, പെസോസ്"
+
+#: ../goffice/gtk/go-locale-sel.c:155
+msgid "Bolivia (es_BO)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:156
+#, fuzzy
+msgid "Chile (es_CL)"
+msgstr "ചിലി, പെസോസ്"
+
+#: ../goffice/gtk/go-locale-sel.c:157
+#, fuzzy
+msgid "Colombia (es_CO)"
+msgstr "കൊളംബിയ, പെസോസ്‌"
+
+#: ../goffice/gtk/go-locale-sel.c:158
+#, fuzzy
+msgid "Costa Rica (es_CR)"
+msgstr "കൊസ്റ്ററിക്ക, കോളോണ്സ്"
+
+#: ../goffice/gtk/go-locale-sel.c:159
+#, fuzzy
+msgid "Dominican Republic (es_DO)"
+msgstr "ഡൊമിനിയ്‌ക്കന് റിപ്പബ്ളിക്ക്, പെസോസ്"
+
+#: ../goffice/gtk/go-locale-sel.c:160
+msgid "Ecuador (es_EC)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:161
+msgid "Spain (es_ES)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:162
+#, fuzzy
+msgid "Guatemala (es_GT)"
+msgstr "ഗോട്ടിമാല"
+
+#: ../goffice/gtk/go-locale-sel.c:163
+#, fuzzy
+msgid "Honduras (es_HN)"
+msgstr "ഹോണ്‌ഡൂറാസ്, ലംപിരാസ്"
+
+#: ../goffice/gtk/go-locale-sel.c:164
+#, fuzzy
+msgid "Mexico (es_MX)"
+msgstr "മെക്സിക്കോ, പെസോസ്"
+
+#: ../goffice/gtk/go-locale-sel.c:165
+msgid "Nicaragua (es_NI)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:166
+msgid "Panama (es_PA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:167
+msgid "Peru (es_PE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:168
+msgid "Puerto Rico (es_PR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:169
+msgid "Paraguay (es_PY)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:170
+#, fuzzy
+msgid "El Salvador (es_SV)"
+msgstr "എല്‌ സാല്‌വഡോര്, കോളോണ്സ്‌"
+
+#: ../goffice/gtk/go-locale-sel.c:171
+msgid "United States/Spanish (es_US)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:172
+msgid "Uruguay (es_UY)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:173
+msgid "Venezuela (es_VE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:174
+msgid "Estonia (et_EE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:175
+msgid "Spain/Basque (eu_ES)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:176
+msgid "Iran (fa_IR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:177
+msgid "Finland/Finnish (fi_FI)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:178
+msgid "Faroe Islands (fo_FO)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:179
+msgid "Belgium/French (fr_BE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:180
+msgid "Canada/French (fr_CA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:181
+#, fuzzy
+msgid "Switzerland/French (fr_CH)"
+msgstr "സ്വിറ്റ്സ‌ര്ലാന്ഡ്, ഫ്രാങ്ക്സ്"
+
+#: ../goffice/gtk/go-locale-sel.c:182
+msgid "France (fr_FR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:183
+msgid "Ireland/Gaelic (ga_IE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:184
+msgid "Great Britain/Scottish Gaelic (gd_GB)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:185
+msgid "Spain/Galician (gl_ES)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:186
+msgid "Great Britain/Manx Gaelic (gv_GB)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:187
+msgid "India/Hindu (hi_IN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:188
+msgid "Croatia (hr_HR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:189
+msgid "Hungary (hu_HU)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:190
+#, fuzzy
+msgid "Armenia (hy_AM)"
+msgstr "അര്‌മേനിയന്‌(ARMSCII-8)"
+
+#: ../goffice/gtk/go-locale-sel.c:191
+msgid "(i18n)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:192
+#, fuzzy
+msgid "Indonesia (id_ID)"
+msgstr "ഇന്‌ഡോനേഷ്യ"
+
+#: ../goffice/gtk/go-locale-sel.c:193
+msgid "Iceland (is_IS)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:194
+msgid "(iso14651_t1)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:195
+msgid "Switzerland/Italian (it_CH)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:196
+msgid "Italy (it_IT)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:197
+msgid "Israel/Hebrew (iw_IL)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:198
+#, fuzzy
+msgid "Japan (ja_JP)"
+msgstr "ജാപ്പനിസ്(EUC-JP)"
+
+#: ../goffice/gtk/go-locale-sel.c:199
+#, fuzzy
+msgid "Georgia (ka_GE)"
+msgstr "ജോര്‌ജ്ജിയന്"
+
+#: ../goffice/gtk/go-locale-sel.c:200
+msgid "Greenland (kl_GL)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:201
+#, fuzzy
+msgid "Korea (ko_KR)"
+msgstr "കൊറിയന്‌(EUC-KR)"
+
+#: ../goffice/gtk/go-locale-sel.c:202
+msgid "Great Britain/Cornish (kw_GB)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:203
+#, fuzzy
+msgid "Lithuania (lt_LT)"
+msgstr "ലിത്വാനിയ, ലിറ്റായ്"
+
+#: ../goffice/gtk/go-locale-sel.c:204
+#, fuzzy
+msgid "Latvia (lv_LV)"
+msgstr "ലാത്‌വിയ,ലാറ്റി"
+
+#: ../goffice/gtk/go-locale-sel.c:205
+msgid "New Zealand/Maori (mi_NZ)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:206
+msgid "Macedonia (mk_MK)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:207
+msgid "India/Marathi (mr_IN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:208
+msgid "Malaysia (ms_MY)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:209
+msgid "Malta (mt_MT)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:210
+msgid "Belgium/Flemish (nl_BE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:211
+msgid "The Netherlands (nl_NL)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:212
+msgid "Norway/Nynorsk (nn_NO)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:213
+msgid "Norway/Bokmal (no_NO)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:214
+msgid "France/Occitan (oc_FR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:215
+msgid "Poland (pl_PL)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:216
+msgid "Brazil (pt_BR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:217
+msgid "Portugal (pt_PT)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:218
+msgid "Romania (ro_RO)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:219
+msgid "Russia (ru_RU)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:220
+msgid "Ukraine/Russian (ru_UA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:221
+msgid "Norway/Saami (se_NO)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:222
+#, fuzzy
+msgid "Slovakia (sk_SK)"
+msgstr "സ്ളോവാക്കിയ, കൊറൂണി"
+
+#: ../goffice/gtk/go-locale-sel.c:223
+#, fuzzy
+msgid "Slovenia (sl_SI)"
+msgstr "സ്ലോവീനിയ, ഡോളേഴ്സ്"
+
+#: ../goffice/gtk/go-locale-sel.c:224
+#, fuzzy
+msgid "Albania (sq_AL)"
+msgstr "അല്‌ബേനിയ. ലേക്ക്"
+
+#: ../goffice/gtk/go-locale-sel.c:225
+msgid "Yugoslavia (sr_YU)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:226
+msgid "Finland/Swedish (sv_FI)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:227
+msgid "Sweden (sv_SE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:228
+msgid "India/Tamil (ta_IN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:229
+msgid "India/Telugu (te_IN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:230
+#, fuzzy
+msgid "Tajikistan (tg_TJ)"
+msgstr "താജ്കിസ്ഥാന്, റൂബിള്സ്‌"
+
+#: ../goffice/gtk/go-locale-sel.c:231
+#, fuzzy
+msgid "Thailand (th_TH)"
+msgstr "തായ്‌ലന്റ്, ബാഹ്ട്ട്"
+
+#: ../goffice/gtk/go-locale-sel.c:232
+msgid "Eritrea (ti_ER)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:233
+msgid "Ethiopia/Tigrinya (ti_ET)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:234
+msgid "Philippines/Tagalog (tl_PH)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:235
+msgid "Turkey (tr_TR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:236
+msgid "Russia/Tatar (tt_RU)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:237
+msgid "Ukraine (uk_UA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:238
+#, fuzzy
+msgid "Pakistan (ur_PK)"
+msgstr "പാകിസ്ഥാന്, റുപ്പീസ്‌"
+
+#: ../goffice/gtk/go-locale-sel.c:239
+msgid "Uzbekistan (uz_UZ)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:240
+#, fuzzy
+msgid "Vietnam (vi_VN)"
+msgstr "വിയറ്ര്നാമിസ്"
+
+#: ../goffice/gtk/go-locale-sel.c:241
+msgid "Belgium/Walloon (wa_BE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:242
+msgid "United States/Yiddish (yi_US)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:243
+msgid "China (zh_CN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:244
+msgid "Hong Kong/Chinese (zh_HK)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:245
+msgid "Singapore/Chinese (zh_SG)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:246
+msgid "Taiwan (zh_TW)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:466
+#, fuzzy
+msgid "Current Locale: "
+msgstr "സജീവ മൂല്യം:‌"
+
+#: ../goffice/gtk/go-optionmenu.c:418
+#, fuzzy
+msgid "Menu"
+msgstr "നമ്പര്‌"
+
+#: ../goffice/gtk/go-optionmenu.c:419
+msgid "The menu of options"
+msgstr ""
+
+#: ../goffice/gtk/go-palette.c:373
+#, fuzzy
+msgid "Custom..."
+msgstr "യഥേഷ്ടം"
+
+#: ../goffice/gtk/go-rotation-sel.ui.h:1
+#, fuzzy
+msgid "<b>Orientation</b>"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#: ../goffice/gtk/go-rotation-sel.ui.h:2
+msgid "A_ngle:"
+msgstr ""
+
+#: ../goffice/gtk/goffice-gtk.c:140
+#, c-format
+msgid "Unable to open file '%s'"
+msgstr "'%s'രചന തുറ‍ക്കാന്‌ കഴിയുന്നില്ല."
+
+#: ../goffice/gtk/goffice-gtk.c:555 ../goffice/utils/go-style.c:152
+#, c-format
+msgid "%d x %d"
+msgstr ""
+
+#: ../goffice/gtk/goffice-gtk.c:590
+#, fuzzy
+msgid "All Files"
+msgstr "ശേഖരം"
+
+#: ../goffice/gtk/goffice-gtk.c:595
+#, fuzzy
+msgid "Images"
+msgstr "ചിത്രം..."
+
+#: ../goffice/gtk/goffice-gtk.c:639
+#, fuzzy
+msgid "Select an Image"
+msgstr "മുഴുവന്‌ നിരകളും തെരഞ്ഞെടുക്കുക"
+
+#: ../goffice/gtk/goffice-gtk.c:718
+#, fuzzy
+msgid "Save as"
+msgstr "സംരംക്ഷിക്കുക"
+
+#: ../goffice/gtk/goffice-gtk.c:788
+msgid ""
+"The given file extension does not match the chosen file type. Do you want to "
+"use this name anyway?"
+msgstr ""
+
+#: ../goffice/gtk/goffice-gtk.c:1005
+#, c-format
+msgid ""
+"%s\n"
+"is a directory name"
+msgstr ""
+
+#: ../goffice/gtk/goffice-gtk.c:1009
+#, c-format
+msgid ""
+"You do not have permission to save to\n"
+"%s"
+msgstr ""
+
+#: ../goffice/gtk/goffice-gtk.c:1019
+#, fuzzy, c-format
+msgid ""
+"A file called <i>%s</i> already exists in %s.\n"
+"\n"
+"Do you want to save over it?"
+msgstr ""
+"പ്രവ‌ര്ത്തിപുസ്തകം %s നിലനില്‌ക്കുന്നുണ്ട്.\n"
+" മാറ്റിയെഴുതണോ?"
+
+#: ../goffice/math/go-distribution.c:68
+msgid "Uniform"
+msgstr ""
+
+#: ../goffice/math/go-distribution.c:69
+msgid "Cauchy"
+msgstr ""
+
+#: ../goffice/math/go-distribution.c:70
+msgid "Weibull"
+msgstr ""
+
+#: ../goffice/math/go-distribution.c:71
+#, fuzzy
+msgid "Lognormal"
+msgstr "സാധാരണ"
+
+#: ../goffice/math/go-distribution.c:155 ../goffice/math/go-distribution.c:156
+#, fuzzy
+msgid "Location"
+msgstr "ദിശ:"
+
+#: ../goffice/math/go-distribution.c:693 ../goffice/math/go-distribution.c:805
+#, fuzzy
+msgid "Shape"
+msgstr "ഉദ്ദേശ്യം:"
+
+#: ../goffice/math/go-distribution.c:694 ../goffice/math/go-distribution.c:806
+#, fuzzy
+msgid "Shape factor"
+msgstr "സ്ഥലശൈലി"
+
+#. The first column has three letter acronyms
+#. * for each currency.  They MUST start with '[$'
+#. * The second column has the long names of the currencies.
+#.
+#. 2002/08/04 Updated to match iso 4217
+#: ../goffice/utils/formats.c:363
+msgid "United Arab Emirates, Dirhams"
+msgstr "യുണൈറ്റഡ് അറബ് എമിറൈറ്റ്സ്, ദിറം"
+
+#: ../goffice/utils/formats.c:364
+msgid "Afghanistan, Afghanis"
+msgstr "അഫ്ഘാനിസ്ഥാന്, അഫ്ഗാനിസ്"
+
+#: ../goffice/utils/formats.c:365
+msgid "Albania, Leke"
+msgstr "അല്‌ബേനിയ. ലേക്ക്"
+
+#: ../goffice/utils/formats.c:366
+msgid "Armenia, Drams"
+msgstr "അര്‍മേനിയ, ഡ്രാംസ്"
+
+#: ../goffice/utils/formats.c:367
+msgid "Netherlands Antilles, Guilders"
+msgstr "നെത‌ര്ലന്ഡ്സ് ആന്ഡില്സ്, ഗ്വില്ഡേഴ്സ്"
+
+#: ../goffice/utils/formats.c:368
+msgid "Angola, Kwanza"
+msgstr "അംഗോള, വാന്സ"
+
+#: ../goffice/utils/formats.c:369
+msgid "Argentina, Pesos"
+msgstr "അര്‍ജന്റീന, പെസോസ്"
+
+#: ../goffice/utils/formats.c:370
+msgid "Australia, Dollars"
+msgstr "ഓസ്‌ട്രേലിയ, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:371
+msgid "Aruba, Guilders"
+msgstr "അറുബ, ഗ്വില്ഡേഴ്സ്"
+
+#: ../goffice/utils/formats.c:372
+msgid "Azerbaijan, Manats"
+msgstr "അസ‌ര്‌ബൈജാന്, മണറ്റ്സ്"
+
+#: ../goffice/utils/formats.c:373
+msgid "Bosnia and Herzegovina, Convertible Marka"
+msgstr "ബോസ്നിയ ആന്ഡ് ഹെ‌ര്സിഗോവിന, കണ്‌വ‌ര്ട്ടിബിള് മാ‌ര്ക്ക"
+
+#: ../goffice/utils/formats.c:374
+msgid "Barbados, Dollars"
+msgstr "ബാര്ബഡോസ്, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:375
+msgid "Bangladesh, Taka"
+msgstr "ബംഗ്ളാദേശ്, ധാക്ക"
+
+#: ../goffice/utils/formats.c:376
+msgid "Bulgaria, Leva"
+msgstr "ബള്‌ഗേറിയ, ലവ"
+
+#: ../goffice/utils/formats.c:377
+msgid "Bahrain, Dinars"
+msgstr "ബഹറിന്, ദിനാഴ്സ്"
+
+#: ../goffice/utils/formats.c:378
+msgid "Burundi, Francs"
+msgstr "ബറുന്ഡി, ഫര്ാങ്ക്സ്"
+
+#: ../goffice/utils/formats.c:379
+msgid "Bermuda, Dollars"
+msgstr "ബെ‌ര്മുഡ, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:380
+msgid "Brunei Darussalam, Dollars"
+msgstr "ബ്ര‌ൂണയ് ഡാറുസ്സലാം, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:381
+msgid "Bolivia, Bolivianos"
+msgstr "ബൊളീവിയ, ബൊളിവീയന്സ്"
+
+#: ../goffice/utils/formats.c:382
+msgid "Brazil, Brazil Real"
+msgstr "ബ്രസീല്, ബ്രസീല് റീല്"
+
+#: ../goffice/utils/formats.c:383
+msgid "Bahamas, Dollars"
+msgstr "ബഹാമാസ്, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:384
+msgid "Bhutan, Ngultrum"
+msgstr "ഭൂട്ടാന്, ഗുല്‌ട്രം"
+
+#: ../goffice/utils/formats.c:385
+msgid "Botswana, Pulas"
+msgstr "ബോട്സ്വാന"
+
+#: ../goffice/utils/formats.c:386
+msgid "Belarus, Rubles"
+msgstr "ബെലാറസ്, റൂബിള്സ്‌"
+
+#: ../goffice/utils/formats.c:387
+msgid "Belize, Dollars"
+msgstr "ബെലിസ്, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:388
+msgid "Canada, Dollars"
+msgstr "ക്യാനഡ, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:389
+msgid "Congo/Kinshasa, Congolese Francs"
+msgstr ""
+
+#: ../goffice/utils/formats.c:390
+msgid "Switzerland, Francs"
+msgstr "സ്വിറ്റ്സ‌ര്ലാന്ഡ്, ഫ്രാങ്ക്സ്"
+
+#: ../goffice/utils/formats.c:391
+msgid "Chile, Pesos"
+msgstr "ചിലി, പെസോസ്"
+
+#: ../goffice/utils/formats.c:392
+msgid "China, Yuan Renminbi"
+msgstr "ചൈന, യുവാന് റെന്മിന്ബി"
+
+#: ../goffice/utils/formats.c:393
+msgid "Colombia, Pesos"
+msgstr "കൊളംബിയ, പെസോസ്‌"
+
+#: ../goffice/utils/formats.c:394
+msgid "Costa Rica, Colones"
+msgstr "കൊസ്റ്ററിക്ക, കോളോണ്സ്"
+
+#: ../goffice/utils/formats.c:395
+msgid "Cuba, Pesos"
+msgstr "ക്യൂബ, പെസോസ്"
+
+#: ../goffice/utils/formats.c:396
+msgid "Cape Verde, Escudos"
+msgstr "കേപ് വെ‌ര്‌ഡെ, സിഡോസ്"
+
+#: ../goffice/utils/formats.c:397
+msgid "Cyprus, Pounds"
+msgstr "സൈപ്രസ്, പൌണ്സ്"
+
+#: ../goffice/utils/formats.c:398
+msgid "Czech Republic, Koruny"
+msgstr "ചെക്ക് റിപ്പബ്ളിക്ക്, കൊറൂണി"
+
+#: ../goffice/utils/formats.c:399
+msgid "Djibouti, Francs"
+msgstr "ജിബൂട്ടി, ഫ്രാങ്ക്സ്"
+
+#: ../goffice/utils/formats.c:400
+msgid "Denmark, Kroner"
+msgstr "ഡെന്മാര്ക്ക്, റോണര്"
+
+#: ../goffice/utils/formats.c:401
+msgid "Dominican Republic, Pesos"
+msgstr "ഡൊമിനിയ്‌ക്കന് റിപ്പബ്ളിക്ക്, പെസോസ്"
+
+#: ../goffice/utils/formats.c:402
+msgid "Algeria, Algeria Dinars"
+msgstr "അല്‌ജീരിയ, അല്‌ജീരിയ ഡിനാര്സ്"
+
+#: ../goffice/utils/formats.c:403
+msgid "Estonia, Krooni"
+msgstr "ഇസ്റ്റോനിയ, റൂണി"
+
+#: ../goffice/utils/formats.c:404
+msgid "Egypt, Pounds"
+msgstr "ഈജിപ്റ്റ്, പൌണ്സ്"
+
+#: ../goffice/utils/formats.c:405
+msgid "Eritrea, Nakfa"
+msgstr "എറിട്രിയ, നാക്ഫ"
+
+#: ../goffice/utils/formats.c:406
+msgid "Ethiopia, Birr"
+msgstr "എത്യോപ്യ, ബിര്"
+
+#: ../goffice/utils/formats.c:407
+msgid "Euro Member Countries, Euro"
+msgstr ""
+
+#: ../goffice/utils/formats.c:408
+msgid "Fiji, Dollars"
+msgstr "ഫിജി, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:409
+msgid "Falkland Islands (Malvinas), Pounds"
+msgstr "ഫാക്ക്‌ലാന്റ് ഐലന്റ്സ് (മാല്‌വിനാസ്), പൌണ്സ്"
+
+#: ../goffice/utils/formats.c:410
+msgid "United Kingdom, Pounds"
+msgstr "യുണൈറ്റഡ് കിംഗ്ഡം, പൌണ്സ്"
+
+#: ../goffice/utils/formats.c:411
+msgid "Georgia, Lari"
+msgstr "ജോര്‍ജ്ജിയ, ലാരി"
+
+#: ../goffice/utils/formats.c:412
+msgid "Guernsey, Pounds"
+msgstr ""
+
+#: ../goffice/utils/formats.c:413
+msgid "Ghana, Cedis"
+msgstr "ഘാന, സെഡിസ്"
+
+#: ../goffice/utils/formats.c:414
+msgid "Gibraltar, Pounds"
+msgstr "ജിബ്രാള്‌ട്ടര്, പൌണ്സ്‌"
+
+#: ../goffice/utils/formats.c:415
+msgid "Gambia, Dalasi"
+msgstr "ഗാമ്പിയ, ഡലാസി"
+
+#: ../goffice/utils/formats.c:416
+msgid "Guinea, Francs"
+msgstr "ഗിനിയ, ഫ്രാങ്ക്സ്"
+
+#: ../goffice/utils/formats.c:417
+msgid "Guatemala, Quetzales"
+msgstr "ഗോട്ടിമാല"
+
+#: ../goffice/utils/formats.c:418
+msgid "Guyana, Dollars"
+msgstr "ഗയാന, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:419
+msgid "Hong Kong, Dollars"
+msgstr "ഹോംകോംഗ്, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:420
+msgid "Honduras, Lempiras"
+msgstr "ഹോണ്‌ഡൂറാസ്, ലംപിരാസ്"
+
+#: ../goffice/utils/formats.c:421
+msgid "Croatia, Kuna"
+msgstr "ക്രൊയോഷ്യസ ക്യൂണ"
+
+#: ../goffice/utils/formats.c:422
+msgid "Haiti, Gourdes"
+msgstr "ഹെയ‌്തി, ഗോര്ഡ്സ്"
+
+#: ../goffice/utils/formats.c:423
+msgid "Hungary, Forint"
+msgstr "ഹംഗേറി, ഫോറിന്റ്"
+
+#: ../goffice/utils/formats.c:424
+msgid "Indonesia, Rupiahs"
+msgstr "ഇന്‌ഡോനേഷ്യ"
+
+#: ../goffice/utils/formats.c:425
+msgid "Israel, New Shekels"
+msgstr "ഇസ്രായേല്, പുതിയ ഷെക്കല്സ്"
+
+#: ../goffice/utils/formats.c:426
+msgid "Isle of Man, Pounds"
+msgstr "ഐല് ഓഫ് മാന്, പൌണ്സ്"
+
+#: ../goffice/utils/formats.c:427
+msgid "India, Rupees"
+msgstr "ഇന്ഡ്യ, റുപ്പീസ്"
+
+#: ../goffice/utils/formats.c:428
+msgid "Iraq, Dinars"
+msgstr "ഇറാഖ്, ഡിനാര്സ്"
+
+#: ../goffice/utils/formats.c:429
+msgid "Iran, Rials"
+msgstr "ഇറാന്, റിയാല്സ്"
+
+#: ../goffice/utils/formats.c:430
+msgid "Iceland, Kronur"
+msgstr "ഐസ്‍ലാന്റ്, റൊണൂ‌ര്"
+
+#: ../goffice/utils/formats.c:431
+msgid "Jersey, Pounds"
+msgstr "ജെ‌ര്സി, പൌണ്സ്"
+
+#: ../goffice/utils/formats.c:432
+msgid "Jamaica, Dollars"
+msgstr "ജമേയ്‌ക്ക, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:433
+msgid "Jordan, Dinars"
+msgstr "ജോ‌ര്ദാന്, ഡിനാര്‌സ്"
+
+#: ../goffice/utils/formats.c:434
+msgid "Japan, Yen"
+msgstr "ജാപ്പാന്, യെന്"
+
+#: ../goffice/utils/formats.c:435
+msgid "Kenya, Shillings"
+msgstr "കെനിയ, ഷില്ലിംഗ്സ്"
+
+#: ../goffice/utils/formats.c:436
+msgid "Kyrgyzstan, Soms"
+msgstr "കിര്‌ഗിസ്ഥാന്, സോംസ്‌"
+
+#: ../goffice/utils/formats.c:437
+msgid "Cambodia, Riels"
+msgstr "കമ്പോഡിയ, റിയാല്സ്"
+
+#: ../goffice/utils/formats.c:438
+msgid "Comoros, Francs"
+msgstr "കൊമറോസ്, ഫ്രാങ്ക്സ്"
+
+#: ../goffice/utils/formats.c:439
+msgid "Korea (North), Won"
+msgstr "വടക്കന് കൊറിയ, ഓണ്"
+
+#: ../goffice/utils/formats.c:440
+msgid "Korea (South), Won"
+msgstr "തെക്കന് കൊറിയ, ഓണ്"
+
+#: ../goffice/utils/formats.c:441
+msgid "Kuwait, Dinars"
+msgstr "കുവൈറ്റ്, ദിനാര്സ്"
+
+#: ../goffice/utils/formats.c:442
+msgid "Cayman Islands, Dollars"
+msgstr "ക്യാമന്‌ ഐലന്റ്സ്, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:443
+msgid "Kazakstan, Tenge"
+msgstr "ഖസാക്കിസ്ഥാന്, ടെഞ്ച്‌"
+
+#: ../goffice/utils/formats.c:444
+msgid "Laos, Kips"
+msgstr "ലാവോസ്, കിപ്സ്"
+
+#: ../goffice/utils/formats.c:445
+msgid "Lebanon, Pounds"
+msgstr "ലെബനന്, പൌണ്സ്‌"
+
+#: ../goffice/utils/formats.c:446
+msgid "Sri Lanka, Rupees"
+msgstr "ശ്രീലങ്ക, റുപ്പീസ്"
+
+#: ../goffice/utils/formats.c:447
+msgid "Liberia, Dollars"
+msgstr "ലൈബീരിയ, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:448
+msgid "Lesotho, Maloti"
+msgstr "ലെസോത്തോ, മാലോട്ടി"
+
+#: ../goffice/utils/formats.c:449
+msgid "Lithuania, Litai"
+msgstr "ലിത്വാനിയ, ലിറ്റായ്"
+
+#: ../goffice/utils/formats.c:450
+msgid "Latvia, Lati"
+msgstr "ലാത്‌വിയ,ലാറ്റി"
+
+#: ../goffice/utils/formats.c:451
+msgid "Libya, Dinars"
+msgstr "ലിബിയ, ദിനാര്സ്"
+
+#: ../goffice/utils/formats.c:452
+msgid "Morocco, Dirhams"
+msgstr "മൊറോക്കോ, ദിറംസ്"
+
+#: ../goffice/utils/formats.c:453
+msgid "Moldova, Lei"
+msgstr "മോള്‌ഡോവാ, ലയി"
+
+#: ../goffice/utils/formats.c:454
+msgid "Madagascar, Malagasy Francs"
+msgstr "മഡഗാസ്ക‌‌ര്, മലഗാസി ഫ്രാങ്ക്സ്"
+
+#: ../goffice/utils/formats.c:455
+msgid "Macedonia, Denars"
+msgstr "മാസിഡോണിയ ദിനാര്സ്"
+
+#: ../goffice/utils/formats.c:456
+msgid "Myanmar (Burma), Kyats"
+msgstr "മ്യാന്മ‌ര് (ബ‌ര്മ്മ), ക്യാറ്റ്സ്"
+
+#: ../goffice/utils/formats.c:457
+msgid "Mongolia, Tugriks"
+msgstr "മംഗോളിയ, തുഗ്രിക്സ്"
+
+#: ../goffice/utils/formats.c:458
+msgid "Macau, Patacas"
+msgstr "മക്കാവു, പറ്റക്കാസ്"
+
+#: ../goffice/utils/formats.c:459
+msgid "Mauritania, Ouguiyas"
+msgstr "മൌരിട്ടാനിയ,"
+
+#: ../goffice/utils/formats.c:460
+msgid "Malta, Liri"
+msgstr "മാള്‌ട്ട, ലിറി"
+
+#: ../goffice/utils/formats.c:461
+msgid "Mauritius, Rupees"
+msgstr "മൌറീഷ്യസ്, റുപ്പീസ്"
+
+#: ../goffice/utils/formats.c:462
+msgid "Maldives (Maldive Islands), Rufiyaa"
+msgstr "മാലിദ്വീപ്സ് (മാലി ദ്വീപുകള്), റുഫിയാ"
+
+#: ../goffice/utils/formats.c:463
+msgid "Malawi, Kwachas"
+msgstr "മലാവി, ക്വാച്ചസ്"
+
+#: ../goffice/utils/formats.c:464
+msgid "Mexico, Pesos"
+msgstr "മെക്സിക്കോ, പെസോസ്"
+
+#: ../goffice/utils/formats.c:465
+msgid "Malaysia, Ringgits"
+msgstr "മലേഷ്യ, റിങ്കിറ്റ്സ്"
+
+#: ../goffice/utils/formats.c:466
+msgid "Mozambique, Meticais"
+msgstr "മൊസാംബിക്, മെറ്റിഷ്യാസ്"
+
+#: ../goffice/utils/formats.c:467
+msgid "Namibia, Dollars"
+msgstr "നമീബിയ, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:468
+msgid "Nigeria, Nairas"
+msgstr "നൈജീരിയ, നൈറാസ്"
+
+#: ../goffice/utils/formats.c:469
+msgid "Nicaragua, Gold Cordobas"
+msgstr "നിക്കരാഗ്വ, ഗോള്ഡ് കോ‌ര്ഡബസ്"
+
+#: ../goffice/utils/formats.c:470
+msgid "Norway, Krone"
+msgstr "നോ‌‌ര്‌വ്വേ, ക്രോണ്"
+
+#: ../goffice/utils/formats.c:471
+msgid "Nepal, Nepal Rupees"
+msgstr "നേപ്പാള്, നേപ്പാള് റുപ്പീസ്"
+
+#: ../goffice/utils/formats.c:472
+msgid "New Zealand, Dollars"
+msgstr "ന്യ‌ൂസിലാന്റ്, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:473
+msgid "Oman, Rials"
+msgstr "ഒമാന്, റിയാല്സ്"
+
+#: ../goffice/utils/formats.c:474
+msgid "Panama, Balboa"
+msgstr "പനാമ, ബാല്‌ബോ"
+
+#: ../goffice/utils/formats.c:475
+msgid "Peru, Nuevos Soles"
+msgstr "പെറു, ന്യൂവോസ് സോള്സ്"
+
+#: ../goffice/utils/formats.c:476
+msgid "Papua New Guinea, Kina"
+msgstr "പപ്വാ ന്യ‌ു ഗിനി, കിനാ"
+
+#: ../goffice/utils/formats.c:477
+msgid "Philippines, Pesos"
+msgstr "ഫിലിപ്പൈന്‌സ്, പെസോസ്"
+
+#: ../goffice/utils/formats.c:478
+msgid "Pakistan, Rupees"
+msgstr "പാകിസ്ഥാന്, റുപ്പീസ്‌"
+
+#: ../goffice/utils/formats.c:479
+#, fuzzy
+msgid "Poland, Zlotys"
+msgstr "പോളണ്ട്, ലോട്ടിക്"
+
+#: ../goffice/utils/formats.c:480
+msgid "Paraguay, Guarani"
+msgstr "പരാഗ്വേ, ഗുറാനി"
+
+#: ../goffice/utils/formats.c:481
+msgid "Qatar, Rials"
+msgstr "ഖത്തര്, റിയാല്സ്"
+
+#: ../goffice/utils/formats.c:482
+msgid "Romania, Lei"
+msgstr "റൊമേനിയ, ലി"
+
+#: ../goffice/utils/formats.c:483
+msgid "Russia, Rubles"
+msgstr "റഷ്യ, റൂബിള്സ്"
+
+#: ../goffice/utils/formats.c:484
+msgid "Rwanda, Rwanda Francs"
+msgstr "റുവാണ്ട, റുവാണ്ട ഫ്രാങ്ക്സ്"
+
+#: ../goffice/utils/formats.c:485
+msgid "Saudi Arabia, Riyals"
+msgstr "സൌദി അറേബ്യ, റിയാല്സ്"
+
+#: ../goffice/utils/formats.c:486
+msgid "Solomon Islands, Dollars"
+msgstr "സോളമന്‌ ഐലന്റ്സ്, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:487
+msgid "Seychelles, Rupees"
+msgstr "സീഷെല്‌സ്, റുപ്പീസ്"
+
+#: ../goffice/utils/formats.c:488
+msgid "Sudan, Dinars"
+msgstr "സുഡാന്, ദിനാര്സ്"
+
+#: ../goffice/utils/formats.c:489
+msgid "Sweden, Kronor"
+msgstr "സ്വീഡന്, ക്രോണോര്"
+
+#: ../goffice/utils/formats.c:490
+msgid "Singapore, Dollars"
+msgstr "സിങ്കപ്പൂര്, ഡോളേഴ്സ്‌"
+
+#: ../goffice/utils/formats.c:491
+msgid "Saint Helena, Pounds"
+msgstr "സെന്റ് ഹെലേന, പൌണ്സ്"
+
+#: ../goffice/utils/formats.c:492
+msgid "Slovenia, Tolars"
+msgstr "സ്ലോവീനിയ, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:493
+msgid "Slovakia, Koruny"
+msgstr "സ്ളോവാക്കിയ, കൊറൂണി"
+
+#: ../goffice/utils/formats.c:494
+msgid "Sierra Leone, Leones"
+msgstr "സിയറ ലിയോണ്‌, ലിയോണ്സ്"
+
+#: ../goffice/utils/formats.c:495
+msgid "Somalia, Shillings"
+msgstr "സോമാലിയ, ഷില്ലിംഗ്സ്"
+
+#: ../goffice/utils/formats.c:496
+msgid "Seborga, Luigini"
+msgstr "സെബോര്ഗ, ല്വിഗിനി"
+
+#: ../goffice/utils/formats.c:497
+msgid "Suriname, Guilders"
+msgstr "സുരിനാം, ഗ്വില്‌ഡേഴ്സ്"
+
+#: ../goffice/utils/formats.c:498
+msgid "Sao Tome and Principe, Dobras"
+msgstr "സാവോ ടോം ആന്റ് പ്രിന്‌സിപ്പി, ദോബ്രാസ്"
+
+#: ../goffice/utils/formats.c:499
+msgid "El Salvador, Colones"
+msgstr "എല്‌ സാല്‌വഡോര്, കോളോണ്സ്‌"
+
+#: ../goffice/utils/formats.c:500
+msgid "Syria, Pounds"
+msgstr "സിറിയ, പൌണ്സ്"
+
+#: ../goffice/utils/formats.c:501
+msgid "Swaziland, Emalangeni"
+msgstr "സ്വാസിലാന്റ്, എമലാഞ്ചനി"
+
+#: ../goffice/utils/formats.c:502
+msgid "Thailand, Baht"
+msgstr "തായ്‌ലന്റ്, ബാഹ്ട്ട്"
+
+#: ../goffice/utils/formats.c:503
+msgid "Tajikistan, Rubles"
+msgstr "താജ്കിസ്ഥാന്, റൂബിള്സ്‌"
+
+#: ../goffice/utils/formats.c:504
+msgid "Turkmenistan, Manats"
+msgstr "തുര്ക്‌മെനിസ്ഥാന്, മണാട്ട്സ്‌"
+
+#: ../goffice/utils/formats.c:505
+msgid "Tunisia, Dinars"
+msgstr "ടുണീഷ്യ, ദിനാര്സ്"
+
+#: ../goffice/utils/formats.c:506
+msgid "Tonga, Pa'anga"
+msgstr "ടോംഗ, പാംഗ"
+
+#: ../goffice/utils/formats.c:507
+msgid "Turkey, Liras"
+msgstr "തുര്ക്കി, ലിറാസ്"
+
+#: ../goffice/utils/formats.c:508
+msgid "Trinidad and Tobago, Dollars"
+msgstr "ട്രിനിഡാഡ് ആന്റ് ടോബാഗോ, ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:509
+msgid "Tuvalu, Tuvalu Dollars"
+msgstr "തുവാലു, തുവാലു ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:510
+msgid "Taiwan, New Dollars"
+msgstr "തൈവാന്, ന്യ‌ൂ ഡോളേഴ്സ്"
+
+#: ../goffice/utils/formats.c:511
+msgid "Tanzania, Shillings"
+msgstr "ടാന്സാനിയ, ഷില്ലിംഗ്സ്"
+
+#: ../goffice/utils/formats.c:512
+msgid "Ukraine, Hryvnia"
+msgstr "ഉക്രയിന്"
+
+#: ../goffice/utils/formats.c:513
+msgid "Uganda, Shillings"
+msgstr ""
+
+#: ../goffice/utils/formats.c:514
+msgid "United States of America, Dollars"
+msgstr ""
+
+#: ../goffice/utils/formats.c:515
+msgid "Uruguay, Pesos"
+msgstr ""
+
+#: ../goffice/utils/formats.c:516
+msgid "Uzbekistan, Sums"
+msgstr ""
+
+#: ../goffice/utils/formats.c:517
+msgid "Venezuela, Bolivares"
+msgstr ""
+
+#: ../goffice/utils/formats.c:518
+msgid "Viet Nam, Dong"
+msgstr ""
+
+#: ../goffice/utils/formats.c:519
+msgid "Vanuatu, Vatu"
+msgstr ""
+
+#: ../goffice/utils/formats.c:520
+msgid "Samoa, Tala"
+msgstr ""
+
+#: ../goffice/utils/formats.c:521
+msgid "Communaute Financiere Africaine BEAC, Francs"
+msgstr ""
+
+#: ../goffice/utils/formats.c:522
+msgid "Silver, Ounces"
+msgstr ""
+
+#: ../goffice/utils/formats.c:523
+msgid "Gold, Ounces"
+msgstr ""
+
+#: ../goffice/utils/formats.c:524
+msgid "East Caribbean Dollars"
+msgstr ""
+
+#: ../goffice/utils/formats.c:525
+msgid "International Monetary Fund (IMF) Special Drawing Rights"
+msgstr ""
+
+#: ../goffice/utils/formats.c:526
+msgid "Communaute Financiere Africaine BCEAO, Francs"
+msgstr ""
+
+#: ../goffice/utils/formats.c:527
+msgid "Palladium, Ounces"
+msgstr ""
+
+#: ../goffice/utils/formats.c:528
+msgid "Comptoirs Francais du Pacifique Francs"
+msgstr ""
+
+#: ../goffice/utils/formats.c:529
+msgid "Platinum, Ounces"
+msgstr ""
+
+#: ../goffice/utils/formats.c:530
+msgid "Yemen, Rials"
+msgstr ""
+
+#: ../goffice/utils/formats.c:531
+msgid "Yugoslavia, New Dinars"
+msgstr ""
+
+#: ../goffice/utils/formats.c:532
+msgid "South Africa, Rand"
+msgstr ""
+
+#: ../goffice/utils/formats.c:533
+msgid "Zambia, Kwacha"
+msgstr ""
+
+#: ../goffice/utils/formats.c:534
+msgid "Zimbabwe, Zimbabwe Dollars"
+msgstr ""
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:439
+msgid "*Long Date Format"
+msgstr ""
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:447
+#, fuzzy
+msgid "*Medium Date Format"
+msgstr "സംഖ്യാരീതികള്‌"
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:455
+msgid "*Short Date Format"
+msgstr ""
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:468
+msgid "*Short Date/Time Format"
+msgstr ""
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:483
+msgid "*Long Time Format"
+msgstr ""
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:495
+#, fuzzy
+msgid "*Medium Time Format"
+msgstr "സംഖ്യാരീതികള്‌"
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:507
+msgid "*Short Time Format"
+msgstr ""
+
+#: ../goffice/utils/go-format.c:541
+msgid "Black"
+msgstr "കറുപ്പ്"
+
+#: ../goffice/utils/go-format.c:542
+msgid "Blue"
+msgstr "നീല"
+
+#: ../goffice/utils/go-format.c:543
+msgid "Cyan"
+msgstr "സിയന്"
+
+#: ../goffice/utils/go-format.c:544
+msgid "Green"
+msgstr "പച്ച"
+
+#: ../goffice/utils/go-format.c:545
+msgid "Magenta"
+msgstr "മജന്ത"
+
+#: ../goffice/utils/go-format.c:546
+msgid "Red"
+msgstr "ചെമപ്പ്"
+
+#: ../goffice/utils/go-format.c:547
+msgid "White"
+msgstr "ധവളം"
+
+#: ../goffice/utils/go-format.c:548
+msgid "Yellow"
+msgstr "മഞ്ഞ"
+
+#: ../goffice/utils/go-format.c:568
+#, fuzzy
+msgid "color"
+msgstr "നിറം:"
+
+#: ../goffice/utils/go-glib-extras.c:836
+msgid "yes"
+msgstr ""
+
+#: ../goffice/utils/go-glib-extras.c:842
+#, fuzzy
+msgid "no"
+msgstr "ഒന്നുമില്ല"
+
+#: ../goffice/utils/go-glib-extras.c:1036
+#, c-format
+msgid "Quoted string not terminated"
+msgstr ""
+
+#: ../goffice/utils/go-glib-extras.c:1043
+#, c-format
+msgid "Syntax error"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:132
+msgid "SVG (vector graphics)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:134
+msgid "PNG (raster graphics)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:136
+msgid "JPEG (photograph)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:138
+msgid "PDF (portable document format)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:140
+msgid "PS (postscript)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:142
+msgid "EMF (extended metafile)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:144
+msgid "WMF (windows metafile)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:147
+msgid "EPS (encapsulated postscript)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:473
+msgid "Image width in pixels"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:477
+msgid "Image height in pixels"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:482
+msgid "GdkPixbuf object from which the GOImage is built"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:86 ../goffice/utils/go-pattern.c:41
+msgid "Solid"
+msgstr "ദൃഢമായ"
+
+#: ../goffice/utils/go-line.c:88
+msgid "Dot"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:90
+msgid "Dash dot"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:92
+msgid "Dash dot dot"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:94
+msgid "Dash dot dot dot"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:96
+msgid "Short dash"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:98
+msgid "Dash"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:100
+msgid "Long dash"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:102
+msgid "Very long dash"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:104
+msgid "Long dash dash"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:106
+msgid "Long dash dash dash"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:120
+msgid "Bezier cubic spline"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:122
+msgid "Closed Bezier cubic spline"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:124
+msgid "Natural cubic spline"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:126
+msgid "Cubic spline with parabolic extrapolation"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:128
+msgid "Cubic spline with cubic extrapolation"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:130
+msgid "Clamped cubic spline"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:132
+msgid "Step at start"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:134
+msgid "Step at end"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:136
+#, fuzzy
+msgid "Step at center"
+msgstr "സ്ഥലശൈലി"
+
+#: ../goffice/utils/go-line.c:138
+msgid "Step to mean"
+msgstr ""
+
+#: ../goffice/utils/go-locale.c:496
+msgid "TRUE"
+msgstr "സത്യം"
+
+#: ../goffice/utils/go-locale.c:497
+msgid "FALSE"
+msgstr "അസത്യം"
+
+#: ../goffice/utils/go-marker.c:75
+#, fuzzy
+msgid "none"
+msgstr "ഒന്നുമില്ല"
+
+#: ../goffice/utils/go-marker.c:76
+msgid "square"
+msgstr ""
+
+#: ../goffice/utils/go-marker.c:77
+#, fuzzy
+msgid "diamond"
+msgstr "ഇന്‌ഡ്യന്‌"
+
+#: ../goffice/utils/go-marker.c:78
+msgid "triangle down"
+msgstr ""
+
+#: ../goffice/utils/go-marker.c:79
+#, fuzzy
+msgid "triangle up"
+msgstr "പരിധി"
+
+#: ../goffice/utils/go-marker.c:80
+#, fuzzy
+msgid "triangle right"
+msgstr "വലതുവശത്തുള്ള പുറംവരകള്‌"
+
+#: ../goffice/utils/go-marker.c:81
+msgid "triangle left"
+msgstr ""
+
+#: ../goffice/utils/go-marker.c:82
+msgid "circle"
+msgstr ""
+
+#: ../goffice/utils/go-marker.c:84
+msgid "cross"
+msgstr ""
+
+#: ../goffice/utils/go-marker.c:85
+#, fuzzy
+msgid "asterisk"
+msgstr "ഒട്ടിപ്പ് ബന്ധം"
+
+#: ../goffice/utils/go-marker.c:86
+#, fuzzy
+msgid "bar"
+msgstr "*മാ‌ര്ച്ച്"
+
+#: ../goffice/utils/go-marker.c:87
+msgid "half bar"
+msgstr ""
+
+#: ../goffice/utils/go-marker.c:88
+msgid "butterfly"
+msgstr ""
+
+#: ../goffice/utils/go-marker.c:89
+msgid "hourglass"
+msgstr ""
+
+#: ../goffice/utils/go-marker.c:90
+msgid "left half bar"
+msgstr ""
+
+#: ../goffice/utils/go-pattern.c:43
+#, fuzzy, no-c-format
+msgid "75% Grey"
+msgstr "75% ചാരനിറം"
+
+#: ../goffice/utils/go-pattern.c:45
+#, fuzzy, no-c-format
+msgid "50% Grey"
+msgstr "50% ചാരനിറം"
+
+#: ../goffice/utils/go-pattern.c:47
+#, fuzzy, no-c-format
+msgid "25% Grey"
+msgstr "25% ചാരനിറം"
+
+#: ../goffice/utils/go-pattern.c:49
+#, fuzzy, no-c-format
+msgid "12.5% Grey"
+msgstr "12.5% ചാരനിറം"
+
+#: ../goffice/utils/go-pattern.c:51
+#, fuzzy, no-c-format
+msgid "6.25% Grey"
+msgstr "6.25% ചാരനിറം"
+
+#: ../goffice/utils/go-pattern.c:52
+msgid "Horizontal Stripe"
+msgstr "തിരശ്ചീന പട്ട"
+
+#: ../goffice/utils/go-pattern.c:53
+msgid "Vertical Stripe"
+msgstr "ലംബപ്പട്ട"
+
+#: ../goffice/utils/go-pattern.c:54
+msgid "Reverse Diagonal Stripe"
+msgstr "വിപരീത വിക‌‌‌‌ര്ണപ്പട്ട"
+
+#: ../goffice/utils/go-pattern.c:55
+msgid "Diagonal Stripe"
+msgstr "വിക‌‌ര്ണ പട്ട"
+
+#: ../goffice/utils/go-pattern.c:56
+msgid "Diagonal Crosshatch"
+msgstr "വിക‌‌ര്ണ രേഖാഖണ‌്ഡം"
+
+#: ../goffice/utils/go-pattern.c:57
+msgid "Thick Diagonal Crosshatch"
+msgstr "കട്ടിയുള്ള വിക‌ര്ണ രേഖാഖണ‌്ഡം"
+
+#: ../goffice/utils/go-pattern.c:58
+msgid "Thin Horizontal Stripe"
+msgstr "നേ‌ര്ത്ത തിരശ്ചീനപ്പട്ട"
+
+#: ../goffice/utils/go-pattern.c:59
+msgid "Thin Vertical Stripe"
+msgstr "നേ‌ര്ത്ത ലംബപ്പട്ട"
+
+#: ../goffice/utils/go-pattern.c:60
+msgid "Thin Reverse Diagonal Stripe"
+msgstr "നേ‌‌ര്ത്ത വിപരീത വിക‌ര്ണപ്പട്ട"
+
+#: ../goffice/utils/go-pattern.c:61
+msgid "Thin Diagonal Stripe"
+msgstr "നേ‌ര്ത്ത വിക‌ര്ണപ്പട്ട"
+
+#: ../goffice/utils/go-pattern.c:62
+msgid "Thin Horizontal Crosshatch"
+msgstr "നേ‌ര്ത്ത തിരശ്ചീന രേഖാഖണ‌്ഡം"
+
+#: ../goffice/utils/go-pattern.c:63
+msgid "Thin Diagonal Crosshatch"
+msgstr "നേ‌ര്ത്ത വിക‌ര്ണ രേഖാഖണ‌്ഡം"
+
+#: ../goffice/utils/go-pattern.c:64
+msgid "Foreground Solid"
+msgstr "പുരോതല ദാ‌‌ര്ഢ്യം"
+
+#: ../goffice/utils/go-pattern.c:65
+msgid "Small Circles"
+msgstr "ചെറിയ വൃത്തങ്ങള്"
+
+#. Applix
+#: ../goffice/utils/go-pattern.c:66
+msgid "Semi Circles"
+msgstr "അ‌ര്ദ്ധ വൃത്തങ്ങള്"
+
+#. Applix
+#: ../goffice/utils/go-pattern.c:67
+msgid "Thatch"
+msgstr "പിണയുക"
+
+#. Applix small thatch
+#: ../goffice/utils/go-pattern.c:68
+msgid "Large Circles"
+msgstr "വലിയ വൃത്തങ്ങള്"
+
+#: ../goffice/utils/go-pattern.c:70
+msgid "Bricks"
+msgstr "കട്ട"
+
+#: ../goffice/utils/go-style.c:583
+#, fuzzy
+msgid "Start:"
+msgstr "അവസ്ഥ"
+
+#: ../goffice/utils/go-style.c:584
+#, fuzzy
+msgid "End:"
+msgstr "ഉം"
+
+#: ../goffice/utils/go-style.c:586
+#, fuzzy
+msgid "Foreground:"
+msgstr "പുരോതലം"
+
+#: ../goffice/utils/go-style.c:587
+#, fuzzy
+msgid "Background:"
+msgstr "പശ്ചാത്തലം"
+
+#: ../goffice/utils/go-style.c:806
+#, fuzzy
+msgid "Markers"
+msgstr "ശ്രേണി"
+
+#: ../goffice/utils/go-style.c:878
+msgid "Font"
+msgstr "അക്ഷരരൂപം"
+
+#: ../goffice/utils/go-style-prefs.ui.h:1
+#, fuzzy
+msgid "<b>Fill</b>"
+msgstr "മാതൃക"
+
+#: ../goffice/utils/go-style-prefs.ui.h:2
+msgid "<b>Line</b>"
+msgstr ""
+
+#: ../goffice/utils/go-style-prefs.ui.h:3
+#, fuzzy
+msgid "<b>Marker</b>"
+msgstr "മാതൃക"
+
+#: ../goffice/utils/go-style-prefs.ui.h:4
+#, fuzzy
+msgid "<b>Outline</b>"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#: ../goffice/utils/go-style-prefs.ui.h:5
+#, fuzzy
+msgid "B_rightness:"
+msgstr "വലത്"
+
+#: ../goffice/utils/go-style-prefs.ui.h:6
+msgid "Bicolor gradient"
+msgstr ""
+
+#: ../goffice/utils/go-style-prefs.ui.h:7
+msgid "Co_lor:"
+msgstr "നിറം:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:10
+#, fuzzy
+msgid "O_utline:"
+msgstr "താഴെയുള്ള പുറംവരകള്‌"
+
+#: ../goffice/utils/go-style-prefs.ui.h:11
+#, fuzzy
+msgid "Pattern"
+msgstr "മാതൃക"
+
+#: ../goffice/utils/go-style-prefs.ui.h:12
+#, fuzzy
+msgid "Sha_pe:"
+msgstr "ഉദ്ദേശ്യം:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:13
+#, fuzzy
+msgid "Si_ze:"
+msgstr "വലിപ്പം:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:14
+#, fuzzy
+msgid "St_yle:"
+msgstr "രീതി"
+
+#: ../goffice/utils/go-style-prefs.ui.h:15
+msgid "Unicolor gradient"
+msgstr ""
+
+#: ../goffice/utils/go-style-prefs.ui.h:16
+#, fuzzy
+msgid "_Background:"
+msgstr "പശ്ചാത്തലം"
+
+#: ../goffice/utils/go-style-prefs.ui.h:17
+#, fuzzy
+msgid "_Direction:"
+msgstr "ദിശ:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:18
+#, fuzzy
+msgid "_Fill:"
+msgstr "ചേര്ച്ച:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:19
+#, fuzzy
+msgid "_Fit:"
+msgstr "ചേര്ച്ച:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:20
+#, fuzzy
+msgid "_Foreground:"
+msgstr "പുരോതലം"
+
+#: ../goffice/utils/go-style-prefs.ui.h:21
+#, fuzzy
+msgid "_Pattern:"
+msgstr "മാതൃക"
+
+#: ../goffice/utils/go-style-prefs.ui.h:23
+#, fuzzy
+msgid "_Size:"
+msgstr "വലിപ്പം:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:26
+#, fuzzy
+msgid "stretched"
+msgstr "അക്ഷരശൈലി:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:27
+msgid "wallpaper"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:41
+msgid "Pattern not found."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:43
+#, fuzzy
+msgid "Invalid pattern."
+msgstr "സാധുതയില്ലാത്ത അടയാളവാക്ക്"
+
+#: ../goffice/utils/regutf8.c:44
+msgid "Invalid collating element."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:45
+msgid "Invalid character class name."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:46
+msgid "Trailing backslash."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:47
+msgid "Invalid back reference."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:48
+msgid "Unmatched left bracket."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:49
+msgid "Parenthesis imbalance."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:50
+msgid "Unmatched \\{."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:51
+msgid "Invalid contents of \\{\\}."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:52
+#, fuzzy
+msgid "Invalid range end."
+msgstr "സാധുതയില്ലാത്ത അടയാളവാക്ക്"
+
+#: ../goffice/utils/regutf8.c:53
+msgid "Out of memory."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:54
+msgid "Invalid repetition operator."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:55
+msgid "Premature end of pattern."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:56
+msgid "Pattern is too big."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:57
+msgid "Unmatched ) or \\)"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:359
+#, c-format
+msgid "Search string must not be empty."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:369
+#, c-format
+msgid "Replacement string must be set."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:381
+#, c-format
+msgid "Invalid search pattern (%s)"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:405
+#, c-format
+msgid "Invalid $-specification in replacement."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:415
+#, c-format
+msgid "Invalid trailing backslash in replacement."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:892
+msgid "Search Text"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:893
+msgid "The text to search for"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:902
+msgid "Replacement Text"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:903
+msgid "The text to replace with"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:911
+msgid "Is Regular Expression"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:912
+msgid "Is the search text a regular expression."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:920
+msgid "Ignore Case"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:921
+msgid "Ignore the case of letters."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:929
+msgid "Preserve Case"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:930
+msgid "Preserve the case of letters."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:938
+msgid "Match Words"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:939
+msgid "Match whole words only."
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-1.5d.c:333
+msgid "How to group multiple series, normal, stacked, as_percentage"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-1.5d.c:338 ../plugins/plot_pie/gog-pie.c:317
+#: ../plugins/plot_xy/gog-xy.c:528
+msgid "In 3d"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-1.5d.c:339
+msgid "Placeholder to allow us to round trip pseudo 3d state"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-1.5d.c:347
+#: ../plugins/plot_barcol/gog-dropbar.c:59
+#: ../plugins/plot_barcol/gog-minmax.c:249 ../plugins/plot_pie/gog-pie.c:336
+#: ../plugins/plot_radar/gog-radar.c:319
+msgid "Labels"
+msgstr "ലിഖിതങ്ങള്‌"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:349
+#: ../plugins/plot_distrib/gog-boxplot.c:404
+#: ../plugins/plot_distrib/gog-histogram.c:190
+#: ../plugins/plot_distrib/gog-probability-plot.c:277
+#: ../plugins/plot_pie/gog-pie.c:338 ../plugins/plot_radar/gog-radar.c:321
+msgid "Values"
+msgstr "മൂല്യങ്ങള്‌"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:578 ../plugins/plot_barcol/gog-1.5d.c:641
+#, fuzzy
+msgid "Error bars"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:598
+msgid "Series lines"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-1.5d.c:605
+#: ../plugins/plot_distrib/gog-histogram.c:475
+msgid "Drop lines"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-1.5d.c:613
+#: ../plugins/plot_barcol/plot-types.xml.in.h:78
+#, fuzzy
+msgid "Lines"
+msgstr "വരി‌"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:642
+#: ../plugins/plot_radar/gog-radar.c:1253
+#: ../plugins/plot_radar/gog-radar.c:1379 ../plugins/plot_xy/gog-xy.c:1998
+#: ../plugins/plot_xy/gog-xy.c:2004
+#, fuzzy
+msgid "GogErrorBar *"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_barcol/gog-barcol-prefs.ui.h:3
+msgid "O_verlap:"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-barcol-prefs.ui.h:4
+#: ../plugins/plot_barcol/gog-minmax-prefs.ui.h:3
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:7
+msgid "_Gap:"
+msgstr ""
+
+#. xgettext : the base for how to name bar/col plot objects
+#. * eg The 2nd bar/col plot in a chart will be called
+#. * 	PlotBarCol2
+#: ../plugins/plot_barcol/gog-barcol.c:138
+msgid "PlotBarCol"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-barcol.c:150
+#: ../plugins/plot_barcol/gog-minmax.c:198
+#: ../plugins/plot_distrib/gog-boxplot.c:162 ../plugins/plot_pie/gog-pie.c:273
+#: ../plugins/plot_pie/gog-pie.c:432 ../plugins/plot_radar/gog-radar.c:503
+#: ../plugins/plot_surface/gog-xyz.c:99
+#: ../plugins/plot_surface/gog-xyz-surface.c:180
+#: ../plugins/plot_xy/gog-xy.c:428 ../plugins/plot_xy/gog-xy.c:704
+#: ../plugins/smoothing/gog-moving-avg.c:113
+#: ../plugins/smoothing/gog-exp-smooth.c:80
+msgid "Properties"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-barcol.c:244
+#: ../plugins/plot_barcol/gog-minmax.c:224
+#: ../plugins/plot_distrib/gog-boxplot.c:371
+#, fuzzy
+msgid "Gap percentage"
+msgstr "ശതമാനം"
+
+#: ../plugins/plot_barcol/gog-barcol.c:245
+#: ../plugins/plot_barcol/gog-minmax.c:225
+#: ../plugins/plot_distrib/gog-boxplot.c:372
+msgid "The padding around each group as a percentage of their width"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-barcol.c:250
+#, fuzzy
+msgid "Overlap percentage"
+msgstr "ശതമാനം"
+
+#: ../plugins/plot_barcol/gog-barcol.c:251
+msgid "The distance between series as a percentage of their width"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-barcol.c:256
+#, fuzzy
+msgid "horizontal"
+msgstr "തിരശ്ചീന പട്ട"
+
+#: ../plugins/plot_barcol/gog-barcol.c:257
+msgid "horizontal bars or vertical columns"
+msgstr ""
+
+#. xgettext : the base for how to name drop bar/col plot objects
+#. * eg The 2nd drop bar/col plot in a chart will be called
+#. * 	PlotDropBar2
+#: ../plugins/plot_barcol/gog-dropbar.c:44
+#, fuzzy
+msgid "PlotDropBar"
+msgstr " തരം"
+
+#. xgettext : the base for how to name bar/col plot objects
+#. * eg The 2nd line plot in a chart will be called
+#. * 	PlotLine2
+#.
+#: ../plugins/plot_barcol/gog-line.c:239
+#, fuzzy
+msgid "PlotLine"
+msgstr " തരം"
+
+#: ../plugins/plot_barcol/gog-line.c:326
+#: ../plugins/plot_barcol/gog-minmax.c:236
+#: ../plugins/plot_radar/gog-radar.c:229
+#, fuzzy
+msgid "Default markers"
+msgstr "സ്വതേ"
+
+#: ../plugins/plot_barcol/gog-line.c:327
+#: ../plugins/plot_barcol/gog-minmax.c:237
+#: ../plugins/plot_radar/gog-radar.c:230 ../plugins/plot_xy/gog-xy.c:345
+msgid "Should the default style of a series include markers"
+msgstr ""
+
+#. xgettext : the base for how to name bar/col plot objects
+#. * eg The 2nd line plot in a chart will be called
+#. * 	PlotArea2
+#.
+#: ../plugins/plot_barcol/gog-line.c:363
+#, fuzzy
+msgid "PlotArea"
+msgstr " തരം"
+
+#. xgettext : the base for how to name min/max line plot objects
+#. * eg The 2nd min/max line plot in a chart will be called
+#. * 	PlotMinMax2
+#: ../plugins/plot_barcol/gog-minmax.c:144
+#, fuzzy
+msgid "PlotMinMax"
+msgstr " തരം"
+
+#: ../plugins/plot_barcol/gog-minmax.c:230
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:3
+#, fuzzy
+msgid "Horizontal"
+msgstr "തിരശ്ചീന പട്ട"
+
+#: ../plugins/plot_barcol/gog-minmax.c:231
+#, fuzzy
+msgid "Horizontal or vertical lines"
+msgstr "തിരശ്ചീന പട്ട"
+
+#: ../plugins/plot_barcol/gog-minmax.c:251
+#, fuzzy
+msgid "Min"
+msgstr "ഏറ്റവും കുറഞ്ഞ"
+
+#: ../plugins/plot_barcol/gog-minmax.c:253
+#, fuzzy
+msgid "Max"
+msgstr "പരമാവധി"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:1
+msgid "Adjacent Bars"
+msgstr ""
+
+#. No 3d yet
+#. <Type _name="3D Adjacent Bars" row="2" col="1"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Adjacent horizontal 3D bars grouped by major and minor categories."
+#. sample_image_file="chart_bar_2_1.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">normal</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#. <Type _name="3D Stacked Bars" row="2" col="2"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Minor categories stacked in horizontal 3D bars, grouped by major category."
+#. sample_image_file="chart_bar_2_2.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">stacked</property>
+#. <property name="overlap_percentage">100</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#. <Type _name="3D Percentage Bars" row="2" col="3"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Minor categories stacked as percentages of the minor total, in 3D horizontal bars, grouped by major category."
+#. sample_image_file="chart_bar_2_3.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">as_percentage</property>
+#. <property name="overlap_percentage">100</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#: ../plugins/plot_barcol/plot-types.xml.in.h:32
+msgid "Adjacent Columns"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:33
+msgid "Adjacent horizontal bars grouped by major and minor categories."
+msgstr ""
+
+#. No 3d yet
+#. <Type _name="3D Adjacent Bars" row="2" col="1"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Adjacent horizontal 3D bars grouped by major and minor categories."
+#. sample_image_file="chart_bar_2_1.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">normal</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#. <Type _name="3D Stacked Bars" row="2" col="2"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Minor categories stacked in horizontal 3D bars, grouped by major category."
+#. sample_image_file="chart_bar_2_2.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">stacked</property>
+#. <property name="overlap_percentage">100</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#. <Type _name="3D Percentage Bars" row="2" col="3"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Minor categories stacked as percentages of the minor total, in 3D horizontal bars, grouped by major category."
+#. sample_image_file="chart_bar_2_3.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">as_percentage</property>
+#. <property name="overlap_percentage">100</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#: ../plugins/plot_barcol/plot-types.xml.in.h:64
+msgid "Adjacent vertical columns grouped by major and minor categories."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:65
+msgid "Area"
+msgstr "വിസ്തീര്ണ്ണം"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:66
+msgid "Area plot."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:67
+#, fuzzy
+msgid "Areas"
+msgstr "സ്ഥലങ്ങളില്‌"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:68
+msgid "Bar"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:69
+msgid "Column"
+msgstr "നിര"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:70
+msgid "DropBar"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:71
+#, fuzzy
+msgid "Horizontal Drop Bars"
+msgstr "തിരശ്ചീന പട്ട"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:72
+#, fuzzy
+msgid "Horizontal Min Max Lines"
+msgstr "തിരശ്ചീന പട്ട"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:73
+#, fuzzy
+msgid "Horizontal drop bars."
+msgstr "തിരശ്ചീന പട്ട"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:74
+msgid "Horizontal min max lines with markers."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:75
+#, fuzzy
+msgid "Horizontal min max lines."
+msgstr "തിരശ്ചീന പട്ട"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:76
+msgid "Line"
+msgstr "വരി‌"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:77
+#, fuzzy
+msgid "Line plot with markers."
+msgstr "വരികള്‌ കൊണ്ടുവരിക"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:79
+msgid "Marked Horizontal Min Max Lines"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:80
+#, fuzzy
+msgid "Marked Vertical Min Max Lines"
+msgstr "ശതമാനങ്ങള്"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:81
+msgid "MinMax"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:82
+msgid ""
+"Minor categories stacked as percentages of the minor total, in horizontal "
+"bars, grouped by major category."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:83
+msgid ""
+"Minor categories stacked as percentages of the minor total, in vertical "
+"columns, grouped by major category."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:84
+msgid "Minor categories stacked in horizontal bars grouped by major category."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:85
+msgid "Minor categories stacked in vertical columns grouped by major category."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:86
+#, fuzzy
+msgid "Percentage Areas"
+msgstr "ശതമാനങ്ങള്"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:87
+msgid "Percentage Bars"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:88
+msgid "Percentage Columns"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:89
+#, fuzzy
+msgid "Percentage Lines"
+msgstr "ശതമാനങ്ങള്"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:90
+#, fuzzy
+msgid "Percentage area plot."
+msgstr "ശതമാനം"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:91
+#, fuzzy
+msgid "Percentage line plot with markers."
+msgstr "ശതമാനം"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:92
+#, fuzzy
+msgid "Stacked Areas"
+msgstr "നി‌ര്മ്മാണ കേന്ദ്രം"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:93
+msgid "Stacked Bars"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:94
+msgid "Stacked Columns"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:95
+msgid "Stacked Lines"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:96
+msgid "Stacked area plot."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:97
+msgid "Stacked line plot with markers."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:98
+#, fuzzy
+msgid "Unmarked Lines"
+msgstr "ശതമാനങ്ങള്"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:99
+#, fuzzy
+msgid "Unmarked Percentage Lines"
+msgstr "ശതമാനങ്ങള്"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:100
+msgid "Unmarked Stacked Lines"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:101
+#, fuzzy
+msgid "Unmarked line plot."
+msgstr "ശതമാനങ്ങള്"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:102
+#, fuzzy
+msgid "Unmarked percentage line plot."
+msgstr "ശതമാനങ്ങള്"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:103
+#, fuzzy
+msgid "Unmarked stacked line plot."
+msgstr "ശതമാനം"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:104
+#, fuzzy
+msgid "Vertical Drop Bars"
+msgstr "ലംബപ്പട്ട"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:105
+msgid "Vertical Min Max Lines"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:106
+#, fuzzy
+msgid "Vertical drop bars."
+msgstr "ലംബപ്പട്ട"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:107
+msgid "Vertical min max lines with markers."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:108
+msgid "Vertical min max lines."
+msgstr ""
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:1
+msgid "Area plotting engine"
+msgstr ""
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:2
+msgid "Bar/Col plotting engine"
+msgstr ""
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:3
+msgid "Charting : Bar/Col/Line/Area"
+msgstr ""
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:4
+msgid "Default 1.5d plot types"
+msgstr ""
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:5
+#, fuzzy
+msgid "Drop Bar/Col plotting engine"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:6
+msgid "Line plotting engine"
+msgstr ""
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:7
+msgid "Line, Area, Bar and Column plots"
+msgstr ""
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:8
+#, fuzzy
+msgid "Min Max plotting engine"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_distrib/go-distribution-prefs.c:62
+#: ../plugins/plot_distrib/go-distribution-prefs.c:139
+msgid ":"
+msgstr ""
+
+#: ../plugins/plot_distrib/go-distribution-prefs.c:101
+#, fuzzy
+msgid "Distribution:"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:4
+#: ../plugins/plot_distrib/gog-boxplot.c:377
+#, fuzzy
+msgid "Vertical"
+msgstr "ലംബപ്പട്ട"
+
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:5
+#, fuzzy
+msgid "_Diameter/width:"
+msgstr "സ്ഥിരവീതി"
+
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:6
+msgid "_Exclude and show outliers"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:8
+msgid "_Layout"
+msgstr ""
+
+#. xgettext : the base for how to name box-plot objects
+#. * eg The 2nd box-plot in a chart will be called
+#. * 	BoxPlot2
+#: ../plugins/plot_distrib/gog-boxplot.c:198
+msgid "Box-Plot"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-boxplot.c:378
+msgid "Whether the box-plot should be vertical instead of horizontal"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-boxplot.c:383
+#, fuzzy
+msgid "Outliers"
+msgstr "താഴെയുള്ള പുറംവരകള്‌"
+
+#: ../plugins/plot_distrib/gog-boxplot.c:384
+msgid "Whether outliers should be taken into account and displayed"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-boxplot.c:389
+msgid "Radius ratio"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-boxplot.c:390
+msgid ""
+"The ratio between the radius of the circles representing outliers and the "
+"rectangle width"
+msgstr ""
+
+#. xgettext : the base for how to name histogram-plot objects
+#. * eg The 2nd histogram-plot in a chart will be called
+#. * 	Histogram2
+#: ../plugins/plot_distrib/gog-histogram.c:69
+#: ../plugins/plot_distrib/plot-types.xml.in.h:3
+msgid "Histogram"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-histogram.c:188
+msgid "Limits"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:63
+#: ../plugins/plot_distrib/gog-probability-plot.c:254
+#, fuzzy
+msgid "Distribution"
+msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#. xgettext : the base for how to name probability-plot objects
+#. * eg The 2nd probability-plot in a chart will be called
+#. * 	ProbabilityPlot2
+#: ../plugins/plot_distrib/gog-probability-plot.c:133
+#: ../plugins/plot_distrib/plot-types.xml.in.h:8
+msgid "ProbabilityPlot"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:255
+msgid "A pointer to the GODistribution used by this plot"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:260
+msgid "Shape parameter"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:261
+msgid "Name of the first shape parameter if any"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:266
+msgid "Second shape parameter"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:267
+msgid "Name of the second shape parameter if any"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:584
+msgid "Regression line"
+msgstr ""
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:1
+#, fuzzy
+msgid "HBoxPlotOutliers"
+msgstr " തരം"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:2
+#, fuzzy
+msgid "HBoxPlots"
+msgstr " തരം"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:4
+msgid "Histogram."
+msgstr ""
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:5
+#, fuzzy
+msgid "Horizontal Box-Plot showing outliers."
+msgstr "തിരശ്ചീന പട്ട"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:6
+#, fuzzy
+msgid "Horizontal Box-Plot."
+msgstr "തിരശ്ചീന പട്ട"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:7
+#, fuzzy
+msgid "Probability plot."
+msgstr "വരികള്‌ കൊണ്ടുവരിക"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:9
+#, fuzzy
+msgid "Statistics"
+msgstr "സ്വതേയുള്ള വ്യാഖ്യാതാവ്"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:10
+#, fuzzy
+msgid "VBoxPlotOutliers"
+msgstr " തരം"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:11
+#, fuzzy
+msgid "VBoxPlots"
+msgstr " തരം"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:12
+#, fuzzy
+msgid "Vertical Box-Plot showing outliers."
+msgstr " തരം"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:13
+#, fuzzy
+msgid "Vertical Box-Plot."
+msgstr " തരം"
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:1
+#, fuzzy
+msgid "Box-plot plotting engine"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:2
+msgid "Charting : distribution related plots"
+msgstr ""
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:3
+#, fuzzy
+msgid "Histograms plotting engine"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:4
+#, fuzzy
+msgid "Probability plots engine"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:5
+#, fuzzy
+msgid "Statistics plot types"
+msgstr "സ്വതേയുള്ള വ്യാഖ്യാതാവ്"
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:6
+msgid "box-plots, histograms, and other distribution related plots"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:3
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:3
+msgid "Absolute value"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:4
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:4
+msgid "Absolute value with white background"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:5
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:6
+#, fuzzy
+msgid "Negative data:"
+msgstr "ഋണ സംഖ്യാരീതി"
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:6
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:7
+msgid "Skip"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:7
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:8
+msgid "Slices start _at:"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:8
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:9
+msgid "_Slice Separation:"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:9
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:10
+msgid "_Vary colors by slice"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-series.ui.h:3
+#, fuzzy
+msgid "_Separation:"
+msgstr "വേ‍ര്തിരി:"
+
+#: ../plugins/plot_pie/gog-pie.c:110 ../plugins/plot_pie/gog-pie.c:1296
+#, fuzzy
+msgid "Separation"
+msgstr "വേ‍ര്തിരി:"
+
+#: ../plugins/plot_pie/gog-pie.c:111
+msgid "Amount a slice is extended as a percentage of the radius"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:259
+#, fuzzy
+msgid "PlotPie"
+msgstr " തരം"
+
+#: ../plugins/plot_pie/gog-pie.c:305
+msgid "Initial angle"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:306
+msgid "Degrees clockwise from 12 O'Clock."
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:311
+#, fuzzy
+msgid "Default separation"
+msgstr "വേ‍ര്തിരി:"
+
+#: ../plugins/plot_pie/gog-pie.c:312 ../plugins/plot_pie/gog-pie.c:1297
+msgid "Default amount a slice is extended as a percentage of the radius"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:318
+msgid "Draw 3d wedges"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:323 ../plugins/smoothing/gog-moving-avg.c:196
+msgid "Span"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:324
+msgid "Total angle used as a percentage of the full circle"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:329
+#, fuzzy
+msgid "Show negative values"
+msgstr "ലിഖിതങ്ങള്"
+
+#: ../plugins/plot_pie/gog-pie.c:330
+msgid "How negative values are displayed"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:418
+#, fuzzy
+msgid "PlotRing"
+msgstr "പ്രതിദ‌ര്ശകം"
+
+#: ../plugins/plot_pie/gog-pie.c:455
+#, fuzzy
+msgid "Center-size"
+msgstr "ചിഹ്ന വലിപ്പം"
+
+#: ../plugins/plot_pie/gog-pie.c:456
+msgid "Size of the center hole as a percentage of the radius"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:616
+msgid "Move pie"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:1169
+#, c-format
+msgid "%s: %g (%.2f%%)"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:1171
+#, c-format
+msgid "%g (%.2f%%)"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:1290
+msgid "Initial-angle"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:1291
+msgid "Degrees clockwise from 12 O'Clock"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:5
+#, fuzzy
+msgid "Cen_ter size:"
+msgstr "ചിഹ്ന വലിപ്പം"
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:1
+msgid "Half Pie"
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:2
+msgid ""
+"Percentage of each contributor displayed as a segment of a ring with one "
+"ring for each series."
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:3
+msgid ""
+"Percentage of each contributor displayed as a segment of a ring with one "
+"ring for each series; the wedges of the outside ring (corresponding to the "
+"last series) are split apart."
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:4
+msgid ""
+"Percentage of each contributor in a half circle with wedges split apart."
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:5
+msgid "Percentage of each contributor in a half circle."
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:6
+msgid "Percentage of each contributor with wedges split apart."
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:7
+msgid "Percentage of each contributor."
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:8
+msgid "Pie"
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:9
+msgid "Ring"
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:10
+msgid "Split Half Pie"
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:11
+msgid "Split Pie"
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:12
+#, fuzzy
+msgid "Split Ring"
+msgstr "പ്രതിദ‌ര്ശകം"
+
+#: ../plugins/plot_pie/plugin.xml.in.h:1
+msgid "Charting : Pie/Ring"
+msgstr ""
+
+#: ../plugins/plot_pie/plugin.xml.in.h:2
+#, fuzzy
+msgid "Default pie types"
+msgstr "സ്വതേയുള്ള വ്യാഖ്യാതാവ്"
+
+#: ../plugins/plot_pie/plugin.xml.in.h:3
+msgid "Pie and Ring plots"
+msgstr ""
+
+#: ../plugins/plot_pie/plugin.xml.in.h:4
+msgid "Pie plotting engine"
+msgstr ""
+
+#: ../plugins/plot_pie/plugin.xml.in.h:5
+msgid "Ring plotting engine"
+msgstr ""
+
+#: ../plugins/plot_radar/gog-radar.c:236
+#, fuzzy
+msgid "Default fill"
+msgstr "സ്വതേ"
+
+#: ../plugins/plot_radar/gog-radar.c:237 ../plugins/plot_xy/gog-xy.c:357
+#: ../plugins/plot_xy/gog-xy.c:784
+msgid "Should the default style of a series include fill"
+msgstr ""
+
+#. xgettext : the base for how to name rt plot objects
+#. * eg The 2nd rt plot in a chart will be called
+#. * 	PlotRT2
+#: ../plugins/plot_radar/gog-radar.c:272
+msgid "PlotRadar"
+msgstr ""
+
+#. xgettext : the base for how to name bar/col plot objects
+#. * eg The 2nd line plot in a chart will be called
+#. * 	PlotRadarArea2
+#.
+#: ../plugins/plot_radar/gog-radar.c:358
+#, fuzzy
+msgid "PlotRadarArea"
+msgstr " തരം"
+
+#. xgettext : the base for how to name rt plot objects
+#. * eg The 2nd rt plot in a chart will be called
+#. * 	PlotPolar2
+#: ../plugins/plot_radar/gog-radar.c:391
+#, fuzzy
+msgid "PlotPolar"
+msgstr " തരം"
+
+#: ../plugins/plot_radar/gog-radar.c:430 ../plugins/plot_radar/gog-radar.c:638
+msgid "Angle"
+msgstr ""
+
+#: ../plugins/plot_radar/gog-radar.c:432 ../plugins/plot_radar/gog-radar.c:640
+#, fuzzy
+msgid "Magnitude"
+msgstr "മജന്ത"
+
+#. xgettext : the base for how to name rt plot objects
+#. * eg The 2nd rt plot in a chart will be called
+#. * 	PlotColoredPolar2
+#: ../plugins/plot_radar/gog-radar.c:549
+#, fuzzy
+msgid "PlotColorPolar"
+msgstr " തരം"
+
+#: ../plugins/plot_radar/gog-radar.c:629 ../plugins/plot_xy/gog-xy.c:789
+msgid "hide-outliers"
+msgstr ""
+
+#: ../plugins/plot_radar/gog-radar.c:630 ../plugins/plot_xy/gog-xy.c:790
+msgid "Hide data outside of the color axis bounds"
+msgstr ""
+
+#: ../plugins/plot_radar/gog-radar.c:642 ../plugins/plot_surface/gog-xyz.c:398
+#: ../plugins/plot_surface/gog-xyz-surface.c:334
+#: ../plugins/plot_surface/xl-surface.c:304
+#: ../plugins/plot_surface/xl-surface.c:397 ../plugins/plot_xy/gog-xy.c:802
+msgid "Z"
+msgstr ""
+
+#: ../plugins/plot_radar/gog-radar.c:1219
+#: ../plugins/plot_radar/gog-radar.c:1252
+#, fuzzy
+msgid "Radial error bars"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_radar/gog-radar.c:1227
+#, fuzzy
+msgid "Radial drop lines"
+msgstr "ലംബപ്പട്ട"
+
+#: ../plugins/plot_radar/gog-radar.c:1335
+#: ../plugins/plot_radar/gog-radar.c:1378
+#, fuzzy
+msgid "Angular error bars"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_radar/gog-color-polar-prefs.ui.h:1
+#: ../plugins/plot_xy/gog-xy-color-prefs.ui.h:1
+msgid "Hide data outside of color axis bounds"
+msgstr ""
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:1
+msgid "Area Radar"
+msgstr ""
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:2
+#, fuzzy
+msgid "Area radar plot."
+msgstr "ശതമാനം"
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:3
+#, fuzzy
+msgid "Colored Polar"
+msgstr " തരം"
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:4
+msgid "Dotted Radar"
+msgstr ""
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:5
+msgid "Polar"
+msgstr ""
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:6
+msgid "Polar plot with colored marks."
+msgstr ""
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:7
+#, fuzzy
+msgid "Polar plot."
+msgstr "വരികള്‌ കൊണ്ടുവരിക"
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:8
+#, fuzzy
+msgid "Radar"
+msgstr "പ്രാമാണിക വീതി"
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:9
+msgid "Radar plot with dots."
+msgstr ""
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:10
+msgid "Radar plot."
+msgstr ""
+
+#: ../plugins/plot_radar/plugin.xml.in.h:1
+#, fuzzy
+msgid "Charting : Polar/Radar"
+msgstr "ചെറുജാലകത്തിന്റെ നിറം മാറ്റുന്നു"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:2
+#, fuzzy
+msgid "Default radar plot types"
+msgstr "സ്വതേയുള്ള വ്യാഖ്യാതാവ്"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:3
+#, fuzzy
+msgid "Polar and Radar plots"
+msgstr "ശതമാനം"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:4
+#, fuzzy
+msgid "Polar plotting engine"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:5
+#, fuzzy
+msgid "Polar plotting engine with colored marks"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:6
+msgid "Radar Area plotting engine"
+msgstr ""
+
+#: ../plugins/plot_radar/plugin.xml.in.h:7
+#, fuzzy
+msgid "Radar plotting engine"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#. xgettext : the base for how to name contour plot objects
+#.
+#: ../plugins/plot_surface/gog-contour.c:128
+msgid "PlotContour"
+msgstr ""
+
+#. xgettext : the base for how to name surface plot objects
+#.
+#: ../plugins/plot_surface/gog-surface.c:68
+#, fuzzy
+msgid "PlotSurface"
+msgstr "ഉറവിടം"
+
+#: ../plugins/plot_surface/gog-xyz.c:381
+msgid "Transposed"
+msgstr ""
+
+#: ../plugins/plot_surface/gog-xyz.c:382
+msgid "Transpose the plot"
+msgstr ""
+
+#: ../plugins/plot_surface/gog-xyz.c:394
+#: ../plugins/plot_surface/gog-xyz-surface.c:330
+#: ../plugins/plot_surface/xl-surface.c:302
+#: ../plugins/plot_surface/xl-surface.c:395 ../plugins/plot_xy/gog-xy.c:370
+#: ../plugins/plot_xy/gog-xy.c:540 ../plugins/plot_xy/gog-xy.c:798
+msgid "X"
+msgstr ""
+
+#: ../plugins/plot_surface/gog-xyz.c:396
+#: ../plugins/plot_surface/gog-xyz-surface.c:332
+#: ../plugins/plot_xy/gog-xy.c:372 ../plugins/plot_xy/gog-xy.c:542
+#: ../plugins/plot_xy/gog-xy.c:800
+msgid "Y"
+msgstr ""
+
+#: ../plugins/plot_surface/gog-xyz-prefs.ui.h:1
+msgid "Transpose"
+msgstr ""
+
+#. xgettext : the base for how to name surface plot objects
+#.
+#: ../plugins/plot_surface/gog-xyz-surface.c:157
+#, fuzzy
+msgid "PlotXYZContour"
+msgstr "എണ്ണുക"
+
+#. xgettext : the base for how to name surface plot objects
+#.
+#: ../plugins/plot_surface/gog-xyz-surface.c:165
+#, fuzzy
+msgid "PlotXYZSurface"
+msgstr "ഉറവിടം"
+
+#: ../plugins/plot_surface/gog-xyz-surface.c:311
+msgid "Rows"
+msgstr ""
+
+#: ../plugins/plot_surface/gog-xyz-surface.c:312
+#, fuzzy
+msgid "Number of rows"
+msgstr "സംഖ്യാരീതികള്‌"
+
+#: ../plugins/plot_surface/gog-xyz-surface.c:317
+#, fuzzy
+msgid "Columns"
+msgstr "നിര"
+
+#: ../plugins/plot_surface/gog-xyz-surface.c:318
+#, fuzzy
+msgid "Number of columns"
+msgstr "സംഖ്യാരീതികള്‌"
+
+#: ../plugins/plot_surface/gog-xyz-surface-prefs.ui.h:1
+#, fuzzy
+msgid "_Columns:"
+msgstr "നിര"
+
+#: ../plugins/plot_surface/gog-xyz-surface-prefs.ui.h:2
+#, fuzzy
+msgid "_Rows:"
+msgstr "വരി"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:1
+msgid "Builds a contour from a set of points with three coordinates"
+msgstr ""
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:2
+msgid "Builds a surface from a set of points with three coordinates"
+msgstr ""
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:3
+#, fuzzy
+msgid "Contour"
+msgstr "എണ്ണുക"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:4
+#, fuzzy
+msgid "Contour plot."
+msgstr "വരികള്‌ കൊണ്ടുവരിക"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:5
+#, fuzzy
+msgid "Surface"
+msgstr "ഉറവിടം"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:6
+#, fuzzy
+msgid "Surface plot."
+msgstr "ഉറവിടം"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:7
+#, fuzzy
+msgid "XYZContour"
+msgstr "എണ്ണുക"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:8
+#, fuzzy
+msgid "XYZSurface"
+msgstr "ഉറവിടം"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:1
+#, fuzzy
+msgid "Charting : Surfaces"
+msgstr "ചെറുജാലകത്തിന്റെ നിറം മാറ്റുന്നു"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:2
+#, fuzzy
+msgid "Contour plotting engine"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:3
+#, fuzzy
+msgid "Default surface plot types"
+msgstr "സ്വതേയുള്ള വ്യാഖ്യാതാവ്"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:4
+#, fuzzy
+msgid "Surface charts"
+msgstr "നി‌ര്മ്മാണ കേന്ദ്രം"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:5
+#, fuzzy
+msgid "Surface plotting engine"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:6
+#, fuzzy
+msgid "XYZ contour plotting engine"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:7
+#, fuzzy
+msgid "XYZ surface plotting engine"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:2
+#, fuzzy, no-c-format
+msgid "% of default size"
+msgstr "% സാധാരണ വലിപ്പം"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:3
+msgid "3_d"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:4
+#, fuzzy
+msgid "Dia_meter"
+msgstr "പ്രാചലങ്ങള്"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:5
+msgid "Show _negative values"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:6
+#, fuzzy
+msgid "Sur_face"
+msgstr "ഉറവിടം"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:7
+msgid "_Bubbles scaled to"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:8
+msgid "_Size represented by:"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:9
+msgid "_Vary colors by bubble"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy-series-prefs.ui.h:1
+msgid "_Use nul value instead of invalid"
+msgstr ""
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	PlotXY2
+#: ../plugins/plot_xy/gog-xy.c:272
+#, fuzzy
+msgid "PlotXY"
+msgstr " തരം"
+
+#: ../plugins/plot_xy/gog-xy.c:344
+msgid "Has markers by default"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:350 ../plugins/plot_xy/gog-xy.c:777
+msgid "Has lines by default"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:351 ../plugins/plot_xy/gog-xy.c:778
+msgid "Should the default style of a series include lines"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:356 ../plugins/plot_xy/gog-xy.c:783
+msgid "Has fill by default"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:362
+#, fuzzy
+msgid "Use splines"
+msgstr "വരി‌"
+
+#: ../plugins/plot_xy/gog-xy.c:363
+msgid "Should the plot use splines instead of linear interpolation"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:416
+#, fuzzy
+msgid "PlotBubble"
+msgstr "ഡബിള്"
+
+#: ../plugins/plot_xy/gog-xy.c:516
+msgid "Size as area"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:517
+msgid "Display size as area instead of diameter"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:522
+#, fuzzy
+msgid "Show negatives"
+msgstr "ലിഖിതങ്ങള്"
+
+#: ../plugins/plot_xy/gog-xy.c:523
+msgid "Draw bubbles for negative values"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:529
+msgid "Draw 3d bubbles"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:534
+#, fuzzy
+msgid "Bubble scale"
+msgstr "ഡബിള്"
+
+#: ../plugins/plot_xy/gog-xy.c:535
+msgid "Fraction of default radius used for display"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:544 ../plugins/plot_xy/plot-types.xml.in.h:1
+#, fuzzy
+msgid "Bubble"
+msgstr "ഡബിള്"
+
+#. xgettext : the base for how to name map like plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Map2
+#: ../plugins/plot_xy/gog-xy.c:669
+#, fuzzy
+msgid "XYColor"
+msgstr "നിറം:"
+
+#: ../plugins/plot_xy/gog-xy.c:1930 ../plugins/plot_xy/gog-xy.c:1997
+#, fuzzy
+msgid "X error bars"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_xy/gog-xy.c:1933 ../plugins/plot_xy/gog-xy.c:2003
+#, fuzzy
+msgid "Y error bars"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_xy/gog-xy.c:1942
+#, fuzzy
+msgid "Horizontal drop lines"
+msgstr "തിരശ്ചീന പട്ട"
+
+#: ../plugins/plot_xy/gog-xy.c:1950
+#, fuzzy
+msgid "Vertical drop lines"
+msgstr "ലംബപ്പട്ട"
+
+#: ../plugins/plot_xy/gog-xy.c:2009
+#, fuzzy
+msgid "Invalid as zero"
+msgstr "സാധുതയില്ലാത്ത അടയാളവാക്ക്"
+
+#: ../plugins/plot_xy/gog-xy.c:2010
+msgid "Replace invalid values by 0 when drawing markers or bubbles"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:2015
+msgid "Clamp at start"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:2016
+msgid ""
+"Slope at start of the interpolated curve when using clamped spline "
+"interpolation"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:2021
+msgid "Clamp at end"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:2022
+msgid ""
+"Slope at end of the interpolated curve when using clamped spline "
+"interpolation"
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:2
+#, fuzzy
+msgid "ColoredXY"
+msgstr "നിറം:"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:3
+msgid "Interpolate between multi-dimensional points with Bezier splines."
+msgstr ""
+
+#. really 3_1
+#: ../plugins/plot_xy/plot-types.xml.in.h:5
+msgid ""
+"Linearly interpolate between multi-dimensional points,with markers at each "
+"point."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:6
+msgid "Linearly interpolate between multi-dimensional points."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:7
+#, fuzzy
+msgid "Map"
+msgstr "മെയ്"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:8
+msgid "Markers at each point."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:9
+msgid "Multi-dimensional points with circle at each point."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:10
+msgid ""
+"Multi-dimensional points with data dependent color marker at each point."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:11
+msgid "Stepped curve using the first y value."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:12
+msgid "Stepped curve using the last y value."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:13
+msgid "Stepped curve using the mean y value."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:14
+msgid "Stepped curve using the nearest y value."
+msgstr ""
+
+#. really 3_1
+#: ../plugins/plot_xy/plot-types.xml.in.h:16
+msgid "XY"
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:17
+#, fuzzy
+msgid "XY Lines"
+msgstr "വരി‌"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:18
+#, fuzzy
+msgid "XY Points"
+msgstr "ബിന്ദു"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:19
+#, fuzzy
+msgid "XY Splines"
+msgstr "വരി‌"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:20
+msgid "XY Steps Center"
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:21
+msgid "XY Steps End"
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:22
+msgid "XY Steps Mean"
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:23
+msgid "XY Steps Start"
+msgstr ""
+
+#: ../plugins/plot_xy/plugin.xml.in.h:1
+#, fuzzy
+msgid "2D colored scatter plotting engine"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/plot_xy/plugin.xml.in.h:2
+msgid "2D plots"
+msgstr ""
+
+#: ../plugins/plot_xy/plugin.xml.in.h:3
+msgid "2D scatter plotting engine"
+msgstr ""
+
+#: ../plugins/plot_xy/plugin.xml.in.h:4
+msgid "Bubble plotting engine"
+msgstr ""
+
+#: ../plugins/plot_xy/plugin.xml.in.h:5
+msgid "Charting : XY/Scatter/Bubble"
+msgstr ""
+
+#: ../plugins/plot_xy/plugin.xml.in.h:6
+msgid "Stock Scatter plot types"
+msgstr ""
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Exponential regression2
+#: ../plugins/reg_linear/gog-exp-reg.c:63
+msgid "Exponential regression"
+msgstr ""
+
+#: ../plugins/reg_linear/gog-lin-reg.c:159
+#: ../plugins/reg_linear/gog-lin-reg.c:265
+msgid "Affine"
+msgstr ""
+
+#: ../plugins/reg_linear/gog-lin-reg.c:160
+msgid "Uncheck to force zero intercept"
+msgstr ""
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Linear regression2
+#: ../plugins/reg_linear/gog-lin-reg.c:174
+msgid "Linear regression"
+msgstr ""
+
+#: ../plugins/reg_linear/gog-lin-reg.c:266
+msgid "If true, a non-zero constant is allowed"
+msgstr ""
+
+#: ../plugins/reg_linear/gog-lin-reg.c:271
+msgid "Dims"
+msgstr ""
+
+#: ../plugins/reg_linear/gog-lin-reg.c:272
+#, fuzzy
+msgid "Number of x-vectors"
+msgstr "സംഖ്യാരീതികള്‌"
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Logarithmic regression2
+#: ../plugins/reg_linear/gog-log-reg.c:94
+#, fuzzy
+msgid "Logarithmic regression"
+msgstr "ലോഗരിതം"
+
+#: ../plugins/reg_linear/gog-polynom-reg.c:203
+#, fuzzy
+msgid "Order:"
+msgstr "അരിക്‌"
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Polynomial regression2
+#: ../plugins/reg_linear/gog-polynom-reg.c:222
+msgid "Polynomial regression"
+msgstr ""
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Power regression2
+#: ../plugins/reg_linear/gog-power-reg.c:63
+#, fuzzy
+msgid "Power regression"
+msgstr "ലോഗരിതം"
+
+#: ../plugins/reg_linear/plugin.xml.in.h:1
+msgid "Exponential regression curve engine"
+msgstr ""
+
+#: ../plugins/reg_linear/plugin.xml.in.h:2
+msgid "Linear regression curve engine"
+msgstr ""
+
+#: ../plugins/reg_linear/plugin.xml.in.h:3
+msgid "Linear regression curves"
+msgstr ""
+
+#: ../plugins/reg_linear/plugin.xml.in.h:4
+msgid "Linear regression curves types"
+msgstr ""
+
+#: ../plugins/reg_linear/plugin.xml.in.h:5
+msgid "Logarithmic regression curve engine"
+msgstr ""
+
+#: ../plugins/reg_linear/plugin.xml.in.h:6
+msgid "Polynomial regression curve engine"
+msgstr ""
+
+#: ../plugins/reg_linear/plugin.xml.in.h:7
+msgid "Power regression curve engine"
+msgstr ""
+
+#: ../plugins/reg_linear/plugin.xml.in.h:8
+msgid "Regression curve : linear"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:1
+msgid "Exponential"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:2
+msgid "Exponential regression curve"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:4
+msgid "Linear regression curve"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:5
+#, fuzzy
+msgid "Logarithmic"
+msgstr "ലോഗരിതം"
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:6
+msgid "Logarithmic regression curve"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:7
+msgid "Polynomial"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:8
+msgid "Polynomial regression curve"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:9
+msgid "Power"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:10
+msgid "Power regression curve"
+msgstr ""
+
+#. xgettext : the base for how to name logarithmic fits
+#. * eg The 2nd fit for a series will be called
+#. * 	Log fit2
+#: ../plugins/reg_logfit/gog-logfit.c:140
+msgid "Log fit"
+msgstr ""
+
+#: ../plugins/reg_logfit/plugin.xml.in.h:1
+msgid "Logarithmic fitting curve engine"
+msgstr ""
+
+#: ../plugins/reg_logfit/plugin.xml.in.h:2
+#, fuzzy
+msgid "Logarithmic fitting curves"
+msgstr "ലോഗരിതം"
+
+#: ../plugins/reg_logfit/plugin.xml.in.h:3
+msgid "Logarithmic fitting curves types"
+msgstr ""
+
+#: ../plugins/reg_logfit/plugin.xml.in.h:4
+msgid "Regression curve : logfit"
+msgstr ""
+
+#: ../plugins/reg_logfit/reg-types.xml.in.h:1
+msgid "Log Fit (y=a+b*ln(sign*(x-c)))"
+msgstr ""
+
+#: ../plugins/reg_logfit/reg-types.xml.in.h:2
+#, fuzzy
+msgid "Logarithmic fitting curve"
+msgstr "ലോഗരിതം"
+
+#: ../plugins/smoothing/gog-moving-avg.c:104
+msgid "Number of values from which to calculate an average"
+msgstr ""
+
+#: ../plugins/smoothing/gog-moving-avg.c:109
+msgid "Whether to average x values as well or use the last one"
+msgstr ""
+
+#. xgettext : the base for how to name moving averge smoothed curves objects
+#. * eg The 2nd one for a series will be called
+#. * 	Moving average2
+#: ../plugins/smoothing/gog-moving-avg.c:176
+#: ../plugins/smoothing/types.xml.in.h:2
+msgid "Moving average"
+msgstr ""
+
+#: ../plugins/smoothing/gog-moving-avg.c:197
+msgid "Number of averaged values"
+msgstr ""
+
+#: ../plugins/smoothing/gog-moving-avg.c:202
+msgid "Average X"
+msgstr ""
+
+#: ../plugins/smoothing/gog-moving-avg.c:203
+msgid "Use averaged x values"
+msgstr ""
+
+#: ../plugins/smoothing/gog-moving-avg.ui.h:1
+#, fuzzy
+msgid "_Span:"
+msgstr "വേ‍ര്തിരി:"
+
+#: ../plugins/smoothing/gog-moving-avg.ui.h:2
+msgid "_Use averaged abscissa"
+msgstr ""
+
+#: ../plugins/smoothing/gog-exp-smooth.c:65
+#: ../plugins/smoothing/gog-exp-smooth.c:232
+msgid "Number of interpolation steps"
+msgstr ""
+
+#: ../plugins/smoothing/gog-exp-smooth.c:73
+msgid ""
+"Default period is 10 * (xmax - xmin)/(nvalues - 1)\n"
+"If no value or a negative (or nul) value is provided, the default will be "
+"used"
+msgstr ""
+
+#. xgettext : the base for how to name exponentially smoothed curves objects
+#. * eg The 2nd one for a series will be called
+#. * 	Exponentially smoothed curve2
+#: ../plugins/smoothing/gog-exp-smooth.c:166
+#: ../plugins/smoothing/types.xml.in.h:1
+msgid "Exponentially smoothed curve"
+msgstr ""
+
+#: ../plugins/smoothing/gog-exp-smooth.c:231
+#, fuzzy
+msgid "Steps"
+msgstr "*സെപ്തംബ‌ര്"
+
+#: ../plugins/smoothing/gog-exp-smooth.ui.h:1
+#, fuzzy
+msgid "_Period:"
+msgstr "പുരോതലം"
+
+#: ../plugins/smoothing/gog-exp-smooth.ui.h:2
+#, fuzzy
+msgid "_Steps:"
+msgstr "വലിപ്പം:"
+
+#: ../plugins/smoothing/plugin.xml.in.h:1
+#, fuzzy
+msgid "Charting : Trends and Curves"
+msgstr "ചെറുജാലകത്തിന്റെ നിറം മാറ്റുന്നു"
+
+#: ../plugins/smoothing/plugin.xml.in.h:2
+#, fuzzy
+msgid "Moving average smoothing engine"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/smoothing/plugin.xml.in.h:3
+msgid "Smoothed curves"
+msgstr ""
+
+#: ../plugins/smoothing/plugin.xml.in.h:4
+msgid "Smoothed curves types"
+msgstr ""
+
+#: ../plugins/smoothing/plugin.xml.in.h:5
+#, fuzzy
+msgid "exponential smoothing engine"
+msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#: ../plugins/smoothing/types.xml.in.h:3
+msgid "Moving average smoothed curve"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Font description"
+#~ msgstr "വിവരണം"
+
+#, fuzzy
+#~ msgid "Font style"
+#~ msgstr "അക്ഷരശൈലി:"
+
+#, fuzzy
+#~ msgid "Font size"
+#~ msgstr "അക്ഷരശൈലി:"
+
+#, fuzzy
+#~ msgid "Color"
+#~ msgstr "നിറം:"
+
+#, fuzzy
+#~ msgid "Text width"
+#~ msgstr "സ്ഥിരവീതി"
+
+#, fuzzy
+#~ msgid "Font style set"
+#~ msgstr "അക്ഷരശൈലി:"
+
+#, fuzzy
+#~ msgid "Scale set"
+#~ msgstr "സംരംക്ഷിക്കുക"
+
+#, fuzzy
+#~ msgid "<b>Description</b>"
+#~ msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#, fuzzy
+#~ msgid "Show sample"
+#~ msgstr ""
+#~ "കാണിക്കുക\n"
+#~ "മാതൃക"
+
+#, fuzzy
+#~ msgid ""
+#~ "Automatic\n"
+#~ "Manual"
+#~ msgstr "തനിയെയുള്ള"
+
+#, fuzzy
+#~ msgid "GogObjectPrefs"
+#~ msgstr "വസ്തു..."
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#, fuzzy
+#~ msgid ""
+#~ "Horizontal\n"
+#~ "Vertical"
+#~ msgstr "തിരശ്ചീന പട്ട"
+
+#, fuzzy
+#~ msgid "Angles"
+#~ msgstr "സ്ഥലങ്ങളില്‌"
+
+#, fuzzy
+#~ msgid "Indexs"
+#~ msgstr "ഉള്‌തലം"
+
+#, fuzzy
+#~ msgid "Matrix"
+#~ msgstr "പരമാവധി"
+
+#, fuzzy
+#~ msgid "Regenerate Charts"
+#~ msgstr "നി‌ര്മ്മാണ കേന്ദ്രം"
+
+#, fuzzy
+#~ msgid "Starts"
+#~ msgstr "അവസ്ഥ"
+
+#, fuzzy
+#~ msgid "_File"
+#~ msgstr "ചേര്ച്ച:"
+
+#, fuzzy
+#~ msgid "fifth"
+#~ msgstr "വീതി"
+
+#, fuzzy
+#~ msgid "first"
+#~ msgstr "വിയുക്തമാക്കുക"
+
+#, fuzzy
+#~ msgid "sixth"
+#~ msgstr "വീതി"
+
+#, fuzzy
+#~ msgid "third"
+#~ msgstr "മറ്റുള്ളവ"
+
+#, fuzzy
+#~ msgid "Grid"
+#~ msgstr "വെള്ളിയാഴ്ച"
+
+#, fuzzy
+#~ msgid "Type axis:"
+#~ msgstr "തരം:"
+
+#, fuzzy
+#~ msgid "Dock the toolbar"
+#~ msgstr "എങ്ങനെ ഉപകരണപ്പട്ട വരയ‌്ക്കാം"
+
+#, fuzzy
+#~ msgid "Undock the toolbar"
+#~ msgstr "എങ്ങനെ ഉപകരണപ്പട്ട വരയ‌്ക്കാം"
+
+#~ msgid "Shadow type"
+#~ msgstr "പ്രതിബിംബതരം"
+
+#, fuzzy
+#~ msgid "Orientation"
+#~ msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#, fuzzy
+#~ msgid "[Color"
+#~ msgstr "നിറം:"
+
+#, fuzzy
+#~ msgid "Spline"
+#~ msgstr "വരി‌"
+
+#, fuzzy
+#~ msgid "BoxPlot"
+#~ msgstr " തരം"
+
+#, fuzzy
+#~ msgid "Charting : Box-Plots/Histograms"
+#~ msgstr "ചെറുജാലകത്തിന്റെ നിറം മാറ്റുന്നു"
+
+#, fuzzy
+#~ msgid "Default lines"
+#~ msgstr "സ്വതേയുള്ള വ്യാഖ്യാതാവ്"
+
+#, fuzzy
+#~ msgid "<b>Plot area position</b>"
+#~ msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#, fuzzy
+#~ msgid "_Order"
+#~ msgstr "അരിക്‌"
+
+#, fuzzy
+#~ msgid "<b>Automatic position</b>"
+#~ msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#, fuzzy
+#~ msgid "<b>Manual position</b>"
+#~ msgstr "സ്ഥാന നിര്ണ്ണയം"
+
+#, fuzzy
+#~ msgid "Ty_pe:"
+#~ msgstr "തരം:"
+
+#, fuzzy
+#~ msgid "_Fill color:"
+#~ msgstr "വ‍ര്ണ്ണ‍ങ്ങള്‌:"
+
+#, fuzzy
+#~ msgid "Indicator Spacing"
+#~ msgstr "ആന്തരിക വിടവ്"
+
+#~ msgid "*Sun"
+#~ msgstr "*ഞായര്‍"
+
+#~ msgid "*Mon"
+#~ msgstr "*തിങ്കള്"
+
+#~ msgid "*Tue"
+#~ msgstr "*ചൊവ്വ"
+
+#~ msgid "*Wed"
+#~ msgstr "*ബുധന്"
+
+#~ msgid "*Thu"
+#~ msgstr "*വ്യാഴം"
+
+#~ msgid "*Fri"
+#~ msgstr "*വെള്ളി"
+
+#~ msgid "*Sat"
+#~ msgstr "*ശനി"
+
+#~ msgid "Sunday"
+#~ msgstr "ഞായറാഴ്ച"
+
+#~ msgid "Monday"
+#~ msgstr "തിങ്കളാഴ്ച"
+
+#~ msgid "Tuesday"
+#~ msgstr "ചൊവ്വാഴ്ച"
+
+#~ msgid "Wednesday"
+#~ msgstr "ബുധനാഴ്ച"
+
+#~ msgid "Thursday"
+#~ msgstr "വ്യാഴാഴ്ച"
+
+#~ msgid "Friday"
+#~ msgstr "വെള്ളിയാഴ്ച"
+
+#~ msgid "Saturday"
+#~ msgstr "ശനിയാഴ്ച"
+
+#~ msgid "*Jan"
+#~ msgstr "*ജനുവരി‌"
+
+#~ msgid "*Feb"
+#~ msgstr "*ഫെബ്ര‌ുവരി"
+
+#~ msgid "*Mar"
+#~ msgstr "*മാ‌ര്ച്ച്"
+
+#~ msgid "*Apr"
+#~ msgstr "*ഏപ്രില്"
+
+#~ msgid "*May"
+#~ msgstr "*മെയ്"
+
+#~ msgid "*Jun"
+#~ msgstr "*ജൂണ്"
+
+#~ msgid "*Jul"
+#~ msgstr "*ജൂലൈ"
+
+#~ msgid "*Aug"
+#~ msgstr "*ആഗസ്റ്റ്"
+
+#~ msgid "*Oct"
+#~ msgstr "*ഒക്ടോബ‌ര്"
+
+#~ msgid "*Nov"
+#~ msgstr "*നവംബ‌ര്"
+
+#~ msgid "*Dec"
+#~ msgstr "*ഡിസംബ‌ര്"
+
+#~ msgid "January"
+#~ msgstr "ജനുവരി"
+
+#~ msgid "February"
+#~ msgstr "ഫെബ്രുവരി"
+
+#~ msgid "March"
+#~ msgstr "മാ‌ര്ച്ച്"
+
+#~ msgid "April"
+#~ msgstr "ഏപ്രില്"
+
+#~ msgid "June"
+#~ msgstr "ജൂണ്"
+
+#~ msgid "July"
+#~ msgstr "ജൂലൈ"
+
+#~ msgid "August"
+#~ msgstr "ആഗസ്ത്"
+
+#~ msgid "September"
+#~ msgstr "സെപ്തംബ‌ര്"
+
+#~ msgid "October"
+#~ msgstr "ഒക്‌ടോബ‌ര്"
+
+#~ msgid "November"
+#~ msgstr "നവംബ‌ര്‌"
+
+#~ msgid "December"
+#~ msgstr "ഡിസംബ‌ര്"
+
+#, fuzzy
+#~ msgid "Automatic (%s)"
+#~ msgstr "തനിയെയുള്ള"
+
+#, fuzzy
+#~ msgid "Excel compatibility contour plotting engine"
+#~ msgstr "വരി ഖണ‌്ഡനംചെയ്യ‌ുന്നതില്‌ പിശക്"
+
+#~ msgid "Error while saving file."
+#~ msgstr "രചന സംരക്ഷിക്കുമ്പോള് തെറ്റുന്നു."
+
+#, fuzzy
+#~ msgid "_Cross at category #"
+#~ msgstr "വിഭാഗം"
+
+#, fuzzy
+#~ msgid "Bounds"
+#~ msgstr "പശ്ചാത്തലം"
+
+#, fuzzy
+#~ msgid "T_ype:"
+#~ msgstr "തരം:"
+
+#, fuzzy
+#~ msgid "_Slices number:"
+#~ msgstr "അഖണ‌്ഡസംഖ്യകള്‌"

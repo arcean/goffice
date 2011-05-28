@@ -1,0 +1,178 @@
+<!-- ##### SECTION Title ##### -->
+GOComboBox
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOComboBox ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOComboBox::pop-down-done ##### -->
+<para>
+
+</para>
+
+@gocombobox: the object which received the signal.
+@arg1: 
+@Returns: 
+
+<!-- ##### MACRO GO_TYPE_COMBO_BOX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_COMBO_BOX ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_COMBO_BOX ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_COMBO_BOX_CLASS ##### -->
+<para>
+
+</para>
+
+@k: 
+
+
+<!-- ##### STRUCT GOComboBoxPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION go_combo_box_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_box_set_tooltip ##### -->
+<para>
+
+</para>
+
+@combo: 
+@tips: 
+@text: 
+@priv_text: 
+
+
+<!-- ##### FUNCTION go_combo_box_set_relief ##### -->
+<para>
+
+</para>
+
+@combo: 
+@relief: 
+
+
+<!-- ##### FUNCTION go_combo_box_set_title ##### -->
+<para>
+
+</para>
+
+@combo: 
+@title: 
+
+
+<!-- ##### FUNCTION go_combo_box_get_title ##### -->
+<para>
+
+</para>
+
+@combo: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_box_set_tearable ##### -->
+<para>
+
+</para>
+
+@combo: 
+@tearable: 
+
+
+<!-- ##### FUNCTION go_combo_box_construct ##### -->
+<para>
+
+</para>
+
+@combo: 
+@display_widget: 
+@popdown_container: 
+@popdown_focus: 
+
+
+<!-- ##### FUNCTION go_combo_box_get_pos ##### -->
+<para>
+
+</para>
+
+@combo: 
+@x: 
+@y: 
+
+
+<!-- ##### FUNCTION go_combo_box_popup_hide ##### -->
+<para>
+
+</para>
+
+@combo: 
+
+
+<!-- ##### FUNCTION go_combo_box_popup_display ##### -->
+<para>
+
+</para>
+
+@combo: 
+
+
+<!-- ##### FUNCTION go_combo_box_set_display ##### -->
+<para>
+
+</para>
+
+@combo: 
+@display_widget: 
+
+

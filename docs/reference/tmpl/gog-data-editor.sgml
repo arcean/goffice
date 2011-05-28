@@ -1,0 +1,58 @@
+<!-- ##### SECTION Title ##### -->
+GogDataEditor
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GogDataEditor ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GogDataEditorClass ##### -->
+<para>
+
+</para>
+
+@base: 
+@set_format: 
+@set_value_double: 
+
+<!-- ##### FUNCTION gog_data_editor_set_format ##### -->
+<para>
+
+</para>
+
+@editor: 
+@fmt: 
+
+
+<!-- ##### FUNCTION gog_data_editor_set_value_double ##### -->
+<para>
+
+</para>
+
+@editor: 
+@val: 
+@date_conv: 
+
+

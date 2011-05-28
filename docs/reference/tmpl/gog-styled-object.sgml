@@ -1,0 +1,58 @@
+<!-- ##### SECTION Title ##### -->
+GogStyledObject
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GogStyle ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GogStyledObject ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GogStyledObject::style-changed ##### -->
+<para>
+
+</para>
+
+@gogstyledobject: the object which received the signal.
+@arg1: 
+
+<!-- ##### ARG GogStyledObject:style ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT GogStyledObjectClass ##### -->
+<para>
+
+</para>
+
+@base: 
+@init_style: 
+@style_changed: 
+

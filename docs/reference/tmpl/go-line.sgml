@@ -1,0 +1,179 @@
+<!-- ##### SECTION Title ##### -->
+GOLine
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### ENUM GOLineDashType ##### -->
+<para>
+
+</para>
+
+@GO_LINE_NONE: 
+@GO_LINE_SOLID: 
+@GO_LINE_S_DOT: 
+@GO_LINE_S_DASH_DOT: 
+@GO_LINE_S_DASH_DOT_DOT: 
+@GO_LINE_DASH_DOT_DOT_DOT: 
+@GO_LINE_DOT: 
+@GO_LINE_S_DASH: 
+@GO_LINE_DASH: 
+@GO_LINE_LONG_DASH: 
+@GO_LINE_DASH_DOT: 
+@GO_LINE_DASH_DOT_DOT: 
+@GO_LINE_MAX: 
+
+<!-- ##### STRUCT GOLineDashSequence ##### -->
+<para>
+
+</para>
+
+@offset: 
+@n_dash: 
+@dash: 
+
+<!-- ##### FUNCTION go_line_dash_from_str ##### -->
+<para>
+
+</para>
+
+@name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_line_dash_as_str ##### -->
+<para>
+
+</para>
+
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_line_dash_as_label ##### -->
+<para>
+
+</para>
+
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_line_dash_get_length ##### -->
+<para>
+
+</para>
+
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_line_dash_get_sequence ##### -->
+<para>
+
+</para>
+
+@type: 
+@scale: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_line_dash_sequence_free ##### -->
+<para>
+
+</para>
+
+@sequence: 
+
+
+<!-- ##### FUNCTION go_line_dash_selector_new ##### -->
+<para>
+
+</para>
+
+@initial_type: 
+@default_type: 
+@Returns: 
+
+
+<!-- ##### ENUM GOLineInterpolation ##### -->
+<para>
+
+</para>
+
+@GO_LINE_INTERPOLATION_LINEAR: 
+@GO_LINE_INTERPOLATION_SPLINE: 
+@GO_LINE_INTERPOLATION_CLOSED_SPLINE: 
+@GO_LINE_INTERPOLATION_CUBIC_SPLINE: 
+@GO_LINE_INTERPOLATION_PARABOLIC_CUBIC_SPLINE: 
+@GO_LINE_INTERPOLATION_CUBIC_CUBIC_SPLINE: 
+@GO_LINE_INTERPOLATION_CLAMPED_CUBIC_SPLINE: 
+@GO_LINE_INTERPOLATION_STEP_START: 
+@GO_LINE_INTERPOLATION_STEP_END: 
+@GO_LINE_INTERPOLATION_STEP_CENTER_X: 
+@GO_LINE_INTERPOLATION_STEP_CENTER_Y: 
+@GO_LINE_INTERPOLATION_MAX: 
+
+<!-- ##### FUNCTION go_line_interpolation_from_str ##### -->
+<para>
+
+</para>
+
+@name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_line_interpolation_as_str ##### -->
+<para>
+
+</para>
+
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_line_interpolation_as_label ##### -->
+<para>
+
+</para>
+
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_line_interpolation_supports_radial ##### -->
+<para>
+
+</para>
+
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_line_interpolation_auto_skip ##### -->
+<para>
+
+</para>
+
+@type: 
+@Returns: 
+
+

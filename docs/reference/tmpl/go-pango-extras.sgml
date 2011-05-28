@@ -1,0 +1,64 @@
+<!-- ##### SECTION Title ##### -->
+GOPangoExtras
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION go_pango_attr_list_open_hole ##### -->
+<para>
+
+</para>
+
+@tape: 
+@pos: 
+@len: 
+
+
+<!-- ##### FUNCTION go_pango_attr_list_erase ##### -->
+<para>
+
+</para>
+
+@attrs: 
+@pos: 
+@len: 
+
+
+<!-- ##### FUNCTION go_pango_attr_list_unset ##### -->
+<para>
+
+</para>
+
+@list: 
+@start: 
+@end: 
+@type: 
+
+
+<!-- ##### FUNCTION go_pango_attr_list_is_empty ##### -->
+<para>
+
+</para>
+
+@attrs: 
+@Returns: 
+
+

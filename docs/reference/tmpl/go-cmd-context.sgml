@@ -1,0 +1,172 @@
+<!-- ##### SECTION Title ##### -->
+GOCmdContext
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_CMD_CONTEXT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_CMD_CONTEXT ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_CMD_CONTEXT ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### STRUCT GOCmdContext ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION go_cmd_context_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_cmd_context_error ##### -->
+<para>
+
+</para>
+
+@cc: 
+@err: 
+
+
+<!-- ##### FUNCTION go_cmd_context_get_password ##### -->
+<para>
+
+</para>
+
+@cc: 
+@fname: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_cmd_context_set_sensitive ##### -->
+<para>
+
+</para>
+
+@cc: 
+@flag: 
+
+
+<!-- ##### FUNCTION go_cmd_context_error_system ##### -->
+<para>
+
+</para>
+
+@cc: 
+@msg: 
+
+
+<!-- ##### FUNCTION go_cmd_context_error_import ##### -->
+<para>
+
+</para>
+
+@cc: 
+@msg: 
+
+
+<!-- ##### FUNCTION go_cmd_context_error_export ##### -->
+<para>
+
+</para>
+
+@cc: 
+@msg: 
+
+
+<!-- ##### FUNCTION go_cmd_context_error_invalid ##### -->
+<para>
+
+</para>
+
+@cc: 
+@msg: 
+@val: 
+
+
+<!-- ##### FUNCTION go_cmd_context_error_info ##### -->
+<para>
+
+</para>
+
+@cc: 
+@stack: 
+
+
+<!-- ##### FUNCTION go_error_system ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_error_import ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_error_export ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_error_invalid ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+

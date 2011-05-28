@@ -1,0 +1,228 @@
+<!-- ##### SECTION Title ##### -->
+GocCanvas
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### ENUM GocDirection ##### -->
+<para>
+
+</para>
+
+@GOC_DIRECTION_LTR: 
+@GOC_DIRECTION_RTL: 
+@GOC_DIRECTION_MAX: 
+
+<!-- ##### STRUCT GocCanvas ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### TYPEDEF GocCanvasClass ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION goc_canvas_get_root ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_canvas_get_width ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_canvas_get_height ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_canvas_scroll_to ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@x: 
+@y: 
+
+
+<!-- ##### FUNCTION goc_canvas_get_scroll_position ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@x: 
+@y: 
+
+
+<!-- ##### FUNCTION goc_canvas_set_pixels_per_unit ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@pixels_per_unit: 
+
+
+<!-- ##### FUNCTION goc_canvas_get_pixels_per_unit ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_canvas_invalidate ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@x0: 
+@y0: 
+@x1: 
+@y1: 
+
+
+<!-- ##### FUNCTION goc_canvas_get_item_at ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@x: 
+@y: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_canvas_grab_item ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@item: 
+
+
+<!-- ##### FUNCTION goc_canvas_ungrab_item ##### -->
+<para>
+
+</para>
+
+@canvas: 
+
+
+<!-- ##### FUNCTION goc_canvas_get_grabbed_item ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_canvas_set_document ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@document: 
+
+
+<!-- ##### FUNCTION goc_canvas_get_document ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_canvas_get_cur_event ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_canvas_set_direction ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@direction: 
+
+
+<!-- ##### FUNCTION goc_canvas_get_direction ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_canvas_w2c ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@x: 
+@y: 
+@x_: 
+@y_: 
+
+
+<!-- ##### FUNCTION goc_canvas_c2w ##### -->
+<para>
+
+</para>
+
+@canvas: 
+@x: 
+@y: 
+@x_: 
+@y_: 
+
+

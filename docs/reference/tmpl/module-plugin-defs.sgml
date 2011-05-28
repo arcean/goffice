@@ -1,0 +1,79 @@
+<!-- ##### SECTION Title ##### -->
+Plugins related utilities
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOPluginModuleDepend ##### -->
+<para>
+
+</para>
+
+@key: 
+@version: 
+
+<!-- ##### STRUCT GOPluginModuleHeader ##### -->
+<para>
+
+</para>
+
+@magic_number: 
+@num_depends: 
+
+<!-- ##### MACRO GOFFICE_API_VERSION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GOFFICE_MODULE_PLUGIN_MAGIC_NUMBER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GOFFICE_PLUGIN_MODULE_HEADER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION go_plugin_init ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@cc: 
+
+
+<!-- ##### FUNCTION go_plugin_shutdown ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@cc: 
+
+

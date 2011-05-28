@@ -1,0 +1,197 @@
+<!-- ##### SECTION Title ##### -->
+Statistics
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION go_trunc ##### -->
+<para>
+
+</para>
+
+@Param1: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_dnorm ##### -->
+<para>
+
+</para>
+
+@x: 
+@mu: 
+@sigma: 
+@give_log: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_pnorm ##### -->
+<para>
+
+</para>
+
+@x: 
+@mu: 
+@sigma: 
+@lower_tail: 
+@log_p: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_pnorm_both ##### -->
+<para>
+
+</para>
+
+@x: 
+@cum: 
+@ccum: 
+@i_tail: 
+@log_p: 
+
+
+<!-- ##### FUNCTION go_qnorm ##### -->
+<para>
+
+</para>
+
+@p: 
+@mu: 
+@sigma: 
+@lower_tail: 
+@log_p: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_dlnorm ##### -->
+<para>
+
+</para>
+
+@x: 
+@meanlog: 
+@sdlog: 
+@give_log: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plnorm ##### -->
+<para>
+
+</para>
+
+@x: 
+@logmean: 
+@logsd: 
+@lower_tail: 
+@log_p: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_qlnorm ##### -->
+<para>
+
+</para>
+
+@p: 
+@logmean: 
+@logsd: 
+@lower_tail: 
+@log_p: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_dweibull ##### -->
+<para>
+
+</para>
+
+@x: 
+@shape: 
+@scale: 
+@give_log: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_pweibull ##### -->
+<para>
+
+</para>
+
+@x: 
+@shape: 
+@scale: 
+@lower_tail: 
+@log_p: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_qweibull ##### -->
+<para>
+
+</para>
+
+@p: 
+@shape: 
+@scale: 
+@lower_tail: 
+@log_p: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_dcauchy ##### -->
+<para>
+
+</para>
+
+@x: 
+@location: 
+@scale: 
+@give_log: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_pcauchy ##### -->
+<para>
+
+</para>
+
+@x: 
+@location: 
+@scale: 
+@lower_tail: 
+@log_p: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_qcauchy ##### -->
+<para>
+
+</para>
+
+@p: 
+@location: 
+@scale: 
+@lower_tail: 
+@log_p: 
+@Returns: 
+
+

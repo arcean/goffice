@@ -1,0 +1,97 @@
+<!-- ##### SECTION Title ##### -->
+GORotationSel
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_ROTATION_SEL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_ROTATION_SEL ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+
+<!-- ##### MACRO GO_IS_ROTATION_SEL ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+
+<!-- ##### STRUCT GORotationSel ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GORotationSel::rotation-changed ##### -->
+<para>
+
+</para>
+
+@gorotationsel: the object which received the signal.
+@arg1: 
+
+<!-- ##### FUNCTION go_rotation_sel_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_rotation_sel_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_rotation_sel_set_rotation ##### -->
+<para>
+
+</para>
+
+@rs: 
+@degrees: 
+
+
+<!-- ##### FUNCTION go_rotation_sel_get_rotation ##### -->
+<para>
+
+</para>
+
+@rs: 
+@Returns: 
+
+

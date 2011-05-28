@@ -1,0 +1,148 @@
+<!-- ##### SECTION Title ##### -->
+go-3d-rotation-sel
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_3D_ROTATION_SEL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT GO3DRotationSel ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GO3DRotationSel::fov-changed ##### -->
+<para>
+
+</para>
+
+@go3drotationsel: the object which received the signal.
+@arg1: 
+
+<!-- ##### SIGNAL GO3DRotationSel::matrix-changed ##### -->
+<para>
+
+</para>
+
+@go3drotationsel: the object which received the signal.
+
+<!-- ##### SIGNAL GO3DRotationSel::phi-changed ##### -->
+<para>
+
+</para>
+
+@go3drotationsel: the object which received the signal.
+@arg1: 
+
+<!-- ##### SIGNAL GO3DRotationSel::psi-changed ##### -->
+<para>
+
+</para>
+
+@go3drotationsel: the object which received the signal.
+@arg1: 
+
+<!-- ##### SIGNAL GO3DRotationSel::theta-changed ##### -->
+<para>
+
+</para>
+
+@go3drotationsel: the object which received the signal.
+@arg1: 
+
+<!-- ##### FUNCTION go_3d_rotation_sel_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_3d_rotation_sel_set_matrix ##### -->
+<para>
+
+</para>
+
+@rs: 
+@mat: 
+
+
+<!-- ##### FUNCTION go_3d_rotation_sel_set_fov ##### -->
+<para>
+
+</para>
+
+@rs: 
+@fov: 
+
+
+<!-- ##### FUNCTION go_3d_rotation_sel_get_matrix ##### -->
+<para>
+
+</para>
+
+@rs: 
+@mat: 
+
+
+<!-- ##### FUNCTION go_3d_rotation_sel_get_psi ##### -->
+<para>
+
+</para>
+
+@rs: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_3d_rotation_sel_get_theta ##### -->
+<para>
+
+</para>
+
+@rs: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_3d_rotation_sel_get_phi ##### -->
+<para>
+
+</para>
+
+@rs: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_3d_rotation_sel_get_fov ##### -->
+<para>
+
+</para>
+
+@rs: 
+@Returns: 
+
+

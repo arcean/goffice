@@ -1,0 +1,245 @@
+<!-- ##### SECTION Title ##### -->
+go-string
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOStringPhonetic ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GOString ##### -->
+<para>
+
+</para>
+
+@str: 
+
+<!-- ##### FUNCTION go_string_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_new ##### -->
+<para>
+
+</para>
+
+@str: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_new_len ##### -->
+<para>
+
+</para>
+
+@str: 
+@len: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_new_nocopy ##### -->
+<para>
+
+</para>
+
+@str: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_new_nocopy_len ##### -->
+<para>
+
+</para>
+
+@str: 
+@len: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_new_rich ##### -->
+<para>
+
+</para>
+
+@str: 
+@byte_len: 
+@copy: 
+@markup: 
+@phonetic: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_ref ##### -->
+<para>
+
+</para>
+
+@gstr: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_unref ##### -->
+<para>
+
+</para>
+
+@gstr: 
+
+
+<!-- ##### FUNCTION go_string_get_len ##### -->
+<para>
+
+</para>
+
+@gstr: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_get_ref_count ##### -->
+<para>
+
+</para>
+
+@gstr: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_get_collation ##### -->
+<para>
+
+</para>
+
+@gstr: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_get_casefold ##### -->
+<para>
+
+</para>
+
+@gstr: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_get_markup ##### -->
+<para>
+
+</para>
+
+@gstr: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_get_phonetic ##### -->
+<para>
+
+</para>
+
+@gstr: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_hash ##### -->
+<para>
+
+</para>
+
+@gstr: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_cmp ##### -->
+<para>
+
+</para>
+
+@gstr_a: 
+@gstr_b: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_cmp_ignorecase ##### -->
+<para>
+
+</para>
+
+@gstr_a: 
+@gstr_b: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_equal ##### -->
+<para>
+
+</para>
+
+@gstr_a: 
+@gstr_b: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_equal_ignorecase ##### -->
+<para>
+
+</para>
+
+@gstr_a: 
+@gstr_b: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_equal_rich ##### -->
+<para>
+
+</para>
+
+@gstr_a: 
+@gstr_b: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_ERROR ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_foreach_base ##### -->
+<para>
+
+</para>
+
+@callback: 
+@data: 
+
+

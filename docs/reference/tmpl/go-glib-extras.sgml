@@ -1,0 +1,509 @@
+<!-- ##### SECTION Title ##### -->
+GOGlibExtras
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### USER_FUNCTION GOMapFunc ##### -->
+<para>
+
+</para>
+
+@value: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_ptr_array_insert ##### -->
+<para>
+
+</para>
+
+@array: 
+@value: 
+@index: 
+
+
+<!-- ##### FUNCTION go_hash_keys ##### -->
+<para>
+
+</para>
+
+@hash: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_hash_values ##### -->
+<para>
+
+</para>
+
+@hash: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_slist_map ##### -->
+<para>
+
+</para>
+
+@list: 
+@map_func: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_slist_create ##### -->
+<para>
+
+</para>
+
+@item1: 
+@Varargs: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_slist_free_custom ##### -->
+<para>
+
+</para>
+
+@list: 
+@free_func: 
+
+
+<!-- ##### MACRO go_string_slist_copy ##### -->
+<para>
+
+</para>
+
+@list: 
+
+
+<!-- ##### FUNCTION go_strsplit_to_slist ##### -->
+<para>
+
+</para>
+
+@str: 
+@delimiter: 
+@Returns: 
+
+
+<!-- ##### MACRO GO_SLIST_FOREACH ##### -->
+<para>
+
+</para>
+
+@list: 
+@valtype: 
+@val: 
+@stmnt: 
+
+
+<!-- ##### MACRO GO_SLIST_PREPEND ##### -->
+<para>
+
+</para>
+
+@list: 
+@item: 
+
+
+<!-- ##### MACRO GO_SLIST_APPEND ##### -->
+<para>
+
+</para>
+
+@list: 
+@item: 
+
+
+<!-- ##### MACRO GO_SLIST_REMOVE ##### -->
+<para>
+
+</para>
+
+@list: 
+@item: 
+
+
+<!-- ##### MACRO GO_SLIST_CONCAT ##### -->
+<para>
+
+</para>
+
+@list_a: 
+@list_b: 
+
+
+<!-- ##### MACRO GO_SLIST_REVERSE ##### -->
+<para>
+
+</para>
+
+@list: 
+
+
+<!-- ##### MACRO GO_SLIST_SORT ##### -->
+<para>
+
+</para>
+
+@list: 
+@cmp_func: 
+
+
+<!-- ##### FUNCTION go_list_index_custom ##### -->
+<para>
+
+</para>
+
+@list: 
+@data: 
+@cmp_func: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_list_free_custom ##### -->
+<para>
+
+</para>
+
+@list: 
+@free_func: 
+
+
+<!-- ##### MACRO GO_LIST_FOREACH ##### -->
+<para>
+
+</para>
+
+@list: 
+@valtype: 
+@val: 
+@stmnt: 
+
+
+<!-- ##### MACRO GO_LIST_PREPEND ##### -->
+<para>
+
+</para>
+
+@list: 
+@item: 
+
+
+<!-- ##### MACRO GO_LIST_APPEND ##### -->
+<para>
+
+</para>
+
+@list: 
+@item: 
+
+
+<!-- ##### MACRO GO_LIST_REMOVE ##### -->
+<para>
+
+</para>
+
+@list: 
+@item: 
+
+
+<!-- ##### MACRO GO_LIST_CONCAT ##### -->
+<para>
+
+</para>
+
+@list_a: 
+@list_b: 
+
+
+<!-- ##### MACRO GO_LIST_REVERSE ##### -->
+<para>
+
+</para>
+
+@list: 
+
+
+<!-- ##### MACRO GO_LIST_SORT ##### -->
+<para>
+
+</para>
+
+@list: 
+@cmp_func: 
+
+
+<!-- ##### FUNCTION go_str_compare ##### -->
+<para>
+
+</para>
+
+@x: 
+@y: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_ascii_strcase_hash ##### -->
+<para>
+
+</para>
+
+@v: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_ascii_strcase_equal ##### -->
+<para>
+
+</para>
+
+@v: 
+@v2: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_utf8_collate_casefold ##### -->
+<para>
+
+</para>
+
+@a: 
+@b: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_utf8_strcapital ##### -->
+<para>
+
+</para>
+
+@p: 
+@len: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_strescape ##### -->
+<para>
+
+</para>
+
+@target: 
+@str: 
+
+
+<!-- ##### FUNCTION go_strunescape ##### -->
+<para>
+
+</para>
+
+@target: 
+@str: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_string_append_gstring ##### -->
+<para>
+
+</para>
+
+@target: 
+@src: 
+
+
+<!-- ##### FUNCTION go_string_append_c_n ##### -->
+<para>
+
+</para>
+
+@target: 
+@c: 
+@n: 
+
+
+<!-- ##### FUNCTION go_guess_encoding ##### -->
+<para>
+
+</para>
+
+@raw: 
+@len: 
+@user_guess: 
+@utf8_str: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_get_real_name ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_destroy_password ##### -->
+<para>
+
+</para>
+
+@passwd: 
+
+
+<!-- ##### STRUCT GOMemChunk ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION go_mem_chunk_new ##### -->
+<para>
+
+</para>
+
+@name: 
+@user_atom_size: 
+@chunk_size: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_mem_chunk_destroy ##### -->
+<para>
+
+</para>
+
+@chunk: 
+@expect_leaks: 
+
+
+<!-- ##### FUNCTION go_mem_chunk_alloc ##### -->
+<para>
+
+</para>
+
+@chunk: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_mem_chunk_alloc0 ##### -->
+<para>
+
+</para>
+
+@chunk: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_mem_chunk_free ##### -->
+<para>
+
+</para>
+
+@chunk: 
+@mem: 
+
+
+<!-- ##### FUNCTION go_mem_chunk_foreach_leak ##### -->
+<para>
+
+</para>
+
+@chunk: 
+@cb: 
+@user: 
+
+
+<!-- ##### FUNCTION go_object_toggle ##### -->
+<para>
+
+</para>
+
+@object: 
+@property_name: 
+
+
+<!-- ##### FUNCTION go_object_properties_collect ##### -->
+<para>
+
+</para>
+
+@obj: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_object_properties_apply ##### -->
+<para>
+
+</para>
+
+@obj: 
+@props: 
+@changed_only: 
+
+
+<!-- ##### FUNCTION go_object_properties_free ##### -->
+<para>
+
+</para>
+
+@props: 
+
+
+<!-- ##### FUNCTION go_object_set_property ##### -->
+<para>
+
+</para>
+
+@obj: 
+@property_name: 
+@user_prop_name: 
+@value: 
+@err: 
+@error_template: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION GOParseKeyValueFunc ##### -->
+<para>
+
+</para>
+
+@name: 
+@value: 
+@err: 
+@user: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_parse_key_value ##### -->
+<para>
+
+</para>
+
+@options: 
+@err: 
+@handler: 
+@user: 
+@Returns: 
+
+

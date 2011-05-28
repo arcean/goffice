@@ -1,0 +1,51 @@
+GOffice -- A glib/gtk set of document centric objects and utilities
+Jody Goldberg <jody@gnome.org>
+
+There are common operations for document centric applications that are
+conceptually simple, but complex to implement fully.
+    - plugins
+    - load/save documents
+    - undo/redo
+
+To report goffice bugs, please visit bugzilla.gnome.org.
+
+goffice is licensed under the terms of the GNU GPL included in the
+file COPYING.
+
+Requirements
+------------
+
+You need:				        Debian package name
+	glib		>= 2.8.0        libglib2.0-dev
+	gobject-2.0	>= 2.16.0       libglib2.0-dev
+	gmodule-2.0	>= 2.16.0       libglib2.0-dev
+	gio-2.0		>= 2.16.0       libglib2.0-dev
+	gtk+		>= 2.12.0       libgtk2.0-dev
+	pango		>= 1.8.1        libpango1.0-dev
+	libgsf		>= 1.14.9       libgsf-1-dev
+	libxml2     >= 2.4.12       libxml2-dev
+	pango		>= 1.8.1        libpango1.0-dev
+	pangocairo	>= 1.8.1        libpango1.0-dev
+	cairo		>= 1.2.0        libcairo2-dev
+	cairo-svg	>= 1.2.0        libcairo2-dev
+	cairo-pdf	>= 1.2.0        libcairo2-dev
+	cairo-ps	>= 1.2.0        libcairo2-dev
+
+For GConf support you need:
+
+	gconf-2.0                   libgconf2-dev
+
+
+Mailing lists
+-------------
+
+   There is a mailing list used to discuss Goffice, to subscribe
+send a mail to:
+
+	gnumeric-list-request@gnome.org
+
+   And in the body of the message write "subscribe"
+
+   An archive of the mailing lists is available in:
+
+	http://mail.gnome.org/archives/gnumeric-list/

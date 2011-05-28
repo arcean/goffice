@@ -1,0 +1,61 @@
+<!-- ##### SECTION Title ##### -->
+GocEllipse
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GocEllipse ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GocEllipse:height ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocEllipse:rotation ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocEllipse:width ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocEllipse:x ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocEllipse:y ##### -->
+<para>
+
+</para>
+
+<!-- ##### TYPEDEF GocEllipseClass ##### -->
+<para>
+
+</para>
+
+

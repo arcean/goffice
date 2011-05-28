@@ -1,0 +1,370 @@
+/* goffice/goffice-config.h.in.  Generated from configure.in by autoheader.  */
+
+/* always defined to indicate that i18n is enabled */
+#undef ENABLE_NLS
+
+/* The package name, for gettext */
+#undef GETTEXT_PACKAGE
+
+/* Define if G Office supplies acosh. */
+#undef GOFFICE_SUPPLIED_ACOSH
+
+/* Define if G Office supplies asinh. */
+#undef GOFFICE_SUPPLIED_ASINH
+
+/* Define if G Office supplies atanh. */
+#undef GOFFICE_SUPPLIED_ATANH
+
+/* Define if G Office supplies expm1. */
+#undef GOFFICE_SUPPLIED_EXPM1
+
+/* Define if G Office supplies frexpl. */
+#undef GOFFICE_SUPPLIED_FREXPL
+
+/* Define if G Office supplies ldexpl. */
+#undef GOFFICE_SUPPLIED_LDEXPL
+
+/* Define if G Office supplies log1p. */
+#undef GOFFICE_SUPPLIED_LOG1P
+
+/* Define if G Office supplies modfl. */
+#undef GOFFICE_SUPPLIED_MODFL
+
+/* Define if G Office supplies strtold. */
+#undef GOFFICE_SUPPLIED_STRTOLD
+
+/* The version number of this release, possibly with additional suffix */
+#undef GOFFICE_VERSION
+
+/* Goffice uses Cairo */
+#undef GOFFICE_WITH_CAIRO
+
+/* Goffice uses gconf */
+#undef GOFFICE_WITH_GCONF
+
+/* Goffice uses gsettings */
+#undef GOFFICE_WITH_GSETTINGS
+
+/* Define if UI is built */
+#undef GOFFICE_WITH_GTK
+
+/* Define if Lasem is used */
+#undef GOFFICE_WITH_LASEM
+
+/* Define if G Office supports long double. */
+#undef GOFFICE_WITH_LONG_DOUBLE
+
+/* Goffice uses Windows registry */
+#undef GOFFICE_WITH_WINREG
+
+/* The Epoch of this release */
+#undef GO_VERSION_EPOCH
+
+/* Extra, possibly empty tag for this release */
+#undef GO_VERSION_EXTRA
+
+/* The Major version number of this release */
+#undef GO_VERSION_MAJOR
+
+/* The Minor version number of this release */
+#undef GO_VERSION_MINOR
+
+/* Define to 1 if you have the `bind_textdomain_codeset' function. */
+#undef HAVE_BIND_TEXTDOMAIN_CODESET
+
+/* Define to 1 if you have the `cairo_ps_surface_set_eps' function. */
+#undef HAVE_CAIRO_PS_SURFACE_SET_EPS
+
+/* Define to 1 if you have the `cairo_surface_set_fallback_resolution'
+   function. */
+#undef HAVE_CAIRO_SURFACE_SET_FALLBACK_RESOLUTION
+
+/* Define to 1 if you have the `dcgettext' function. */
+#undef HAVE_DCGETTEXT
+
+/* Define to 1 if you have the `decimal_to_quadruple' function. */
+#undef HAVE_DECIMAL_TO_QUADRUPLE
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the `drand48' function. */
+#undef HAVE_DRAND48
+
+/* Define if the finite function is available */
+#undef HAVE_FINITE
+
+/* Define to 1 if you have the `finitel' function. */
+#undef HAVE_FINITEL
+
+/* Define to 1 if you have the <floatingpoint.h> header file. */
+#undef HAVE_FLOATINGPOINT_H
+
+/* Define to 1 if you have the <fpu_control.h> header file. */
+#undef HAVE_FPU_CONTROL_H
+
+/* Define to 1 if you have the `gdk_cairo_set_source_pixbuf' function. */
+#undef HAVE_GDK_CAIRO_SET_SOURCE_PIXBUF
+
+/* Define to 1 if you have the `gdk_x11_drawable_get_xdisplay' function. */
+#undef HAVE_GDK_X11_DRAWABLE_GET_XDISPLAY
+
+/* Define if the GNU gettext() function is already present or preinstalled. */
+#undef HAVE_GETTEXT
+
+/* Define if the gettimeofday function is available */
+#undef HAVE_GETTIMEOFDAY
+
+/* Define to 1 if you have the <grp.h> header file. */
+#undef HAVE_GRP_H
+
+/* Define to 1 if you have the `gtk_adjustment_get_page_size' function. */
+#undef HAVE_GTK_ADJUSTMENT_GET_PAGE_SIZE
+
+/* Define to 1 if you have the `gtk_adjustment_get_upper' function. */
+#undef HAVE_GTK_ADJUSTMENT_GET_UPPER
+
+/* Define to 1 if you have the
+   `gtk_color_selection_dialog_get_color_selection' function. */
+#undef HAVE_GTK_COLOR_SELECTION_DIALOG_GET_COLOR_SELECTION
+
+/* Define to 1 if you have the `gtk_dialog_get_action_area' function. */
+#undef HAVE_GTK_DIALOG_GET_ACTION_AREA
+
+/* Define to 1 if you have the `gtk_dialog_get_response_for_widget' function.
+   */
+#undef HAVE_GTK_DIALOG_GET_RESPONSE_FOR_WIDGET
+
+/* Define to 1 if you have the `gtk_layout_get_bin_window' function. */
+#undef HAVE_GTK_LAYOUT_GET_BIN_WINDOW
+
+/* Define to 1 if you have the `gtk_menu_shell_get_active' function. */
+#undef HAVE_GTK_MENU_SHELL_GET_ACTIVE
+
+/* Define to 1 if you have the `gtk_selection_data_get_data' function. */
+#undef HAVE_GTK_SELECTION_DATA_GET_DATA
+
+/* Define to 1 if you have the `gtk_selection_data_get_length' function. */
+#undef HAVE_GTK_SELECTION_DATA_GET_LENGTH
+
+/* Define to 1 if you have the `gtk_selection_data_get_target' function. */
+#undef HAVE_GTK_SELECTION_DATA_GET_TARGET
+
+/* Define to 1 if you have the `have_gtk_show_uri' function. */
+#undef HAVE_GTK_SHOW_URI
+
+/* Define to 1 if you have the `gtk_tearoff_menu_item_get_torn_off' function.
+   */
+#undef HAVE_GTK_TEAROFF_MENU_ITEM_GET_TORN_OFF
+
+/* Define to 1 if you have the `gtk_tearoff_menu_item_set_torn_off' function.
+   */
+#undef HAVE_GTK_TEAROFF_MENU_ITEM_SET_TORN_OFF
+
+/* Define to 1 if you have the `gtk_tool_item_set_tooltip_text' function. */
+#undef HAVE_GTK_TOOL_ITEM_SET_TOOLTIP_TEXT
+
+/* Define to 1 if you have the `gtk_widget_get_allocation' function. */
+#undef HAVE_GTK_WIDGET_GET_ALLOCATION
+
+/* Define to 1 if you have the `gtk_widget_get_has_window' function. */
+#undef HAVE_GTK_WIDGET_GET_HAS_WINDOW
+
+/* Define to 1 if you have the `gtk_widget_get_mapped' function. */
+#undef HAVE_GTK_WIDGET_GET_MAPPED
+
+/* Define to 1 if you have the `gtk_widget_get_realized' function. */
+#undef HAVE_GTK_WIDGET_GET_REALIZED
+
+/* Define to 1 if you have the `gtk_widget_get_state' function. */
+#undef HAVE_GTK_WIDGET_GET_STATE
+
+/* Define to 1 if you have the `gtk_widget_get_style' function. */
+#undef HAVE_GTK_WIDGET_GET_STYLE
+
+/* Define to 1 if you have the `gtk_widget_get_visible' function. */
+#undef HAVE_GTK_WIDGET_GET_VISIBLE
+
+/* Define to 1 if you have the `gtk_widget_get_window' function. */
+#undef HAVE_GTK_WIDGET_GET_WINDOW
+
+/* Define to 1 if you have the `gtk_widget_has_focus' function. */
+#undef HAVE_GTK_WIDGET_HAS_FOCUS
+
+/* Define to 1 if you have the `gtk_widget_is_sensitive' function. */
+#undef HAVE_GTK_WIDGET_IS_SENSITIVE
+
+/* Define to 1 if you have the `gtk_widget_send_focus_change' function. */
+#undef HAVE_GTK_WIDGET_SEND_FOCUS_CHANGE
+
+/* Define to 1 if you have the `gtk_widget_set_can_default' function. */
+#undef HAVE_GTK_WIDGET_SET_CAN_DEFAULT
+
+/* Define to 1 if you have the `gtk_widget_set_can_focus' function. */
+#undef HAVE_GTK_WIDGET_SET_CAN_FOCUS
+
+/* Define to 1 if you have the `gtk_widget_set_receives_default' function. */
+#undef HAVE_GTK_WIDGET_SET_RECEIVES_DEFAULT
+
+/* Define to 1 if you have the `gtk_widget_set_tooltip_text' function. */
+#undef HAVE_GTK_WIDGET_SET_TOOLTIP_TEXT
+
+/* Define to 1 if you have the `gtk_window_get_default_widget' function. */
+#undef HAVE_GTK_WINDOW_GET_DEFAULT_WIDGET
+
+/* Define to 1 if you have the `g_content_type_from_mime_type' function. */
+#undef HAVE_G_CONTENT_TYPE_FROM_MIME_TYPE
+
+/* Define to 1 if you have the `g_file_new_for_commandline_arg' function. */
+#undef HAVE_G_FILE_NEW_FOR_COMMANDLINE_ARG
+
+/* Define to 1 if you have the `g_file_new_for_uri' function. */
+#undef HAVE_G_FILE_NEW_FOR_URI
+
+/* Define to 1 if you have the `g_hash_table_iter_init' function. */
+#undef HAVE_G_HASH_TABLE_ITER_INIT
+
+/* Define if G_REGEX_ERROR_STRAY_BACKSLASH is defined */
+#undef HAVE_G_REGEX_ERROR_STRAY_BACKSLASH
+
+/* Define to 1 if you have the <ieee754.h> header file. */
+#undef HAVE_IEEE754_H
+
+/* Define to 1 if you have the <ieeefp.h> header file. */
+#undef HAVE_IEEEFP_H
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define if the isfinite() macro is available */
+#undef HAVE_ISFINITE
+
+/* Define to 1 if you have the <langinfo.h> header file. */
+#undef HAVE_LANGINFO_H
+
+/* Define if your <locale.h> file defines LC_MESSAGES. */
+#undef HAVE_LC_MESSAGES
+
+/* Define to 1 if you have the `intl' library (-lintl). */
+#undef HAVE_LIBINTL
+
+/* Define to 1 if you have the `m' library (-lm). */
+#undef HAVE_LIBM
+
+/* Define to 1 if you have the `pcre' library (-lpcre). */
+#undef HAVE_LIBPCRE
+
+/* Define to 1 if you have the <locale.h> header file. */
+#undef HAVE_LOCALE_H
+
+/* Define if the log function is available */
+#undef HAVE_LOG
+
+/* Define to 1 if the type `long double' works and has more range or precision
+   than `double'. */
+#undef HAVE_LONG_DOUBLE
+
+/* Define to 1 if the type `long double' works and has more range or precision
+   than `double'. */
+#undef HAVE_LONG_DOUBLE_WIDER
+
+/* Define to 1 if you have the `memmove' function. */
+#undef HAVE_MEMMOVE
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have the `mkdtemp' function. */
+#undef HAVE_MKDTEMP
+
+/* Define to 1 if you have the <pwd.h> header file. */
+#undef HAVE_PWD_H
+
+/* Define to 1 if you have the `random' function. */
+#undef HAVE_RANDOM
+
+/* Define if libXrender is available. */
+#undef HAVE_RENDER
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the `string_to_decimal' function. */
+#undef HAVE_STRING_TO_DECIMAL
+
+/* Define to 1 if you have the `strtold' function. */
+#undef HAVE_STRTOLD
+
+/* Define to 1 if you have the <sunmath.h> header file. */
+#undef HAVE_SUNMATH_H
+
+/* Define to 1 if you have the `sysconf' function. */
+#undef HAVE_SYSCONF
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the `times' function. */
+#undef HAVE_TIMES
+
+/* Define to 1 if you have the `uname' function. */
+#undef HAVE_UNAME
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Version number of package */
+#undef VERSION
+
+/* Define to 1 if `lex' declares `yytext' as a `char *' by default, not a
+   `char[]'. */
+#undef YYTEXT_POINTER
+
+/* Number of bits in a file offset, on hosts where this is settable. */
+#undef _FILE_OFFSET_BITS
+
+/* Define for large files, on AIX-style hosts. */
+#undef _LARGE_FILES
+
+/* Don't include goffice-features.h, it's a subset of goffice-config.h. */
+#define GOFFICE_FEATURES_H

@@ -1,0 +1,76 @@
+<!-- ##### SECTION Title ##### -->
+GOPersist
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOPersist ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GOPersistClass ##### -->
+<para>
+
+</para>
+
+@base: 
+@dom_load: 
+@prep_sax: 
+@sax_save: 
+
+<!-- ##### FUNCTION go_persist_dom_load ##### -->
+<para>
+
+</para>
+
+@gp: 
+@node: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_persist_sax_save ##### -->
+<para>
+
+</para>
+
+@gp: 
+@output: 
+
+
+<!-- ##### FUNCTION go_persist_prep_sax ##### -->
+<para>
+
+</para>
+
+@gp: 
+@xin: 
+@attrs: 
+
+
+<!-- ##### MACRO GO_PARAM_PERSISTENT ##### -->
+<para>
+
+</para>
+
+
+

@@ -1,0 +1,57 @@
+<!-- ##### SECTION Title ##### -->
+GODataScalar
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GODataScalar ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GODataScalarClass ##### -->
+<para>
+
+</para>
+
+@base: 
+@get_value: 
+@get_str: 
+
+<!-- ##### FUNCTION go_data_scalar_get_value ##### -->
+<para>
+
+</para>
+
+@val: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_scalar_get_str ##### -->
+<para>
+
+</para>
+
+@val: 
+@Returns: 
+
+

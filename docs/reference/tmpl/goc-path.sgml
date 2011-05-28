@@ -1,0 +1,61 @@
+<!-- ##### SECTION Title ##### -->
+GocPath
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GocPath ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GocPath:closed ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocPath:path ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocPath:rotation ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocPath:x ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocPath:y ##### -->
+<para>
+
+</para>
+
+<!-- ##### TYPEDEF GocPathClass ##### -->
+<para>
+
+</para>
+
+

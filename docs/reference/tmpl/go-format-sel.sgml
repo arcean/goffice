@@ -1,0 +1,184 @@
+<!-- ##### SECTION Title ##### -->
+GOFormatSel
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_FORMAT_SEL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_FORMAT_SEL ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_FORMAT_SEL ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### STRUCT GOFormatSel ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOFormatSel::format-changed ##### -->
+<para>
+
+</para>
+
+@goformatsel: the object which received the signal.
+@arg1: 
+
+<!-- ##### SIGNAL GOFormatSel::generate-preview ##### -->
+<para>
+
+</para>
+
+@goformatsel: the object which received the signal.
+@arg1: 
+@Returns: 
+
+<!-- ##### FUNCTION go_format_sel_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_sel_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_sel_new_full ##### -->
+<para>
+
+</para>
+
+@use_markup: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_sel_set_focus ##### -->
+<para>
+
+</para>
+
+@gfs: 
+
+
+<!-- ##### FUNCTION go_format_sel_set_style_format ##### -->
+<para>
+
+</para>
+
+@gfs: 
+@style_format: 
+
+
+<!-- ##### FUNCTION go_format_sel_set_locale ##### -->
+<para>
+
+</para>
+
+@gfs: 
+@locale: 
+
+
+<!-- ##### FUNCTION go_format_sel_get_fmt ##### -->
+<para>
+
+</para>
+
+@gfs: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_sel_get_dateconv ##### -->
+<para>
+
+</para>
+
+@gfs: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_sel_set_dateconv ##### -->
+<para>
+
+</para>
+
+@gfs: 
+@date_conv: 
+
+
+<!-- ##### FUNCTION go_format_sel_show_preview ##### -->
+<para>
+
+</para>
+
+@gfs: 
+
+
+<!-- ##### FUNCTION go_format_sel_hide_preview ##### -->
+<para>
+
+</para>
+
+@gfs: 
+
+
+<!-- ##### FUNCTION go_format_sel_editable_enters ##### -->
+<para>
+
+</para>
+
+@gfs: 
+@window: 
+
+
+<!-- ##### FUNCTION go_format_sel_format_classification ##### -->
+<para>
+
+</para>
+
+@style_format: 
+@Returns: 
+
+

@@ -1,0 +1,281 @@
+<!-- ##### SECTION Title ##### -->
+GOStyle
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOStyle ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ENUM GOStyleFlag ##### -->
+<para>
+
+</para>
+
+@GO_STYLE_OUTLINE: 
+@GO_STYLE_FILL: 
+@GO_STYLE_LINE: 
+@GO_STYLE_MARKER: 
+@GO_STYLE_FONT: 
+@GO_STYLE_TEXT_LAYOUT: 
+@GO_STYLE_INTERPOLATION: 
+@GO_STYLE_MARKER_NO_COLOR: 
+@GO_STYLE_ALL: 
+
+<!-- ##### ENUM GOStyleFill ##### -->
+<para>
+
+</para>
+
+@GO_STYLE_FILL_NONE: 
+@GO_STYLE_FILL_PATTERN: 
+@GO_STYLE_FILL_GRADIENT: 
+@GO_STYLE_FILL_IMAGE: 
+
+<!-- ##### ENUM GOImageType ##### -->
+<para>
+
+</para>
+
+@GO_IMAGE_STRETCHED: 
+@GO_IMAGE_WALLPAPER: 
+@GO_IMAGE_CENTERED: 
+
+<!-- ##### STRUCT GOStyleLine ##### -->
+<para>
+
+</para>
+
+@width: 
+@dash_type: 
+@auto_dash: 
+@color: 
+@fore: 
+@auto_color: 
+@auto_fore: 
+@pattern: 
+@cap: 
+@join: 
+@miter_limit: 
+
+<!-- ##### STRUCT GOStyleMark ##### -->
+<para>
+
+</para>
+
+@mark: 
+@auto_shape: 
+@auto_outline_color: 
+@auto_fill_color: 
+
+<!-- ##### FUNCTION go_style_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_style_dup ##### -->
+<para>
+
+</para>
+
+@style: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_style_assign ##### -->
+<para>
+
+</para>
+
+@dst: 
+@src: 
+
+
+<!-- ##### FUNCTION go_style_apply_theme ##### -->
+<para>
+
+</para>
+
+@dst: 
+@src: 
+@fields: 
+
+
+<!-- ##### FUNCTION go_style_set_marker ##### -->
+<para>
+
+</para>
+
+@style: 
+@marker: 
+
+
+<!-- ##### FUNCTION go_style_set_font_desc ##### -->
+<para>
+
+</para>
+
+@style: 
+@desc: 
+
+
+<!-- ##### FUNCTION go_style_set_font ##### -->
+<para>
+
+</para>
+
+@style: 
+@font: 
+
+
+<!-- ##### FUNCTION go_style_set_fill_brightness ##### -->
+<para>
+
+</para>
+
+@style: 
+@brightness: 
+
+
+<!-- ##### FUNCTION go_style_set_text_angle ##### -->
+<para>
+
+</para>
+
+@style: 
+@angle: 
+
+
+<!-- ##### FUNCTION go_style_is_different_size ##### -->
+<para>
+
+</para>
+
+@a: 
+@b: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_style_is_marker_visible ##### -->
+<para>
+
+</para>
+
+@style: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_style_is_line_visible ##### -->
+<para>
+
+</para>
+
+@style: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_style_is_outline_visible ##### -->
+<para>
+
+</para>
+
+@style: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_style_is_fill_visible ##### -->
+<para>
+
+</para>
+
+@style: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_style_force_auto ##### -->
+<para>
+
+</para>
+
+@style: 
+
+
+<!-- ##### FUNCTION go_style_get_editor ##### -->
+<para>
+
+</para>
+
+@style: 
+@default_style: 
+@cc: 
+@object_with_style: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_style_populate_editor ##### -->
+<para>
+
+</para>
+
+@style: 
+@editor: 
+@default_style: 
+@cc: 
+@object_with_style: 
+@watch_for_external_change: 
+
+
+<!-- ##### FUNCTION go_style_create_cairo_pattern ##### -->
+<para>
+
+</para>
+
+@style: 
+@cr: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_style_set_cairo_line ##### -->
+<para>
+
+</para>
+
+@style: 
+@cr: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_style_get_marker ##### -->
+<para>
+
+</para>
+
+@style: 
+@Returns: 
+
+

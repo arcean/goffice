@@ -1,0 +1,171 @@
+<!-- ##### SECTION Title ##### -->
+GOPluginLoader
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_PLUGIN_LOADER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_PLUGIN_LOADER ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_PLUGIN_LOADER ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_PLUGIN_LOADER_CLASS ##### -->
+<para>
+
+</para>
+
+@k: 
+
+
+<!-- ##### MACRO GO_IS_PLUGIN_LOADER_CLASS ##### -->
+<para>
+
+</para>
+
+@k: 
+
+
+<!-- ##### STRUCT GOPluginLoader ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GOPluginLoaderClass ##### -->
+<para>
+
+</para>
+
+@base: 
+@load_base: 
+@unload_base: 
+@set_attributes: 
+@service_load: 
+@service_unload: 
+@load_service_file_opener: 
+@unload_service_file_opener: 
+@load_service_file_saver: 
+@unload_service_file_saver: 
+@load_service_plugin_loader: 
+@unload_service_plugin_loader: 
+
+<!-- ##### FUNCTION go_plugin_loader_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_loader_set_attributes ##### -->
+<para>
+
+</para>
+
+@l: 
+@attrs: 
+@err: 
+
+
+<!-- ##### FUNCTION go_plugin_loader_get_plugin ##### -->
+<para>
+
+</para>
+
+@l: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_loader_set_plugin ##### -->
+<para>
+
+</para>
+
+@l: 
+@p: 
+
+
+<!-- ##### FUNCTION go_plugin_loader_load_base ##### -->
+<para>
+
+</para>
+
+@l: 
+@err: 
+
+
+<!-- ##### FUNCTION go_plugin_loader_unload_base ##### -->
+<para>
+
+</para>
+
+@l: 
+@err: 
+
+
+<!-- ##### FUNCTION go_plugin_loader_load_service ##### -->
+<para>
+
+</para>
+
+@l: 
+@s: 
+@err: 
+
+
+<!-- ##### FUNCTION go_plugin_loader_unload_service ##### -->
+<para>
+
+</para>
+
+@l: 
+@s: 
+@err: 
+
+
+<!-- ##### FUNCTION go_plugin_loader_is_base_loaded ##### -->
+<para>
+
+</para>
+
+@l: 
+@Returns: 
+
+

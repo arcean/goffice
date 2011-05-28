@@ -1,0 +1,44 @@
+<!-- ##### SECTION Title ##### -->
+GogOutlinedObject
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GogOutlinedObject ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GogOutlinedObject:padding-pts ##### -->
+<para>
+
+</para>
+
+<!-- ##### FUNCTION gog_outlined_object_get_pad ##### -->
+<para>
+
+</para>
+
+@goo: 
+@Returns: 
+
+

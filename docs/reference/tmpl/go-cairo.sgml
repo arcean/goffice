@@ -1,0 +1,83 @@
+<!-- ##### SECTION Title ##### -->
+GOCairo
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION go_cairo_emit_svg_path ##### -->
+<para>
+
+</para>
+
+@cr: 
+@path: 
+
+
+<!-- ##### FUNCTION go_cairo_surface_is_vector ##### -->
+<para>
+
+</para>
+
+@surface: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_cairo_convert_data_to_pixbuf ##### -->
+<para>
+
+</para>
+
+@dst: 
+@src: 
+@width: 
+@height: 
+@rowstride: 
+
+
+<!-- ##### FUNCTION go_cairo_convert_data_from_pixbuf ##### -->
+<para>
+
+</para>
+
+@dst: 
+@src: 
+@width: 
+@height: 
+@rowstride: 
+
+
+<!-- ##### MACRO GO_CAIRO_CLAMP ##### -->
+<para>
+
+</para>
+
+@x: 
+
+
+<!-- ##### MACRO GO_CAIRO_CLAMP_SNAP ##### -->
+<para>
+
+</para>
+
+@x: 
+@even: 
+
+

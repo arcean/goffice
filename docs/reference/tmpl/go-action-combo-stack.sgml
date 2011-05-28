@@ -1,0 +1,67 @@
+<!-- ##### SECTION Title ##### -->
+GOActionStack
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOActionComboStack ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION go_action_combo_stack_push ##### -->
+<para>
+
+</para>
+
+@act: 
+@str: 
+@key: 
+
+
+<!-- ##### FUNCTION go_action_combo_stack_pop ##### -->
+<para>
+
+</para>
+
+@act: 
+@n: 
+
+
+<!-- ##### FUNCTION go_action_combo_stack_truncate ##### -->
+<para>
+
+</para>
+
+@act: 
+@n: 
+
+
+<!-- ##### FUNCTION go_action_combo_stack_selection ##### -->
+<para>
+
+</para>
+
+@a: 
+@Returns: 
+
+

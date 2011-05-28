@@ -1,0 +1,54 @@
+<!-- ##### SECTION Title ##### -->
+gog-child-button
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GogChildButton ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GogChildButtonClass ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION gog_child_button_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_child_button_set_object ##### -->
+<para>
+
+</para>
+
+@child_button: 
+@gog_object: 
+
+

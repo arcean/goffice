@@ -1,0 +1,329 @@
+<!-- ##### SECTION Title ##### -->
+GODoc
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_DOC ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_DOC ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_DOC ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### STRUCT GODoc ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GODoc::metadata-changed ##### -->
+<para>
+
+</para>
+
+@godoc: the object which received the signal.
+
+<!-- ##### SIGNAL GODoc::metadata-update ##### -->
+<para>
+
+</para>
+
+@godoc: the object which received the signal.
+
+<!-- ##### ARG GODoc:dirty ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GODoc:pristine ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GODoc:uri ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT GODocClass ##### -->
+<para>
+
+</para>
+
+@base: 
+
+<!-- ##### FUNCTION go_doc_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_new_from_input ##### -->
+<para>
+
+</para>
+
+@input: 
+@fmt: 
+@context: 
+@encoding: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_new_from_uri ##### -->
+<para>
+
+</para>
+
+@uri: 
+@fmt: 
+@context: 
+@encoding: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_save ##### -->
+<para>
+
+</para>
+
+@doc: 
+@context: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_save_as ##### -->
+<para>
+
+</para>
+
+@doc: 
+@fmt: 
+@uri: 
+@cc: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_sendto ##### -->
+<para>
+
+</para>
+
+@doc: 
+@cc: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_get_meta_data ##### -->
+<para>
+
+</para>
+
+@doc: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_get_uri ##### -->
+<para>
+
+</para>
+
+@doc: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_is_dirty ##### -->
+<para>
+
+</para>
+
+@doc: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_is_pristine ##### -->
+<para>
+
+</para>
+
+@doc: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_set_dirty ##### -->
+<para>
+
+</para>
+
+@doc: 
+@is_dirty: 
+
+
+<!-- ##### FUNCTION go_doc_set_meta_data ##### -->
+<para>
+
+</para>
+
+@doc: 
+@data: 
+
+
+<!-- ##### FUNCTION go_doc_set_pristine ##### -->
+<para>
+
+</para>
+
+@doc: 
+@pristine: 
+
+
+<!-- ##### FUNCTION go_doc_set_uri ##### -->
+<para>
+
+</para>
+
+@doc: 
+@uri: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_update_meta_data ##### -->
+<para>
+
+</para>
+
+@doc: 
+
+
+<!-- ##### FUNCTION go_doc_get_image ##### -->
+<para>
+
+</para>
+
+@doc: 
+@id: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_add_image ##### -->
+<para>
+
+</para>
+
+@doc: 
+@id: 
+@image: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_get_images ##### -->
+<para>
+
+</para>
+
+@doc: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_init_write ##### -->
+<para>
+
+</para>
+
+@doc: 
+@output: 
+
+
+<!-- ##### FUNCTION go_doc_write ##### -->
+<para>
+
+</para>
+
+@doc: 
+@output: 
+
+
+<!-- ##### FUNCTION go_doc_save_image ##### -->
+<para>
+
+</para>
+
+@doc: 
+@id: 
+
+
+<!-- ##### FUNCTION go_doc_init_read ##### -->
+<para>
+
+</para>
+
+@doc: 
+@input: 
+
+
+<!-- ##### FUNCTION go_doc_read ##### -->
+<para>
+
+</para>
+
+@doc: 
+@xin: 
+@attrs: 
+
+
+<!-- ##### FUNCTION go_doc_end_read ##### -->
+<para>
+
+</para>
+
+@doc: 
+
+
+<!-- ##### FUNCTION go_doc_image_fetch ##### -->
+<para>
+
+</para>
+
+@doc: 
+@id: 
+@Returns: 
+
+

@@ -1,0 +1,218 @@
+<!-- ##### SECTION Title ##### -->
+GORegression
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_LOGFIT_C_ACCURACY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_LOGFIT_C_STEP_FACTOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_LOGFIT_C_RANGE_FACTOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### ENUM GORegressionResult ##### -->
+<para>
+
+</para>
+
+@GO_REG_ok: 
+@GO_REG_invalid_dimensions: 
+@GO_REG_invalid_data: 
+@GO_REG_not_enough_data: 
+@GO_REG_near_singular_good: 
+@GO_REG_near_singular_bad: 
+@GO_REG_singular: 
+
+<!-- ##### USER_FUNCTION GORegressionFunction ##### -->
+<para>
+
+</para>
+
+@x: 
+@params: 
+@f: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_linear_regression ##### -->
+<para>
+
+</para>
+
+@xss: 
+@dim: 
+@ys: 
+@n: 
+@affine: 
+@res: 
+@stat_: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_exponential_regression ##### -->
+<para>
+
+</para>
+
+@xss: 
+@dim: 
+@ys: 
+@n: 
+@affine: 
+@res: 
+@stat_: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_logarithmic_regression ##### -->
+<para>
+
+</para>
+
+@xss: 
+@dim: 
+@ys: 
+@n: 
+@affine: 
+@res: 
+@stat_: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_non_linear_regression ##### -->
+<para>
+
+</para>
+
+@f: 
+@xvals: 
+@par: 
+@yvals: 
+@sigmas: 
+@x_dim: 
+@p_dim: 
+@chi: 
+@errors: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_power_regression ##### -->
+<para>
+
+</para>
+
+@xss: 
+@dim: 
+@ys: 
+@n: 
+@affine: 
+@res: 
+@stat_: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_logarithmic_fit ##### -->
+<para>
+
+</para>
+
+@xs: 
+@ys: 
+@n: 
+@res: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_matrix_invert ##### -->
+<para>
+
+</para>
+
+@A: 
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_matrix_determinant ##### -->
+<para>
+
+</para>
+
+@A: 
+@n: 
+@Returns: 
+
+
+<!-- ##### STRUCT go_regression_stat_t ##### -->
+<para>
+
+</para>
+
+@se: 
+@t: 
+@sqr_r: 
+@adj_sqr_r: 
+@se_y: 
+@F: 
+@df_reg: 
+@df_resid: 
+@df_total: 
+@ss_reg: 
+@ss_resid: 
+@ss_total: 
+@ms_reg: 
+@ms_resid: 
+@ybar: 
+@xbar: 
+@var: 
+
+<!-- ##### FUNCTION go_regression_stat_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_regression_stat_destroy ##### -->
+<para>
+
+</para>
+
+@stat_: 
+
+

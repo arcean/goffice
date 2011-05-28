@@ -1,0 +1,74 @@
+<!-- ##### SECTION Title ##### -->
+GOCalendarButton
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOCalendarButton ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOCalendarButton::changed ##### -->
+<para>
+
+</para>
+
+@gocalendarbutton: the object which received the signal.
+
+<!-- ##### FUNCTION go_calendar_button_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_calendar_button_get_calendar ##### -->
+<para>
+
+</para>
+
+@calb: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_calendar_button_set_date ##### -->
+<para>
+
+</para>
+
+@calb: 
+@date: 
+
+
+<!-- ##### FUNCTION go_calendar_button_get_date ##### -->
+<para>
+
+</para>
+
+@calb: 
+@date: 
+@Returns: 
+
+

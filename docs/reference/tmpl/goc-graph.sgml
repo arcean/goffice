@@ -1,0 +1,66 @@
+<!-- ##### SECTION Title ##### -->
+GocGraph
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GocGraph ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GocGraph:graph ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocGraph:height ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocGraph:renderer ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocGraph:width ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocGraph:x ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocGraph:y ##### -->
+<para>
+
+</para>
+
+<!-- ##### TYPEDEF GocGraphClass ##### -->
+<para>
+
+</para>
+
+

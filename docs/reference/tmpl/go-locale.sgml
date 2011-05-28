@@ -1,0 +1,142 @@
+<!-- ##### SECTION Title ##### -->
+go-locale
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION go_setlocale ##### -->
+<para>
+
+</para>
+
+@category: 
+@val: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_untranslated_booleans ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION go_locale_boolean_name ##### -->
+<para>
+
+</para>
+
+@b: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_get_currency ##### -->
+<para>
+
+</para>
+
+@precedes: 
+@space_sep: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_get_arg_sep ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_get_col_sep ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_get_row_sep ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_get_thousand ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_get_decimal ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_month_before_day ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_get_date_format ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_get_time_format ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_24h ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+

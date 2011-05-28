@@ -1,0 +1,267 @@
+<!-- ##### SECTION Title ##### -->
+GOData
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOData ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOData::changed ##### -->
+<para>
+
+</para>
+
+@godata: the object which received the signal.
+
+<!-- ##### STRUCT GODataClass ##### -->
+<para>
+
+</para>
+
+@base: 
+@dup: 
+@eq: 
+@preferred_fmt: 
+@date_conv: 
+@serialize: 
+@unserialize: 
+@emit_changed: 
+@get_n_dimensions: 
+@get_sizes: 
+@get_values: 
+@get_bounds: 
+@get_value: 
+@get_string: 
+@changed: 
+
+<!-- ##### FUNCTION go_data_dup ##### -->
+<para>
+
+</para>
+
+@src: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_eq ##### -->
+<para>
+
+</para>
+
+@a: 
+@b: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_preferred_fmt ##### -->
+<para>
+
+</para>
+
+@dat: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_date_conv ##### -->
+<para>
+
+</para>
+
+@dat: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_serialize ##### -->
+<para>
+
+</para>
+
+@dat: 
+@user: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_unserialize ##### -->
+<para>
+
+</para>
+
+@dat: 
+@str: 
+@user: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_emit_changed ##### -->
+<para>
+
+</para>
+
+@dat: 
+
+
+<!-- ##### FUNCTION go_data_get_values ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_get_bounds ##### -->
+<para>
+
+</para>
+
+@data: 
+@minimum: 
+@maximum: 
+
+
+<!-- ##### FUNCTION go_data_is_increasing ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_is_decreasing ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_is_varying_uniformly ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_get_n_dimensions ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_get_n_values ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_get_vector_size ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_get_matrix_size ##### -->
+<para>
+
+</para>
+
+@data: 
+@n_rows: 
+@n_columns: 
+
+
+<!-- ##### FUNCTION go_data_get_scalar_value ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_get_vector_value ##### -->
+<para>
+
+</para>
+
+@data: 
+@column: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_get_matrix_value ##### -->
+<para>
+
+</para>
+
+@data: 
+@row: 
+@column: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_get_scalar_string ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_get_vector_string ##### -->
+<para>
+
+</para>
+
+@data: 
+@column: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_get_matrix_string ##### -->
+<para>
+
+</para>
+
+@data: 
+@row: 
+@column: 
+@Returns: 
+
+

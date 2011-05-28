@@ -1,0 +1,123 @@
+<!-- ##### SECTION Title ##### -->
+GODataVector
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GODataVector ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GODataVectorClass ##### -->
+<para>
+
+</para>
+
+@base: 
+@load_len: 
+@load_values: 
+@get_value: 
+@get_str: 
+
+<!-- ##### FUNCTION go_data_vector_get_len ##### -->
+<para>
+
+</para>
+
+@vec: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_vector_get_values ##### -->
+<para>
+
+</para>
+
+@vec: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_vector_get_value ##### -->
+<para>
+
+</para>
+
+@vec: 
+@i: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_vector_get_str ##### -->
+<para>
+
+</para>
+
+@vec: 
+@i: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_vector_get_minmax ##### -->
+<para>
+
+</para>
+
+@vec: 
+@min: 
+@max: 
+
+
+<!-- ##### FUNCTION go_data_vector_increasing ##### -->
+<para>
+
+</para>
+
+@vec: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_vector_decreasing ##### -->
+<para>
+
+</para>
+
+@vec: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_vector_vary_uniformly ##### -->
+<para>
+
+</para>
+
+@vec: 
+@Returns: 
+
+
+<!-- ##### MACRO GO_DATA_VECTOR_LEN_CACHED ##### -->
+<para>
+
+</para>
+
+
+

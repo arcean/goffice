@@ -1,0 +1,86 @@
+<!-- ##### SECTION Title ##### -->
+GocArc
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GocArc ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GocArc:ang1 ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocArc:ang2 ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocArc:end-arrow ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocArc:rotation ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocArc:start-arrow ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocArc:type ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocArc:xc ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocArc:xr ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocArc:yc ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocArc:yr ##### -->
+<para>
+
+</para>
+
+<!-- ##### TYPEDEF GocArcClass ##### -->
+<para>
+
+</para>
+
+

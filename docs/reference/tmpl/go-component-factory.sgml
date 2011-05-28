@@ -1,0 +1,97 @@
+<!-- ##### SECTION Title ##### -->
+GOComponentFactory
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### ENUM GOMimePriority ##### -->
+<para>
+
+</para>
+
+@GO_MIME_PRIORITY_INVALID: 
+@GO_MIME_PRIORITY_DISPLAY: 
+@GO_MIME_PRIORITY_PRINT: 
+@GO_MIME_PRIORITY_PARTIAL: 
+@GO_MIME_PRIORITY_FULL: 
+@GO_MIME_PRIORITY_NATIVE: 
+
+<!-- ##### STRUCT GOComponentType ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION go_components_get_mime_types ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_components_get_priority ##### -->
+<para>
+
+</para>
+
+@mime_type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_components_add_mime_type ##### -->
+<para>
+
+</para>
+
+@mime: 
+@priority: 
+@service_id: 
+
+
+<!-- ##### FUNCTION go_components_get_mime_suffix ##### -->
+<para>
+
+</para>
+
+@mime: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_components_set_mime_suffix ##### -->
+<para>
+
+</para>
+
+@mime: 
+@suffix: 
+
+
+<!-- ##### FUNCTION go_components_support_clipboard ##### -->
+<para>
+
+</para>
+
+@mime_type: 
+@Returns: 
+
+

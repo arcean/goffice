@@ -1,0 +1,121 @@
+<!-- ##### SECTION Title ##### -->
+go-ms-parser
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_MS_PARSER_STACK_TOP ##### -->
+<para>
+
+</para>
+
+@stack: 
+
+
+<!-- ##### MACRO GO_MS_PARSER_STACK_SECOND ##### -->
+<para>
+
+</para>
+
+@stack: 
+
+
+<!-- ##### STRUCT GOMSParserRecord ##### -->
+<para>
+
+</para>
+
+@opcode: 
+@vers: 
+@inst: 
+@length: 
+@length_remaining: 
+@parse_state: 
+@type: 
+
+<!-- ##### USER_FUNCTION GOMSParserHandleAtom ##### -->
+<para>
+
+</para>
+
+@record: 
+@stack: 
+@data: 
+@input: 
+@err: 
+@user_data: 
+
+
+<!-- ##### USER_FUNCTION GOMSParserStartContainer ##### -->
+<para>
+
+</para>
+
+@stack: 
+@input: 
+@err: 
+@user_data: 
+
+
+<!-- ##### USER_FUNCTION GOMSParserEndContainer ##### -->
+<para>
+
+</para>
+
+@stack: 
+@input: 
+@err: 
+@user_data: 
+
+
+<!-- ##### STRUCT GOMSParserCallbacks ##### -->
+<para>
+
+</para>
+
+@handle_atom: 
+@start_container: 
+@end_container: 
+
+<!-- ##### FUNCTION go_ms_parser_read ##### -->
+<para>
+
+</para>
+
+@input: 
+@length: 
+@types: 
+@type_count: 
+@callbacks: 
+@user_data: 
+@err: 
+
+
+<!-- ##### FUNCTION go_ms_parser_write ##### -->
+<para>
+
+</para>
+
+@drawing: 
+@output: 
+@Returns: 
+
+

@@ -1,0 +1,165 @@
+<!-- ##### SECTION Title ##### -->
+GOMath
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION go_continued_fraction ##### -->
+<para>
+
+</para>
+
+@val: 
+@max_denom: 
+@res_num: 
+@res_denom: 
+
+
+<!-- ##### FUNCTION go_stern_brocot ##### -->
+<para>
+
+</para>
+
+@val: 
+@max_denom: 
+@res_num: 
+@res_denom: 
+
+
+<!-- ##### FUNCTION go_add_epsilon ##### -->
+<para>
+
+</para>
+
+@x: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_sub_epsilon ##### -->
+<para>
+
+</para>
+
+@x: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_fake_floor ##### -->
+<para>
+
+</para>
+
+@x: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_fake_ceil ##### -->
+<para>
+
+</para>
+
+@x: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_fake_round ##### -->
+<para>
+
+</para>
+
+@x: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_fake_trunc ##### -->
+<para>
+
+</para>
+
+@x: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_rint ##### -->
+<para>
+
+</para>
+
+@x: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_finite ##### -->
+<para>
+
+</para>
+
+@x: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_finitel ##### -->
+<para>
+
+</para>
+
+@x: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_pow2 ##### -->
+<para>
+
+</para>
+
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_pow10 ##### -->
+<para>
+
+</para>
+
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_ascii_strtod ##### -->
+<para>
+
+</para>
+
+@s: 
+@end: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_strtod ##### -->
+<para>
+
+</para>
+
+@s: 
+@end: 
+@Returns: 
+
+

@@ -1,0 +1,996 @@
+goffice 0.8.14:
+
+Jean:
+	* Implement a GSettings backend for GOConf. [643767]
+	* Fix gnumeric crash when monitoring settings changes. [#644222]
+
+Morten:
+	* Plug leaks.
+	* Allow GOConf to handle absolute keys.
+
+--------------------------------------------------------------------------
+goffice 0.8.13:
+
+Andreas:
+	* Write text formats to ODF. [#636158]
+
+Jean:
+	* Fixed memory leaks found by cppcheck analysis.
+	* Fixed drop lines in line plots. [#638738]
+	* Invalidate canvas items after reordering to force a redraw? [#639840]
+	* Fix axis limits serialization. [#640438]
+
+Morten:
+	* Fix problem with engineering formats.  [#640571]
+
+--------------------------------------------------------------------------
+goffice 0.8.12:
+
+Andreas
+	* Fix US 30/360 date calculations. [#631242][#630784]
+	
+Jean:
+	* Fixed sorting with accentuated characters. [#631504]
+	* Allow filled plots to be displayed behind the grids. [#632310]
+	* Fixed patterns with cairo-1.10.
+	* Fixed flawed exponential fit in graphs for small values. [#633735]
+	* Fixed an infinite loop condition in cubic spline evaluation. [#633965]
+
+Morten:
+	* Fix GOImage-vs-cairo lifecycle issue.
+	* Fix loading of weird themes.
+
+--------------------------------------------------------------------------
+goffice 0.8.11:
+
+Jean:
+	* Implement custom grids in xyz plots. [#624273]
+	
+Jon Nordby:
+	* Update API documentation.
+
+Morten:
+	* Improve fractional days support for date axes.
+	* Draw charset/locale selectors with "radio" buttons.
+
+Yasuaki Taniguchi:
+	* Fix charset problem for Japanese.  [#627829]
+
+--------------------------------------------------------------------------
+goffice 0.8.10:
+
+Andreas:
+	* Make sure the first rather than the last error is shown.
+	* Plug leak.
+	* Provide the opportunity of all errors to be shown.
+
+Jean:
+	* Always use real line width when evaluating dashes. [#442546]
+	* Update x and y limits when data change for xyz plots. [#627288]
+	* Do not crash when displaying cubic spline with no abscissa. [#627507]
+	* Do not save image filling with no image. [#627690]
+	* Don't use g_free instead of xmlFree. [#627700]
+	* Optionnaly delete trendlines from legend. [#628031]
+	* Fix critical in go_doc_finalize. [#628467]
+	* Fixed a potential crasher in gog_styled_object_document_changed. [#628671]
+	* Fixed GOImage references management. [#628732]
+
+Morten:
+	* Limit formats to sane number of decimals.  [#627066]
+	* Fix minor go_string_replace issue.
+	* Plug leaks.
+	* Fix char-xmlChar confusion.
+	* Fix graph crash.  [#628259]
+	* Improve go_format_is_date.
+	* Improve handling of date axes with time-of-day.
+	* Fix FMR on image load.  [Part of #628467]
+
+--------------------------------------------------------------------------
+goffice 0.8.9:
+
+Jean:
+	* Don't crash when loading a corrupted chart. [#626206, #626263, #626305]
+	* Fix blur in zoomed charts.
+	* Fix memory leak and criticals in graph editor. [#626665]
+	* Allow themes defined as xml files. [#531070]
+	* Update currencies. [#626461]
+
+--------------------------------------------------------------------------
+goffice 0.8.8:
+
+Andreas:
+	* Make sure that go_format_sel_format_classification returns the 
+	  value used by the format selector. [#625454]
+
+Jean:
+	* Do not take manually placed charts into account when evaluating
+	  rows and columns in GogGraph.
+	* Fixed contour plots legend. [#623887]
+
+Morten:
+	* Add go_string_replace function.
+	* Add functions to manage GOFormatDetails.
+	* Fix go_conf notification problem.  [#625549]
+	* Implement weekly ticks for date axes.  [#624340]
+
+--------------------------------------------------------------------------
+goffice 0.8.7:
+
+Jean:
+	* Implement cumulative histograms.
+	* Make histogram able to use raw data.
+	* Implement equations rotation. [#622782]
+
+--------------------------------------------------------------------------
+goffice 0.8.6:
+
+Morten:
+	* Clean-up some win32 code.
+	* Fix point-on-graph crash.  [#620198]
+	* Ensure format menu has yyyy-mm-dd.
+	* Improve docs.
+	* Fix currency ordering.  [#621336]
+	* Fix rounding problems for very large numbers.
+
+--------------------------------------------------------------------------
+goffice 0.8.5:
+
+Bobby Powers:
+	* Fix the --without-gtk winbuild. [#619312]
+
+Morten:
+	* Fix trend-line problem with inverted x-axis.  [#619958]
+
+--------------------------------------------------------------------------
+goffice 0.8.4:
+
+Bobby Powers:
+	* Fix the --without-gtk build. [#618592]
+
+Morten:
+	* Regression fixes.
+	* Improve linear regression accuracy.
+	* Plug leaks.
+
+--------------------------------------------------------------------------
+goffice 0.8.3:
+
+Jean:
+	* Improve probability plots.
+	* Implement the "combo-activate" signal in GOCombo. [#583175]
+	* Use markup for graph tips.
+
+Morten:
+	* Fix week numbers issue.
+	* Fix matrix inversion crash.  [Part of #617469]
+	* Fix win32 configuration problem.  [#617672]
+
+--------------------------------------------------------------------------
+goffice 0.8.2:
+
+Jean:
+	* Support fd:// URIs on win 32. [#608422]
+	* Add more GOPath API.
+
+Morten:
+	* Implement conf notification in keyfile case.  [#613523]
+	* Fix win32 configuration.
+
+Valek:
+	* Fix distance calculation for arc, ellipse, polygon, polyline,
+	  and rectangle.
+	* Support rotation for text on canvas.
+	* Add PolyPolygon and Path
+
+--------------------------------------------------------------------------
+goffice 0.8.1:
+
+Jean:
+	* Remove libglade dependency from pc file. [#609833]
+	* Use gtk_buildable_get_name instead of gtk_widget_get_name where
+	appropriate. [#610434]
+	* Fix crash in GogGuru. [#610435]
+	* Fix cubic splines with invalid data. [#611163]
+
+Morten:
+	* Fix locale selector issue.  [#611415]
+
+Valek:
+	* Canvas improvements.
+
+--------------------------------------------------------------------------
+goffice 0.8.0:
+
+Jean:
+	* Do not crash when a chart contains no plot. [#607960]
+	* Do not crash when deleting a grabbed item. [#609747]
+
+Morten:
+	* Add "autoload" flag for plugins.
+
+--------------------------------------------------------------------------
+goffice 0.7.18:
+
+Andreas:
+	* Fix description of ring plots. [#606162]
+
+Jean:
+	* Add a name to regression curves for display in legends. [#605040]
+	* Fixed GocPolygon bounds. [#605496]
+	* Moved plot area position page from plot to chart. [#605771]
+	* Add sample to the plot type selector. [#495781]
+	* Don't use multiline GtkLabel. [#606162]
+
+--------------------------------------------------------------------------
+goffice 0.7.17:
+
+Jean:
+	* Fixed a canvas performance issue. [#603813]
+	* Update property page when style changes after reordering. [#604229]
+	* Use locale independent markup. [#608047]
+
+Jody:
+	* Fix context sensitive help support on win32.
+
+Morten:
+	* Make GOCmdContext require less implementation.
+
+--------------------------------------------------------------------------
+goffice 0.7.16:
+
+Jean:
+	* Add parent name for new objects in the graph guru "Add" menu.
+	* Fix configuration loading when using .gnumericrc. [#600654]
+	* Implement error bars in radar and polar plots. [#572720]
+	* Add an option for negative values display in pies and rings. [#152614]
+	* Add trend lines to legend. [#383518]
+	* Build color from color names usung gdk_parse_color. [#601114]
+	* Fix crashes in probablility and scatter plots.  [#603015, #603016]
+	* Support multiple series in probability plots. [#603013]
+
+Morten:
+	* Eliminate most uses of "float".
+
+--------------------------------------------------------------------------
+goffice 0.7.15:
+
+Jean:
+	* Fix bounds update of GocItem. [#598091]
+	* Prepare for GSEAL_ENABLE.
+	* Display coordinates when moving the mouseover a graph. [#382666]
+	* Make titles the first logical child and ensure they are rendered last.
+	Really fixes #152675.
+	* Fix graph scale after a size change. [#599887]
+	* Make chart position persistent in auto mode. [#152674]
+
+Morten:
+	* Canvas improvements for arrows.
+
+--------------------------------------------------------------------------
+goffice 0.7.14:
+
+Bruce Cowan:
+	* Fix some translatable strings. [#596003]
+
+Jean:
+	* Fix unicolor gradient brightness.
+	* Fix custom point marker in scatter plots. [#596585]
+	* Fixed various issues related to image filling.
+
+Peter Jaeckel:
+	* Extensions for XLL support in Gnumeric.  [#597849]
+
+--------------------------------------------------------------------------
+goffice 0.7.13:
+
+Jean:
+	* Fix various problems with new canvas.
+
+Morten:
+	* Fix various problems with new canvas.
+
+--------------------------------------------------------------------------
+goffice 0.7.12:
+
+Jean:
+	* Deprecated GOStyle::outline. [#593608]
+	* Fixed import of surface plots from excel. [#593937, #594070, #594077]
+
+Jody:
+	* [win32] build fixes.
+
+--------------------------------------------------------------------------
+goffice 0.7.11:
+
+Morten:
+	* Fix canvas item realize/unrealize problems.  [#593593]
+
+--------------------------------------------------------------------------
+goffice 0.7.10:
+
+Jean:
+	* Canvas improvements.
+	* Removed FooCanvas.
+	* Migrated from Glade to GtkBuilder.
+
+Morten:
+	* Namespace issues.  [#592283]
+
+--------------------------------------------------------------------------
+goffice 0.7.9:
+
+Andreas:
+	* Improve number style output to ODF. [#586564]
+	* Improve currency output to ODF.
+	* Fix hang when writing date with invalid format. [#587171]
+
+Jean:
+	* Align surface ticks with grid. [#585298]
+	* Fixed various contour plots related issues. [#589511, #589512]
+	* Comparison line for probability plots. [#590416]
+	* New cairo based canvas.
+
+Morten:
+	* Fix format localization problem. [#586567]
+	* Fix crash with Win32 configuration.  [#588138]
+	* Fix axis issues near zero.  [#590903]
+	* Improve log-scale axes.  [#590908]
+
+--------------------------------------------------------------------------
+goffice 0.7.8:
+
+Andreas:
+	* Add some odf GOFormat output utilities.
+	* Handle scale attributes in markup.
+
+Morten:
+	* Add functions to generate number formats.
+	* Make format classification function public.
+	* Fix inc/dec precision for accounting format.
+	* Introduce master include file.
+	* Activate formatting support for negative elapsed times.
+
+--------------------------------------------------------------------------
+goffice 0.7.7:
+
+Andreas:
+	* Modified serialization of pango markup to support all weights
+
+Morten:
+	* Add "pristine" as GODoc property.
+	* Properly handle date conventions in graphs.
+	* Support formatted editing of graph limits that are dates and
+	  times.  [#574681]
+	* Implement new calendar button widget.
+
+--------------------------------------------------------------------------
+goffice 0.7.6:
+
+Jean:
+	* Fixed segfault during documentation generation. [#580296]
+
+Morten:
+	* Improve log axes' tick calculation.  [#375756]
+
+--------------------------------------------------------------------------
+goffice 0.7.5:
+
+Jean:
+	* Fixed gconf and gmathml propagation to pc file. [#576497]
+	* Added a new plot type: GogColorPolarPlot.
+
+Jody:
+	* Use priority when looking up savers by extension or mime.
+
+Morten:
+	* Add new go_format_is_time function.
+	* Pick sane bounds for time-formatted axes.  [Part of #574681]
+	* Pick sane bounds for date-formatted axes.  [Part of #574681]
+	* Add magic date and time formats.
+
+--------------------------------------------------------------------------
+goffice 0.7.4:
+
+Jean:
+	* Add go_gtk_show_url. [#559021]
+	* Don't display markers in histogram legend. [#574340]
+	* Skip points corresponding to invalid valies in pie charts. [#574348]
+	* Correctly use all points defined in bar/columns plot series. [#574349]
+	* Avoid unused direct shlib deps.  [#572910]
+	* Set a default family when none is given. [#575318]
+
+Morten:
+	* Fix a pixbuf scaling problem in foocanvas.
+	* Improve handling of localized formats.
+
+--------------------------------------------------------------------------
+goffice 0.7.3:
+
+ATTENTION PACKAGERS: goffice no longer depends on libgnome and libgnomeui.
+ATTENTION PACKAGERS: goffice no longer depends on gnome-vfs.
+ATTENTION PACKAGERS: please don't ship goffice with equation enabled.
+
+Emmanuel:
+	* Experimental support for equation using gmathml. Disabled by default,
+       	as no release of gmathml exists yet. Source code of gmathml can
+       	retrieved using the following command:
+
+	git clone http://people.freedesktop.org/~emmanuel/gmathml.git
+
+Halton Huo:
+	* Add --without-long-double option.  [#557045]
+
+Jean:
+	* Fixed various regressions in contour plots.
+	* Add XYZ series based contour plots.
+	* Drop the libgome dependency. [#558709]
+	* Made spline interpolation really use Bezier cubic splines.
+	* Add closed Bezier and cubic spline interpolation.
+	* Make drop lines go to the axis instead of chart bottom (or left).
+	* Make possible to add an application specific custom widget to the
+	graph editor.
+	* Fixed critical in graph_typeselect_minor. [#567931]
+	* Fixed crash when adding series to bar chart. [#572354]
+
+Morten:
+	* Plug leaks.
+	* Fix memory corruption issue.  [#561708]
+	* Fix problem with formats like "0.0E-00".  [#563601]
+	* Put the old 29-Feb-1900 problem to rest.
+	* Fix fd://<n> uris after lobognomification.
+	* Fix doc build with respect to the mathml stuff.  [#572483]
+
+Pedro Fragoso:
+	* Clean up glib includes.   [#564021]
+
+--------------------------------------------------------------------------
+goffice 0.7.2:
+
+Hib Eris:
+	* Fix crash in go_help_display when non gnome applications use
+	goffice with gnome. [#551128]
+
+Jean:
+	* Implement probability plots for some common distributions. [#500168]
+	* Fix invalid write in gog_probability_plot_series_update. [#555161]
+	* Fix Null pointer crash in gog_contour_view_render. [#555757]
+
+Jody:
+	* Patch foocanvas to work around behaviour change in gtk 2.14.
+
+Morten:
+	* Fix go_url_resolve_relative.  [#550898]
+
+--------------------------------------------------------------------------
+goffice 0.7.1:
+
+Jean:
+	* Serialize images used as background in charts. [#348780]
+	* Fix plot engines memory leaks. [#542506]
+	* Fix gog_style_font_sax_save() writes unescaped font name. [#543986]
+	* Relaced remaining libart calls.
+	* Use gio from glib. [#522458]
+
+Jody:
+	* Reverse legend ordering for stacked 1.5d plots.
+
+Mariusz Adamski:
+	* Added support for 3d plot axes and backplanes.
+	* Implemented a user interface for 3d projection settings.
+
+Morten:
+	* Work around valgrind bug.
+	* Fix date format problem.  [#545016]
+	* Fix interpretation of "[red];[blue]".  [#549249]
+
+--------------------------------------------------------------------------
+goffice 0.7.0:
+
+Jean:
+	* New boxplot feature requested: exclude outliers. [#534642]
+	* Moved GOConf code from gnumeric to goffice.
+	* Fixed plot types activation/deactivation issues.
+	* Always use full lines when drawing markers. [#536276]
+	* Add singleton support to scatter and bars/columns plots.
+
+Jody:
+	* Fix X axis text clipping on win32. [#442773]
+	* Tune bubble size calc to be closer to other implementions.
+
+Rob Staudinger:
+	* Use plain menu items for toolbar overflow image menu item proxies,
+	so they are displayed correctly with gtk-menu-images=0. [#537541]
+
+--------------------------------------------------------------------------
+goffice 0.6.3:
+
+Hiroyuki Ikezoe:
+	* Switch from pcre to glib regexp handling.  [#482319]
+
+Jean:
+	* Don't try to use invalid data in box-plots. [#527249]
+	* Add EPS export for charts if cairo supports.
+
+Jody:
+	* Enable the use of dolt.
+	* Fix formats on win32.
+
+Morten:
+	* Add go_format_is_invalid.
+	* Improve date convention framework.
+	* Fix problem with [Enter] causing infinite recursion.
+
+--------------------------------------------------------------------------
+goffice 0.6.2:
+
+Jean:
+	* Set Length to 0 for invalid series in 1.5d plots. Fixes #514642.
+
+Morten:
+	* Fix memory handling for 1.5d plots.  Fixes #517995.
+
+--------------------------------------------------------------------------
+goffice 0.6.1:
+
+Misc:
+	* Automate library, headers, and .pc versioning.
+
+Morten:
+	* Fix critical for bogus dates.  [#511435]
+
+--------------------------------------------------------------------------
+goffice 0.6.0:
+
+Morten:
+	* Import Pango enhancements from Gnumeric.
+
+Emmanuel:
+	* Fix a crash when selecting a graph title. [#501831]
+	* Fix axis label position. [#501000]
+	* Handle inverted axis when clamping axis position.
+	* Fix axis position warnings.
+
+--------------------------------------------------------------------------
+
+goffice 0.5.4:
+
+Andreas:
+	* Fix increase of decimals for scientific notation. [#500356]
+
+Emmanuel:
+	* Fix spurious cairo_show_page call when printing charts. [#500017]
+
+Jean:
+	* Fix another crash in gog_barcol_view_render. [#498846]
+
+Morten:
+	* Fix format problem with simplified exponential formats.  [#500393]
+
+--------------------------------------------------------------------------
+
+goffice 0.5.3:
+
+Jean:
+	* Fix crash in gog_barcol_view_render. [#497777]
+
+Morten:
+	* Improve classification of date formats.
+
+Emmanuel:
+	* Draw a frame around the graph area in graph editor.
+	* Improve legend swatch appearance.
+	* Populate the add button of the graph editor with more items.
+
+--------------------------------------------------------------------------
+goffice 0.5.2:
+
+Jean:
+	* Fix xy color scale when some data are missing. [#475394]
+	* Fix NULL pointer crash in gog_line_view_render(). [#492485]
+
+Jody:
+	* Add the ability to make a GogObject invisible.
+
+Morten:
+	* Fix moving-average problem.  [#491328]
+
+Sum1:
+	* Fix ABR in spline code.  [#492158]
+
+--------------------------------------------------------------------------
+goffice 0.5.1:
+
+Jean:
+	* Fix crash in gog_renderer_update. [#477052]
+	* Copied FFT and complex numbers code from gnumeric.
+
+Jody:
+	* Some extensions for OOX charts.
+
+Jon Kåre:
+	* Fix format selector crash [#475136].
+	* Don't	close image save as dialog after wrong extension. [#420451]
+
+Morten:
+	* Add function to test if a format has an hour field.
+	* Re-enable GTK_DISABLE_DEPRECATED
+	* Fix format dialog crash.  [#480971]
+
+--------------------------------------------------------------------------
+goffice 0.5.0:
+
+Emmanuel:
+	* Fill support for polar xy plots.
+	* Interpolation support for polar plots.
+
+Jody:
+	* Win32 portability and locale fixes.
+
+Morten:
+	* Fix "fd://0" handling in go_shell_arg_to_uri.
+	* Fix default date format.
+	* Add function to tell month/day order in format.
+
+--------------------------------------------------------------------------
+goffice 0.4.2:
+
+Jody:
+	* Foocanvas bug that scaled images by 1 extra pixel. [#314864]
+	* Fix compilation for Gtk+ trunk.
+	* Fix chart guru help button. [#394181]
+	* Minor memory leak.
+
+--------------------------------------------------------------------------
+goffice 0.4.1:
+
+Jean:
+	* Make 64bit clean. [#340552]
+
+Jody:
+	* Fault tolerance for unknown types on load. [#419955]
+	* Fix icon paths on windows. [#442707]
+
+Morten:
+	* Let file savers specify a mime type.
+	* Fix reversed-literal problem with formats.  [#444247]
+
+--------------------------------------------------------------------------
+goffice 0.4.0:
+
+Jean:
+	* Add support for cubic splines.
+	* Fix graph rendering on big endian machines. [#432532]
+
+--------------------------------------------------------------------------
+goffice 0.3.8:
+
+Emmanuel:
+	* Fix alignement of rotated axis labels. [#343507]
+
+Morten:
+	* Add preconditions to text combo widget's API functions.
+	* Unicode-normalize regexps patterns.
+	* Improve character set guesser.  [#401588]
+	* Fix format selector crash.  [#431256]
+
+--------------------------------------------------------------------------
+goffice 0.3.7:
+
+Emmanuel Pacaud:
+
+	* Fix calls to g_object_class_install_property. [#172866]
+	* Show a complete dash sequence for sample lines in legends. [#404819]
+	* Fix persistence of legend position. [345836]
+	* Only round width of sharp line. [#403403]
+	* Add more line styles
+
+Morten:
+	* Fix UTF-8 problem in format preview.
+	* Separate the format selector from format internals.
+	* Total rewrite of number formatting.
+	* Fix potential memory corruption in format dialog.
+	* Make space-filling in formats use thinner spaces when
+          available.  [#163438]
+	* Remove embedded PCRE.
+	* Improve axis labeling.  [#413660]
+	* Simplify formats that yield "n\pi/1".  [#417981]
+
+--------------------------------------------------------------------------
+goffice 0.3.6:
+
+Jody:
+	* Avoid cairo assertion when rendering a 0 sized view. [#397679]
+
+Morten:
+	* Generalize number formatting.
+	* Simplify format widget a bit.
+	* Implement go_strtod and go_strtold.
+	* Fix marshalling of pango formats with strikethrough set.
+	* Make the GOFormat type private.
+	* Extract go-locale.[ch] from go-format.[ch]
+	* Fix UMR.
+
+--------------------------------------------------------------------------
+
+goffice 0.3.5:
+
+Emmanuel Pacaud:
+	* Fix legend where there's no element to display. [#382354]
+	* Fix legend when reordering plots. [#382663]
+	* Fix markers in PDF and PS export.
+
+Jody:
+	* Make the GogStyle sax parser usable by outside objects.
+
+Morten:
+	* Improve number formatting.
+
+--------------------------------------------------------------------------
+
+goffice 0.3.4:
+
+Morten:
+	* Handle formats like "dd.mm.yyyy".
+
+J.H.M. Dassen (Ray):
+	* Cleanup g_free calls.  [#369662]
+
+--------------------------------------------------------------------------
+
+goffice 0.3.3:
+
+Morten:
+	* Fix combo sizing problem.  [#362704]
+	* Fix Save problem.  [#365115]
+	* Detect more date/time formats.  Part of [#370183]
+
+--------------------------------------------------------------------------
+
+goffice 0.3.2:
+
+Dom:
+	* Fixes for usage with gtk 2.6.
+
+Jon Kåre:
+        * Use info from gdk-pixbuf to convert from MIME type to image
+	  format.
+        * Fix bug which hid file save format selector .
+        * go_gtk_file_sel_dialog no longer unhides all hidden widgets
+	  when displaying dialog.
+
+Morten:
+	* Handle errors while loading images better.
+
+--------------------------------------------------------------------------
+goffice 0.3.1:
+
+NOTE : This is a _DEVELOPMENT_ release.  Please use the 0.2.x series for
+	production systems.  The api/abi in 0.3.x is expected to change without
+	notice until 0.4.0.
+
+Emmanuel Pacaud:
+	* Composite graph image onto white background when exporting to
+	formats that don't support alpha channel [#339126].
+	* Add support for background stripes.
+	* Add radian and grad unit support for polar plots.
+	* Add rotation support for polar plots.
+	* Fix display of log axis minor ticks [#341880].
+	* Add new ?pi/? format, mainly for polar plot use.
+	* Fix bar/col plots when using log scale.
+	* Fix a crash when polar plot width or height == 0 [#349238].
+	* Swith to cairo renderer [#314211] [#310322].
+	* New pattern, gradient, color and line selectors [#152673].
+
+Ivan Wong :
+	* [Win32] Add the attribute GO_VAR_DECL for public global
+	variable so that public header files are now compatible with
+	MSVC.
+
+Jean Brefort:
+	* Add a half pie plots.
+	* Allow to chose an interpolation type for each series in
+	scatter plots.
+	* Implement vertical box-plots. [#358153]
+
+Morten:
+	* Make text combos work in overflowed toolbars.  [#157901]
+	* Avoid CRITICALs on formatting invalid dates.
+	* Fix rendered for non-Cairo case.  [#341999]
+
+--------------------------------------------------------------------------
+
+goffice 0.3.0:
+
+NOTE : This is a _DEVELOPMENT_ release.  Please use the 0.2.x series for
+	production systems.  The api/abi in 0.3.x is expected to change without
+	notice until 0.4.0.
+
+Emmanuel Pacaud:
+	* Add initial support for moving objects by mouse.
+	* Add a resolution setting in image export file chooser.
+	* Add support for PDF and PS export of graphs when using cairo
+	renderer.
+	* Add gtk-doc support.
+	* Improve legend layout by making swatch size proptional to font
+       	size.
+	* Improve dialog for manual position of dialog.
+	* Fix baseline for area plot and histogram when using a log axis.
+	* Implement stretched image pattern in cairo renderer.
+	* Fix axis label position.
+	* Improve scientific format, add an engineering mode and a
+	special format with markup for display of exponent as
+	superscript (e.g. 10²) (Currently only used by graph engine when
+	using cairo renderer).
+
+Ivan Wong :
+	* [Win32] Only export symbols which are in the public headers.
+	  [#307356]
+
+Jean Brefort:
+	* Add a new components system to embed data from other
+	applications.
+	* Add Histograms.
+	* Add regression curves to histograms and line plots.
+	* Add power regressions.
+	* Add moving average trend curves.
+	* Fix use of invalid data in scatter plots. [#334697]
+
+Jody:
+	* Some cleanup towards supporting --without-gtk.
+
+Morten:
+	* Fix translation problems causing crashes in the character set
+	  selector for people not using UTF-8.
+	* Add and fix gog-object preconditions.  [Part of #321678]
+	* Handle problem with fraction formats for very large values.
+          [Debian 340463]
+	* Fix problem with colons in filenames.  [#322799]
+	* Use system libpcre when available, sufficiently recent, and
+	  properly compiled with UTF-8 support.
+	* Plug leak.
+	* Handle problems with formats containing "ss." but no more.
+	* Fix plugin deactivation.  [#336742]
+	* Improve fraction format handling.
+	* Fix format problem for [$curr].
+	* Implement tooltips for text combos.  [#339122]
+
+--------------------------------------------------------------------------
+goffice 0.1.1:
+
+Jody:
+	* Add xml sax importer.
+
+Morten:
+	* Fix hang in libart code.  [#319309]
+	* Fix locale problem in go_math_init.
+	* Change sorting of charsets.
+
+--------------------------------------------------------------------------
+goffice 0.1.0:
+
+Emmanuel Pacaud:
+
+	* Multicolumn/line and horizontal layout support for legends.
+	* Fix SVG gradient export [#318191].
+	* Fix persistence of show/hide setting for equations [#318316].
+
+Jean Brefort:
+	* Optionnaly skip invalid values in regression curves [#312788].
+	* New regression curves types [#312789].
+	* Fixed localization issues [#317925][#318042][#318043].
+	* Fixed various other issues.
+
+Jody:
+	* Adjust lifecycle of GOFormat to cache all formats once created.
+	  Huge performance win on [#314521]
+	* Include super/sub scripts when persisting.
+
+Morten:
+	* Fix rendering of numbers using formats with fractional
+	  seconds part.  [#315544]
+	* Update to PCRE version 6.3.
+	* Use native PCRE interface (i.e., write our own POSIX-like
+	  wrappers) in preparation for possibly using system PCRE.
+
+--------------------------------------------------------------------------
+goffice 0.0.4:
+
+Emmanuel Pacaud:
+	* Fix polar plot clipping.
+	* Fix line/area/barcol data position.
+	* Let user change bounds for discrete axes [#309468].
+
+Jean Brefort:
+	* Box-plots use raw data [#308136].
+
+Jody:
+	* GOFormat now matches against all tuples.
+	* Add GORotationSel from Gnumeric.
+	* fixed number of digits for denominator regexp [#144112]
+
+--------------------------------------------------------------------------
+goffice 0.0.3:
+
+Emmanuel Pacaud:
+	* Add support for manual position/size of graph objects.
+	* Add rotated text support.
+	* Add optional cairo renderer.
+	* Fix swatch position in legends.
+	* Sample graph in guru has the same aspect ratio than the edited graph
+	  [#150458].
+	* Displays Y axis labels vertically by default [#301582].
+	* Add pattern support for SVG output [#310320].
+
+Jean Brefort:
+	* Add series lines in bars and columns plots.
+	* Add drop lines in lines and xy plots.
+	* Add lines to min/max plots and dropbars.
+
+Morten:
+	* Fix problem with currency formats and problem with Euro [#305313].
+	* Support fd://1 syntax for go_file_create.
+	* Fix ABR (or worse) for formats ending in "[$...]".
+
+--------------------------------------------------------------------------
+goffice 0.0.2:
+
+Emmanuel Pacaud:
+	* Make compass position and alignment of graph object persistent and
+	add a GUI for these properties [#124322].
+	* Fix some libglade warnings [#305010].
+	* Fix contour plots axes.
+
+Ivan, Y.C. Wong:
+	* Fix encoding bug when open file with non-ascii name in shell.
+	* Fix Mime Type detection on Win32 [#304074].
+
+Jean Brefort:
+	* Add linear regressions in scatter plots.
+	* Fix shotcut in format selector [#305635].
+	* Add MinMax and DropBar plots.
+	* Fixed various concerns in contour plots.
+
+J.H.M. Dassen (Ray):
+	* Ensure at link time that the shared objects, both the library and
+	  the plugins, contain complete dependency information for all
+	  symbols they use from elsewhere.
+
+Jody:
+	* Fix foocanvas's show/hide item for widgets.
+	* Fix the format selector preview.
+	* Improve selection of a default plot style.
+
+Morten:
+	* Fix theme bug.  [#303707]
+	* Fix insert-image criticals.  [#305009]
+
+--------------------------------------------------------------------------
+goffice 0.0.1
+
+Emmanuel Pacaud:
+	* Add support for polar plots.
+	* Add multiple axes support for xy, line, barcol, bubble plots.
+	* Fix axis rendering order for contour, area and radar plots.
+	* avoid use of setlocale in svg renderer. [#172726]
+	* Add radar axis labels [#152695]
+	* Fix crash in print preview with log plots. [#170547]
+	* Fix crahs when deleting a serie. [#166403]
+	* Fix transparency in pixbuf renderer. [159368]
+
+Jean Brefort
+	* Fixed opacity problem in color selector (#135434)
+
+Jody:
+	* Split from gnumeric
+
+Ivan Wong:
+        * Become more robust when reading .hhmap files and finding help
+        topics on Win32.
+
+Morten:
+	* Fix various old number rendering bugs.  [#170000]
+	* Update to PCRE 5.0
+	* Give GOComboBox a themable add-tearoffs style.
+	* Fix icon sizes in color action combos.  [#302880]
+
+--------------------------------------------------------------------------

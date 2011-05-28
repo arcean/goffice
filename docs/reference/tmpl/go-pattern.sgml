@@ -1,0 +1,150 @@
+<!-- ##### SECTION Title ##### -->
+GOPattern
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOPattern ##### -->
+<para>
+
+</para>
+
+@fore: 
+@back: 
+
+<!-- ##### ENUM GOPatternType ##### -->
+<para>
+
+</para>
+
+@GO_PATTERN_SOLID: 
+@GO_PATTERN_GREY75: 
+@GO_PATTERN_GREY50: 
+@GO_PATTERN_GREY25: 
+@GO_PATTERN_GREY125: 
+@GO_PATTERN_GREY625: 
+@GO_PATTERN_HORIZ: 
+@GO_PATTERN_VERT: 
+@GO_PATTERN_REV_DIAG: 
+@GO_PATTERN_DIAG: 
+@GO_PATTERN_DIAG_CROSS: 
+@GO_PATTERN_THICK_DIAG_CROSS: 
+@GO_PATTERN_THIN_HORIZ: 
+@GO_PATTERN_THIN_VERT: 
+@GO_PATTERN_THIN_REV_DIAG: 
+@GO_PATTERN_THIN_DIAG: 
+@GO_PATTERN_THIN_HORIZ_CROSS: 
+@GO_PATTERN_THIN_DIAG_CROSS: 
+@GO_PATTERN_FOREGROUND_SOLID: 
+@GO_PATTERN_SMALL_CIRCLES: 
+@GO_PATTERN_SEMI_CIRCLES: 
+@GO_PATTERN_THATCH: 
+@GO_PATTERN_LARGE_CIRCLES: 
+@GO_PATTERN_BRICKS: 
+@GO_PATTERN_MAX: 
+
+<!-- ##### FUNCTION go_pattern_from_str ##### -->
+<para>
+
+</para>
+
+@name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_pattern_as_str ##### -->
+<para>
+
+</para>
+
+@pattern: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_pattern_is_solid ##### -->
+<para>
+
+</para>
+
+@pat: 
+@color: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_pattern_set_solid ##### -->
+<para>
+
+</para>
+
+@pat: 
+@fore: 
+
+
+<!-- ##### FUNCTION go_pattern_get_pattern ##### -->
+<para>
+
+</para>
+
+@pat: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_pattern_get_svg_path ##### -->
+<para>
+
+</para>
+
+@pattern: 
+@width: 
+@height: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_pattern_create_cairo_pattern ##### -->
+<para>
+
+</para>
+
+@pattern: 
+@cr: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_pattern_selector_new ##### -->
+<para>
+
+</para>
+
+@initial_type: 
+@default_type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_pattern_selector_set_colors ##### -->
+<para>
+
+</para>
+
+@selector: 
+@foreground: 
+@background: 
+
+

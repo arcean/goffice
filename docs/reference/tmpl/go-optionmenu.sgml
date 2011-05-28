@@ -1,0 +1,90 @@
+<!-- ##### SECTION Title ##### -->
+GOOptionMenu
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOOptionMenu ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOOptionMenu::changed ##### -->
+<para>
+
+</para>
+
+@gooptionmenu: the object which received the signal.
+
+<!-- ##### ARG GOOptionMenu:menu ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT GOOptionMenuClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+@changed: 
+@_gtk_reserved1: 
+@_gtk_reserved2: 
+@_gtk_reserved3: 
+@_gtk_reserved4: 
+
+<!-- ##### FUNCTION go_option_menu_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_option_menu_set_menu ##### -->
+<para>
+
+</para>
+
+@option_menu: 
+@menu: 
+
+
+<!-- ##### FUNCTION go_option_menu_set_history ##### -->
+<para>
+
+</para>
+
+@option_menu: 
+@selection: 
+
+
+<!-- ##### FUNCTION go_option_menu_get_history ##### -->
+<para>
+
+</para>
+
+@option_menu: 
+@Returns: 
+
+

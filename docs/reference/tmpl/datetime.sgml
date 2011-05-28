@@ -1,0 +1,277 @@
+<!-- ##### SECTION Title ##### -->
+Time related functions
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GODateConventions ##### -->
+<para>
+
+</para>
+
+@use_1904: 
+
+<!-- ##### FUNCTION go_date_timet_to_serial_raw ##### -->
+<para>
+
+</para>
+
+@t: 
+@conv: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_timet_to_serial ##### -->
+<para>
+
+</para>
+
+@t: 
+@conv: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_g_to_serial ##### -->
+<para>
+
+</para>
+
+@date: 
+@conv: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_serial_to_g ##### -->
+<para>
+
+</para>
+
+@res: 
+@serial: 
+@conv: 
+
+
+<!-- ##### FUNCTION go_date_serial_to_timet ##### -->
+<para>
+
+</para>
+
+@serial: 
+@conv: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_serial_raw_to_serial ##### -->
+<para>
+
+</para>
+
+@raw: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_timet_to_seconds ##### -->
+<para>
+
+</para>
+
+@t: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_serial_raw_to_seconds ##### -->
+<para>
+
+</para>
+
+@raw: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_g_months_between ##### -->
+<para>
+
+</para>
+
+@date1: 
+@date2: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_g_years_between ##### -->
+<para>
+
+</para>
+
+@date1: 
+@date2: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_weeknum ##### -->
+<para>
+
+</para>
+
+@date: 
+@method: 
+@Returns: 
+
+
+<!-- ##### ENUM go_basis_t ##### -->
+<para>
+
+</para>
+
+@GO_BASIS_MSRB_30_360: 
+@GO_BASIS_ACT_ACT: 
+@GO_BASIS_ACT_360: 
+@GO_BASIS_ACT_365: 
+@GO_BASIS_30E_360: 
+@GO_BASIS_30Ep_360: 
+@GO_BASIS_MSRB_30_360_SYM: 
+
+<!-- ##### FUNCTION go_date_days_between_basis ##### -->
+<para>
+
+</para>
+
+@from: 
+@to: 
+@basis: 
+@Returns: 
+
+
+<!-- ##### STRUCT GoCouponConvention ##### -->
+<para>
+
+</para>
+
+@freq: 
+@basis: 
+@eom: 
+@date_conv: 
+
+<!-- ##### FUNCTION go_coup_cd ##### -->
+<para>
+
+</para>
+
+@res: 
+@settle: 
+@mat: 
+@freq: 
+@eom: 
+@next: 
+
+
+<!-- ##### FUNCTION go_coupdays ##### -->
+<para>
+
+</para>
+
+@settlement: 
+@maturity: 
+@conv: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_coupdaybs ##### -->
+<para>
+
+</para>
+
+@settlement: 
+@maturity: 
+@conv: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_coupdaysnc ##### -->
+<para>
+
+</para>
+
+@settlement: 
+@maturity: 
+@conv: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_convention_base ##### -->
+<para>
+
+</para>
+
+@conv: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_conv_from_str ##### -->
+<para>
+
+</para>
+
+@s: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_conv_equal ##### -->
+<para>
+
+</para>
+
+@a: 
+@b: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_conv_translate ##### -->
+<para>
+
+</para>
+
+@f: 
+@src: 
+@dst: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_weekday_name ##### -->
+<para>
+
+</para>
+
+@wd: 
+@abbrev: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_date_month_name ##### -->
+<para>
+
+</para>
+
+@m: 
+@abbrev: 
+@Returns: 
+
+

@@ -1,0 +1,118 @@
+<!-- ##### SECTION Title ##### -->
+GOActionCOLOR
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_ACTION_COMBO_COLOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_ACTION_COMBO_COLOR ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_ACTION_COMBO_COLOR ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### STRUCT GOActionComboColor ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOActionComboColor::combo-activate ##### -->
+<para>
+
+</para>
+
+@goactioncombocolor: the object which received the signal.
+
+<!-- ##### SIGNAL GOActionComboColor::display-custom-dialog ##### -->
+<para>
+
+</para>
+
+@goactioncombocolor: the object which received the signal.
+@arg1: 
+
+<!-- ##### FUNCTION go_action_combo_color_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_action_combo_color_new ##### -->
+<para>
+
+</para>
+
+@action_name: 
+@stock_id: 
+@default_color_label: 
+@default_color: 
+@group_key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_action_combo_color_set_group ##### -->
+<para>
+
+</para>
+
+@a: 
+@group_key: 
+
+
+<!-- ##### FUNCTION go_action_combo_color_get_color ##### -->
+<para>
+
+</para>
+
+@a: 
+@is_default: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_action_combo_color_set_color ##### -->
+<para>
+
+</para>
+
+@a: 
+@color: 
+
+

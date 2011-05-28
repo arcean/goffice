@@ -1,0 +1,356 @@
+<!-- ##### SECTION Title ##### -->
+go-plugin
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOPlugin ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOPlugin::can-deactivate-changed ##### -->
+<para>
+
+</para>
+
+@goplugin: the object which received the signal.
+
+<!-- ##### SIGNAL GOPlugin::state-changed ##### -->
+<para>
+
+</para>
+
+@goplugin: the object which received the signal.
+
+<!-- ##### FUNCTION go_plugin_init ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@cc: 
+
+
+<!-- ##### FUNCTION go_plugin_shutdown ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@cc: 
+
+
+<!-- ##### FUNCTION go_plugin_activate ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@ret_error: 
+
+
+<!-- ##### FUNCTION go_plugin_deactivate ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@ret_error: 
+
+
+<!-- ##### FUNCTION go_plugin_is_active ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_can_deactivate ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_get_loader ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_load_service ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@service: 
+@ret_error: 
+
+
+<!-- ##### FUNCTION go_plugin_unload_service ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@service: 
+@ret_error: 
+
+
+<!-- ##### FUNCTION go_plugin_is_loaded ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_use_ref ##### -->
+<para>
+
+</para>
+
+@plugin: 
+
+
+<!-- ##### FUNCTION go_plugin_use_unref ##### -->
+<para>
+
+</para>
+
+@plugin: 
+
+
+<!-- ##### FUNCTION go_plugin_get_type_module ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_get_dir_name ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_get_id ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_get_name ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_get_description ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_get_textdomain ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_get_services ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_get_dependencies_ids ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugins_init ##### -->
+<para>
+
+</para>
+
+@context: 
+@known_states: 
+@active_plugins: 
+@plugin_dirs: 
+@activate_new_plugins: 
+@default_loader_type: 
+
+
+<!-- ##### FUNCTION go_plugins_shutdown ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugins_add ##### -->
+<para>
+
+</para>
+
+@context: 
+@known_states: 
+@active_plugins: 
+@plugin_dirs: 
+@default_loader_type: 
+
+
+<!-- ##### FUNCTION go_plugins_register_loader ##### -->
+<para>
+
+</para>
+
+@id_str: 
+@service: 
+
+
+<!-- ##### FUNCTION go_plugins_unregister_loader ##### -->
+<para>
+
+</para>
+
+@id_str: 
+
+
+<!-- ##### FUNCTION go_plugins_get_plugin_by_id ##### -->
+<para>
+
+</para>
+
+@plugin_id: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugins_get_available_plugins ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugins_get_active_plugins ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugins_rescan ##### -->
+<para>
+
+</para>
+
+@ret_error: 
+@ret_new_plugins: 
+
+
+<!-- ##### FUNCTION go_plugins_get_plugin_dir ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_db_mark_plugin_for_deactivation ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@mark: 
+
+
+<!-- ##### FUNCTION go_plugin_db_is_plugin_marked_for_deactivation ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_db_activate_plugin_list ##### -->
+<para>
+
+</para>
+
+@plugins: 
+@ret_error: 
+
+
+<!-- ##### FUNCTION go_plugin_db_deactivate_plugin_list ##### -->
+<para>
+
+</para>
+
+@plugins: 
+@ret_error: 
+
+

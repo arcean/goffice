@@ -1,0 +1,121 @@
+<!-- ##### SECTION Title ##### -->
+GOCharmapSel
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_CHARMAP_SEL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_CHARMAP_SEL ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+
+<!-- ##### MACRO GO_IS_CHARMAP_SEL ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+
+<!-- ##### STRUCT GOCharmapSel ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOCharmapSel::charmap-changed ##### -->
+<para>
+
+</para>
+
+@gocharmapsel: the object which received the signal.
+@arg1: 
+
+<!-- ##### ARG GOCharmapSel:TestDirection ##### -->
+<para>
+
+</para>
+
+<!-- ##### ENUM GOCharmapSelTestDirection ##### -->
+<para>
+
+</para>
+
+@GO_CHARMAP_SEL_TO_UTF8: 
+@GO_CHARMAP_SEL_FROM_UTF8: 
+
+<!-- ##### FUNCTION go_charmap_sel_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_charmap_sel_new ##### -->
+<para>
+
+</para>
+
+@test: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_charmap_sel_get_encoding ##### -->
+<para>
+
+</para>
+
+@cs: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_charmap_sel_set_encoding ##### -->
+<para>
+
+</para>
+
+@cs: 
+@enc: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_charmap_sel_get_encoding_name ##### -->
+<para>
+
+</para>
+
+@cs: 
+@enc: 
+@Returns: 
+
+

@@ -1,0 +1,465 @@
+<!-- ##### SECTION Title ##### -->
+GOPluginService
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_PLUGIN_SERVICE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_PLUGIN_SERVICE ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_PLUGIN_SERVICE ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### STRUCT GOPluginService ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GOPluginServiceClass ##### -->
+<para>
+
+</para>
+
+@g_object_class: 
+@read_xml: 
+@activate: 
+@deactivate: 
+@get_description: 
+
+<!-- ##### FUNCTION go_plugin_service_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### MACRO GO_TYPE_PLUGIN_SERVICE_GENERAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_PLUGIN_SERVICE_GENERAL ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_PLUGIN_SERVICE_GENERAL ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### FUNCTION go_plugin_service_general_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### STRUCT GOPluginServiceGeneral ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GOPluginServiceGeneralCallbacks ##### -->
+<para>
+
+</para>
+
+@plugin_func_init: 
+@plugin_func_cleanup: 
+
+<!-- ##### MACRO GO_TYPE_PLUGIN_SERVICE_FILE_OPENER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_PLUGIN_SERVICE_FILE_OPENER ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_PLUGIN_SERVICE_FILE_OPENER ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### FUNCTION go_plugin_service_file_opener_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### STRUCT GOPluginServiceFileOpener ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GOPluginServiceFileOpenerCallbacks ##### -->
+<para>
+
+</para>
+
+@plugin_func_file_probe: 
+@plugin_func_file_open: 
+
+<!-- ##### MACRO GO_TYPE_PLUGIN_SERVICE_FILE_SAVER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_PLUGIN_SERVICE_FILE_SAVER ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_PLUGIN_SERVICE_FILE_SAVER ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### FUNCTION go_plugin_service_file_saver_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### STRUCT GOPluginServiceFileSaver ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GOPluginServiceFileSaverCallbacks ##### -->
+<para>
+
+</para>
+
+@plugin_func_file_save: 
+
+<!-- ##### MACRO GO_TYPE_PLUGIN_SERVICE_PLUGIN_LOADER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_PLUGIN_SERVICE_PLUGIN_LOADER ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_PLUGIN_SERVICE_PLUGIN_LOADER ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### FUNCTION go_plugin_service_plugin_loader_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### STRUCT GOPluginServicePluginLoader ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GOPluginServicePluginLoaderCallbacks ##### -->
+<para>
+
+</para>
+
+@plugin_func_get_loader_type: 
+
+<!-- ##### FUNCTION go_plugin_service_plugin_loader_generate_type ##### -->
+<para>
+
+</para>
+
+@service: 
+@ret_error: 
+@Returns: 
+
+
+<!-- ##### MACRO GO_TYPE_PLUGIN_SERVICE_GOBJECT_LOADER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_PLUGIN_SERVICE_GOBJECT_LOADER ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_PLUGIN_SERVICE_GOBJECT_LOADER ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### FUNCTION go_plugin_service_gobject_loader_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### STRUCT GOPluginServiceGObjectLoader ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GOPluginServiceGObjectLoaderClass ##### -->
+<para>
+
+</para>
+
+@plugin_service_class: 
+@pending: 
+
+<!-- ##### MACRO GO_TYPE_PLUGIN_SERVICE_SIMPLE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_PLUGIN_SERVICE_SIMPLE ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_PLUGIN_SERVICE_SIMPLE ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### FUNCTION go_plugin_service_simple_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### STRUCT GOPluginServiceSimple ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GOPluginServiceSimpleClass ##### -->
+<para>
+
+</para>
+
+@plugin_service_class: 
+
+<!-- ##### FUNCTION go_plugin_service_new ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@tree: 
+@ret_error: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_service_get_id ##### -->
+<para>
+
+</para>
+
+@service: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_service_get_description ##### -->
+<para>
+
+</para>
+
+@service: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_service_get_plugin ##### -->
+<para>
+
+</para>
+
+@service: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_service_get_cbs ##### -->
+<para>
+
+</para>
+
+@service: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_service_activate ##### -->
+<para>
+
+</para>
+
+@service: 
+@ret_error: 
+
+
+<!-- ##### FUNCTION go_plugin_service_deactivate ##### -->
+<para>
+
+</para>
+
+@service: 
+@ret_error: 
+
+
+<!-- ##### FUNCTION go_plugin_service_load ##### -->
+<para>
+
+</para>
+
+@service: 
+@ret_error: 
+
+
+<!-- ##### FUNCTION go_plugin_service_unload ##### -->
+<para>
+
+</para>
+
+@service: 
+@ret_error: 
+
+
+<!-- ##### USER_FUNCTION GOPluginServiceCreate ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_services_shutdown ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION go_plugin_service_define ##### -->
+<para>
+
+</para>
+
+@type_str: 
+@ctor: 
+
+

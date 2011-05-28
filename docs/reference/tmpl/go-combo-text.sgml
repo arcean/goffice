@@ -1,0 +1,136 @@
+<!-- ##### SECTION Title ##### -->
+GOComboText
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_COMBO_TEXT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_COMBO_TEXT ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+
+<!-- ##### MACRO GO_IS_COMBO_TEXT ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+
+<!-- ##### STRUCT GOComboText ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOComboText::entry-changed ##### -->
+<para>
+
+</para>
+
+@gocombotext: the object which received the signal.
+@arg1: 
+@Returns: 
+
+<!-- ##### SIGNAL GOComboText::selection-changed ##### -->
+<para>
+
+</para>
+
+@gocombotext: the object which received the signal.
+@arg1: 
+@Returns: 
+
+<!-- ##### ENUM GOComboTextSearch ##### -->
+<para>
+
+</para>
+
+@GO_COMBO_TEXT_FROM_TOP: 
+@GO_COMBO_TEXT_CURRENT: 
+@GO_COMBO_TEXT_NEXT: 
+
+<!-- ##### FUNCTION go_combo_text_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_text_new ##### -->
+<para>
+
+</para>
+
+@cmp_func: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_text_new_default ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_text_get_entry ##### -->
+<para>
+
+</para>
+
+@ct: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_text_set_text ##### -->
+<para>
+
+</para>
+
+@ct: 
+@text: 
+@start: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_text_add_item ##### -->
+<para>
+
+</para>
+
+@ct: 
+@label: 
+
+

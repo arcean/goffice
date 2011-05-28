@@ -1,0 +1,73 @@
+<!-- ##### SECTION Title ##### -->
+GocWidget
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GocWidget ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GocWidget:height ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocWidget:widget ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocWidget:width ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocWidget:x ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocWidget:y ##### -->
+<para>
+
+</para>
+
+<!-- ##### TYPEDEF GocWidgetClass ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION goc_widget_set_bounds ##### -->
+<para>
+
+</para>
+
+@widget: 
+@left: 
+@top: 
+@width: 
+@height: 
+
+

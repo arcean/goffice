@@ -1,0 +1,156 @@
+<!-- ##### SECTION Title ##### -->
+GogChartMap
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GogChartMap ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GogChartMapPolarData ##### -->
+<para>
+
+</para>
+
+@cx: 
+@cy: 
+@rx: 
+@ry: 
+@th0: 
+@th1: 
+
+<!-- ##### FUNCTION gog_chart_map_new ##### -->
+<para>
+
+</para>
+
+@chart: 
+@area: 
+@axis0: 
+@axis1: 
+@axis2: 
+@fill_area: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_chart_map_free ##### -->
+<para>
+
+</para>
+
+@map: 
+
+
+<!-- ##### FUNCTION gog_chart_map_is_valid ##### -->
+<para>
+
+</para>
+
+@map: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_chart_map_2D_to_view ##### -->
+<para>
+
+</para>
+
+@map: 
+@x: 
+@y: 
+@u: 
+@v: 
+
+
+<!-- ##### FUNCTION gog_chart_map_2D_derivative_to_view ##### -->
+<para>
+
+</para>
+
+@map: 
+@deriv: 
+@x: 
+@y: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_chart_map_view_to_2D ##### -->
+<para>
+
+</para>
+
+@map: 
+@x: 
+@y: 
+@u: 
+@v: 
+
+
+<!-- ##### FUNCTION gog_chart_map_get_axis_map ##### -->
+<para>
+
+</para>
+
+@map: 
+@index: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_chart_map_make_path ##### -->
+<para>
+
+</para>
+
+@map: 
+@x: 
+@y: 
+@n_points: 
+@interpolation: 
+@skip_invalid: 
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_chart_map_make_close_path ##### -->
+<para>
+
+</para>
+
+@map: 
+@x: 
+@y: 
+@n_points: 
+@fill_type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_chart_map_get_polar_parms ##### -->
+<para>
+
+</para>
+
+@map: 
+@Returns: 
+
+

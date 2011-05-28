@@ -1,0 +1,66 @@
+<!-- ##### SECTION Title ##### -->
+GocLine
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GocLine ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GocLine:end-arrow ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocLine:start-arrow ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocLine:x0 ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocLine:x1 ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocLine:y0 ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocLine:y1 ##### -->
+<para>
+
+</para>
+
+<!-- ##### TYPEDEF GocLineClass ##### -->
+<para>
+
+</para>
+
+

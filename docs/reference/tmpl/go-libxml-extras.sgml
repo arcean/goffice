@@ -1,0 +1,201 @@
+<!-- ##### SECTION Title ##### -->
+GOLibxmlExtras
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION go_xml_parse_file ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_xml_node_get_cstr ##### -->
+<para>
+
+</para>
+
+@node: 
+@name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_xml_node_set_cstr ##### -->
+<para>
+
+</para>
+
+@node: 
+@name: 
+@val: 
+
+
+<!-- ##### FUNCTION go_xml_node_get_bool ##### -->
+<para>
+
+</para>
+
+@node: 
+@name: 
+@result: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_xml_node_set_bool ##### -->
+<para>
+
+</para>
+
+@node: 
+@name: 
+@val: 
+
+
+<!-- ##### FUNCTION go_xml_node_get_int ##### -->
+<para>
+
+</para>
+
+@node: 
+@name: 
+@result: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_xml_node_set_int ##### -->
+<para>
+
+</para>
+
+@node: 
+@name: 
+@val: 
+
+
+<!-- ##### FUNCTION go_xml_node_get_double ##### -->
+<para>
+
+</para>
+
+@node: 
+@name: 
+@result: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_xml_node_set_double ##### -->
+<para>
+
+</para>
+
+@node: 
+@name: 
+@val: 
+@precision: 
+
+
+<!-- ##### FUNCTION go_xml_node_get_gocolor ##### -->
+<para>
+
+</para>
+
+@node: 
+@name: 
+@result: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_xml_node_set_gocolor ##### -->
+<para>
+
+</para>
+
+@node: 
+@name: 
+@val: 
+
+
+<!-- ##### FUNCTION go_xml_node_get_enum ##### -->
+<para>
+
+</para>
+
+@node: 
+@name: 
+@etype: 
+@val: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_xml_node_set_enum ##### -->
+<para>
+
+</para>
+
+@node: 
+@name: 
+@etype: 
+@val: 
+
+
+<!-- ##### FUNCTION go_xml_get_child_by_name ##### -->
+<para>
+
+</para>
+
+@tree: 
+@name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_xml_get_child_by_name_no_lang ##### -->
+<para>
+
+</para>
+
+@tree: 
+@name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_xml_get_child_by_name_by_lang ##### -->
+<para>
+
+</para>
+
+@tree: 
+@name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_xml_out_add_color ##### -->
+<para>
+
+</para>
+
+@out: 
+@id: 
+@c: 
+
+

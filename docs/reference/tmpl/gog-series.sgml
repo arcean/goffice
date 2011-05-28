@@ -1,0 +1,250 @@
+<!-- ##### SECTION Title ##### -->
+GogSeries
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GogSeries ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GogSeries:fill-type ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogSeries:has-legend ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogSeries:interpolation ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogSeries:interpolation-skip-invalid ##### -->
+<para>
+
+</para>
+
+<!-- ##### ENUM GogSeriesFillType ##### -->
+<para>
+
+</para>
+
+@GOG_SERIES_FILL_TYPE_Y_ORIGIN: 
+@GOG_SERIES_FILL_TYPE_X_ORIGIN: 
+@GOG_SERIES_FILL_TYPE_BOTTOM: 
+@GOG_SERIES_FILL_TYPE_LEFT: 
+@GOG_SERIES_FILL_TYPE_TOP: 
+@GOG_SERIES_FILL_TYPE_RIGHT: 
+@GOG_SERIES_FILL_TYPE_ORIGIN: 
+@GOG_SERIES_FILL_TYPE_CENTER: 
+@GOG_SERIES_FILL_TYPE_EDGE: 
+@GOG_SERIES_FILL_TYPE_SELF: 
+@GOG_SERIES_FILL_TYPE_NEXT: 
+@GOG_SERIES_FILL_TYPE_INVALID: 
+
+<!-- ##### FUNCTION gog_series_is_valid ##### -->
+<para>
+
+</para>
+
+@series: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_series_has_legend ##### -->
+<para>
+
+</para>
+
+@series: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_series_get_name ##### -->
+<para>
+
+</para>
+
+@series: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_series_get_plot ##### -->
+<para>
+
+</para>
+
+@series: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_series_set_name ##### -->
+<para>
+
+</para>
+
+@series: 
+@name_src: 
+@err: 
+
+
+<!-- ##### FUNCTION gog_series_set_dim ##### -->
+<para>
+
+</para>
+
+@series: 
+@dim_i: 
+@val: 
+@err: 
+
+
+<!-- ##### FUNCTION gog_series_set_index ##### -->
+<para>
+
+</para>
+
+@series: 
+@ind: 
+@is_manual: 
+
+
+<!-- ##### FUNCTION gog_series_num_elements ##### -->
+<para>
+
+</para>
+
+@series: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_series_get_overrides ##### -->
+<para>
+
+</para>
+
+@series: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_series_get_fill_type ##### -->
+<para>
+
+</para>
+
+@series: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_series_get_fill_type_from_combo ##### -->
+<para>
+
+</para>
+
+@series: 
+@combo: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_series_get_xy_data ##### -->
+<para>
+
+</para>
+
+@series: 
+@x: 
+@y: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_series_get_xyz_data ##### -->
+<para>
+
+</para>
+
+@series: 
+@x: 
+@y: 
+@z: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_series_lines_use_markers ##### -->
+<para>
+
+</para>
+
+@lines: 
+@use_markers: 
+
+
+<!-- ##### FUNCTION gog_series_populate_fill_type_combo ##### -->
+<para>
+
+</para>
+
+@series: 
+@combo: 
+
+
+<!-- ##### FUNCTION gog_series_set_fill_type ##### -->
+<para>
+
+</para>
+
+@series: 
+@fill_type: 
+
+
+<!-- ##### FUNCTION gog_series_get_interpolation_params ##### -->
+<para>
+
+</para>
+
+@series: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_series_lines_stroke ##### -->
+<para>
+
+</para>
+
+@lines: 
+@rend: 
+@bbox: 
+@path: 
+@invert: 
+
+
+<!-- ##### MACRO GOG_SERIES_ACCEPT_TREND_LINE ##### -->
+<para>
+
+</para>
+
+
+

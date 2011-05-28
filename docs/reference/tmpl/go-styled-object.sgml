@@ -1,0 +1,117 @@
+<!-- ##### SECTION Title ##### -->
+GOStyledObject
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOStyledObject ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GOStyledObjectClass ##### -->
+<para>
+
+</para>
+
+@base: 
+@set_style: 
+@get_style: 
+@get_auto_style: 
+@style_changed: 
+@apply_theme: 
+@get_document: 
+
+<!-- ##### FUNCTION go_styled_object_get_style ##### -->
+<para>
+
+</para>
+
+@gso: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_styled_object_get_auto_style ##### -->
+<para>
+
+</para>
+
+@gso: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_styled_object_set_style ##### -->
+<para>
+
+</para>
+
+@gso: 
+@style: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_styled_object_apply_theme ##### -->
+<para>
+
+</para>
+
+@gso: 
+@style: 
+
+
+<!-- ##### FUNCTION go_styled_object_style_changed ##### -->
+<para>
+
+</para>
+
+@gso: 
+
+
+<!-- ##### FUNCTION go_styled_object_get_document ##### -->
+<para>
+
+</para>
+
+@gso: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_styled_object_set_cairo_fill ##### -->
+<para>
+
+</para>
+
+@so: 
+@cr: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_styled_object_set_cairo_line ##### -->
+<para>
+
+</para>
+
+@so: 
+@cr: 
+@Returns: 
+
+

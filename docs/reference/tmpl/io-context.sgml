@@ -1,0 +1,266 @@
+<!-- ##### SECTION Title ##### -->
+GOIOContext
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOIOContext ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GOIOContext:exec-main-loop ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT GOIOContextClass ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION go_io_context_new ##### -->
+<para>
+
+</para>
+
+@cc: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_io_error_unknown ##### -->
+<para>
+
+</para>
+
+@ioc: 
+
+
+<!-- ##### FUNCTION go_io_error_info_set ##### -->
+<para>
+
+</para>
+
+@ioc: 
+@error: 
+
+
+<!-- ##### FUNCTION go_io_error_string ##### -->
+<para>
+
+</para>
+
+@ioc: 
+@str: 
+
+
+<!-- ##### FUNCTION go_io_error_push ##### -->
+<para>
+
+</para>
+
+@ioc: 
+@error: 
+
+
+<!-- ##### FUNCTION go_io_error_clear ##### -->
+<para>
+
+</para>
+
+@ioc: 
+
+
+<!-- ##### FUNCTION go_io_error_display ##### -->
+<para>
+
+</para>
+
+@ioc: 
+
+
+<!-- ##### FUNCTION go_io_error_occurred ##### -->
+<para>
+
+</para>
+
+@ioc: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_io_warning_occurred ##### -->
+<para>
+
+</para>
+
+@ioc: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_io_progress_message ##### -->
+<para>
+
+</para>
+
+@io_context: 
+@msg: 
+
+
+<!-- ##### FUNCTION go_io_progress_update ##### -->
+<para>
+
+</para>
+
+@io_context: 
+@f: 
+
+
+<!-- ##### FUNCTION go_io_progress_range_push ##### -->
+<para>
+
+</para>
+
+@io_context: 
+@min: 
+@max: 
+
+
+<!-- ##### FUNCTION go_io_progress_range_pop ##### -->
+<para>
+
+</para>
+
+@io_context: 
+
+
+<!-- ##### FUNCTION go_io_count_progress_set ##### -->
+<para>
+
+</para>
+
+@io_context: 
+@total: 
+@step: 
+
+
+<!-- ##### FUNCTION go_io_count_progress_update ##### -->
+<para>
+
+</para>
+
+@io_context: 
+@inc: 
+
+
+<!-- ##### FUNCTION go_io_value_progress_set ##### -->
+<para>
+
+</para>
+
+@io_context: 
+@total: 
+@step: 
+
+
+<!-- ##### FUNCTION go_io_value_progress_update ##### -->
+<para>
+
+</para>
+
+@io_context: 
+@value: 
+
+
+<!-- ##### FUNCTION go_io_progress_unset ##### -->
+<para>
+
+</para>
+
+@io_context: 
+
+
+<!-- ##### FUNCTION go_io_context_set_num_files ##### -->
+<para>
+
+</para>
+
+@ioc: 
+@count: 
+
+
+<!-- ##### FUNCTION go_io_context_processing_file ##### -->
+<para>
+
+</para>
+
+@ioc: 
+@uri: 
+
+
+<!-- ##### FUNCTION go_io_warning ##### -->
+<para>
+
+</para>
+
+@ioc: 
+@fmt: 
+@Varargs: 
+
+
+<!-- ##### FUNCTION go_io_warning_varargs ##### -->
+<para>
+
+</para>
+
+@ioc: 
+@fmt: 
+@args: 
+
+
+<!-- ##### FUNCTION go_io_warning_unknown_font ##### -->
+<para>
+
+</para>
+
+@ioc: 
+@font_name: 
+
+
+<!-- ##### FUNCTION go_io_warning_unknown_function ##### -->
+<para>
+
+</para>
+
+@ioc: 
+@funct_name: 
+
+
+<!-- ##### FUNCTION go_io_warning_unsupported_feature ##### -->
+<para>
+
+</para>
+
+@ioc: 
+@feature: 
+
+

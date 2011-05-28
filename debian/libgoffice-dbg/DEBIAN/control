@@ -1,0 +1,14 @@
+Package: libgoffice-dbg
+Version: 0.8.8-1
+Section: libdevel
+Priority: extra
+Architecture: i386
+Depends: libgoffice-0-8 (= 0.8.8-1)
+Conflicts: libgoffice-0-8-dbg
+Replaces: libgoffice-0-8-dbg
+Installed-Size: 3908
+Maintainer: Tomasz Pieniążek <t.pieniazek@gazeta.pl>
+Source: goffice
+Description: Document centric objects library - debugging files
+ GOffice is a library of document centric objects and utilities building on top of GLib and Gtk+.
+ These are the files used to debug (applications that use) the GOffice library.

@@ -1,0 +1,73 @@
+<!-- ##### SECTION Title ##### -->
+GOBezierSpline
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOBezierSpline ##### -->
+<para>
+
+</para>
+
+@x: 
+@y: 
+@n: 
+@closed: 
+
+<!-- ##### FUNCTION go_bezier_spline_init ##### -->
+<para>
+
+</para>
+
+@x: 
+@y: 
+@n: 
+@closed: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_bezier_spline_destroy ##### -->
+<para>
+
+</para>
+
+@sp: 
+
+
+<!-- ##### FUNCTION go_bezier_spline_to_path ##### -->
+<para>
+
+</para>
+
+@sp: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_bezier_spline_to_cairo ##### -->
+<para>
+
+</para>
+
+@sp: 
+@cr: 
+@horiz_flip: 
+
+

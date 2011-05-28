@@ -1,0 +1,128 @@
+<!-- ##### SECTION Title ##### -->
+GogAxisLine
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GogAxisLine ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GogAxisBase ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GogAxisBase:cross-axis-id ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxisBase:major-tick-in ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxisBase:major-tick-labeled ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxisBase:major-tick-out ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxisBase:major-tick-size-pts ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxisBase:minor-tick-in ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxisBase:minor-tick-out ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxisBase:minor-tick-size-pts ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxisBase:padding-pts ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxisBase:pos ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogAxisBase:pos-str ##### -->
+<para>
+
+</para>
+
+<!-- ##### ENUM GogAxisPosition ##### -->
+<para>
+
+</para>
+
+@GOG_AXIS_AT_LOW: 
+@GOG_AXIS_CROSS: 
+@GOG_AXIS_AT_HIGH: 
+@GOG_AXIS_AUTO: 
+
+<!-- ##### STRUCT GogAxisTick ##### -->
+<para>
+
+</para>
+
+@position: 
+@type: 
+@label: 
+
+<!-- ##### ENUM GogAxisTickTypes ##### -->
+<para>
+
+</para>
+
+@GOG_AXIS_TICK_NONE: 
+@GOG_AXIS_TICK_MAJOR: 
+@GOG_AXIS_TICK_MINOR: 
+
+<!-- ##### STRUCT GogAxisTickProperties ##### -->
+<para>
+
+</para>
+
+@tick_in: 
+@tick_out: 
+@size_pts: 
+

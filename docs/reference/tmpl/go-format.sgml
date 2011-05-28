@@ -1,0 +1,634 @@
+<!-- ##### SECTION Title ##### -->
+GOFormat
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOFormat ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ENUM GOFormatFamily ##### -->
+<para>
+
+</para>
+
+@GO_FORMAT_UNKNOWN: 
+@GO_FORMAT_GENERAL: 
+@GO_FORMAT_NUMBER: 
+@GO_FORMAT_CURRENCY: 
+@GO_FORMAT_ACCOUNTING: 
+@GO_FORMAT_DATE: 
+@GO_FORMAT_TIME: 
+@GO_FORMAT_PERCENTAGE: 
+@GO_FORMAT_FRACTION: 
+@GO_FORMAT_SCIENTIFIC: 
+@GO_FORMAT_TEXT: 
+@GO_FORMAT_SPECIAL: 
+@GO_FORMAT_MARKUP: 
+
+<!-- ##### ENUM GOFormatMagic ##### -->
+<para>
+
+</para>
+
+@GO_FORMAT_MAGIC_NONE: 
+@GO_FORMAT_MAGIC_LONG_DATE: 
+@GO_FORMAT_MAGIC_MEDIUM_DATE: 
+@GO_FORMAT_MAGIC_SHORT_DATE: 
+@GO_FORMAT_MAGIC_SHORT_DATETIME: 
+@GO_FORMAT_MAGIC_LONG_TIME: 
+@GO_FORMAT_MAGIC_MEDIUM_TIME: 
+@GO_FORMAT_MAGIC_SHORT_TIME: 
+
+<!-- ##### ENUM GOFormatNumberError ##### -->
+<para>
+
+</para>
+
+@GO_FORMAT_NUMBER_OK: 
+@GO_FORMAT_NUMBER_INVALID_FORMAT: 
+@GO_FORMAT_NUMBER_DATE_ERROR: 
+
+<!-- ##### STRUCT GOFormatCurrency ##### -->
+<para>
+
+</para>
+
+@symbol: 
+@description: 
+@precedes: 
+@has_space: 
+
+<!-- ##### STRUCT GOFormatDetails ##### -->
+<para>
+
+</para>
+
+@family: 
+@magic: 
+@min_digits: 
+@num_decimals: 
+@thousands_sep: 
+@negative_red: 
+@negative_paren: 
+@currency: 
+@force_quoted: 
+@exponent_step: 
+@use_markup: 
+@simplify_mantissa: 
+
+<!-- ##### USER_FUNCTION GOFormatMeasure ##### -->
+<para>
+
+</para>
+
+@str: 
+@layout: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_measure_zero ##### -->
+<para>
+
+</para>
+
+@str: 
+@layout: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_measure_pango ##### -->
+<para>
+
+</para>
+
+@str: 
+@layout: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_measure_strlen ##### -->
+<para>
+
+</para>
+
+@str: 
+@layout: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_render_general ##### -->
+<para>
+
+</para>
+
+@layout: 
+@str: 
+@measure: 
+@metrics: 
+@val: 
+@col_width: 
+@unicode_minus: 
+
+
+<!-- ##### FUNCTION go_render_generall ##### -->
+<para>
+
+</para>
+
+@layout: 
+@str: 
+@measure: 
+@metrics: 
+@val: 
+@col_width: 
+@unicode_minus: 
+
+
+<!-- ##### FUNCTION go_format_new_from_XL ##### -->
+<para>
+
+</para>
+
+@str: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_new_markup ##### -->
+<para>
+
+</para>
+
+@markup: 
+@add_ref: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_general ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_empty ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_default_date ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_default_time ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_default_date_time ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_default_percentage ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_default_money ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_default_accounting ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_generate_number_str ##### -->
+<para>
+
+</para>
+
+@dst: 
+@min_digits: 
+@num_decimals: 
+@thousands_sep: 
+@negative_red: 
+@negative_paren: 
+@prefix: 
+@postfix: 
+
+
+<!-- ##### FUNCTION go_format_details_init ##### -->
+<para>
+
+</para>
+
+@details: 
+@family: 
+
+
+<!-- ##### FUNCTION go_format_generate_str ##### -->
+<para>
+
+</para>
+
+@dst: 
+@details: 
+
+
+<!-- ##### FUNCTION go_format_str_localize ##### -->
+<para>
+
+</para>
+
+@str: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_str_delocalize ##### -->
+<para>
+
+</para>
+
+@str: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_as_XL ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_ref ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_unref ##### -->
+<para>
+
+</para>
+
+@fmt: 
+
+
+<!-- ##### FUNCTION go_format_is_invalid ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_is_general ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_is_markup ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_is_text ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_is_var_width ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_is_date ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_is_time ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_month_before_day ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_has_hour ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_has_minute ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_get_magic ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_new_magic ##### -->
+<para>
+
+</para>
+
+@m: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_specialize ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@val: 
+@type: 
+@inhibit_minus: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_specializel ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@val: 
+@type: 
+@inhibit_minus: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_get_family ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_get_details ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@dst: 
+@exact: 
+
+
+<!-- ##### FUNCTION go_format_get_markup ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_is_simple ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_value_gstring ##### -->
+<para>
+
+</para>
+
+@layout: 
+@str: 
+@measure: 
+@metrics: 
+@fmt: 
+@val: 
+@type: 
+@sval: 
+@go_color: 
+@col_width: 
+@date_conv: 
+@unicode_minus: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_value ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@val: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_value_gstringl ##### -->
+<para>
+
+</para>
+
+@layout: 
+@str: 
+@measure: 
+@metrics: 
+@fmt: 
+@val: 
+@type: 
+@sval: 
+@go_color: 
+@col_width: 
+@date_conv: 
+@unicode_minus: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_valuel ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@val: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_eq ##### -->
+<para>
+
+</para>
+
+@a: 
+@b: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_inc_precision ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_dec_precision ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_toggle_1000sep ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_odf_style_map ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@cond_part: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_output_to_odf ##### -->
+<para>
+
+</para>
+
+@xout: 
+@fmt: 
+@cond_part: 
+@name: 
+@with_extension: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_format_locale_currency ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+

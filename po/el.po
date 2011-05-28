@@ -1,0 +1,7590 @@
+# translation of gnumeric.el.po to Greek
+# Gnumeric Greek translation.
+# Copyright (C) 2000,2003 Free Software Foundation, Inc.
+# #########################################################
+# Spiros initial translation 431 messages translated
+#
+# #########################################################
+# Gnumeric 1.2.x
+# jun 2003 Nikos start fixing erros and updating 557 translated
+# 14Sep2003 Nikos a small update 606 translated
+# 19Sep2003 Nikos a small update 637 translated
+# 23Sep2003 Nikos update 755 translated
+# 27Nov2003 Nikos update 827 translated
+# Dec2003 Petros update XXX translated
+#
+# Spiros Papadimitriou <spapadim+@cs.cmu.edu>, 2000.
+# Nikos Charonitakis <charosn@her.forthnet.gr>, 2003
+# Kostas Papadimas <pkst@gmx.net>, 2003
+# Petros Velonis <velonis@freemail.gr>, 2004
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gnumeric 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-22 20:44-0400\n"
+"PO-Revision-Date: 2004-03-24 17:03+0200\n"
+"Last-Translator: Petros Velonis <velonis@freemail.gr>\n"
+"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../goffice/app/file.c:459
+msgid "ID"
+msgstr ""
+
+#: ../goffice/app/file.c:460
+msgid "The identifier of the saver."
+msgstr ""
+
+#: ../goffice/app/file.c:470
+msgid "MIME type"
+msgstr ""
+
+#: ../goffice/app/file.c:471
+msgid "The MIME type of the saver."
+msgstr ""
+
+#: ../goffice/app/file.c:480
+msgid "Extension"
+msgstr ""
+
+#: ../goffice/app/file.c:481
+msgid "The standard file name extension of the saver."
+msgstr ""
+
+#: ../goffice/app/file.c:490
+#, fuzzy
+msgid "Description"
+msgstr "<b>Προσανατολισμός</b>"
+
+#: ../goffice/app/file.c:491
+msgid "The description of the saver."
+msgstr ""
+
+#: ../goffice/app/file.c:500
+msgid "Overwrite"
+msgstr ""
+
+#: ../goffice/app/file.c:501
+msgid "Whether the saver will overwrite files."
+msgstr ""
+
+#: ../goffice/app/file.c:511
+#, fuzzy
+msgid "Format Level"
+msgstr "Μορφοποίηση"
+
+#: ../goffice/app/file.c:522
+#, fuzzy
+msgid "Scope"
+msgstr "Ειδικό"
+
+#: ../goffice/app/file.c:523
+msgid "How much of a document is saved"
+msgstr ""
+
+# # NOTE: Help text for financial and statistical functions
+# #   is untranslated (I am not familiar with all the terminology,
+# #   nor do I know of anyone who is).  - Spiros
+#: ../goffice/app/file.c:687
+#, fuzzy
+msgid "Saving over old files of this type is disabled for safety."
+msgstr "Αποθήκευση πάνω από παλία αρχεία ανενεργή για λόγους ασφαλείας"
+
+#: ../goffice/app/file.c:697
+msgid ""
+"You can turn this safety feature off by editing appropriate plugin.xml file."
+msgstr ""
+
+#: ../goffice/app/go-cmd-context.c:65
+#, c-format
+msgid "Invalid %s: '%s'"
+msgstr ""
+
+#: ../goffice/app/go-doc.c:136
+msgid "URI"
+msgstr ""
+
+#: ../goffice/app/go-doc.c:137
+msgid "The URI associated with this document."
+msgstr ""
+
+#: ../goffice/app/go-doc.c:141
+#, fuzzy
+msgid "Dirty"
+msgstr "Διακριτή"
+
+#: ../goffice/app/go-doc.c:142
+msgid "Whether the document has been changed."
+msgstr ""
+
+#: ../goffice/app/go-doc.c:146
+#, fuzzy
+msgid "Pristine"
+msgstr "Γραμμή"
+
+#: ../goffice/app/go-doc.c:147
+msgid "Whether the document is unchanged since it was created."
+msgstr ""
+
+#: ../goffice/app/go-doc.c:380 ../goffice/utils/go-style-prefs.ui.h:8
+#, fuzzy
+msgid "Image"
+msgstr "Εικόνα"
+
+#: ../goffice/app/go-object.c:51
+#, fuzzy
+msgid "Objects"
+msgstr "Αντικείμεν_ο..."
+
+#: ../goffice/app/go-object.c:109
+#, c-format
+msgid "Loading plugin '%s' that contains the object '%s'"
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:56
+#, fuzzy
+msgid "Module file name not given."
+msgstr "Όνομα αρχείου:"
+
+#: ../goffice/app/go-plugin-loader-module.c:67
+#, c-format
+msgid "Module \"%s\" has an inconsistent dependency list."
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:75
+#, c-format
+msgid "Module \"%s\" depends on an invalid null dependency."
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:80
+#, c-format
+msgid "Module \"%s\" depends on an unknown dependency '%s'."
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:85
+#, c-format
+msgid ""
+"Module \"%s\" was built with version %s of %s, but this executable supplied "
+"version %s."
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:103
+msgid "Dynamic module loading is not supported in this system."
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:113
+#, fuzzy, c-format
+msgid "Unable to open module file \"%s\"."
+msgstr "άνοιγμα αρχείου αρθρώματος αδύνατο: '%s'"
+
+#: ../goffice/app/go-plugin-loader-module.c:121
+#, fuzzy, c-format
+msgid "Module \"%s\" doesn't contain (\"go_plugin_header\" symbol)."
+msgstr "Το άρθρωμα πρέπει να περιλαμβάνει τη συνάρτηση init_plugin."
+
+#: ../goffice/app/go-plugin-loader-module.c:125
+#, c-format
+msgid "Module \"%s\" has an invalid magic number."
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:152
+#, fuzzy, c-format
+msgid "Unable to close module file \"%s\"."
+msgstr "άνοιγμα αρχείου αρθρώματος αδύνατο: '%s'"
+
+#: ../goffice/app/go-plugin-loader-module.c:292
+#: ../goffice/app/go-plugin-loader-module.c:354
+#, c-format
+msgid "Module file \"%s\" has invalid format."
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:295
+#: ../goffice/app/go-plugin-loader-module.c:357
+#, c-format
+msgid "File doesn't contain \"%s\" function."
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader-module.c:421
+#, fuzzy, c-format
+msgid "Module doesn't contain \"%s\" function."
+msgstr "Το άρθρωμα πρέπει να περιλαμβάνει τη συνάρτηση init_plugin.'%s'"
+
+#: ../goffice/app/go-plugin-loader.c:47
+msgid "Loader has no set_attributes method.\n"
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader.c:62
+msgid "Loader has no load_base method.\n"
+msgstr ""
+
+#: ../goffice/app/go-plugin-loader.c:107 ../goffice/app/go-plugin-loader.c:145
+#, c-format
+msgid "Service '%s' not supported by loader."
+msgstr ""
+
+#: ../goffice/app/go-plugin-service.c:132
+#: ../goffice/app/go-plugin-service.c:835
+#, fuzzy
+msgid "Error while loading plugin service."
+msgstr "Σφάλμα: ανύπαρκτο φύλλο"
+
+#: ../goffice/app/go-plugin-service.c:140
+#, fuzzy
+msgid "Initializing function inside plugin returned error."
+msgstr "Η init_plugin επέστρεψε σφάλμα"
+
+#: ../goffice/app/go-plugin-service.c:158
+#, fuzzy
+msgid "Cleanup function inside plugin returned error."
+msgstr "Η init_plugin επέστρεψε σφάλμα"
+
+#: ../goffice/app/go-plugin-service.c:168 ../goffice/gtk/go-format-sel.c:61
+#: ../goffice/utils/go-format.c:733 ../goffice/utils/go-format.c:3679
+msgid "General"
+msgstr "Γενικό"
+
+#: ../goffice/app/go-plugin-service.c:319
+#, fuzzy
+msgid "File opener has no description"
+msgstr "Το άρθρωμα είναι ακόμα σε χρήση.\n"
+
+#: ../goffice/app/go-plugin-service.c:353
+#, fuzzy, c-format
+msgid "File opener - %s"
+msgstr ""
+"Το άρθρωμα είναι ακόμα σε χρήση.\n"
+"'%s'"
+
+#: ../goffice/app/go-plugin-service.c:474
+#, fuzzy
+msgid "Error while reading file."
+msgstr ""
+"Σφάλμα κατά την ανάγνωση του αρχείου %s:\n"
+"%s"
+
+#: ../goffice/app/go-plugin-service.c:642
+#, fuzzy
+msgid "File saver has no description"
+msgstr "Το άρθρωμα είναι ακόμα σε χρήση.\n"
+
+#: ../goffice/app/go-plugin-service.c:685
+#, fuzzy, c-format
+msgid "File saver - %s"
+msgstr "Όνομα αρχείου: %s"
+
+#: ../goffice/app/go-plugin-service.c:745
+#, fuzzy
+msgid "Error while loading plugin for saving."
+msgstr "Σφάλμα: ανύπαρκτο φύλλο"
+
+#: ../goffice/app/go-plugin-service.c:747
+msgid "Failed to load plugin for saving"
+msgstr ""
+
+#: ../goffice/app/go-plugin-service.c:872
+msgid "Plugin loader"
+msgstr "Φορτωτής επιπρ. λειτουργίας"
+
+#: ../goffice/app/go-plugin-service.c:897
+msgid "GObject loader"
+msgstr "Φορτωτής GObject"
+
+#: ../goffice/app/go-plugin-service.c:1004
+msgid "No \"type\" attribute on \"service\" element."
+msgstr ""
+
+#: ../goffice/app/go-plugin-service.c:1010
+#, fuzzy, c-format
+msgid "Unknown service type: %s."
+msgstr "Άγνωστο σύστημα'%s'"
+
+#: ../goffice/app/go-plugin-service.c:1026
+#, fuzzy
+msgid "Error reading service information."
+msgstr "Σφάλμα: ανύπαρκτο φύλλο"
+
+#: ../goffice/app/go-plugin-service.c:1088
+msgid ""
+"We must load service before activating it (PLUGIN_ALWAYS_LOAD is set) but "
+"loading failed."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:334
+#, c-format
+msgid "File contains plugin info with invalid id (%s), expected %s."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:338
+msgid "Couldn't read plugin info from file."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:483
+msgid "Unknown name"
+msgstr "Άγνωστο όνομα"
+
+#: ../goffice/app/go-plugin.c:578
+#, c-format
+msgid "Unsupported loader type \"%s\"."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:586
+#, c-format
+msgid "Error while preparing loader \"%s\"."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:664
+#, c-format
+msgid "Error while reading service #%d info."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:745
+#, c-format
+msgid "Can't read plugin info file (\"%s\")."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:749
+#, c-format
+msgid "File \"%s\" is not valid plugin info file."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:839
+#, c-format
+msgid "Errors while reading services for plugin with id=\"%s\"."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:851
+#, c-format
+msgid "Plugin id contains invalid characters (%s)."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:855
+#, fuzzy
+msgid "Unknown plugin name."
+msgstr "Άγνωστο σφάλμα εκτίμησης"
+
+#: ../goffice/app/go-plugin.c:859
+#, c-format
+msgid "No loader defined or loader id invalid for plugin with id=\"%s\"."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:865
+#, fuzzy
+msgid "Plugin has no id."
+msgstr "Το άρθρωμα είναι ακόμα σε χρήση.\n"
+
+#: ../goffice/app/go-plugin.c:906
+#, c-format
+msgid "Error initializing plugin loader (\"%s\")."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:937 ../goffice/app/go-plugin.c:1099
+#, fuzzy
+msgid "Detected cyclic plugin dependencies."
+msgstr "Σφάλμα: ανύπαρκτο φύλλο"
+
+#: ../goffice/app/go-plugin.c:961
+#, c-format
+msgid "Couldn't activate plugin with id=\"%s\"."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:967 ../goffice/app/go-plugin.c:1145
+#, c-format
+msgid "Couldn't find plugin with id=\"%s\"."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:974
+#, fuzzy
+msgid "Error while activating plugin dependencies."
+msgstr "Σφάλμα: ανύπαρκτο φύλλο"
+
+#: ../goffice/app/go-plugin.c:988
+#, c-format
+msgid "Error while activating plugin service #%d."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1044
+#, c-format
+msgid "Error while deactivating plugin service #%d."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1111 ../goffice/app/go-plugin.c:1132
+#, fuzzy
+msgid "Cannot load plugin loader."
+msgstr "Άγνωστο σφάλμα εκτίμησης"
+
+#: ../goffice/app/go-plugin.c:1139
+#, fuzzy, c-format
+msgid "Couldn't load plugin with id=\"%s\"."
+msgstr "Άγνωστο σφάλμα εκτίμησης'%s'"
+
+#: ../goffice/app/go-plugin.c:1152
+#, fuzzy
+msgid "Error while loading plugin dependencies."
+msgstr "Σφάλμα: ανύπαρκτο φύλλο"
+
+#: ../goffice/app/go-plugin.c:1342
+#, fuzzy, c-format
+msgid "Errors occurred while reading plugin information from file \"%s\"."
+msgstr "Σφάλμα: ανύπαρκτο φύλλο'%s'"
+
+#: ../goffice/app/go-plugin.c:1461
+#, c-format
+msgid "Couldn't activate plugin \"%s\" (ID: %s)."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1496
+#, c-format
+msgid "Couldn't deactivate plugin \"%s\" (ID: %s)."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1621 ../goffice/app/go-plugin.c:1787
+msgid "Errors while reading info about available plugins."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1645
+#, fuzzy
+msgid "Errors while deactivating plugins that are no longer on disk."
+msgstr "Σφάλμα: ανύπαρκτο φύλλο"
+
+#: ../goffice/app/go-plugin.c:1666
+#, c-format
+msgid ""
+"The following plugins are no longer on disk but are still active:\n"
+"%s.\n"
+"You should restart this program now."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1763 ../goffice/app/go-plugin.c:1854
+#, fuzzy
+msgid "Errors while reading info about new plugins."
+msgstr ""
+"Σφάλμα κατά την ανάγνωση του αρχείου %s:\n"
+"%s"
+
+#: ../goffice/app/go-plugin.c:1811 ../goffice/app/go-plugin.c:1878
+msgid "Errors while activating plugins."
+msgstr ""
+
+#: ../goffice/app/go-plugin.c:1818 ../goffice/app/go-plugin.c:1885
+msgid "Errors while initializing plugin system."
+msgstr ""
+
+#: ../goffice/app/io-context.c:155
+msgid "exec-main-loop"
+msgstr ""
+
+#: ../goffice/app/io-context.c:156
+msgid "Execute main loop iteration"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:437
+#, fuzzy
+msgid "xc"
+msgstr "x"
+
+#: ../goffice/canvas/goc-arc.c:438
+msgid "The arc center x coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:443
+msgid "yc"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:444
+msgid "The arc center y coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:449
+#, fuzzy
+msgid "xr"
+msgstr "x"
+
+#: ../goffice/canvas/goc-arc.c:450
+msgid "The arc x radius"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:455
+msgid "yr"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:456
+msgid "The arc y radius"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:461
+#, fuzzy
+msgid "ang1"
+msgstr "πορτοκαλί"
+
+#: ../goffice/canvas/goc-arc.c:462
+#, fuzzy
+msgid "The arc start angle"
+msgstr "Πλάτος Γραμμής:"
+
+#: ../goffice/canvas/goc-arc.c:467
+#, fuzzy
+msgid "ang2"
+msgstr "πορτοκαλί"
+
+#: ../goffice/canvas/goc-arc.c:468
+#, fuzzy
+msgid "The arc end angle"
+msgstr "Πλάτος Γραμμής:"
+
+#: ../goffice/canvas/goc-arc.c:473 ../goffice/canvas/goc-ellipse.c:263
+#: ../goffice/canvas/goc-path.c:251 ../goffice/canvas/goc-rectangle.c:354
+#: ../goffice/canvas/goc-text.c:440 ../goffice/graph/gog-3d-box.c:166
+#, fuzzy
+msgid "Rotation"
+msgstr "Κατεύθυνση"
+
+#: ../goffice/canvas/goc-arc.c:474
+#, fuzzy
+msgid "The rotation around center position"
+msgstr "Το μενού των επιλογών"
+
+#: ../goffice/canvas/goc-arc.c:479 ../goffice/canvas/goc-rectangle.c:360
+#: ../goffice/graph/gog-axis.c:2460 ../goffice/graph/gog-grid.c:116
+#: ../plugins/plot_barcol/gog-1.5d.c:332
+#, fuzzy
+msgid "Type"
+msgstr "_Τύπος:"
+
+#: ../goffice/canvas/goc-arc.c:480
+msgid "The type of arc: arc, chord or pie"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:486 ../goffice/canvas/goc-line.c:347
+#, fuzzy
+msgid "Start Arrow"
+msgstr "Ένα_ρξη"
+
+#: ../goffice/canvas/goc-arc.c:487 ../goffice/canvas/goc-line.c:348
+msgid "Arrow for line's start"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:492 ../goffice/canvas/goc-line.c:353
+msgid "End Arrow"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:493 ../goffice/canvas/goc-line.c:354
+msgid "Arrow for line's end"
+msgstr ""
+
+#: ../goffice/canvas/goc-circle.c:169 ../goffice/canvas/goc-ellipse.c:239
+#: ../goffice/canvas/goc-graph.c:412 ../goffice/canvas/goc-group.c:243
+#: ../goffice/canvas/goc-path.c:239 ../goffice/canvas/goc-pixbuf.c:231
+#: ../goffice/canvas/goc-rectangle.c:330 ../goffice/canvas/goc-text.c:428
+#: ../goffice/canvas/goc-widget.c:318 ../goffice/utils/go-marker.c:83
+#, fuzzy
+msgid "x"
+msgstr "x"
+
+#: ../goffice/canvas/goc-circle.c:170
+msgid "The circle center horizontal position"
+msgstr ""
+
+#: ../goffice/canvas/goc-circle.c:175 ../goffice/canvas/goc-ellipse.c:245
+#: ../goffice/canvas/goc-graph.c:418 ../goffice/canvas/goc-group.c:249
+#: ../goffice/canvas/goc-path.c:245 ../goffice/canvas/goc-pixbuf.c:237
+#: ../goffice/canvas/goc-rectangle.c:336 ../goffice/canvas/goc-text.c:434
+#: ../goffice/canvas/goc-widget.c:324
+msgid "y"
+msgstr ""
+
+#: ../goffice/canvas/goc-circle.c:176
+msgid "The circle center vertical position"
+msgstr ""
+
+#: ../goffice/canvas/goc-circle.c:181
+#, fuzzy
+msgid "Radius"
+msgstr "κανονικό-σφάλμα"
+
+#: ../goffice/canvas/goc-circle.c:182
+msgid "The circle radius"
+msgstr ""
+
+#: ../goffice/canvas/goc-ellipse.c:240
+msgid "The ellipse left position (or right position in RTL mode)"
+msgstr ""
+
+#: ../goffice/canvas/goc-ellipse.c:246
+#, fuzzy
+msgid "The ellipse top position"
+msgstr "Το μενού των επιλογών"
+
+#: ../goffice/canvas/goc-ellipse.c:251 ../goffice/canvas/goc-graph.c:430
+#: ../goffice/canvas/goc-graph.c:431 ../goffice/canvas/goc-pixbuf.c:243
+#: ../goffice/canvas/goc-rectangle.c:342 ../goffice/canvas/goc-widget.c:331
+#: ../goffice/graph/gog-graph.c:368 ../goffice/utils/go-image.c:472
+msgid "Width"
+msgstr "Πλάτος"
+
+#: ../goffice/canvas/goc-ellipse.c:252
+#, fuzzy
+msgid "The ellipse width"
+msgstr "Πλάτος Γραμμής:"
+
+#: ../goffice/canvas/goc-ellipse.c:257 ../goffice/canvas/goc-graph.c:424
+#: ../goffice/canvas/goc-graph.c:425 ../goffice/canvas/goc-pixbuf.c:249
+#: ../goffice/canvas/goc-rectangle.c:348 ../goffice/canvas/goc-widget.c:337
+#: ../goffice/graph/gog-graph.c:374 ../goffice/utils/go-image.c:476
+msgid "Height"
+msgstr "Ύψος"
+
+#: ../goffice/canvas/goc-ellipse.c:258
+#, fuzzy
+msgid "The ellipse height"
+msgstr "Δε_ξιά"
+
+#: ../goffice/canvas/goc-ellipse.c:264 ../goffice/canvas/goc-rectangle.c:355
+#, fuzzy
+msgid "The rotation around top left position"
+msgstr "Το μενού των επιλογών"
+
+#: ../goffice/canvas/goc-graph.c:413
+msgid "The graph left position"
+msgstr ""
+
+#: ../goffice/canvas/goc-graph.c:419
+msgid "The graph top position"
+msgstr ""
+
+#. default
+#. Cheat and assign a name here, graphs will not have parents until we
+#. * support graphs in graphs
+#: ../goffice/canvas/goc-graph.c:436 ../goffice/graph/gog-graph.c:161
+#: ../goffice/graph/gog-graph.c:400
+msgid "Graph"
+msgstr "Γράφημα"
+
+#: ../goffice/canvas/goc-graph.c:437
+msgid "The GogGraph this object displays"
+msgstr ""
+
+#: ../goffice/canvas/goc-graph.c:442 ../goffice/graph/gog-graph.c:902
+msgid "Renderer"
+msgstr ""
+
+#: ../goffice/canvas/goc-graph.c:443
+msgid "The GogRenderer being displayed"
+msgstr ""
+
+#: ../goffice/canvas/goc-group.c:244
+#, fuzzy
+msgid "The group horizontal offset"
+msgstr "Λεπτή Οριζόντια Ψάθα"
+
+#: ../goffice/canvas/goc-group.c:250
+msgid "The group vertical offset"
+msgstr ""
+
+#: ../goffice/canvas/goc-item.c:256
+#, fuzzy
+msgid "Canvas"
+msgstr "Αποθήκευση όλων"
+
+#: ../goffice/canvas/goc-item.c:257
+msgid "The canvas object on which the item resides"
+msgstr ""
+
+#: ../goffice/canvas/goc-item.c:262 ../goffice/graph/gog-view.c:584
+#, fuzzy
+msgid "Parent"
+msgstr "Ποσοστό"
+
+#: ../goffice/canvas/goc-item.c:263
+msgid "The group in which the item resides"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:323
+#, fuzzy
+msgid "x0"
+msgstr "x"
+
+#: ../goffice/canvas/goc-line.c:324
+msgid "The line start x coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:329
+msgid "y0"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:330
+msgid "The line start y coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:335
+#, fuzzy
+msgid "x1"
+msgstr "x"
+
+#: ../goffice/canvas/goc-line.c:336
+msgid "The line end x coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:341
+msgid "y1"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:342
+msgid "The line end y coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-path.c:240
+msgid "The path first point x coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-path.c:246
+msgid "The path first point y coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-path.c:252
+#, fuzzy
+msgid "The rotation around first point position"
+msgstr "Λεπτές Οριζόντιες Ρίγες"
+
+#: ../goffice/canvas/goc-path.c:257
+#, fuzzy
+msgid "Closed"
+msgstr "Χρώμα:"
+
+#: ../goffice/canvas/goc-path.c:258
+msgid "The flag for closed path"
+msgstr ""
+
+#: ../goffice/canvas/goc-path.c:263
+#, fuzzy
+msgid "Path"
+msgstr "Δεδομένα"
+
+#: ../goffice/canvas/goc-path.c:264
+#, fuzzy
+msgid "The path points"
+msgstr "Γραμμή"
+
+#: ../goffice/canvas/goc-pixbuf.c:232
+#, fuzzy
+msgid "The image left position"
+msgstr "Το μενού των επιλογών"
+
+#: ../goffice/canvas/goc-pixbuf.c:238
+#, fuzzy
+msgid "The image top position"
+msgstr "Το μενού των επιλογών"
+
+#: ../goffice/canvas/goc-pixbuf.c:244
+msgid "The image width or -1 to use the image width"
+msgstr ""
+
+#: ../goffice/canvas/goc-pixbuf.c:250
+msgid "The image height or -1 to use the image height"
+msgstr ""
+
+#: ../goffice/canvas/goc-pixbuf.c:260 ../goffice/utils/go-image.c:481
+msgid "Pixbuf"
+msgstr ""
+
+#: ../goffice/canvas/goc-pixbuf.c:261
+msgid "The GdkPixbuf to display"
+msgstr ""
+
+#: ../goffice/canvas/goc-polyline.c:229 ../goffice/canvas/goc-polygon.c:345
+#, fuzzy
+msgid "points"
+msgstr "Σημείο"
+
+#: ../goffice/canvas/goc-polyline.c:229
+msgid "The polyline vertices"
+msgstr ""
+
+#: ../goffice/canvas/goc-polyline.c:234 ../goffice/canvas/goc-polygon.c:350
+#, fuzzy
+msgid "Use spline"
+msgstr "Γραμμές"
+
+#: ../goffice/canvas/goc-polyline.c:235
+msgid "Use a Bezier cubic spline as line"
+msgstr ""
+
+#: ../goffice/canvas/goc-polygon.c:345
+msgid "The polygon vertices"
+msgstr ""
+
+#: ../goffice/canvas/goc-polygon.c:351
+msgid "Use a Bezier closed cubic spline as contour"
+msgstr ""
+
+#: ../goffice/canvas/goc-polygon.c:356
+#, fuzzy
+msgid "Fill rule"
+msgstr "_Τύπος αρχείου:"
+
+#: ../goffice/canvas/goc-polygon.c:357
+msgid "Set fill rule to winding or even/odd"
+msgstr ""
+
+#: ../goffice/canvas/goc-polygon.c:361
+#, fuzzy
+msgid "sizes"
+msgstr "Μέγεθος:"
+
+#: ../goffice/canvas/goc-polygon.c:362
+msgid ""
+"If set, the polygon will be split as several polygons according to the given "
+"sizes. Each size must be at least 3. Values following an invalid value will "
+"be discarded. Setting the \"point\" property will reset the sizes."
+msgstr ""
+
+#: ../goffice/canvas/goc-rectangle.c:331
+#, fuzzy
+msgid "The rectangle left position (or right position in RTL mode)"
+msgstr "Το μενού των επιλογών"
+
+#: ../goffice/canvas/goc-rectangle.c:337
+#, fuzzy
+msgid "The rectangle top position"
+msgstr "Το μενού των επιλογών"
+
+#: ../goffice/canvas/goc-rectangle.c:343
+#, fuzzy
+msgid "The rectangle width"
+msgstr "Πλάτος Γραμμής:"
+
+#: ../goffice/canvas/goc-rectangle.c:349
+#, fuzzy
+msgid "The rectangle height"
+msgstr "Δε_ξιά"
+
+#: ../goffice/canvas/goc-rectangle.c:361
+#, fuzzy
+msgid "The rectangle type"
+msgstr "Πλάτος Γραμμής:"
+
+#: ../goffice/canvas/goc-rectangle.c:366
+#, fuzzy
+msgid "rx"
+msgstr "x"
+
+#: ../goffice/canvas/goc-rectangle.c:367
+#, fuzzy
+msgid "The round rectangle rx"
+msgstr "Πλάτος Γραμμής:"
+
+#: ../goffice/canvas/goc-rectangle.c:372
+#, fuzzy
+msgid "ry"
+msgstr "γκρι"
+
+#: ../goffice/canvas/goc-rectangle.c:373
+#, fuzzy
+msgid "The round rectangle ry"
+msgstr "Πλάτος Γραμμής:"
+
+#: ../goffice/canvas/goc-styled-item.c:161
+#: ../goffice/graph/gog-styled-object.c:199 ../goffice/utils/go-style.c:1041
+msgid "Style"
+msgstr "Στύλ"
+
+#: ../goffice/canvas/goc-styled-item.c:162
+#: ../goffice/graph/gog-styled-object.c:200
+msgid "A pointer to the GOStyle object"
+msgstr ""
+
+#: ../goffice/canvas/goc-styled-item.c:167
+#, fuzzy
+msgid "Scale line width"
+msgstr "Πλάτος Γραμμής:"
+
+#: ../goffice/canvas/goc-styled-item.c:168
+msgid "Whether to scale the line width when zooming"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:429
+#, fuzzy
+msgid "The text horizontal position"
+msgstr "Λεπτές Οριζόντιες Ρίγες"
+
+#: ../goffice/canvas/goc-text.c:435
+#, fuzzy
+msgid "The text position"
+msgstr "Γραμμή"
+
+#: ../goffice/canvas/goc-text.c:441
+msgid "The rotation around the anchor"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:446 ../goffice/graph/gog-object.c:628
+msgid "Anchor"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:447
+msgid "The anchor point for the text"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:452 ../goffice/gtk/go-format-sel.c:70
+#: ../goffice/gtk/go-rotation-sel.c:136 ../goffice/utils/go-style.c:907
+msgid "Text"
+msgstr "Κείμενο"
+
+#: ../goffice/canvas/goc-text.c:453
+msgid "The text to display"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:456
+msgid "Attributes"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:456
+msgid "The attributes list as a PangoAttrList"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:461
+msgid "Clip"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:462
+msgid "Whether to clip or not"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:467
+#, fuzzy
+msgid "Clip width"
+msgstr "Πλάτος Γραμμής:"
+
+#: ../goffice/canvas/goc-text.c:468
+msgid "Clip width for the text"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:473
+msgid "Clip height"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:474
+msgid "Clip height for the text"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:479
+#, fuzzy
+msgid "Wrap width"
+msgstr "Πλάτος"
+
+#: ../goffice/canvas/goc-text.c:480
+msgid "Wrap width for the text"
+msgstr ""
+
+#: ../goffice/canvas/goc-widget.c:312
+#, fuzzy
+msgid "Widget"
+msgstr "Πλάτος"
+
+#: ../goffice/canvas/goc-widget.c:313
+msgid "A pointer to the embedded widget"
+msgstr ""
+
+#: ../goffice/canvas/goc-widget.c:319
+#, fuzzy
+msgid "The widget left position"
+msgstr "Το μενού των επιλογών"
+
+#: ../goffice/canvas/goc-widget.c:325
+#, fuzzy
+msgid "The widget top position"
+msgstr "Το μενού των επιλογών"
+
+#: ../goffice/canvas/goc-widget.c:332
+#, fuzzy
+msgid "The widget width"
+msgstr "Πλάτος Γραμμής:"
+
+#: ../goffice/canvas/goc-widget.c:338
+msgid "The widget height"
+msgstr ""
+
+#: ../goffice/component/go-component-factory.c:58
+#, fuzzy
+msgid "Component Engine"
+msgstr "Φύλλο 1"
+
+#: ../goffice/component/go-component-factory.c:197
+#, fuzzy
+msgid "Component Type"
+msgstr "Φύλλο 1"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:203
+#: ../goffice/drawing/god-paragraph-attributes.c:204
+#, fuzzy
+msgid "Flags"
+msgstr "Εξισώσεις"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:209
+#: ../goffice/drawing/god-paragraph-attributes.c:210
+#, fuzzy
+msgid "Indent"
+msgstr "&Στοίχιση"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:215
+#: ../goffice/drawing/god-paragraph-attributes.c:216
+#, fuzzy
+msgid "Space Before"
+msgstr "_Αναζήτηση για"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:221
+#: ../goffice/drawing/god-paragraph-attributes.c:222
+#, fuzzy
+msgid "Space After"
+msgstr "Κενό"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:227
+#: ../goffice/drawing/god-paragraph-attributes.c:228
+#: ../goffice/graph/gog-object.c:616
+msgid "Alignment"
+msgstr "Ευθυγράμμιση"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:233
+#: ../goffice/drawing/god-paragraph-attributes.c:234
+#, fuzzy
+msgid "Bullet Character"
+msgstr "Άγνωστος τελεστής"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:239
+#: ../goffice/drawing/god-paragraph-attributes.c:240
+msgid "Bullet Indent"
+msgstr ""
+
+#: ../goffice/drawing/god-paragraph-attributes.c:245
+#: ../goffice/drawing/god-paragraph-attributes.c:246
+msgid "Bullet Size"
+msgstr ""
+
+#: ../goffice/drawing/god-paragraph-attributes.c:251
+#: ../goffice/drawing/god-paragraph-attributes.c:252
+msgid "Bullet Family"
+msgstr ""
+
+#: ../goffice/drawing/god-paragraph-attributes.c:257
+#: ../goffice/drawing/god-paragraph-attributes.c:258
+msgid "Bullet On"
+msgstr ""
+
+#: ../goffice/graph/gog-3d-box-prefs.ui.h:1
+#, fuzzy
+msgid "<b>Euler angles</b>"
+msgstr "<b>Δείγμα</b>"
+
+#: ../goffice/graph/gog-3d-box-prefs.ui.h:2
+msgid "Phi:"
+msgstr ""
+
+#: ../goffice/graph/gog-3d-box-prefs.ui.h:3
+msgid "Psi:"
+msgstr ""
+
+#: ../goffice/graph/gog-3d-box-prefs.ui.h:4
+#, fuzzy
+msgid "Theta:"
+msgstr "_Κείμενο:"
+
+#: ../goffice/graph/gog-3d-box.c:215
+msgid "Advanced"
+msgstr ""
+
+#: ../goffice/graph/gog-3d-box.c:284
+#, fuzzy
+msgid "Euler angle psi"
+msgstr "διάστημα"
+
+#: ../goffice/graph/gog-3d-box.c:291
+msgid "Euler angle theta"
+msgstr ""
+
+#: ../goffice/graph/gog-3d-box.c:298
+#, fuzzy
+msgid "Euler angle phi"
+msgstr "διάστημα"
+
+#: ../goffice/graph/gog-3d-box.c:305
+msgid "Field of view"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:636
+msgid "Layout"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:665
+#, fuzzy
+msgid "Axis position"
+msgstr "Γραμμή"
+
+#: ../goffice/graph/gog-axis-line.c:666 ../goffice/graph/gog-axis-line.c:672
+msgid "Where to position an axis low, high, or crossing"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:671
+#, fuzzy
+msgid "Axis position (as a string)"
+msgstr "Γραμμή"
+
+#: ../goffice/graph/gog-axis-line.c:677
+msgid "Major labels"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:678
+msgid "Show labels for major ticks"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:683
+#, fuzzy
+msgid "Inside major ticks"
+msgstr "Μοτίβο"
+
+#: ../goffice/graph/gog-axis-line.c:684
+msgid "Major tick marks inside the chart area"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:689
+#, fuzzy
+msgid "Outside major ticks"
+msgstr "Μοτίβο"
+
+#: ../goffice/graph/gog-axis-line.c:690
+msgid "Major tick marks outside the chart area"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:695
+#, fuzzy
+msgid "Major tick size"
+msgstr "Μοτίβο"
+
+#: ../goffice/graph/gog-axis-line.c:696
+msgid "Size of the major tick marks, in points"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:702
+#, fuzzy
+msgid "Inside minor ticks"
+msgstr "Μοτίβο"
+
+#: ../goffice/graph/gog-axis-line.c:703
+msgid "Minor tick marks inside the chart area"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:708
+#, fuzzy
+msgid "Outside minor ticks"
+msgstr "Μοτίβο"
+
+#: ../goffice/graph/gog-axis-line.c:709
+msgid "Minor tick marks outside the axis"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:714
+#, fuzzy
+msgid "Minor tick size"
+msgstr "Μοτίβο"
+
+#: ../goffice/graph/gog-axis-line.c:715
+msgid "Size of the minor tick marks, in points"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:721
+msgid "Cross axis id"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:722
+msgid "Which axis to cross"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:728
+#, fuzzy
+msgid "Axis padding"
+msgstr "Γραμμή"
+
+#: ../goffice/graph/gog-axis-line.c:729
+msgid "Distance from axis line to plot area, in points"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:821
+#, fuzzy
+msgid "Select axis"
+msgstr "Επιλογή εικόνας"
+
+#: ../goffice/graph/gog-axis-line.c:927
+msgid "Set start bound"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:938
+msgid "Set stop bound"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:1
+#, fuzzy
+msgid "<b>Bounds</b>"
+msgstr "<b>Δείγμα</b>"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:2
+#, fuzzy
+msgid "<b>Major ticks</b>"
+msgstr "Μοτίβο"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:3
+#, fuzzy
+msgid "<b>Mapping</b>"
+msgstr "Γραμμή"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:4
+#, fuzzy
+msgid "<b>Minor ticks</b>"
+msgstr "Μοτίβο"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:5
+#, fuzzy
+msgid "<b>Position</b>"
+msgstr "Γραμμή"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:6
+#: ../goffice/graph/gog-object-prefs.ui.h:4
+#: ../goffice/graph/gog-plot-prefs.ui.h:3 ../goffice/gtk/go-palette.c:349
+msgid "Automatic"
+msgstr "Αυτόματο"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:7
+#, fuzzy
+msgid "I_nside"
+msgstr "Έσωτερικό"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:8
+#, fuzzy
+msgid "O_utside"
+msgstr "Περίγραμμα"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:9
+msgid "Padding:"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:10
+#, fuzzy
+msgid "_Cross"
+msgstr "Σταυρός"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:11
+#, fuzzy
+msgid "_High"
+msgstr "Υψηλή"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:12
+#, fuzzy
+msgid "_Inside"
+msgstr "Έσωτερικό"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:13
+#, fuzzy
+msgid "_Invert axis"
+msgstr "Α&ντιστροφή"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:14
+#, fuzzy
+msgid "_Low"
+msgstr "Χαμηλή"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:15
+#, fuzzy
+msgid "_Outside"
+msgstr "Περίγραμμα"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:16
+#, fuzzy
+msgid "_Rotation:"
+msgstr "Κατεύθυνση"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:17
+msgid "_Show Labels"
+msgstr "Εμφάνιση Ε_τικετών"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:18
+#: ../goffice/graph/gog-series-prefs.ui.h:8
+#: ../goffice/utils/go-style-prefs.ui.h:24
+msgid "_Type:"
+msgstr "_Τύπος:"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:19
+#, fuzzy
+msgid "_Unit:"
+msgstr "Ταίριασμα"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:20
+#, fuzzy
+msgid "at"
+msgstr "Δεδομένα"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:21
+#: ../goffice/gtk/go-rotation-sel.ui.h:3
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:10
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:11
+msgid "degrees"
+msgstr "βαθμοί"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:22
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:14
+#: ../goffice/utils/go-style-prefs.ui.h:25
+#, fuzzy
+msgid "pts"
+msgstr "Pts"
+
+#: ../goffice/graph/gog-axis.c:46
+#, fuzzy
+msgid "Degrees"
+msgstr "βαθμοί"
+
+#: ../goffice/graph/gog-axis.c:47
+#, fuzzy
+msgid "Radians"
+msgstr "κανονικό-σφάλμα"
+
+#: ../goffice/graph/gog-axis.c:48
+#, fuzzy
+msgid "Grads"
+msgstr "Πλέγμα"
+
+#: ../goffice/graph/gog-axis.c:1284
+msgid "Discrete"
+msgstr "Διακριτή"
+
+#: ../goffice/graph/gog-axis.c:1284
+#, fuzzy
+msgid "Discrete mapping"
+msgstr "Διακριτή"
+
+#: ../goffice/graph/gog-axis.c:1296 ../goffice/utils/go-line.c:118
+#: ../goffice/utils/go-line.c:329 ../plugins/reg_linear/reg-types.xml.in.h:3
+#, fuzzy
+msgid "Linear"
+msgstr "Γραμικός"
+
+#: ../goffice/graph/gog-axis.c:1296
+msgid "Linear mapping"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:1308
+#, fuzzy
+msgid "Log"
+msgstr "Λογικές"
+
+#: ../goffice/graph/gog-axis.c:1308
+#, fuzzy
+msgid "Logarithm mapping"
+msgstr "Λογαριθμικό"
+
+#: ../goffice/graph/gog-axis.c:2321 ../goffice/graph/gog-axis.c:2331
+#, fuzzy
+msgid "M_inimum"
+msgstr "Ελάχ_ιστο"
+
+#: ../goffice/graph/gog-axis.c:2322 ../goffice/graph/gog-axis.c:2332
+#, fuzzy
+msgid "M_aximum"
+msgstr "Μέγιστο"
+
+#: ../goffice/graph/gog-axis.c:2323
+msgid "Categories between _ticks"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2324
+msgid "Categories between _labels"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2333
+#, fuzzy
+msgid "Ma_jor ticks"
+msgstr "Μοτίβο"
+
+#: ../goffice/graph/gog-axis.c:2334
+#, fuzzy
+msgid "Mi_nor ticks"
+msgstr "Μοτίβο"
+
+#: ../goffice/graph/gog-axis.c:2388 ../goffice/math/go-distribution.c:163
+#: ../goffice/math/go-distribution.c:164
+#, fuzzy
+msgid "Scale"
+msgstr "Ειδικό"
+
+#: ../goffice/graph/gog-axis.c:2404
+#, fuzzy
+msgid "Format"
+msgstr "Μορφοποίηση"
+
+#: ../goffice/graph/gog-axis.c:2436
+#, fuzzy
+msgid "MajorGrid"
+msgstr "Πλέγμα"
+
+#: ../goffice/graph/gog-axis.c:2439
+#, fuzzy
+msgid "MinorGrid"
+msgstr "Πλέγμα"
+
+#: ../goffice/graph/gog-axis.c:2442
+#, fuzzy
+msgid "AxisLine"
+msgstr "Γραμμή"
+
+#: ../goffice/graph/gog-axis.c:2445
+msgid "Label"
+msgstr "Ετικέτα"
+
+#: ../goffice/graph/gog-axis.c:2461
+msgid "Numerical type of this axis"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2465
+#, fuzzy
+msgid "Invert axis"
+msgstr "Α&ντιστροφή"
+
+#: ../goffice/graph/gog-axis.c:2466
+msgid "Scale from high to low rather than low to high"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2470
+#, fuzzy
+msgid "MapName"
+msgstr "Όνομα"
+
+#: ../goffice/graph/gog-axis.c:2471
+msgid "The name of the map for scaling"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2476
+msgid "Assigned XL format"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2477
+msgid ""
+"The user assigned format to use for non-discrete axis labels (XL format)"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2482 ../goffice/graph/gog-axis.c:2483
+msgid "Rotation of circular axis"
+msgstr ""
+
+#: ../goffice/graph/gog-axis.c:2490 ../goffice/graph/gog-axis.c:2491
+msgid "Polar axis set unit"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:367 ../goffice/graph/gog-chart.c:670
+#, fuzzy
+msgid "Plot area"
+msgstr "Ταξινόμιση"
+
+#: ../goffice/graph/gog-chart.c:576
+msgid "Backplane"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:579
+msgid "XY-Backplane"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:583
+msgid "YZ-Backplane"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:587
+msgid "ZX-Backplane"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:591
+msgid "X-Axis"
+msgstr "Άξονας Χ"
+
+#: ../goffice/graph/gog-chart.c:595
+msgid "Y-Axis"
+msgstr "Άξονας Υ"
+
+#: ../goffice/graph/gog-chart.c:599
+msgid "Z-Axis"
+msgstr "Άξονας Ζ"
+
+#: ../goffice/graph/gog-chart.c:603
+msgid "Circular-Axis"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:607
+msgid "Radial-Axis"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:611
+msgid "Pseudo-3D-Axis"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:615
+#, fuzzy
+msgid "Bubble-Axis"
+msgstr "Διπλή"
+
+#: ../goffice/graph/gog-chart.c:619
+#, fuzzy
+msgid "Color-Axis"
+msgstr "Χρώμα:"
+
+#: ../goffice/graph/gog-chart.c:623
+#, fuzzy
+msgid "Plot"
+msgstr "Ταξινόμιση"
+
+#: ../goffice/graph/gog-chart.c:626 ../goffice/graph/gog-graph.c:301
+#: ../goffice/graph/gog-legend.c:187
+msgid "Title"
+msgstr "Τίτλος"
+
+#: ../goffice/graph/gog-chart.c:631
+#, fuzzy
+msgid "Legend"
+msgstr "Λεζάντα"
+
+#: ../goffice/graph/gog-chart.c:637 ../goffice/graph/gog-reg-curve.c:154
+#, fuzzy
+msgid "Equation"
+msgstr "Κλάσμα"
+
+#: ../goffice/graph/gog-chart.c:643
+msgid "3D-Box"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:664
+msgid "Valid cardinality"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:665
+msgid "Is the charts cardinality currently valid"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:671
+msgid "Position and size of plot area, in percentage of chart size"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:676
+#, fuzzy
+msgid "Manual plot area"
+msgstr "Ταξινόμιση"
+
+#: ../goffice/graph/gog-chart.c:677
+msgid "Is plot area manual"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:681
+#, fuzzy
+msgid "xpos"
+msgstr "Σημείο"
+
+#: ../goffice/graph/gog-chart.c:682
+msgid "Horizontal chart position in graph grid"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:686
+#, fuzzy
+msgid "ypos"
+msgstr "Σημείο"
+
+#: ../goffice/graph/gog-chart.c:687
+msgid "Vertical chart position in graph grid"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:690
+#, fuzzy
+msgid "columns"
+msgstr "Στήλη"
+
+#: ../goffice/graph/gog-chart.c:691
+#, fuzzy
+msgid "Number of columns in graph grid"
+msgstr "Αντιγραφή μορφοποίησης"
+
+#: ../goffice/graph/gog-chart.c:694
+#, fuzzy
+msgid "rows"
+msgstr "Σταυρός"
+
+#: ../goffice/graph/gog-chart.c:695
+#, fuzzy
+msgid "Number of rows in graph grid"
+msgstr "Αντιγραφή μορφοποίησης"
+
+#. Note for translators: first string represent the new child object and second string is the parent object
+#: ../goffice/graph/gog-child-button.c:501
+#, c-format
+msgid "%s to %s"
+msgstr ""
+
+#: ../goffice/graph/gog-equation-prefs.ui.h:1
+#, fuzzy
+msgid "_Compact mode"
+msgstr "Μορ_φοποίηση"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:1
+msgid "(+)"
+msgstr ""
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:2
+msgid "(-)"
+msgstr ""
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:3
+#, fuzzy
+msgid "<b>Error category</b>"
+msgstr "Βέλος"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:4
+msgid "<b>Style</b>"
+msgstr "<b>Στυλ</b>"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:5
+#, fuzzy
+msgid "<b>Values</b>"
+msgstr "<b>Δείγμα</b>"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:6
+#, fuzzy
+msgid "Absolute"
+msgstr "μπλε"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:7
+#, fuzzy
+msgid "Colo_r:"
+msgstr "Χρώμα:"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:8
+msgid "Dis_play:"
+msgstr ""
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:9
+#: ../goffice/graph/gog-error-bar.c:75 ../goffice/gtk/go-format-sel.c:1105
+#: ../goffice/gtk/go-format-sel.c:1270 ../goffice/utils/formats.c:348
+#: ../goffice/utils/go-line.c:84 ../goffice/utils/go-style-prefs.ui.h:9
+msgid "None"
+msgstr "Καμία"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:10
+#, fuzzy
+msgid "Percent"
+msgstr "Ποσοστό"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:11
+msgid "Relative"
+msgstr ""
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:12
+#, fuzzy
+msgid "_Line width:"
+msgstr "Πλάτος Γραμμής:"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:13
+#: ../goffice/graph/gog-object-prefs.ui.h:14
+#: ../goffice/graph/gog-plot-prefs.ui.h:7
+#, fuzzy
+msgid "_Width:"
+msgstr "_Με:"
+
+#: ../goffice/graph/gog-error-bar.c:76
+#, fuzzy
+msgid "Positive"
+msgstr "Γραμμή"
+
+#: ../goffice/graph/gog-error-bar.c:77
+msgid "Negative"
+msgstr ""
+
+#: ../goffice/graph/gog-error-bar.c:78
+msgid "Both"
+msgstr ""
+
+#. Note for translator: the angle unit
+#: ../goffice/graph/gog-error-bar.c:308
+msgid "°"
+msgstr ""
+
+#. An MS Excel-ish theme
+#: ../goffice/graph/gog-graph-prefs.ui.h:1 ../goffice/graph/gog-theme.c:500
+msgid "Default"
+msgstr "Εξ ορισμού"
+
+#: ../goffice/graph/gog-graph-prefs.ui.h:2
+#, fuzzy
+msgid "Forget user styles"
+msgstr "Στύλ γραμ/σειράς:"
+
+#: ../goffice/graph/gog-graph-prefs.ui.h:3
+#, fuzzy
+msgid "Theme:"
+msgstr "Ώρα"
+
+#: ../goffice/graph/gog-graph.c:235 ../goffice/graph/gog-graph.c:356
+#, fuzzy
+msgid "Theme"
+msgstr "Ώρα"
+
+#: ../goffice/graph/gog-graph.c:296
+msgid "Chart"
+msgstr "Διάγραμμα"
+
+#: ../goffice/graph/gog-graph.c:357
+msgid "The theme for elements of the graph"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:362
+msgid "Theme name"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:363
+msgid "The name of the theme for elements of the graph"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:369
+msgid "Logical graph width, in points"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:375
+msgid "Logical graph height, in points"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:380
+msgid "Document"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:381
+msgid "the document for this graph"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:903
+msgid "the renderer for this view"
+msgstr ""
+
+#: ../goffice/graph/gog-grid-line.c:111
+msgid "Is-minor"
+msgstr ""
+
+#: ../goffice/graph/gog-grid-line.c:112
+msgid "Are these minor grid lines"
+msgstr ""
+
+#: ../goffice/graph/gog-grid.c:117
+msgid "Numerical type of this backplane"
+msgstr ""
+
+#: ../goffice/graph/gog-guru-type-selector.ui.h:1
+#, fuzzy
+msgid "<b>Sample</b>"
+msgstr "<b>Στυλ</b>"
+
+#: ../goffice/graph/gog-guru-type-selector.ui.h:2
+#, fuzzy
+msgid "<b>_Plot type</b>"
+msgstr "Μοτίβο"
+
+#: ../goffice/graph/gog-guru-type-selector.ui.h:3
+#, fuzzy
+msgid "<b>_Subtype</b>"
+msgstr "<b>Στυλ</b>"
+
+#: ../goffice/graph/gog-guru.c:999 ../goffice/graph/gog-series.c:474
+msgid "Name"
+msgstr "Όνομα"
+
+#: ../goffice/graph/gog-guru.c:1026
+msgid "Step 1 of 2: Select Chart Type"
+msgstr ""
+
+#: ../goffice/graph/gog-guru.c:1034
+msgid "Step 2 of 2: Customize Chart"
+msgstr ""
+
+#: ../goffice/graph/gog-guru.c:1039
+#, fuzzy
+msgid "Customize Chart"
+msgstr "Ρυθμίσεις ε_πικεφαλίδας"
+
+#: ../goffice/graph/gog-guru.c:1114
+msgid "_Insert"
+msgstr "Ει_σαγωγή"
+
+#: ../goffice/graph/gog-guru.c:1181
+#, fuzzy
+msgid "_Plot Type"
+msgstr "Φύλλο 1"
+
+#: ../goffice/graph/gog-label.c:108
+msgid "Allow markup"
+msgstr ""
+
+#: ../goffice/graph/gog-label.c:109
+msgid "Support basic html-ish markup"
+msgstr ""
+
+#: ../goffice/graph/gog-label.c:171
+msgid "_Text:"
+msgstr "_Κείμενο:"
+
+#: ../goffice/graph/gog-label.c:176 ../goffice/graph/gog-series.c:515
+msgid "Data"
+msgstr "Δεδομένα"
+
+#: ../goffice/graph/gog-label.c:330 ../goffice/graph/gog-reg-curve.c:71
+#: ../plugins/plot_xy/gog-xy.c:1925
+#, fuzzy
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+#: ../goffice/graph/gog-label.c:351
+msgid "Regression Equation"
+msgstr ""
+
+#: ../goffice/graph/gog-label.c:390
+#, fuzzy
+msgid "Show equation"
+msgstr "Κλάσμα"
+
+#: ../goffice/graph/gog-label.c:391
+msgid "Show the equation on the graph"
+msgstr ""
+
+#: ../goffice/graph/gog-label.c:396
+msgid "Show coefficient"
+msgstr ""
+
+#: ../goffice/graph/gog-label.c:397
+msgid "Show the correlation coefficient on the graph"
+msgstr ""
+
+#: ../goffice/graph/gog-legend.c:210
+msgid "Swatch Size pts"
+msgstr ""
+
+#: ../goffice/graph/gog-legend.c:211
+msgid "size of the swatches in pts."
+msgstr ""
+
+#: ../goffice/graph/gog-legend.c:216
+msgid "Swatch Padding pts"
+msgstr ""
+
+#: ../goffice/graph/gog-legend.c:217
+msgid "padding between the swatches in pts."
+msgstr ""
+
+#: ../goffice/graph/gog-object-prefs.ui.h:2
+#: ../goffice/graph/gog-plot-prefs.ui.h:2
+#: ../plugins/plot_barcol/gog-barcol-prefs.ui.h:2
+#: ../plugins/plot_barcol/gog-minmax-prefs.ui.h:2
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:2
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:2
+#: ../plugins/plot_pie/gog-pie-series.ui.h:2
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:2
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:3
+msgid "Anchor:"
+msgstr ""
+
+#: ../goffice/graph/gog-object-prefs.ui.h:5
+#, fuzzy
+msgid "Column:"
+msgstr "Στήλη"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:6
+#, fuzzy
+msgid "Height in rows:"
+msgstr "ανοιχτό καφέ"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:7
+#: ../goffice/graph/gog-plot-prefs.ui.h:4
+#, fuzzy
+msgid "Manual"
+msgstr "Μωβ"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:8
+#, fuzzy
+msgid "Row:"
+msgstr "Χαμηλή"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:9
+msgid "Width in columns:"
+msgstr ""
+
+#: ../goffice/graph/gog-object-prefs.ui.h:10
+#, fuzzy
+msgid "_Alignment:"
+msgstr "Ευθυγράμμιση"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:11
+#: ../goffice/graph/gog-plot-prefs.ui.h:5
+#, fuzzy
+msgid "_Height:"
+msgstr "Ύψος"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:12
+#: ../goffice/graph/gog-plot-prefs.ui.h:6
+#, fuzzy
+msgid "_Object position:"
+msgstr "Κατεύθυνση"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:13
+#, fuzzy
+msgid "_Position:"
+msgstr "Κατεύθυνση"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:15
+#: ../goffice/graph/gog-plot-prefs.ui.h:8
+msgid "_X:"
+msgstr ""
+
+#: ../goffice/graph/gog-object-prefs.ui.h:16
+#: ../goffice/graph/gog-plot-prefs.ui.h:9
+msgid "_Y:"
+msgstr ""
+
+#: ../goffice/graph/gog-object-prefs.ui.h:17
+msgid "page 3"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:38 ../goffice/graph/gog-object.c:57
+#: ../goffice/graph/gog-series.c:40
+msgid "Top"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:39 ../goffice/graph/gog-object.c:58
+msgid "Top right"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:40 ../goffice/graph/gog-object.c:61
+#: ../goffice/graph/gog-series.c:41
+#, fuzzy
+msgid "Right"
+msgstr "Ύψος"
+
+#: ../goffice/graph/gog-object.c:41 ../goffice/graph/gog-object.c:64
+msgid "Bottom right"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:42 ../goffice/graph/gog-object.c:63
+#: ../goffice/graph/gog-series.c:38
+msgid "Bottom"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:43 ../goffice/graph/gog-object.c:62
+msgid "Bottom left"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:44 ../goffice/graph/gog-object.c:59
+#: ../goffice/graph/gog-series.c:39
+msgid "Left"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:45 ../goffice/graph/gog-object.c:56
+msgid "Top left"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:49
+msgid "Fill"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:50 ../plugins/plot_barcol/gog-dropbar.c:61
+#, fuzzy
+msgid "Start"
+msgstr "Ένα_ρξη"
+
+#: ../goffice/graph/gog-object.c:51 ../plugins/plot_barcol/gog-dropbar.c:63
+#, fuzzy
+msgid "End"
+msgstr "Τέλος"
+
+#: ../goffice/graph/gog-object.c:52 ../goffice/graph/gog-object.c:60
+#: ../goffice/graph/gog-series.c:43
+#, fuzzy
+msgid "Center"
+msgstr "Κατηγορία:"
+
+#: ../goffice/graph/gog-object.c:559 ../goffice/graph/gog-object.c:604
+#, fuzzy
+msgid "Position"
+msgstr "Γραμμή"
+
+#: ../goffice/graph/gog-object.c:598
+#, fuzzy
+msgid "Object ID"
+msgstr "Αντικείμεν_ο..."
+
+#: ../goffice/graph/gog-object.c:599
+msgid "Object numerical ID"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:605
+msgid "Position and size of object, in percentage of parent size"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:610
+#, fuzzy
+msgid "Compass"
+msgstr "Σταυρός"
+
+#: ../goffice/graph/gog-object.c:611
+msgid "Compass auto position flags"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:617
+#, fuzzy
+msgid "Alignment flag"
+msgstr "Ευθυγράμμιση"
+
+#: ../goffice/graph/gog-object.c:622 ../goffice/graph/gog-object.c:623
+msgid "Is position manual"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:629
+msgid "Anchor for manual position"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:634 ../goffice/graph/gog-object.c:635
+msgid "Should the object be hidden"
+msgstr ""
+
+#: ../goffice/graph/gog-outlined-object.c:74
+msgid "Padding Pts"
+msgstr ""
+
+#: ../goffice/graph/gog-outlined-object.c:75
+msgid "Number of pts separating charts in the grid"
+msgstr ""
+
+#: ../goffice/graph/gog-plot-engine.c:56
+#, fuzzy
+msgid "Plot Engine"
+msgstr "Φύλλο 1"
+
+#: ../goffice/graph/gog-plot-engine.c:297
+#, fuzzy
+msgid "Plot Type"
+msgstr "Φύλλο 1"
+
+#: ../goffice/graph/gog-plot-engine.c:394
+msgid "Chart Theme"
+msgstr ""
+
+#: ../goffice/graph/gog-plot-engine.c:425
+msgid "Regression Curve Engine"
+msgstr ""
+
+#: ../goffice/graph/gog-plot-engine.c:615
+msgid "Regression Curve Type"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:161
+#, fuzzy
+msgid "X axis:"
+msgstr "Άξονας Χ"
+
+#: ../goffice/graph/gog-plot.c:162
+#, fuzzy
+msgid "Y axis:"
+msgstr "Άξονας Υ"
+
+#: ../goffice/graph/gog-plot.c:163
+#, fuzzy
+msgid "Z axis:"
+msgstr "Άξονας Ζ"
+
+#: ../goffice/graph/gog-plot.c:164
+msgid "Circular axis:"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:165
+msgid "Radial axis:"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:166
+msgid "Pseudo 3D axis:"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:167
+#, fuzzy
+msgid "Color axis:"
+msgstr "Χρώμα:"
+
+#: ../goffice/graph/gog-plot.c:168
+#, fuzzy
+msgid "Bubble axis:"
+msgstr "Διπλή"
+
+#: ../goffice/graph/gog-plot.c:232
+#, fuzzy
+msgid "Axes"
+msgstr "Περιοχές"
+
+#: ../goffice/graph/gog-plot.c:334
+#, fuzzy
+msgid "Series"
+msgstr "Σειρά"
+
+#: ../goffice/graph/gog-plot.c:355
+msgid "Vary style by element"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:356
+msgid "Use a different style for each segments"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:361
+#, fuzzy
+msgid "X axis"
+msgstr "Άξονας Χ"
+
+#: ../goffice/graph/gog-plot.c:362
+msgid "Reference to X axis"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:367
+#, fuzzy
+msgid "Y axis"
+msgstr "Άξονας Υ"
+
+#: ../goffice/graph/gog-plot.c:368
+msgid "Reference to Y axis"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:373
+#, fuzzy
+msgid "Plot group"
+msgstr "Φύλλο 1"
+
+#: ../goffice/graph/gog-plot.c:374
+msgid "Name of plot group if any"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:379
+msgid "Guru hints"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:380
+msgid ""
+"Semicolon separated list of hints for automatic addition of objects in guru "
+"dialog"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:386
+#, fuzzy
+msgid "Default interpolation"
+msgstr "Περιγραφή:"
+
+#: ../goffice/graph/gog-plot.c:387
+msgid "Default type of series line interpolation"
+msgstr ""
+
+#: ../goffice/graph/gog-plot.c:992
+#, fuzzy
+msgid "Move plot area"
+msgstr "Ταξινόμιση"
+
+#: ../goffice/graph/gog-plot.c:1044
+#, fuzzy
+msgid "Resize plot area"
+msgstr "Ταξινόμιση"
+
+#: ../goffice/graph/gog-reg-curve-prefs.ui.h:1
+#, fuzzy
+msgid "(_Name):"
+msgstr "Όνομα"
+
+#: ../goffice/graph/gog-reg-curve-prefs.ui.h:2
+#, fuzzy
+msgid "High bound:"
+msgstr "ανοιχτό καφέ"
+
+#: ../goffice/graph/gog-reg-curve-prefs.ui.h:3
+msgid "Low bound:"
+msgstr ""
+
+#: ../goffice/graph/gog-reg-curve-prefs.ui.h:4
+#: ../goffice/graph/gog-reg-curve.c:183
+#, fuzzy
+msgid "Skip invalid data"
+msgstr "Μη έγκυρο συνθηματικό"
+
+#: ../goffice/graph/gog-reg-curve.c:147
+msgid "Regression Curve"
+msgstr ""
+
+#: ../goffice/graph/gog-reg-curve.c:182
+#, fuzzy
+msgid "Skip invalid"
+msgstr "Μη έγκυρο συνθηματικό"
+
+#: ../goffice/graph/gog-reg-eqn-prefs.ui.h:1
+msgid "Display _equation"
+msgstr ""
+
+#: ../goffice/graph/gog-reg-eqn-prefs.ui.h:2
+msgid "Display _regression coefficient R&#xB2;"
+msgstr ""
+
+#: ../goffice/graph/gog-renderer.c:1525 ../goffice/graph/gog-view.c:590
+msgid "Model"
+msgstr ""
+
+#: ../goffice/graph/gog-renderer.c:1526
+msgid "The GogGraph this renderer displays"
+msgstr ""
+
+#: ../goffice/graph/gog-renderer.c:1531
+msgid "View"
+msgstr ""
+
+#: ../goffice/graph/gog-renderer.c:1532
+msgid "the GogView this renderer is displaying"
+msgstr ""
+
+#: ../goffice/graph/gog-series-prefs.ui.h:1
+#, fuzzy
+msgid "<b>Interpolation</b>"
+msgstr "<b>Προσανατολισμός</b>"
+
+#. derivative (curve slope) at first point for the clamped cubic spline
+#: ../goffice/graph/gog-series-prefs.ui.h:3
+msgid "<i>y'</i>(<i>x</i><sub>first</sub>):"
+msgstr ""
+
+#. derivative (curve slope) at last point for the clamped cubic spline
+#: ../goffice/graph/gog-series-prefs.ui.h:5
+msgid "<i>y'</i>(<i>x</i><sub>last</sub>):"
+msgstr ""
+
+#: ../goffice/graph/gog-series-prefs.ui.h:6
+#, fuzzy
+msgid "Fill _to:"
+msgstr "_Τύπος αρχείου:"
+
+#: ../goffice/graph/gog-series-prefs.ui.h:7
+#, fuzzy
+msgid "S_kip invalid data"
+msgstr "Μη έγκυρο συνθηματικό"
+
+#: ../goffice/graph/gog-series-prefs.ui.h:9
+#, fuzzy
+msgid "content"
+msgstr "&Στοίχιση"
+
+#: ../goffice/graph/gog-series.c:36
+msgid "Y origin"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:37
+msgid "X origin"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:42
+msgid "Origin"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:44
+msgid "Edge"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:45
+msgid "Self"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:46
+msgid "Next series"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:151
+#, fuzzy
+msgid "Index:"
+msgstr "&Στοίχιση"
+
+#: ../goffice/graph/gog-series.c:170 ../plugins/plot_pie/gog-pie.c:89
+#, fuzzy
+msgid "Settings"
+msgstr "Ακολουθίες χαρακτήρων"
+
+#: ../goffice/graph/gog-series.c:211
+#, fuzzy
+msgid "Index"
+msgstr "&Στοίχιση"
+
+#: ../goffice/graph/gog-series.c:212
+msgid "Index of the corresponding data element"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:560
+msgid "Derivative at first point of the clamped cubic spline."
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:564
+msgid "Derivative at last point of the clamped cubic spline."
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:629
+#, fuzzy
+msgid "Point"
+msgstr "Σημείο"
+
+#: ../goffice/graph/gog-series.c:635
+msgid "Regression curve"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:643
+#, fuzzy
+msgid "Trend line"
+msgstr "Σειρά"
+
+#: ../goffice/graph/gog-series.c:678
+#, fuzzy
+msgid "Has-legend"
+msgstr "Λεζάντα"
+
+#: ../goffice/graph/gog-series.c:679
+msgid "Should the series show up in legends"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:684
+#, fuzzy
+msgid "Interpolation"
+msgstr "Περιγραφή"
+
+#: ../goffice/graph/gog-series.c:685
+#, fuzzy
+msgid "Type of line interpolation"
+msgstr "Περιγραφή"
+
+#: ../goffice/graph/gog-series.c:690
+#, fuzzy
+msgid "Interpolation skip invalid"
+msgstr "Περιγραφή"
+
+#: ../goffice/graph/gog-series.c:691
+msgid "Should the series interpolation ignore the invalid data"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:696
+#, fuzzy
+msgid "Fill type"
+msgstr "_Τύπος αρχείου:"
+
+#: ../goffice/graph/gog-series.c:697
+msgid "How to fill the area"
+msgstr ""
+
+#: ../goffice/graph/gog-smoothed-curve.c:52
+msgid "Smoothed Curve"
+msgstr ""
+
+#. Guppi
+#: ../goffice/graph/gog-theme.c:636
+msgid "Guppi"
+msgstr "Guppi"
+
+#: ../goffice/graph/gog-trend-line.c:39
+#, fuzzy
+msgid "Trend Line"
+msgstr "Σειρά"
+
+#: ../goffice/graph/gog-view.c:56
+msgid "Select object"
+msgstr ""
+
+#: ../goffice/graph/gog-view.c:127
+msgid "Move"
+msgstr ""
+
+#: ../goffice/graph/gog-view.c:179
+msgid "Resize object"
+msgstr ""
+
+#: ../goffice/graph/gog-view.c:585
+msgid "the GogView parent"
+msgstr ""
+
+#: ../goffice/graph/gog-view.c:591
+msgid "The GogObject this view displays"
+msgstr ""
+
+#: ../goffice/gtk/go-3d-rotation-sel.ui.h:1
+#, fuzzy
+msgid "<b>Rotation</b>"
+msgstr "Γραμμή"
+
+#: ../goffice/gtk/go-action-combo-text.c:253
+msgid "Case Sensitive"
+msgstr ""
+
+#: ../goffice/gtk/go-action-combo-text.c:254
+msgid "Should the text comparison be case sensitive"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:68
+msgid "Arabic"
+msgstr "Αραβικά"
+
+#: ../goffice/gtk/go-charmap-sel.c:69
+msgid "Baltic"
+msgstr "Βαλτικά"
+
+#: ../goffice/gtk/go-charmap-sel.c:70
+msgid "Central European"
+msgstr "Κεντρικής Ευρώπης"
+
+#: ../goffice/gtk/go-charmap-sel.c:71
+msgid "Chinese"
+msgstr "Κινέζικα"
+
+#: ../goffice/gtk/go-charmap-sel.c:72
+msgid "Cyrillic"
+msgstr "Κυριλλικά"
+
+#: ../goffice/gtk/go-charmap-sel.c:73
+msgid "Greek"
+msgstr "Ελληνικά"
+
+#: ../goffice/gtk/go-charmap-sel.c:74
+msgid "Hebrew"
+msgstr "Εβραϊκά"
+
+#: ../goffice/gtk/go-charmap-sel.c:75
+msgid "Indian"
+msgstr "Ινδιάνικα"
+
+#: ../goffice/gtk/go-charmap-sel.c:76
+msgid "Japanese"
+msgstr "Ιαπωνικά"
+
+#: ../goffice/gtk/go-charmap-sel.c:77
+msgid "Korean"
+msgstr "Κορεάτικα"
+
+#: ../goffice/gtk/go-charmap-sel.c:78
+msgid "Turkish"
+msgstr "Τουρκικά"
+
+#: ../goffice/gtk/go-charmap-sel.c:79
+msgid "Unicode"
+msgstr "Unicode"
+
+#: ../goffice/gtk/go-charmap-sel.c:80
+msgid "Vietnamese"
+msgstr "Βιετναμέζικα"
+
+#: ../goffice/gtk/go-charmap-sel.c:81
+msgid "Western"
+msgstr "Δυτική"
+
+#: ../goffice/gtk/go-charmap-sel.c:82 ../goffice/gtk/go-locale-sel.c:70
+msgid "Other"
+msgstr "Άλλη"
+
+#: ../goffice/gtk/go-charmap-sel.c:113
+msgid "Arabic (IBM-864)"
+msgstr "Αραβικά (IBM-864)"
+
+#: ../goffice/gtk/go-charmap-sel.c:114
+msgid "Arabic (IBM-864-I)"
+msgstr "Αραβική (IBM-864-Ι)"
+
+#: ../goffice/gtk/go-charmap-sel.c:115
+msgid "Arabic (ISO-8859-6)"
+msgstr "Αραβικά (ISO-8859-6)"
+
+#: ../goffice/gtk/go-charmap-sel.c:116
+msgid "Arabic (ISO-8859-6-E)"
+msgstr "Αραβικά (ISO-8859-6-E)"
+
+#: ../goffice/gtk/go-charmap-sel.c:118
+msgid "Arabic (ISO-8859-6-I)"
+msgstr "Αραβικά (ISO-8859-6-I)"
+
+#: ../goffice/gtk/go-charmap-sel.c:119
+msgid "Arabic (MacArabic)"
+msgstr "Αραβική (MacArabic)"
+
+#: ../goffice/gtk/go-charmap-sel.c:120
+msgid "Arabic (Windows-1256)"
+msgstr "Αραβικά (Windows-1256)"
+
+#: ../goffice/gtk/go-charmap-sel.c:121
+msgid "Armenian (ARMSCII-8)"
+msgstr "Αρμενική (ARMSCII-8)"
+
+#: ../goffice/gtk/go-charmap-sel.c:122
+msgid "Baltic (ISO-8859-13)"
+msgstr "Baltic (ISO-8859-13)"
+
+#: ../goffice/gtk/go-charmap-sel.c:123
+msgid "Baltic (ISO-8859-4)"
+msgstr "Baltic (ISO-8859-4)"
+
+#: ../goffice/gtk/go-charmap-sel.c:124
+msgid "Baltic (Windows-1257)"
+msgstr "Βαλτικής (Windows-1257)"
+
+#: ../goffice/gtk/go-charmap-sel.c:125
+msgid "Celtic (ISO-8859-14)"
+msgstr "Κελτική (ISO-8859-14)"
+
+#: ../goffice/gtk/go-charmap-sel.c:126
+msgid "Central European (IBM-852)"
+msgstr "Κεντρικής Ευρώπης (IBM-852)"
+
+#: ../goffice/gtk/go-charmap-sel.c:127
+msgid "Central European (ISO-8859-2)"
+msgstr "Κεντρικής Ευρώπης(ISO-8859-2)"
+
+#: ../goffice/gtk/go-charmap-sel.c:128
+msgid "Central European (MacCE)"
+msgstr "Κεντρικής Ευρώπης (MacCE)"
+
+#: ../goffice/gtk/go-charmap-sel.c:129
+msgid "Central European (Windows-1250)"
+msgstr "Κεντρικής Ευρώπης (Windows-1250)"
+
+#: ../goffice/gtk/go-charmap-sel.c:130
+msgid "Chinese Simplified (GB18030)"
+msgstr "Απλοποιημένη Κινέζικη (GB18030)"
+
+#: ../goffice/gtk/go-charmap-sel.c:131
+msgid "Chinese Simplified (GB2312)"
+msgstr "Κινεζική απλοποιημένη (GB2312)"
+
+#: ../goffice/gtk/go-charmap-sel.c:132
+msgid "Chinese Simplified (GBK)"
+msgstr "Κινέζικα Απλοποιημένα (GBK)"
+
+#: ../goffice/gtk/go-charmap-sel.c:133
+msgid "Chinese Simplified (HZ)"
+msgstr "Κινέζικα Απλοποιημένα (HZ)"
+
+#: ../goffice/gtk/go-charmap-sel.c:134
+msgid "Chinese Simplified (Windows-936)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:135
+msgid "Chinese Traditional (Big5)"
+msgstr "Κινεζική παραδοσιακή  (Big5)"
+
+#: ../goffice/gtk/go-charmap-sel.c:136
+msgid "Chinese Traditional (Big5-HKSCS)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:137
+msgid "Chinese Traditional (EUC-TW)"
+msgstr "Κινεζική παραδοσιακή (EUC-TW)"
+
+#: ../goffice/gtk/go-charmap-sel.c:138
+msgid "Croatian (MacCroatian)"
+msgstr "Κροατική (MacCroatian)"
+
+#: ../goffice/gtk/go-charmap-sel.c:139
+msgid "Cyrillic (IBM-855)"
+msgstr "Κυριλλικά (IBM-855)"
+
+#: ../goffice/gtk/go-charmap-sel.c:140
+msgid "Cyrillic (ISO-8859-5)"
+msgstr "Κυριλλική (ISO-8859-5)"
+
+#: ../goffice/gtk/go-charmap-sel.c:141
+msgid "Cyrillic (ISO-IR-111)"
+msgstr "Κυριλλική (ISO-IR-111)"
+
+#: ../goffice/gtk/go-charmap-sel.c:142
+msgid "Cyrillic (KOI8-R)"
+msgstr "Κυριλλική (KOI8-R)"
+
+#: ../goffice/gtk/go-charmap-sel.c:143
+msgid "Cyrillic (MacCyrillic)"
+msgstr "Κυριλλική (MacCyrillic)"
+
+#: ../goffice/gtk/go-charmap-sel.c:144
+msgid "Cyrillic (Windows-1251)"
+msgstr "Κυριλλική (Windows-1251)"
+
+#: ../goffice/gtk/go-charmap-sel.c:145
+msgid "Russian (CP-866)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:146
+msgid "Ukrainian (KOI8-U)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:147
+msgid "Ukrainian (MacUkrainian)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:148
+msgid "English (ASCII)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:149
+msgid "Farsi (MacFarsi)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:150
+msgid "Georgian (GEOSTD8)"
+msgstr "Γεωργιανή (GEOSTD8)"
+
+#: ../goffice/gtk/go-charmap-sel.c:151
+msgid "Greek (ISO-8859-7)"
+msgstr "Ελληνική (ISO-8859-7)"
+
+#: ../goffice/gtk/go-charmap-sel.c:152
+msgid "Greek (MacGreek)"
+msgstr "Ελληνική (MacGreek)"
+
+#: ../goffice/gtk/go-charmap-sel.c:153
+msgid "Greek (Windows-1253)"
+msgstr "Ελληνική (Windows-1253)"
+
+#: ../goffice/gtk/go-charmap-sel.c:154
+msgid "Gujarati (MacGujarati)"
+msgstr "Gujarati (MacGujarati)"
+
+#: ../goffice/gtk/go-charmap-sel.c:155
+msgid "Gurmukhi (MacGurmukhi)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:156
+msgid "Hebrew (IBM-862)"
+msgstr "Εβραϊκά (IBM-862)"
+
+#: ../goffice/gtk/go-charmap-sel.c:157
+msgid "Hebrew (ISO-8859-8-E)"
+msgstr "Εβραϊκά (ISO-8859-8-E)"
+
+#: ../goffice/gtk/go-charmap-sel.c:158
+msgid "Hebrew (ISO-8859-8-I)"
+msgstr "Εβραϊκά (ISO-8859-8-I)"
+
+#: ../goffice/gtk/go-charmap-sel.c:159
+msgid "Hebrew (MacHebrew)"
+msgstr "Εβραϊκή (_MacHebrew)"
+
+#: ../goffice/gtk/go-charmap-sel.c:160
+msgid "Hebrew (Windows-1255)"
+msgstr "Εβραϊκή  (Windows-1255)"
+
+#: ../goffice/gtk/go-charmap-sel.c:161
+msgid "Hindi (MacDevanagari)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:162
+msgid "Icelandic (MacIcelandic)"
+msgstr "Ισλανδικά (MacIcelandic)"
+
+#: ../goffice/gtk/go-charmap-sel.c:163
+msgid "Japanese (EUC-JP)"
+msgstr "Ιαπωνική (EUC-JP)"
+
+#: ../goffice/gtk/go-charmap-sel.c:164
+msgid "Japanese (ISO-2022-JP)"
+msgstr "Ιαπωνική (ISO-2022-JP)"
+
+#: ../goffice/gtk/go-charmap-sel.c:165
+msgid "Japanese (Shift_JIS)"
+msgstr "Ιαπωνική (Shift_JIS)"
+
+#: ../goffice/gtk/go-charmap-sel.c:166
+msgid "Korean (EUC-KR)"
+msgstr "Κορεατική (EUC-KR)"
+
+#: ../goffice/gtk/go-charmap-sel.c:167
+msgid "Korean (ISO-2022-KR)"
+msgstr "Κορεάτικη (ISO-2022-KR)"
+
+#: ../goffice/gtk/go-charmap-sel.c:168
+msgid "Korean (JOHAB)"
+msgstr "Κορεάτικη (JOHAB)"
+
+#: ../goffice/gtk/go-charmap-sel.c:169
+msgid "Korean (UHC)"
+msgstr "Κορεάτικη (UHC)"
+
+#: ../goffice/gtk/go-charmap-sel.c:170
+msgid "Nordic (ISO-8859-10)"
+msgstr "Νορβηγική (ISO-8859-10)"
+
+#: ../goffice/gtk/go-charmap-sel.c:171
+msgid "Romanian (MacRomanian)"
+msgstr "Ρουμανική (MacRomanian)"
+
+#: ../goffice/gtk/go-charmap-sel.c:172
+msgid "Romanian (ISO-8859-16)"
+msgstr ""
+
+#: ../goffice/gtk/go-charmap-sel.c:173
+msgid "South European (ISO-8859-3)"
+msgstr "Νότιας Ευρώπης (ISO-8859-3)"
+
+#: ../goffice/gtk/go-charmap-sel.c:174
+msgid "Thai (TIS-620)"
+msgstr "Ταϊλανδική (TIS-620)"
+
+#: ../goffice/gtk/go-charmap-sel.c:175
+msgid "Turkish (IBM-857)"
+msgstr "Τουρκικά (IBM-857)"
+
+#: ../goffice/gtk/go-charmap-sel.c:176
+msgid "Turkish (ISO-8859-9)"
+msgstr "Τουρκική (ISO-8859-9)"
+
+#: ../goffice/gtk/go-charmap-sel.c:177
+msgid "Turkish (MacTurkish)"
+msgstr "Τουρκική (MacTurkish)"
+
+#: ../goffice/gtk/go-charmap-sel.c:178
+msgid "Turkish (Windows-1254)"
+msgstr "Τουρκική (Windows-1254)"
+
+#: ../goffice/gtk/go-charmap-sel.c:179
+msgid "Unicode (UTF-7)"
+msgstr "Unicode (UTF-7)"
+
+#: ../goffice/gtk/go-charmap-sel.c:180
+msgid "Unicode (UTF-8)"
+msgstr "Unicode (UTF-8)"
+
+#: ../goffice/gtk/go-charmap-sel.c:181
+msgid "Unicode (UTF-16BE)"
+msgstr "Unicode (UTF-16BE)"
+
+#: ../goffice/gtk/go-charmap-sel.c:182
+msgid "Unicode (UTF-16LE)"
+msgstr "Unicode (UTF-16LE)"
+
+#: ../goffice/gtk/go-charmap-sel.c:183
+msgid "Unicode (UTF-32BE)"
+msgstr "Unicode (UTF-32BE)"
+
+#: ../goffice/gtk/go-charmap-sel.c:184
+msgid "Unicode (UTF-32LE)"
+msgstr "Unicode (UTF-32LE)"
+
+#: ../goffice/gtk/go-charmap-sel.c:185
+#, fuzzy
+msgid "User Defined"
+msgstr "Ορισμένο από το χρήστη"
+
+#: ../goffice/gtk/go-charmap-sel.c:186
+msgid "Vietnamese (TCVN)"
+msgstr "Βιετναμέζικα (TCVN)"
+
+#: ../goffice/gtk/go-charmap-sel.c:187
+msgid "Vietnamese (VISCII)"
+msgstr "Βιετναμική (VISCII)"
+
+#: ../goffice/gtk/go-charmap-sel.c:188
+msgid "Vietnamese (VPS)"
+msgstr "Βιετναμική (VPS)"
+
+#: ../goffice/gtk/go-charmap-sel.c:189
+msgid "Vietnamese (Windows-1258)"
+msgstr "Βιετναμική (Windows-1258)"
+
+#: ../goffice/gtk/go-charmap-sel.c:190
+msgid "Visual Hebrew (ISO-8859-8)"
+msgstr "Οπτικά Εβραϊκά (ISO-8859-8)"
+
+#: ../goffice/gtk/go-charmap-sel.c:191
+msgid "Western (IBM-850)"
+msgstr "Δυτικής Ευρώπης (IBM-850)"
+
+#: ../goffice/gtk/go-charmap-sel.c:192
+msgid "Western (ISO-8859-1)"
+msgstr "Δυτική (ISO-8859-1)"
+
+#: ../goffice/gtk/go-charmap-sel.c:193
+msgid "Western (ISO-8859-15)"
+msgstr "Δυτική (ISO-8859-15)"
+
+#: ../goffice/gtk/go-charmap-sel.c:194
+msgid "Western (MacRoman)"
+msgstr "Δυτική (MacRoman)"
+
+#: ../goffice/gtk/go-charmap-sel.c:195
+msgid "Western (Windows-1252)"
+msgstr "Δυτική (Windows-1252)"
+
+#: ../goffice/gtk/go-charmap-sel.c:412
+#, fuzzy
+msgid "Locale: "
+msgstr "&Κωδικοποίηση"
+
+#: ../goffice/gtk/go-charmap-sel.c:452
+#, fuzzy
+msgid "Conversion Direction"
+msgstr "Συσχέτιση"
+
+#: ../goffice/gtk/go-charmap-sel.c:453
+msgid "This value determines which iconv test to perform."
+msgstr ""
+
+#: ../goffice/gtk/go-color-palette.c:77
+msgid "black"
+msgstr "μαύρο"
+
+#: ../goffice/gtk/go-color-palette.c:78
+msgid "light brown"
+msgstr "ανοιχτό καφέ"
+
+#: ../goffice/gtk/go-color-palette.c:79
+msgid "brown gold"
+msgstr "χρυσαφί καφέ"
+
+#: ../goffice/gtk/go-color-palette.c:80
+msgid "dark green #2"
+msgstr "σκούρο πράσινο #2"
+
+#: ../goffice/gtk/go-color-palette.c:81
+msgid "navy"
+msgstr "ναυτικό μπλε"
+
+#: ../goffice/gtk/go-color-palette.c:82 ../goffice/gtk/go-color-palette.c:134
+msgid "dark blue"
+msgstr "σκούρο μπλέ"
+
+#: ../goffice/gtk/go-color-palette.c:83
+msgid "purple #2"
+msgstr "μωβ #2"
+
+#: ../goffice/gtk/go-color-palette.c:84
+#, fuzzy
+msgid "very dark gray"
+msgstr "πολύ σκούρο γκρι"
+
+#: ../goffice/gtk/go-color-palette.c:86 ../goffice/gtk/go-color-palette.c:139
+msgid "dark red"
+msgstr "σκούρο κόκκινο"
+
+#: ../goffice/gtk/go-color-palette.c:87
+msgid "red-orange"
+msgstr "κόκκινο-πορτοκαλί"
+
+#: ../goffice/gtk/go-color-palette.c:88
+msgid "gold"
+msgstr "χρυσαφί"
+
+#: ../goffice/gtk/go-color-palette.c:89
+msgid "dark green"
+msgstr "σκούρο πράσινο"
+
+#: ../goffice/gtk/go-color-palette.c:90 ../goffice/gtk/go-color-palette.c:140
+msgid "dull blue"
+msgstr "ξεθωριασμένο μπλε"
+
+#: ../goffice/gtk/go-color-palette.c:91 ../goffice/gtk/go-color-palette.c:141
+msgid "blue"
+msgstr "μπλε"
+
+#: ../goffice/gtk/go-color-palette.c:92
+msgid "dull purple"
+msgstr "ξεθωριασμένο μωβ"
+
+#: ../goffice/gtk/go-color-palette.c:93
+msgid "dark gray"
+msgstr "σκούρο γκρι"
+
+#: ../goffice/gtk/go-color-palette.c:95
+msgid "red"
+msgstr "κόκκινο"
+
+#: ../goffice/gtk/go-color-palette.c:96
+msgid "orange"
+msgstr "πορτοκαλί"
+
+#: ../goffice/gtk/go-color-palette.c:97
+msgid "lime"
+msgstr "λεμονί"
+
+#: ../goffice/gtk/go-color-palette.c:98
+msgid "dull green"
+msgstr "ξεθωριασμένο πράσινο"
+
+#: ../goffice/gtk/go-color-palette.c:99
+msgid "dull blue #2"
+msgstr "ξεθωριασμένο μπλε #2"
+
+#: ../goffice/gtk/go-color-palette.c:100
+msgid "sky blue #2"
+msgstr "μπλε ουρανού #2"
+
+#: ../goffice/gtk/go-color-palette.c:101 ../goffice/gtk/go-color-palette.c:138
+msgid "purple"
+msgstr "μωβ"
+
+#: ../goffice/gtk/go-color-palette.c:102
+msgid "gray"
+msgstr "γκρι"
+
+#: ../goffice/gtk/go-color-palette.c:104 ../goffice/gtk/go-color-palette.c:135
+#, fuzzy
+msgid "magenta"
+msgstr "Ματζέντα:"
+
+#: ../goffice/gtk/go-color-palette.c:105
+msgid "bright orange"
+msgstr "φωτεινό πορτοκαλί"
+
+#: ../goffice/gtk/go-color-palette.c:106 ../goffice/gtk/go-color-palette.c:136
+msgid "yellow"
+msgstr "κίτρινο"
+
+#: ../goffice/gtk/go-color-palette.c:107
+msgid "green"
+msgstr "πράσινο"
+
+#: ../goffice/gtk/go-color-palette.c:108 ../goffice/gtk/go-color-palette.c:137
+msgid "cyan"
+msgstr "κυανό"
+
+#: ../goffice/gtk/go-color-palette.c:109
+msgid "bright blue"
+msgstr "φωτεινό μπλέ"
+
+#: ../goffice/gtk/go-color-palette.c:110 ../goffice/gtk/go-color-palette.c:126
+msgid "red purple"
+msgstr "κόκκινο-μωβ"
+
+#: ../goffice/gtk/go-color-palette.c:111
+msgid "light gray"
+msgstr "ανοιχτό Γκρι"
+
+#: ../goffice/gtk/go-color-palette.c:113 ../goffice/gtk/go-color-palette.c:130
+msgid "pink"
+msgstr "ροζ"
+
+#: ../goffice/gtk/go-color-palette.c:114
+msgid "light orange"
+msgstr "ανοιχτό πορτοκαλί"
+
+#: ../goffice/gtk/go-color-palette.c:115 ../goffice/gtk/go-color-palette.c:127
+msgid "light yellow"
+msgstr "ανοιχτό κίτρινο"
+
+#: ../goffice/gtk/go-color-palette.c:116
+msgid "light green"
+msgstr "ανοιχτό πράσινο"
+
+#: ../goffice/gtk/go-color-palette.c:117
+msgid "light cyan"
+msgstr "ανοιχτό κυανό"
+
+#: ../goffice/gtk/go-color-palette.c:118 ../goffice/gtk/go-color-palette.c:128
+msgid "light blue"
+msgstr "ανοιχτό μπλε"
+
+#: ../goffice/gtk/go-color-palette.c:119 ../goffice/gtk/go-color-palette.c:132
+msgid "light purple"
+msgstr "ανοιχτό μωβ"
+
+#: ../goffice/gtk/go-color-palette.c:120
+msgid "white"
+msgstr "λευκό"
+
+#. Disable these for now, they are mostly repeats
+#: ../goffice/gtk/go-color-palette.c:125
+msgid "purplish blue"
+msgstr "μωβέ μπλέ"
+
+#: ../goffice/gtk/go-color-palette.c:129
+msgid "dark purple"
+msgstr "σκούρο μωβ"
+
+#: ../goffice/gtk/go-color-palette.c:131
+msgid "sky blue"
+msgstr "μπλε ουρανού"
+
+#: ../goffice/gtk/go-color-palette.c:453
+msgid "custom"
+msgstr "προσαρμοσμένο"
+
+#: ../goffice/gtk/go-color-palette.c:460 ../goffice/gtk/go-color-palette.c:714
+#, fuzzy
+msgid "Custom Color..."
+msgstr "Προσαρμοσμένο Χρώμα:"
+
+#: ../goffice/gtk/go-color-selector.c:206
+#, fuzzy
+msgid "Custom color..."
+msgstr "Προσαρμοσμένο Χρώμα:"
+
+#: ../goffice/gtk/go-combo-box.c:274
+msgid "Add tearoffs to menus"
+msgstr ""
+
+#: ../goffice/gtk/go-combo-box.c:275
+msgid "Whether dropdowns should have a tearoff menu item"
+msgstr ""
+
+#: ../goffice/gtk/go-font-sel.c:174 ../goffice/math/go-distribution.c:67
+msgid "Normal"
+msgstr "Κανονική"
+
+#: ../goffice/gtk/go-font-sel.c:175
+msgid "Bold"
+msgstr "Έντονο"
+
+#: ../goffice/gtk/go-font-sel.c:176
+msgid "Bold italic"
+msgstr "Έντονο πλάγιο"
+
+#: ../goffice/gtk/go-font-sel.c:177
+msgid "Italic"
+msgstr "Πλάγιο"
+
+#. xgettext: This text is used as a sample when selecting a font
+#. * please choose a translation that would produce common
+#. * characters specific to the target alphabet.
+#: ../goffice/gtk/go-font-sel.c:460
+msgid "AaBbCcDdEe12345"
+msgstr ""
+
+#: ../goffice/gtk/go-font-sel.ui.h:1
+msgid "Font style:"
+msgstr "Στύλ γραμ/σειράς:"
+
+#: ../goffice/gtk/go-font-sel.ui.h:2
+msgid "Font:"
+msgstr "Γραμματοσειρά:"
+
+#: ../goffice/gtk/go-font-sel.ui.h:3
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+#: ../goffice/gtk/go-font-sel.ui.h:4
+msgid "Size:"
+msgstr "Μέγεθος:"
+
+#: ../goffice/gtk/go-format-sel.c:62
+msgid "Number"
+msgstr "Αριθμός"
+
+#: ../goffice/gtk/go-format-sel.c:63
+msgid "Currency"
+msgstr "Νόμισμα"
+
+#: ../goffice/gtk/go-format-sel.c:64
+#, fuzzy
+msgid "Accounting"
+msgstr "Λογιστικά"
+
+#: ../goffice/gtk/go-format-sel.c:65
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: ../goffice/gtk/go-format-sel.c:66
+msgid "Time"
+msgstr "Ώρα"
+
+#: ../goffice/gtk/go-format-sel.c:67
+msgid "Percentage"
+msgstr "Ποσοστό"
+
+#: ../goffice/gtk/go-format-sel.c:68
+#, fuzzy
+msgid "Fraction"
+msgstr "Κλάσμα"
+
+#: ../goffice/gtk/go-format-sel.c:69
+#, fuzzy
+msgid "Scientific"
+msgstr "Επιστημονική"
+
+#: ../goffice/gtk/go-format-sel.c:71
+#, fuzzy
+msgid "Special"
+msgstr "Ειδικό"
+
+#: ../goffice/gtk/go-format-sel.c:72
+#, fuzzy
+msgid "Custom"
+msgstr "Παραμετροποιημένο"
+
+#: ../goffice/gtk/go-format-sel.c:1047
+#, fuzzy
+msgid "Negative Number Format"
+msgstr "Αρνητ_ικός αριθμός:"
+
+#: ../goffice/gtk/go-format-sel.c:1075
+#, fuzzy
+msgid "Number Formats"
+msgstr "Αντιγραφή μορφοποίησης"
+
+#: ../goffice/gtk/go-format-sel.ui.h:1
+msgid "Ca_tegories:"
+msgstr "Κα_τηγορίες:"
+
+#: ../goffice/gtk/go-format-sel.ui.h:2
+msgid "Deci_mal places:"
+msgstr "Δεκα_δικά ψηφία:"
+
+#: ../goffice/gtk/go-format-sel.ui.h:3
+msgid "Display amounts in traditional accounting styles."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:4
+msgid "Display and input values as strings with no interpretation."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:5
+msgid "Display currency amounts."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:6
+msgid "Display dates and optionally times of day."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:7
+msgid "Display numeric values with a fixed number of decimals."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:8
+#, fuzzy
+msgid "Display times of day."
+msgstr "Εμφάνιση Ε_ξισώσεων"
+
+#: ../goffice/gtk/go-format-sel.ui.h:9
+msgid "Display values as closest fractional approximation."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:10
+#, fuzzy
+msgid "Display values as percentages."
+msgstr "Απεικόνιση τιμής όπως ακριβώς εισήχθη"
+
+#: ../goffice/gtk/go-format-sel.ui.h:11
+msgid "Display values with power-of-ten scaling."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:12
+#, fuzzy
+msgid "Format c_ode:"
+msgstr "Μορ_φοποίηση"
+
+#: ../goffice/gtk/go-format-sel.ui.h:13
+#, fuzzy
+msgid "Negative number _format:"
+msgstr "Αρνητ_ικός αριθμός:"
+
+#: ../goffice/gtk/go-format-sel.ui.h:14
+msgid "Preview:"
+msgstr "Προεπισκόπηση:"
+
+#: ../goffice/gtk/go-format-sel.ui.h:15
+msgid "Restrict exponent to multiples of 3"
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:16
+msgid "S_ymbol:"
+msgstr "Σύμ_βολο:"
+
+#: ../goffice/gtk/go-format-sel.ui.h:17
+msgid "Select an appropriate format automatically."
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:18
+msgid "Specify an XL-style format directly"
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:19
+msgid "Use _superscript"
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:20
+msgid "Use superscript for exponent (e.g. 4&#xD7;10&#xB2;)"
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:21
+msgid "When mantissa is equal to 1, only show exponent part (e.g. 10&#xB2;)"
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:22
+msgid "_Don't show 1xs"
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:23
+msgid "_Engineering notation"
+msgstr ""
+
+#: ../goffice/gtk/go-format-sel.ui.h:24
+#, fuzzy
+msgid "_Format:"
+msgstr "&Μορφή:"
+
+#: ../goffice/gtk/go-format-sel.ui.h:25
+#, fuzzy
+msgid "_Use separator for 1000s"
+msgstr "Δια_χωρισμός 1000άδων"
+
+#: ../goffice/gtk/go-image-save-dialog-extra.ui.h:1
+#, fuzzy
+msgid "Export settings"
+msgstr "Ακολουθίες χαρακτήρων"
+
+#: ../goffice/gtk/go-image-save-dialog-extra.ui.h:2
+#, fuzzy
+msgid "Resolution:"
+msgstr "Κατεύθυνση"
+
+#: ../goffice/gtk/go-image-save-dialog-extra.ui.h:3
+#, fuzzy
+msgid "_File type:"
+msgstr "_Τύπος αρχείου:"
+
+#: ../goffice/gtk/go-image-save-dialog-extra.ui.h:4
+msgid "pixels/in"
+msgstr ""
+
+#: ../goffice/gtk/go-image-sel.ui.h:1
+#, fuzzy
+msgid "<b>Add an image</b>"
+msgstr "Γραμμή"
+
+#: ../goffice/gtk/go-image-sel.ui.h:2
+#, fuzzy
+msgid "Name:"
+msgstr "Όνομα"
+
+#: ../goffice/gtk/go-image-sel.ui.h:3 ../goffice/utils/go-style-prefs.ui.h:22
+msgid "_Select..."
+msgstr "_Επιλογή..."
+
+#: ../goffice/gtk/go-locale-sel.c:63
+#, fuzzy
+msgid "Western Europe"
+msgstr "Κεντράρισμα στη σελίδα"
+
+#: ../goffice/gtk/go-locale-sel.c:64
+msgid "Eastern Europe"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:65
+msgid "North America"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:66
+msgid "South & Central America"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:67
+msgid "Asia"
+msgstr "Ασία"
+
+#: ../goffice/gtk/go-locale-sel.c:68
+msgid "Africa"
+msgstr "Αφρική"
+
+#: ../goffice/gtk/go-locale-sel.c:69
+msgid "Australia"
+msgstr "Αυστραλία"
+
+#.
+#. * The format here is "Country/Language (locale)" or just
+#. * "Country (locale)" when there is only one choice or one
+#. * very dominant language.
+#. *
+#. * Note: lots of people get very emotional over this.  Please
+#. * err on the safe side, if any.
+#.
+#: ../goffice/gtk/go-locale-sel.c:102
+msgid "United States/English (C)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:103
+msgid "South Africa Afrikaans (af_ZA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:104
+msgid "Ethiopia/Amharic (am_ET)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:105
+msgid "United Arab Emirates (ar_AE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:106
+#, fuzzy
+msgid "Bahrain (ar_BH)"
+msgstr "Δηνάριο Μπαχρέιν"
+
+#: ../goffice/gtk/go-locale-sel.c:107
+msgid "Algeria (ar_DZ)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:108
+msgid "Egypt (ar_EG)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:109
+msgid "India/Arabic (ar_IN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:110
+msgid "Iraq (ar_IQ)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:111
+#, fuzzy
+msgid "Jordan (ar_JO)"
+msgstr "Δηνάριο Ιορδανίας"
+
+#: ../goffice/gtk/go-locale-sel.c:112
+#, fuzzy
+msgid "Kuwait (ar_KW)"
+msgstr "Δηνάριο Κουβέιτ"
+
+#: ../goffice/gtk/go-locale-sel.c:113
+msgid "Lebanon (ar_LB)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:114
+#, fuzzy
+msgid "Libya (ar_LY)"
+msgstr "Δηνάριο Λιβύης"
+
+#: ../goffice/gtk/go-locale-sel.c:115
+msgid "Morocco (ar_MA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:116
+msgid "Oman (ar_OM)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:117
+msgid "Qatar (ar_QA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:118
+msgid "Saudi Arabia (ar_SA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:119
+msgid "Sudan (ar_SD)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:120
+msgid "Syria (ar_SY)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:121
+#, fuzzy
+msgid "Tunisia (ar_TN)"
+msgstr "Δηνάριο Τυνησίας"
+
+#: ../goffice/gtk/go-locale-sel.c:122
+msgid "Yemen (ar_YE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:123
+msgid "Azerbaijan (az_AZ)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:124
+#, fuzzy
+msgid "Belarus (be_BY)"
+msgstr "Λέβ Βουλγαρίας"
+
+#: ../goffice/gtk/go-locale-sel.c:125
+msgid "Bulgaria (bg_BG)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:126
+msgid "Bangladesh (bn_BD)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:127
+msgid "India/Bengali (bn_IN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:128
+msgid "France/Breton (br_FR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:129
+msgid "Bosnia and Herzegowina (bs_BA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:130
+msgid "Spain/Catalan (ca_ES)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:131
+msgid "Czech Republic (cs_CZ)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:132
+msgid "Great Britain/Welsh (cy_GB)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:133
+msgid "Denmark (da_DK)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:134
+msgid "Austria (de_AT)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:135
+msgid "Belgium/German (de_BE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:136
+msgid "Switzerland/German (de_CH)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:137
+msgid "Germany (de_DE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:138
+msgid "Luxembourg/German (de_LU)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:139
+msgid "Greece (el_GR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:140
+msgid "Australia (en_AU)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:141
+msgid "Botswana (en_BW)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:142
+msgid "Canada/English (en_CA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:143
+msgid "Great Britain (en_GB)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:144
+msgid "Hong Kong/English (en_HK)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:145
+msgid "Ireland (en_IE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:146
+msgid "India/English (en_IN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:147
+#, fuzzy
+msgid "New Zealand (en_NZ)"
+msgstr "Δολλάριο Νέας Ζηλανδίας"
+
+#: ../goffice/gtk/go-locale-sel.c:148
+#, fuzzy
+msgid "Philippines (en_PH)"
+msgstr "Πέσος Φιλιππίνων"
+
+#: ../goffice/gtk/go-locale-sel.c:149
+msgid "Singapore/English (en_SG)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:150
+msgid "United States/English (en_US)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:151
+msgid "South Africa/English (en_ZA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:152
+msgid "Zimbabwe (en_ZW)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:153
+msgid "Esperanto (eo_EO)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:154
+#, fuzzy
+msgid "Argentina (es_AR)"
+msgstr "Πέσος Μεξικού"
+
+#: ../goffice/gtk/go-locale-sel.c:155
+msgid "Bolivia (es_BO)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:156
+#, fuzzy
+msgid "Chile (es_CL)"
+msgstr "Πέσος Χιλής"
+
+#: ../goffice/gtk/go-locale-sel.c:157
+#, fuzzy
+msgid "Colombia (es_CO)"
+msgstr "Πέσος Κολομβίας"
+
+#: ../goffice/gtk/go-locale-sel.c:158
+msgid "Costa Rica (es_CR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:159
+#, fuzzy
+msgid "Dominican Republic (es_DO)"
+msgstr "Πέσος Δομηνίκου"
+
+#: ../goffice/gtk/go-locale-sel.c:160
+msgid "Ecuador (es_EC)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:161
+#, fuzzy
+msgid "Spain (es_ES)"
+msgstr "Δειγματοληψία (%s)"
+
+#: ../goffice/gtk/go-locale-sel.c:162
+msgid "Guatemala (es_GT)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:163
+msgid "Honduras (es_HN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:164
+#, fuzzy
+msgid "Mexico (es_MX)"
+msgstr "Πέσος Μεξικού"
+
+#: ../goffice/gtk/go-locale-sel.c:165
+msgid "Nicaragua (es_NI)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:166
+msgid "Panama (es_PA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:167
+msgid "Peru (es_PE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:168
+msgid "Puerto Rico (es_PR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:169
+msgid "Paraguay (es_PY)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:170
+msgid "El Salvador (es_SV)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:171
+msgid "United States/Spanish (es_US)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:172
+#, fuzzy
+msgid "Uruguay (es_UY)"
+msgstr "Πέσος Ουρουγουάης"
+
+#: ../goffice/gtk/go-locale-sel.c:173
+msgid "Venezuela (es_VE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:174
+msgid "Estonia (et_EE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:175
+#, fuzzy
+msgid "Spain/Basque (eu_ES)"
+msgstr "Δειγματοληψία (%s)"
+
+#: ../goffice/gtk/go-locale-sel.c:176
+msgid "Iran (fa_IR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:177
+msgid "Finland/Finnish (fi_FI)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:178
+msgid "Faroe Islands (fo_FO)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:179
+msgid "Belgium/French (fr_BE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:180
+msgid "Canada/French (fr_CA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:181
+msgid "Switzerland/French (fr_CH)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:182
+msgid "France (fr_FR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:183
+msgid "Ireland/Gaelic (ga_IE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:184
+msgid "Great Britain/Scottish Gaelic (gd_GB)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:185
+msgid "Spain/Galician (gl_ES)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:186
+msgid "Great Britain/Manx Gaelic (gv_GB)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:187
+msgid "India/Hindu (hi_IN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:188
+msgid "Croatia (hr_HR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:189
+msgid "Hungary (hu_HU)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:190
+msgid "Armenia (hy_AM)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:191
+msgid "(i18n)"
+msgstr "(i18n)"
+
+#: ../goffice/gtk/go-locale-sel.c:192
+msgid "Indonesia (id_ID)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:193
+msgid "Iceland (is_IS)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:194
+msgid "(iso14651_t1)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:195
+msgid "Switzerland/Italian (it_CH)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:196
+msgid "Italy (it_IT)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:197
+msgid "Israel/Hebrew (iw_IL)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:198
+msgid "Japan (ja_JP)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:199
+msgid "Georgia (ka_GE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:200
+msgid "Greenland (kl_GL)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:201
+msgid "Korea (ko_KR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:202
+msgid "Great Britain/Cornish (kw_GB)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:203
+msgid "Lithuania (lt_LT)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:204
+msgid "Latvia (lv_LV)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:205
+msgid "New Zealand/Maori (mi_NZ)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:206
+msgid "Macedonia (mk_MK)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:207
+msgid "India/Marathi (mr_IN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:208
+msgid "Malaysia (ms_MY)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:209
+msgid "Malta (mt_MT)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:210
+msgid "Belgium/Flemish (nl_BE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:211
+msgid "The Netherlands (nl_NL)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:212
+msgid "Norway/Nynorsk (nn_NO)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:213
+msgid "Norway/Bokmal (no_NO)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:214
+msgid "France/Occitan (oc_FR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:215
+msgid "Poland (pl_PL)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:216
+msgid "Brazil (pt_BR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:217
+msgid "Portugal (pt_PT)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:218
+msgid "Romania (ro_RO)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:219
+msgid "Russia (ru_RU)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:220
+msgid "Ukraine/Russian (ru_UA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:221
+msgid "Norway/Saami (se_NO)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:222
+msgid "Slovakia (sk_SK)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:223
+msgid "Slovenia (sl_SI)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:224
+#, fuzzy
+msgid "Albania (sq_AL)"
+msgstr "Λέκ Αλβανίας"
+
+#: ../goffice/gtk/go-locale-sel.c:225
+msgid "Yugoslavia (sr_YU)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:226
+msgid "Finland/Swedish (sv_FI)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:227
+msgid "Sweden (sv_SE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:228
+msgid "India/Tamil (ta_IN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:229
+msgid "India/Telugu (te_IN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:230
+msgid "Tajikistan (tg_TJ)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:231
+msgid "Thailand (th_TH)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:232
+msgid "Eritrea (ti_ER)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:233
+msgid "Ethiopia/Tigrinya (ti_ET)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:234
+msgid "Philippines/Tagalog (tl_PH)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:235
+msgid "Turkey (tr_TR)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:236
+msgid "Russia/Tatar (tt_RU)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:237
+msgid "Ukraine (uk_UA)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:238
+msgid "Pakistan (ur_PK)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:239
+msgid "Uzbekistan (uz_UZ)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:240
+msgid "Vietnam (vi_VN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:241
+msgid "Belgium/Walloon (wa_BE)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:242
+msgid "United States/Yiddish (yi_US)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:243
+msgid "China (zh_CN)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:244
+msgid "Hong Kong/Chinese (zh_HK)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:245
+msgid "Singapore/Chinese (zh_SG)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:246
+msgid "Taiwan (zh_TW)"
+msgstr ""
+
+#: ../goffice/gtk/go-locale-sel.c:466
+#, fuzzy
+msgid "Current Locale: "
+msgstr "Τρέχον Locale (%s)"
+
+#: ../goffice/gtk/go-optionmenu.c:418
+msgid "Menu"
+msgstr "Μενού"
+
+#: ../goffice/gtk/go-optionmenu.c:419
+#, fuzzy
+msgid "The menu of options"
+msgstr "Το μενού των επιλογών"
+
+#: ../goffice/gtk/go-palette.c:373
+#, fuzzy
+msgid "Custom..."
+msgstr "Παραμετροποιημένο"
+
+#: ../goffice/gtk/go-rotation-sel.ui.h:1
+#, fuzzy
+msgid "<b>Orientation</b>"
+msgstr "<b>Προσανατολισμός</b>"
+
+#: ../goffice/gtk/go-rotation-sel.ui.h:2
+msgid "A_ngle:"
+msgstr ""
+
+#: ../goffice/gtk/goffice-gtk.c:140
+#, fuzzy, c-format
+msgid "Unable to open file '%s'"
+msgstr "Δεν είναι δυνατό το άνοιγμα του αρχείου '%1'."
+
+#: ../goffice/gtk/goffice-gtk.c:555 ../goffice/utils/go-style.c:152
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: ../goffice/gtk/goffice-gtk.c:590
+#, fuzzy
+msgid "All Files"
+msgstr "Αρχεία"
+
+#: ../goffice/gtk/goffice-gtk.c:595
+#, fuzzy
+msgid "Images"
+msgstr "Εικόνα"
+
+#: ../goffice/gtk/goffice-gtk.c:639
+#, fuzzy
+msgid "Select an Image"
+msgstr "Επιλογή εικόνας"
+
+#: ../goffice/gtk/goffice-gtk.c:718
+#, fuzzy
+msgid "Save as"
+msgstr "Αποθήκευση όλων"
+
+#: ../goffice/gtk/goffice-gtk.c:788
+msgid ""
+"The given file extension does not match the chosen file type. Do you want to "
+"use this name anyway?"
+msgstr ""
+
+#: ../goffice/gtk/goffice-gtk.c:1005
+#, c-format
+msgid ""
+"%s\n"
+"is a directory name"
+msgstr ""
+
+#: ../goffice/gtk/goffice-gtk.c:1009
+#, c-format
+msgid ""
+"You do not have permission to save to\n"
+"%s"
+msgstr ""
+
+#: ../goffice/gtk/goffice-gtk.c:1019
+#, c-format
+msgid ""
+"A file called <i>%s</i> already exists in %s.\n"
+"\n"
+"Do you want to save over it?"
+msgstr ""
+
+#: ../goffice/math/go-distribution.c:68
+msgid "Uniform"
+msgstr ""
+
+#: ../goffice/math/go-distribution.c:69
+msgid "Cauchy"
+msgstr ""
+
+#: ../goffice/math/go-distribution.c:70
+msgid "Weibull"
+msgstr ""
+
+#: ../goffice/math/go-distribution.c:71
+#, fuzzy
+msgid "Lognormal"
+msgstr "Κανονική"
+
+#: ../goffice/math/go-distribution.c:155 ../goffice/math/go-distribution.c:156
+#, fuzzy
+msgid "Location"
+msgstr "Κατεύθυνση"
+
+#: ../goffice/math/go-distribution.c:693 ../goffice/math/go-distribution.c:805
+#, fuzzy
+msgid "Shape"
+msgstr "&Μορφή"
+
+#: ../goffice/math/go-distribution.c:694 ../goffice/math/go-distribution.c:806
+#, fuzzy
+msgid "Shape factor"
+msgstr "Κενό"
+
+#. The first column has three letter acronyms
+#. * for each currency.  They MUST start with '[$'
+#. * The second column has the long names of the currencies.
+#.
+#. 2002/08/04 Updated to match iso 4217
+#: ../goffice/utils/formats.c:363
+msgid "United Arab Emirates, Dirhams"
+msgstr ""
+
+#: ../goffice/utils/formats.c:364
+msgid "Afghanistan, Afghanis"
+msgstr ""
+
+#: ../goffice/utils/formats.c:365
+#, fuzzy
+msgid "Albania, Leke"
+msgstr "Λέκ Αλβανίας"
+
+#: ../goffice/utils/formats.c:366
+msgid "Armenia, Drams"
+msgstr ""
+
+#: ../goffice/utils/formats.c:367
+#, fuzzy
+msgid "Netherlands Antilles, Guilders"
+msgstr "Ολλανδικές στερλίνες Αντίλλων"
+
+#: ../goffice/utils/formats.c:368
+msgid "Angola, Kwanza"
+msgstr ""
+
+#: ../goffice/utils/formats.c:369
+#, fuzzy
+msgid "Argentina, Pesos"
+msgstr "Πέσος Μεξικού"
+
+#: ../goffice/utils/formats.c:370
+#, fuzzy
+msgid "Australia, Dollars"
+msgstr "Δολλάριο Αυστραλίας"
+
+#: ../goffice/utils/formats.c:371
+#, fuzzy
+msgid "Aruba, Guilders"
+msgstr "Στερλίνες Αρούμπας"
+
+#: ../goffice/utils/formats.c:372
+msgid "Azerbaijan, Manats"
+msgstr ""
+
+#: ../goffice/utils/formats.c:373
+msgid "Bosnia and Herzegovina, Convertible Marka"
+msgstr ""
+
+#: ../goffice/utils/formats.c:374
+#, fuzzy
+msgid "Barbados, Dollars"
+msgstr "Δολλάριο Μπαρμπέιντος"
+
+#: ../goffice/utils/formats.c:375
+msgid "Bangladesh, Taka"
+msgstr ""
+
+#: ../goffice/utils/formats.c:376
+#, fuzzy
+msgid "Bulgaria, Leva"
+msgstr "Λέβ Βουλγαρίας"
+
+#: ../goffice/utils/formats.c:377
+#, fuzzy
+msgid "Bahrain, Dinars"
+msgstr "Δηνάριο Μπαχρέιν"
+
+#: ../goffice/utils/formats.c:378
+#, fuzzy
+msgid "Burundi, Francs"
+msgstr "Φράγκο Μπουρούντι"
+
+#: ../goffice/utils/formats.c:379
+#, fuzzy
+msgid "Bermuda, Dollars"
+msgstr "Δολλάριο Βερμούδων"
+
+#: ../goffice/utils/formats.c:380
+msgid "Brunei Darussalam, Dollars"
+msgstr ""
+
+#: ../goffice/utils/formats.c:381
+msgid "Bolivia, Bolivianos"
+msgstr ""
+
+#: ../goffice/utils/formats.c:382
+#, fuzzy
+msgid "Brazil, Brazil Real"
+msgstr "Ιταλική λίρα"
+
+#: ../goffice/utils/formats.c:383
+#, fuzzy
+msgid "Bahamas, Dollars"
+msgstr "Δολλάριο Μπαχαμών"
+
+#: ../goffice/utils/formats.c:384
+msgid "Bhutan, Ngultrum"
+msgstr ""
+
+#: ../goffice/utils/formats.c:385
+msgid "Botswana, Pulas"
+msgstr ""
+
+#: ../goffice/utils/formats.c:386
+#, fuzzy
+msgid "Belarus, Rubles"
+msgstr "Λέβ Βουλγαρίας"
+
+#: ../goffice/utils/formats.c:387
+#, fuzzy
+msgid "Belize, Dollars"
+msgstr "Δολλάριο Μπελίζ"
+
+#: ../goffice/utils/formats.c:388
+#, fuzzy
+msgid "Canada, Dollars"
+msgstr "Καναδικό δολλάριο"
+
+#: ../goffice/utils/formats.c:389
+msgid "Congo/Kinshasa, Congolese Francs"
+msgstr ""
+
+#: ../goffice/utils/formats.c:390
+msgid "Switzerland, Francs"
+msgstr ""
+
+#: ../goffice/utils/formats.c:391
+#, fuzzy
+msgid "Chile, Pesos"
+msgstr "Πέσος Χιλής"
+
+#: ../goffice/utils/formats.c:392
+msgid "China, Yuan Renminbi"
+msgstr ""
+
+#: ../goffice/utils/formats.c:393
+#, fuzzy
+msgid "Colombia, Pesos"
+msgstr "Πέσος Κολομβίας"
+
+#: ../goffice/utils/formats.c:394
+msgid "Costa Rica, Colones"
+msgstr ""
+
+#: ../goffice/utils/formats.c:395
+#, fuzzy
+msgid "Cuba, Pesos"
+msgstr "Πέσος Κούβας"
+
+#: ../goffice/utils/formats.c:396
+msgid "Cape Verde, Escudos"
+msgstr ""
+
+#: ../goffice/utils/formats.c:397
+#, fuzzy
+msgid "Cyprus, Pounds"
+msgstr "Λίρα Κύπρου"
+
+#: ../goffice/utils/formats.c:398
+msgid "Czech Republic, Koruny"
+msgstr ""
+
+#: ../goffice/utils/formats.c:399
+#, fuzzy
+msgid "Djibouti, Francs"
+msgstr "Φράγκο Τζιμπούτι"
+
+#: ../goffice/utils/formats.c:400
+msgid "Denmark, Kroner"
+msgstr ""
+
+#: ../goffice/utils/formats.c:401
+#, fuzzy
+msgid "Dominican Republic, Pesos"
+msgstr "Πέσος Δομηνίκου"
+
+#: ../goffice/utils/formats.c:402
+#, fuzzy
+msgid "Algeria, Algeria Dinars"
+msgstr "Δηνάριο Αλγερίας"
+
+#: ../goffice/utils/formats.c:403
+msgid "Estonia, Krooni"
+msgstr ""
+
+#: ../goffice/utils/formats.c:404
+#, fuzzy
+msgid "Egypt, Pounds"
+msgstr "Λίρα Αιγύπτου"
+
+#: ../goffice/utils/formats.c:405
+msgid "Eritrea, Nakfa"
+msgstr ""
+
+#: ../goffice/utils/formats.c:406
+msgid "Ethiopia, Birr"
+msgstr ""
+
+#: ../goffice/utils/formats.c:407
+msgid "Euro Member Countries, Euro"
+msgstr ""
+
+#: ../goffice/utils/formats.c:408
+#, fuzzy
+msgid "Fiji, Dollars"
+msgstr "Δολλάριο Φίτζι"
+
+#: ../goffice/utils/formats.c:409
+#, fuzzy
+msgid "Falkland Islands (Malvinas), Pounds"
+msgstr "Λίρα Νήσων Φώκλαντ"
+
+#: ../goffice/utils/formats.c:410
+msgid "United Kingdom, Pounds"
+msgstr ""
+
+#: ../goffice/utils/formats.c:411
+msgid "Georgia, Lari"
+msgstr ""
+
+#: ../goffice/utils/formats.c:412
+#, fuzzy
+msgid "Guernsey, Pounds"
+msgstr "Λίρα Σουδάν"
+
+#: ../goffice/utils/formats.c:413
+msgid "Ghana, Cedis"
+msgstr ""
+
+#: ../goffice/utils/formats.c:414
+#, fuzzy
+msgid "Gibraltar, Pounds"
+msgstr "Λίρες Γιβραλτάρ"
+
+#: ../goffice/utils/formats.c:415
+msgid "Gambia, Dalasi"
+msgstr ""
+
+#: ../goffice/utils/formats.c:416
+#, fuzzy
+msgid "Guinea, Francs"
+msgstr "Φράγκο Γουινέας"
+
+#: ../goffice/utils/formats.c:417
+msgid "Guatemala, Quetzales"
+msgstr ""
+
+#: ../goffice/utils/formats.c:418
+#, fuzzy
+msgid "Guyana, Dollars"
+msgstr "Δολλάριο Γουιάνας"
+
+#: ../goffice/utils/formats.c:419
+#, fuzzy
+msgid "Hong Kong, Dollars"
+msgstr "Δολλάριο Χόνγκ Κόνγκ"
+
+#: ../goffice/utils/formats.c:420
+msgid "Honduras, Lempiras"
+msgstr ""
+
+#: ../goffice/utils/formats.c:421
+msgid "Croatia, Kuna"
+msgstr ""
+
+#: ../goffice/utils/formats.c:422
+msgid "Haiti, Gourdes"
+msgstr ""
+
+#: ../goffice/utils/formats.c:423
+msgid "Hungary, Forint"
+msgstr ""
+
+#: ../goffice/utils/formats.c:424
+msgid "Indonesia, Rupiahs"
+msgstr ""
+
+#: ../goffice/utils/formats.c:425
+msgid "Israel, New Shekels"
+msgstr ""
+
+#: ../goffice/utils/formats.c:426
+msgid "Isle of Man, Pounds"
+msgstr ""
+
+#: ../goffice/utils/formats.c:427
+#, fuzzy
+msgid "India, Rupees"
+msgstr "Ινδικά ρούπια"
+
+#: ../goffice/utils/formats.c:428
+#, fuzzy
+msgid "Iraq, Dinars"
+msgstr "Δηνάριο Ιράκ"
+
+#: ../goffice/utils/formats.c:429
+#, fuzzy
+msgid "Iran, Rials"
+msgstr "Δημιουργία γραμμής"
+
+#: ../goffice/utils/formats.c:430
+msgid "Iceland, Kronur"
+msgstr ""
+
+#: ../goffice/utils/formats.c:431
+msgid "Jersey, Pounds"
+msgstr ""
+
+#: ../goffice/utils/formats.c:432
+#, fuzzy
+msgid "Jamaica, Dollars"
+msgstr "Δολλάριο Τζαμάικα"
+
+#: ../goffice/utils/formats.c:433
+#, fuzzy
+msgid "Jordan, Dinars"
+msgstr "Δηνάριο Ιορδανίας"
+
+#: ../goffice/utils/formats.c:434
+#, fuzzy
+msgid "Japan, Yen"
+msgstr "Ιαπωνικό γιεν"
+
+#: ../goffice/utils/formats.c:435
+#, fuzzy
+msgid "Kenya, Shillings"
+msgstr "Σελίνι Κένυας"
+
+#: ../goffice/utils/formats.c:436
+msgid "Kyrgyzstan, Soms"
+msgstr ""
+
+#: ../goffice/utils/formats.c:437
+msgid "Cambodia, Riels"
+msgstr ""
+
+#: ../goffice/utils/formats.c:438
+msgid "Comoros, Francs"
+msgstr ""
+
+#: ../goffice/utils/formats.c:439
+msgid "Korea (North), Won"
+msgstr ""
+
+#: ../goffice/utils/formats.c:440
+msgid "Korea (South), Won"
+msgstr ""
+
+#: ../goffice/utils/formats.c:441
+#, fuzzy
+msgid "Kuwait, Dinars"
+msgstr "Δηνάριο Κουβέιτ"
+
+#: ../goffice/utils/formats.c:442
+#, fuzzy
+msgid "Cayman Islands, Dollars"
+msgstr "Δολλάριο Νήσων Κέυμαν"
+
+#: ../goffice/utils/formats.c:443
+msgid "Kazakstan, Tenge"
+msgstr ""
+
+#: ../goffice/utils/formats.c:444
+msgid "Laos, Kips"
+msgstr ""
+
+#: ../goffice/utils/formats.c:445
+#, fuzzy
+msgid "Lebanon, Pounds"
+msgstr "Λίρα Λιβάνου"
+
+#: ../goffice/utils/formats.c:446
+msgid "Sri Lanka, Rupees"
+msgstr ""
+
+#: ../goffice/utils/formats.c:447
+#, fuzzy
+msgid "Liberia, Dollars"
+msgstr "Δολλάριο Λιβερίας"
+
+#: ../goffice/utils/formats.c:448
+msgid "Lesotho, Maloti"
+msgstr ""
+
+#: ../goffice/utils/formats.c:449
+msgid "Lithuania, Litai"
+msgstr ""
+
+#: ../goffice/utils/formats.c:450
+msgid "Latvia, Lati"
+msgstr ""
+
+#: ../goffice/utils/formats.c:451
+#, fuzzy
+msgid "Libya, Dinars"
+msgstr "Δηνάριο Λιβύης"
+
+#: ../goffice/utils/formats.c:452
+msgid "Morocco, Dirhams"
+msgstr ""
+
+#: ../goffice/utils/formats.c:453
+msgid "Moldova, Lei"
+msgstr ""
+
+#: ../goffice/utils/formats.c:454
+msgid "Madagascar, Malagasy Francs"
+msgstr ""
+
+#: ../goffice/utils/formats.c:455
+msgid "Macedonia, Denars"
+msgstr ""
+
+#: ../goffice/utils/formats.c:456
+msgid "Myanmar (Burma), Kyats"
+msgstr ""
+
+#: ../goffice/utils/formats.c:457
+msgid "Mongolia, Tugriks"
+msgstr ""
+
+#: ../goffice/utils/formats.c:458
+msgid "Macau, Patacas"
+msgstr ""
+
+#: ../goffice/utils/formats.c:459
+msgid "Mauritania, Ouguiyas"
+msgstr ""
+
+#: ../goffice/utils/formats.c:460
+#, fuzzy
+msgid "Malta, Liri"
+msgstr "Λίρα Μάλτας"
+
+#: ../goffice/utils/formats.c:461
+msgid "Mauritius, Rupees"
+msgstr ""
+
+#: ../goffice/utils/formats.c:462
+msgid "Maldives (Maldive Islands), Rufiyaa"
+msgstr ""
+
+#: ../goffice/utils/formats.c:463
+msgid "Malawi, Kwachas"
+msgstr ""
+
+#: ../goffice/utils/formats.c:464
+#, fuzzy
+msgid "Mexico, Pesos"
+msgstr "Πέσος Μεξικού"
+
+#: ../goffice/utils/formats.c:465
+msgid "Malaysia, Ringgits"
+msgstr ""
+
+#: ../goffice/utils/formats.c:466
+msgid "Mozambique, Meticais"
+msgstr ""
+
+#: ../goffice/utils/formats.c:467
+#, fuzzy
+msgid "Namibia, Dollars"
+msgstr "Δολλάριο Λιβερίας"
+
+#: ../goffice/utils/formats.c:468
+msgid "Nigeria, Nairas"
+msgstr ""
+
+#: ../goffice/utils/formats.c:469
+msgid "Nicaragua, Gold Cordobas"
+msgstr ""
+
+#: ../goffice/utils/formats.c:470
+msgid "Norway, Krone"
+msgstr ""
+
+#: ../goffice/utils/formats.c:471
+msgid "Nepal, Nepal Rupees"
+msgstr ""
+
+#: ../goffice/utils/formats.c:472
+#, fuzzy
+msgid "New Zealand, Dollars"
+msgstr "Δολλάριο Νέας Ζηλανδίας"
+
+#: ../goffice/utils/formats.c:473
+msgid "Oman, Rials"
+msgstr ""
+
+#: ../goffice/utils/formats.c:474
+msgid "Panama, Balboa"
+msgstr ""
+
+#: ../goffice/utils/formats.c:475
+msgid "Peru, Nuevos Soles"
+msgstr ""
+
+#: ../goffice/utils/formats.c:476
+msgid "Papua New Guinea, Kina"
+msgstr ""
+
+#: ../goffice/utils/formats.c:477
+#, fuzzy
+msgid "Philippines, Pesos"
+msgstr "Πέσος Φιλιππίνων"
+
+#: ../goffice/utils/formats.c:478
+msgid "Pakistan, Rupees"
+msgstr ""
+
+#: ../goffice/utils/formats.c:479
+msgid "Poland, Zlotys"
+msgstr ""
+
+#: ../goffice/utils/formats.c:480
+msgid "Paraguay, Guarani"
+msgstr ""
+
+#: ../goffice/utils/formats.c:481
+#, fuzzy
+msgid "Qatar, Rials"
+msgstr "Απρίλιος"
+
+#: ../goffice/utils/formats.c:482
+msgid "Romania, Lei"
+msgstr ""
+
+#: ../goffice/utils/formats.c:483
+#, fuzzy
+msgid "Russia, Rubles"
+msgstr "Λέβ Βουλγαρίας"
+
+#: ../goffice/utils/formats.c:484
+#, fuzzy
+msgid "Rwanda, Rwanda Francs"
+msgstr "Φράγκο Ρουάντας"
+
+#: ../goffice/utils/formats.c:485
+msgid "Saudi Arabia, Riyals"
+msgstr ""
+
+#: ../goffice/utils/formats.c:486
+#, fuzzy
+msgid "Solomon Islands, Dollars"
+msgstr "Δολλάριο Νήσων Σολομώντα"
+
+#: ../goffice/utils/formats.c:487
+msgid "Seychelles, Rupees"
+msgstr ""
+
+#: ../goffice/utils/formats.c:488
+msgid "Sudan, Dinars"
+msgstr ""
+
+#: ../goffice/utils/formats.c:489
+msgid "Sweden, Kronor"
+msgstr ""
+
+#: ../goffice/utils/formats.c:490
+#, fuzzy
+msgid "Singapore, Dollars"
+msgstr "Δολλάριο Σιγκαπούρης"
+
+#: ../goffice/utils/formats.c:491
+msgid "Saint Helena, Pounds"
+msgstr ""
+
+#: ../goffice/utils/formats.c:492
+msgid "Slovenia, Tolars"
+msgstr ""
+
+#: ../goffice/utils/formats.c:493
+msgid "Slovakia, Koruny"
+msgstr ""
+
+#: ../goffice/utils/formats.c:494
+msgid "Sierra Leone, Leones"
+msgstr ""
+
+#: ../goffice/utils/formats.c:495
+#, fuzzy
+msgid "Somalia, Shillings"
+msgstr "Σελίνι Σομαλίας"
+
+#: ../goffice/utils/formats.c:496
+msgid "Seborga, Luigini"
+msgstr ""
+
+#: ../goffice/utils/formats.c:497
+msgid "Suriname, Guilders"
+msgstr ""
+
+#: ../goffice/utils/formats.c:498
+msgid "Sao Tome and Principe, Dobras"
+msgstr ""
+
+#: ../goffice/utils/formats.c:499
+msgid "El Salvador, Colones"
+msgstr ""
+
+#: ../goffice/utils/formats.c:500
+#, fuzzy
+msgid "Syria, Pounds"
+msgstr "Λίρα Συρίας"
+
+#: ../goffice/utils/formats.c:501
+msgid "Swaziland, Emalangeni"
+msgstr ""
+
+#: ../goffice/utils/formats.c:502
+msgid "Thailand, Baht"
+msgstr ""
+
+#: ../goffice/utils/formats.c:503
+msgid "Tajikistan, Rubles"
+msgstr ""
+
+#: ../goffice/utils/formats.c:504
+msgid "Turkmenistan, Manats"
+msgstr ""
+
+#: ../goffice/utils/formats.c:505
+#, fuzzy
+msgid "Tunisia, Dinars"
+msgstr "Δηνάριο Τυνησίας"
+
+#: ../goffice/utils/formats.c:506
+msgid "Tonga, Pa'anga"
+msgstr ""
+
+#: ../goffice/utils/formats.c:507
+#, fuzzy
+msgid "Turkey, Liras"
+msgstr "Λίρες Τουρκίας"
+
+#: ../goffice/utils/formats.c:508
+#, fuzzy
+msgid "Trinidad and Tobago, Dollars"
+msgstr "Δολλάριο Τρινιδάδ και Τομπάγκο"
+
+#: ../goffice/utils/formats.c:509
+msgid "Tuvalu, Tuvalu Dollars"
+msgstr ""
+
+#: ../goffice/utils/formats.c:510
+#, fuzzy
+msgid "Taiwan, New Dollars"
+msgstr "Νέο δολλάριο Ταϊβάν"
+
+#: ../goffice/utils/formats.c:511
+#, fuzzy
+msgid "Tanzania, Shillings"
+msgstr "Σελίνι Τανζανίας"
+
+#: ../goffice/utils/formats.c:512
+msgid "Ukraine, Hryvnia"
+msgstr ""
+
+#: ../goffice/utils/formats.c:513
+#, fuzzy
+msgid "Uganda, Shillings"
+msgstr "Σελίνι Ουγκάντας"
+
+#: ../goffice/utils/formats.c:514
+msgid "United States of America, Dollars"
+msgstr ""
+
+#: ../goffice/utils/formats.c:515
+#, fuzzy
+msgid "Uruguay, Pesos"
+msgstr "Πέσος Ουρουγουάης"
+
+#: ../goffice/utils/formats.c:516
+msgid "Uzbekistan, Sums"
+msgstr ""
+
+#: ../goffice/utils/formats.c:517
+msgid "Venezuela, Bolivares"
+msgstr ""
+
+#: ../goffice/utils/formats.c:518
+msgid "Viet Nam, Dong"
+msgstr ""
+
+#: ../goffice/utils/formats.c:519
+msgid "Vanuatu, Vatu"
+msgstr ""
+
+#: ../goffice/utils/formats.c:520
+msgid "Samoa, Tala"
+msgstr ""
+
+#: ../goffice/utils/formats.c:521
+msgid "Communaute Financiere Africaine BEAC, Francs"
+msgstr ""
+
+#: ../goffice/utils/formats.c:522
+#, fuzzy
+msgid "Silver, Ounces"
+msgstr "Επιλογές Επίλυσης"
+
+#: ../goffice/utils/formats.c:523
+msgid "Gold, Ounces"
+msgstr ""
+
+#: ../goffice/utils/formats.c:524
+#, fuzzy
+msgid "East Caribbean Dollars"
+msgstr "Δολλάριο Αν. Καραϊβικής"
+
+#: ../goffice/utils/formats.c:525
+msgid "International Monetary Fund (IMF) Special Drawing Rights"
+msgstr ""
+
+#: ../goffice/utils/formats.c:526
+msgid "Communaute Financiere Africaine BCEAO, Francs"
+msgstr ""
+
+#: ../goffice/utils/formats.c:527
+msgid "Palladium, Ounces"
+msgstr ""
+
+#: ../goffice/utils/formats.c:528
+msgid "Comptoirs Francais du Pacifique Francs"
+msgstr ""
+
+#: ../goffice/utils/formats.c:529
+msgid "Platinum, Ounces"
+msgstr ""
+
+#: ../goffice/utils/formats.c:530
+msgid "Yemen, Rials"
+msgstr ""
+
+#: ../goffice/utils/formats.c:531
+#, fuzzy
+msgid "Yugoslavia, New Dinars"
+msgstr "Νέο δηνάριο Γιουγκοσλαβίας"
+
+#: ../goffice/utils/formats.c:532
+msgid "South Africa, Rand"
+msgstr ""
+
+#: ../goffice/utils/formats.c:533
+msgid "Zambia, Kwacha"
+msgstr ""
+
+#: ../goffice/utils/formats.c:534
+#, fuzzy
+msgid "Zimbabwe, Zimbabwe Dollars"
+msgstr "Δολλάριο Ζιμπάμπουε"
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:439
+msgid "*Long Date Format"
+msgstr ""
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:447
+#, fuzzy
+msgid "*Medium Date Format"
+msgstr "Αντιγραφή μορφοποίησης"
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:455
+msgid "*Short Date Format"
+msgstr ""
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:468
+msgid "*Short Date/Time Format"
+msgstr ""
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:483
+msgid "*Long Time Format"
+msgstr ""
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:495
+#, fuzzy
+msgid "*Medium Time Format"
+msgstr "Αντιγραφή μορφοποίησης"
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:507
+msgid "*Short Time Format"
+msgstr ""
+
+#: ../goffice/utils/go-format.c:541
+msgid "Black"
+msgstr "Μαύρο"
+
+#: ../goffice/utils/go-format.c:542
+msgid "Blue"
+msgstr "Μπλε"
+
+#: ../goffice/utils/go-format.c:543
+msgid "Cyan"
+msgstr "Κυανό"
+
+#: ../goffice/utils/go-format.c:544
+msgid "Green"
+msgstr "Πράσινο"
+
+#: ../goffice/utils/go-format.c:545
+msgid "Magenta"
+msgstr "Μωβ"
+
+#: ../goffice/utils/go-format.c:546
+msgid "Red"
+msgstr "Κόκκινο"
+
+#: ../goffice/utils/go-format.c:547
+msgid "White"
+msgstr "Λευκό"
+
+#: ../goffice/utils/go-format.c:548
+msgid "Yellow"
+msgstr "Κίτρινο"
+
+#: ../goffice/utils/go-format.c:568
+#, fuzzy
+msgid "color"
+msgstr "Χρώμα:"
+
+#: ../goffice/utils/go-glib-extras.c:836
+msgid "yes"
+msgstr ""
+
+#: ../goffice/utils/go-glib-extras.c:842
+#, fuzzy
+msgid "no"
+msgstr "κανένα"
+
+#: ../goffice/utils/go-glib-extras.c:1036
+#, c-format
+msgid "Quoted string not terminated"
+msgstr ""
+
+#: ../goffice/utils/go-glib-extras.c:1043
+#, c-format
+msgid "Syntax error"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:132
+msgid "SVG (vector graphics)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:134
+msgid "PNG (raster graphics)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:136
+msgid "JPEG (photograph)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:138
+msgid "PDF (portable document format)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:140
+msgid "PS (postscript)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:142
+msgid "EMF (extended metafile)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:144
+msgid "WMF (windows metafile)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:147
+msgid "EPS (encapsulated postscript)"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:473
+msgid "Image width in pixels"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:477
+msgid "Image height in pixels"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:482
+msgid "GdkPixbuf object from which the GOImage is built"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:86 ../goffice/utils/go-pattern.c:41
+msgid "Solid"
+msgstr "Στερεό"
+
+#: ../goffice/utils/go-line.c:88
+msgid "Dot"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:90
+msgid "Dash dot"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:92
+msgid "Dash dot dot"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:94
+msgid "Dash dot dot dot"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:96
+msgid "Short dash"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:98
+msgid "Dash"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:100
+msgid "Long dash"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:102
+msgid "Very long dash"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:104
+msgid "Long dash dash"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:106
+msgid "Long dash dash dash"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:120
+msgid "Bezier cubic spline"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:122
+msgid "Closed Bezier cubic spline"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:124
+msgid "Natural cubic spline"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:126
+msgid "Cubic spline with parabolic extrapolation"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:128
+msgid "Cubic spline with cubic extrapolation"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:130
+msgid "Clamped cubic spline"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:132
+msgid "Step at start"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:134
+msgid "Step at end"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:136
+#, fuzzy
+msgid "Step at center"
+msgstr "Κενό"
+
+#: ../goffice/utils/go-line.c:138
+msgid "Step to mean"
+msgstr ""
+
+#: ../goffice/utils/go-locale.c:496
+msgid "TRUE"
+msgstr "ΑΛΗΘΕΣ"
+
+#: ../goffice/utils/go-locale.c:497
+msgid "FALSE"
+msgstr "ΨΕΥΔΕΣ"
+
+#: ../goffice/utils/go-marker.c:75
+#, fuzzy
+msgid "none"
+msgstr "κανένα"
+
+#: ../goffice/utils/go-marker.c:76
+#, fuzzy
+msgid "square"
+msgstr "Τετράγωνο"
+
+#: ../goffice/utils/go-marker.c:77
+msgid "diamond"
+msgstr "διαμάντι"
+
+#: ../goffice/utils/go-marker.c:78
+msgid "triangle down"
+msgstr ""
+
+#: ../goffice/utils/go-marker.c:79
+#, fuzzy
+msgid "triangle up"
+msgstr "διάστημα"
+
+#: ../goffice/utils/go-marker.c:80
+#, fuzzy
+msgid "triangle right"
+msgstr "Δε_ξιά"
+
+#: ../goffice/utils/go-marker.c:81
+msgid "triangle left"
+msgstr ""
+
+#: ../goffice/utils/go-marker.c:82
+msgid "circle"
+msgstr "κύκλος"
+
+#: ../goffice/utils/go-marker.c:84
+#, fuzzy
+msgid "cross"
+msgstr "Σταυρός"
+
+#: ../goffice/utils/go-marker.c:85
+msgid "asterisk"
+msgstr "αστερίσκος"
+
+#: ../goffice/utils/go-marker.c:86
+#, fuzzy
+msgid "bar"
+msgstr "Ραβδόγραμμα"
+
+#: ../goffice/utils/go-marker.c:87
+msgid "half bar"
+msgstr ""
+
+#: ../goffice/utils/go-marker.c:88
+msgid "butterfly"
+msgstr "πεταλούδα"
+
+#: ../goffice/utils/go-marker.c:89
+msgid "hourglass"
+msgstr ""
+
+#: ../goffice/utils/go-marker.c:90
+msgid "left half bar"
+msgstr ""
+
+#: ../goffice/utils/go-pattern.c:43
+#, fuzzy, no-c-format
+msgid "75% Grey"
+msgstr "75% Γκρι"
+
+#: ../goffice/utils/go-pattern.c:45
+#, fuzzy, no-c-format
+msgid "50% Grey"
+msgstr "50% γκρι"
+
+#: ../goffice/utils/go-pattern.c:47
+#, fuzzy, no-c-format
+msgid "25% Grey"
+msgstr "25% γκρι"
+
+#: ../goffice/utils/go-pattern.c:49
+#, fuzzy, no-c-format
+msgid "12.5% Grey"
+msgstr "12.5% γκρι"
+
+#: ../goffice/utils/go-pattern.c:51
+#, fuzzy, no-c-format
+msgid "6.25% Grey"
+msgstr "6.25% γκρι"
+
+#: ../goffice/utils/go-pattern.c:52
+msgid "Horizontal Stripe"
+msgstr "Οριζόντιες Ρίγες"
+
+#: ../goffice/utils/go-pattern.c:53
+msgid "Vertical Stripe"
+msgstr "Κατακόρυφες Ρίγες"
+
+#: ../goffice/utils/go-pattern.c:54
+msgid "Reverse Diagonal Stripe"
+msgstr "Ανάποδες Διαγώνιες Ρίγες"
+
+#: ../goffice/utils/go-pattern.c:55
+msgid "Diagonal Stripe"
+msgstr "Διαγώνιες Ρίγες"
+
+#: ../goffice/utils/go-pattern.c:56
+msgid "Diagonal Crosshatch"
+msgstr "Διαγώνια Ψάθα"
+
+#: ../goffice/utils/go-pattern.c:57
+msgid "Thick Diagonal Crosshatch"
+msgstr "Παχειά Διαγώνια Ψάθα"
+
+#: ../goffice/utils/go-pattern.c:58
+msgid "Thin Horizontal Stripe"
+msgstr "Λεπτές Οριζόντιες Ρίγες"
+
+#: ../goffice/utils/go-pattern.c:59
+msgid "Thin Vertical Stripe"
+msgstr "Λεπτές Κατακόρυφες Ρίγες"
+
+#: ../goffice/utils/go-pattern.c:60
+msgid "Thin Reverse Diagonal Stripe"
+msgstr "Λεπτές Ανάποδες Διαγώνιες Ρίγες"
+
+#: ../goffice/utils/go-pattern.c:61
+msgid "Thin Diagonal Stripe"
+msgstr "Λεπτές Διαγώνιες Ρίγες"
+
+#: ../goffice/utils/go-pattern.c:62
+msgid "Thin Horizontal Crosshatch"
+msgstr "Λεπτή Οριζόντια Ψάθα"
+
+#: ../goffice/utils/go-pattern.c:63
+msgid "Thin Diagonal Crosshatch"
+msgstr "Λεπτή Διαγώνια Ψάθα"
+
+#: ../goffice/utils/go-pattern.c:64
+#, fuzzy
+msgid "Foreground Solid"
+msgstr "Φόντος"
+
+#: ../goffice/utils/go-pattern.c:65
+msgid "Small Circles"
+msgstr ""
+
+#. Applix
+#: ../goffice/utils/go-pattern.c:66
+msgid "Semi Circles"
+msgstr ""
+
+#. Applix
+#: ../goffice/utils/go-pattern.c:67
+msgid "Thatch"
+msgstr ""
+
+#. Applix small thatch
+#: ../goffice/utils/go-pattern.c:68
+msgid "Large Circles"
+msgstr ""
+
+#: ../goffice/utils/go-pattern.c:70
+#, fuzzy
+msgid "Bricks"
+msgstr "Τούβλα"
+
+#: ../goffice/utils/go-style.c:583
+#, fuzzy
+msgid "Start:"
+msgstr "Ένα_ρξη"
+
+#: ../goffice/utils/go-style.c:584
+#, fuzzy
+msgid "End:"
+msgstr "Τέλος"
+
+#: ../goffice/utils/go-style.c:586
+#, fuzzy
+msgid "Foreground:"
+msgstr "_Προσκήνιο"
+
+#: ../goffice/utils/go-style.c:587
+#, fuzzy
+msgid "Background:"
+msgstr "_Π_αρασκήνιο:"
+
+#: ../goffice/utils/go-style.c:806
+#, fuzzy
+msgid "Markers"
+msgstr "Πιο σκούρο"
+
+#: ../goffice/utils/go-style.c:878
+msgid "Font"
+msgstr "Γραμματοσειρά"
+
+#: ../goffice/utils/go-style-prefs.ui.h:1
+#, fuzzy
+msgid "<b>Fill</b>"
+msgstr "Γέμισμα"
+
+#: ../goffice/utils/go-style-prefs.ui.h:2
+#, fuzzy
+msgid "<b>Line</b>"
+msgstr "Γραμμή"
+
+#: ../goffice/utils/go-style-prefs.ui.h:3
+#, fuzzy
+msgid "<b>Marker</b>"
+msgstr "Μοτίβο"
+
+#: ../goffice/utils/go-style-prefs.ui.h:4
+#, fuzzy
+msgid "<b>Outline</b>"
+msgstr "Περίγραμμα"
+
+#: ../goffice/utils/go-style-prefs.ui.h:5
+#, fuzzy
+msgid "B_rightness:"
+msgstr "Δε_ξιά"
+
+#: ../goffice/utils/go-style-prefs.ui.h:6
+msgid "Bicolor gradient"
+msgstr ""
+
+#: ../goffice/utils/go-style-prefs.ui.h:7
+#, fuzzy
+msgid "Co_lor:"
+msgstr "Χρώμα:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:10
+#, fuzzy
+msgid "O_utline:"
+msgstr "Περίγραμμα"
+
+#: ../goffice/utils/go-style-prefs.ui.h:11
+#, fuzzy
+msgid "Pattern"
+msgstr "_Μοτίβο:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:12
+#, fuzzy
+msgid "Sha_pe:"
+msgstr "&Μορφή"
+
+#: ../goffice/utils/go-style-prefs.ui.h:13
+msgid "Si_ze:"
+msgstr "Μέγε_θος:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:14
+#, fuzzy
+msgid "St_yle:"
+msgstr "Στύλ:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:15
+msgid "Unicolor gradient"
+msgstr ""
+
+#: ../goffice/utils/go-style-prefs.ui.h:16
+msgid "_Background:"
+msgstr "_Π_αρασκήνιο:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:17
+#, fuzzy
+msgid "_Direction:"
+msgstr "Κατεύθυνση"
+
+#: ../goffice/utils/go-style-prefs.ui.h:18
+#, fuzzy
+msgid "_Fill:"
+msgstr "Ταίριασμα"
+
+#: ../goffice/utils/go-style-prefs.ui.h:19
+#, fuzzy
+msgid "_Fit:"
+msgstr "Ταίριασμα"
+
+#: ../goffice/utils/go-style-prefs.ui.h:20
+msgid "_Foreground:"
+msgstr "_Προσκήνιο"
+
+#: ../goffice/utils/go-style-prefs.ui.h:21
+msgid "_Pattern:"
+msgstr "_Μοτίβο:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:23
+msgid "_Size:"
+msgstr "_Μέγεθος:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:26
+#, fuzzy
+msgid "stretched"
+msgstr "Στύλ γραμ/σειράς:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:27
+#, fuzzy
+msgid "wallpaper"
+msgstr "Τεντωμένη"
+
+#: ../goffice/utils/regutf8.c:41
+msgid "Pattern not found."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:43
+#, fuzzy
+msgid "Invalid pattern."
+msgstr "Μη έγκυρο συνθηματικό"
+
+#: ../goffice/utils/regutf8.c:44
+msgid "Invalid collating element."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:45
+msgid "Invalid character class name."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:46
+msgid "Trailing backslash."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:47
+msgid "Invalid back reference."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:48
+msgid "Unmatched left bracket."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:49
+msgid "Parenthesis imbalance."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:50
+msgid "Unmatched \\{."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:51
+msgid "Invalid contents of \\{\\}."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:52
+#, fuzzy
+msgid "Invalid range end."
+msgstr "Μη έγκυρο συνθηματικό"
+
+#: ../goffice/utils/regutf8.c:53
+msgid "Out of memory."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:54
+msgid "Invalid repetition operator."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:55
+msgid "Premature end of pattern."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:56
+msgid "Pattern is too big."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:57
+msgid "Unmatched ) or \\)"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:359
+#, c-format
+msgid "Search string must not be empty."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:369
+#, c-format
+msgid "Replacement string must be set."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:381
+#, c-format
+msgid "Invalid search pattern (%s)"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:405
+#, c-format
+msgid "Invalid $-specification in replacement."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:415
+#, c-format
+msgid "Invalid trailing backslash in replacement."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:892
+msgid "Search Text"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:893
+msgid "The text to search for"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:902
+msgid "Replacement Text"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:903
+msgid "The text to replace with"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:911
+msgid "Is Regular Expression"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:912
+msgid "Is the search text a regular expression."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:920
+msgid "Ignore Case"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:921
+msgid "Ignore the case of letters."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:929
+msgid "Preserve Case"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:930
+msgid "Preserve the case of letters."
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:938
+msgid "Match Words"
+msgstr ""
+
+#: ../goffice/utils/regutf8.c:939
+msgid "Match whole words only."
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-1.5d.c:333
+msgid "How to group multiple series, normal, stacked, as_percentage"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-1.5d.c:338 ../plugins/plot_pie/gog-pie.c:317
+#: ../plugins/plot_xy/gog-xy.c:528
+msgid "In 3d"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-1.5d.c:339
+msgid "Placeholder to allow us to round trip pseudo 3d state"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-1.5d.c:347
+#: ../plugins/plot_barcol/gog-dropbar.c:59
+#: ../plugins/plot_barcol/gog-minmax.c:249 ../plugins/plot_pie/gog-pie.c:336
+#: ../plugins/plot_radar/gog-radar.c:319
+#, fuzzy
+msgid "Labels"
+msgstr "Ετικέτες"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:349
+#: ../plugins/plot_distrib/gog-boxplot.c:404
+#: ../plugins/plot_distrib/gog-histogram.c:190
+#: ../plugins/plot_distrib/gog-probability-plot.c:277
+#: ../plugins/plot_pie/gog-pie.c:338 ../plugins/plot_radar/gog-radar.c:321
+msgid "Values"
+msgstr "Τιμές"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:578 ../plugins/plot_barcol/gog-1.5d.c:641
+#, fuzzy
+msgid "Error bars"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:598
+#, fuzzy
+msgid "Series lines"
+msgstr "Σειρά"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:605
+#: ../plugins/plot_distrib/gog-histogram.c:475
+msgid "Drop lines"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-1.5d.c:613
+#: ../plugins/plot_barcol/plot-types.xml.in.h:78
+msgid "Lines"
+msgstr "Γραμμές"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:642
+#: ../plugins/plot_radar/gog-radar.c:1253
+#: ../plugins/plot_radar/gog-radar.c:1379 ../plugins/plot_xy/gog-xy.c:1998
+#: ../plugins/plot_xy/gog-xy.c:2004
+#, fuzzy
+msgid "GogErrorBar *"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_barcol/gog-barcol-prefs.ui.h:3
+#, fuzzy
+msgid "O_verlap:"
+msgstr "Επικάλυψη"
+
+#: ../plugins/plot_barcol/gog-barcol-prefs.ui.h:4
+#: ../plugins/plot_barcol/gog-minmax-prefs.ui.h:3
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:7
+#, fuzzy
+msgid "_Gap:"
+msgstr "σειρές"
+
+#. xgettext : the base for how to name bar/col plot objects
+#. * eg The 2nd bar/col plot in a chart will be called
+#. * 	PlotBarCol2
+#: ../plugins/plot_barcol/gog-barcol.c:138
+msgid "PlotBarCol"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-barcol.c:150
+#: ../plugins/plot_barcol/gog-minmax.c:198
+#: ../plugins/plot_distrib/gog-boxplot.c:162 ../plugins/plot_pie/gog-pie.c:273
+#: ../plugins/plot_pie/gog-pie.c:432 ../plugins/plot_radar/gog-radar.c:503
+#: ../plugins/plot_surface/gog-xyz.c:99
+#: ../plugins/plot_surface/gog-xyz-surface.c:180
+#: ../plugins/plot_xy/gog-xy.c:428 ../plugins/plot_xy/gog-xy.c:704
+#: ../plugins/smoothing/gog-moving-avg.c:113
+#: ../plugins/smoothing/gog-exp-smooth.c:80
+#, fuzzy
+msgid "Properties"
+msgstr "Σειρά"
+
+#: ../plugins/plot_barcol/gog-barcol.c:244
+#: ../plugins/plot_barcol/gog-minmax.c:224
+#: ../plugins/plot_distrib/gog-boxplot.c:371
+#, fuzzy
+msgid "Gap percentage"
+msgstr "Ποσοστό"
+
+#: ../plugins/plot_barcol/gog-barcol.c:245
+#: ../plugins/plot_barcol/gog-minmax.c:225
+#: ../plugins/plot_distrib/gog-boxplot.c:372
+msgid "The padding around each group as a percentage of their width"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-barcol.c:250
+#, fuzzy
+msgid "Overlap percentage"
+msgstr "Ποσοστό"
+
+#: ../plugins/plot_barcol/gog-barcol.c:251
+msgid "The distance between series as a percentage of their width"
+msgstr ""
+
+#: ../plugins/plot_barcol/gog-barcol.c:256
+#, fuzzy
+msgid "horizontal"
+msgstr "Οριζόντιες Ρίγες"
+
+#: ../plugins/plot_barcol/gog-barcol.c:257
+msgid "horizontal bars or vertical columns"
+msgstr ""
+
+#. xgettext : the base for how to name drop bar/col plot objects
+#. * eg The 2nd drop bar/col plot in a chart will be called
+#. * 	PlotDropBar2
+#: ../plugins/plot_barcol/gog-dropbar.c:44
+#, fuzzy
+msgid "PlotDropBar"
+msgstr "Ταξινόμιση"
+
+#. xgettext : the base for how to name bar/col plot objects
+#. * eg The 2nd line plot in a chart will be called
+#. * 	PlotLine2
+#.
+#: ../plugins/plot_barcol/gog-line.c:239
+#, fuzzy
+msgid "PlotLine"
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_barcol/gog-line.c:326
+#: ../plugins/plot_barcol/gog-minmax.c:236
+#: ../plugins/plot_radar/gog-radar.c:229
+#, fuzzy
+msgid "Default markers"
+msgstr "Εξ ορισμού"
+
+#: ../plugins/plot_barcol/gog-line.c:327
+#: ../plugins/plot_barcol/gog-minmax.c:237
+#: ../plugins/plot_radar/gog-radar.c:230 ../plugins/plot_xy/gog-xy.c:345
+msgid "Should the default style of a series include markers"
+msgstr ""
+
+#. xgettext : the base for how to name bar/col plot objects
+#. * eg The 2nd line plot in a chart will be called
+#. * 	PlotArea2
+#.
+#: ../plugins/plot_barcol/gog-line.c:363
+#, fuzzy
+msgid "PlotArea"
+msgstr "Ταξινόμιση"
+
+#. xgettext : the base for how to name min/max line plot objects
+#. * eg The 2nd min/max line plot in a chart will be called
+#. * 	PlotMinMax2
+#: ../plugins/plot_barcol/gog-minmax.c:144
+#, fuzzy
+msgid "PlotMinMax"
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_barcol/gog-minmax.c:230
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:3
+#, fuzzy
+msgid "Horizontal"
+msgstr "Οριζόντιες Ρίγες"
+
+#: ../plugins/plot_barcol/gog-minmax.c:231
+#, fuzzy
+msgid "Horizontal or vertical lines"
+msgstr "Οριζόντιες Ρίγες"
+
+#: ../plugins/plot_barcol/gog-minmax.c:251
+#, fuzzy
+msgid "Min"
+msgstr "Ελάχ_ιστο"
+
+#: ../plugins/plot_barcol/gog-minmax.c:253
+#, fuzzy
+msgid "Max"
+msgstr "Μέγιστο"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:1
+#, fuzzy
+msgid "Adjacent Bars"
+msgstr "Παρεμβολή στη_λών"
+
+#. No 3d yet
+#. <Type _name="3D Adjacent Bars" row="2" col="1"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Adjacent horizontal 3D bars grouped by major and minor categories."
+#. sample_image_file="chart_bar_2_1.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">normal</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#. <Type _name="3D Stacked Bars" row="2" col="2"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Minor categories stacked in horizontal 3D bars, grouped by major category."
+#. sample_image_file="chart_bar_2_2.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">stacked</property>
+#. <property name="overlap_percentage">100</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#. <Type _name="3D Percentage Bars" row="2" col="3"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Minor categories stacked as percentages of the minor total, in 3D horizontal bars, grouped by major category."
+#. sample_image_file="chart_bar_2_3.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">as_percentage</property>
+#. <property name="overlap_percentage">100</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#: ../plugins/plot_barcol/plot-types.xml.in.h:32
+#, fuzzy
+msgid "Adjacent Columns"
+msgstr "Παρεμβολή στη_λών"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:33
+msgid "Adjacent horizontal bars grouped by major and minor categories."
+msgstr ""
+
+#. No 3d yet
+#. <Type _name="3D Adjacent Bars" row="2" col="1"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Adjacent horizontal 3D bars grouped by major and minor categories."
+#. sample_image_file="chart_bar_2_1.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">normal</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#. <Type _name="3D Stacked Bars" row="2" col="2"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Minor categories stacked in horizontal 3D bars, grouped by major category."
+#. sample_image_file="chart_bar_2_2.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">stacked</property>
+#. <property name="overlap_percentage">100</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#. <Type _name="3D Percentage Bars" row="2" col="3"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Minor categories stacked as percentages of the minor total, in 3D horizontal bars, grouped by major category."
+#. sample_image_file="chart_bar_2_3.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">as_percentage</property>
+#. <property name="overlap_percentage">100</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#: ../plugins/plot_barcol/plot-types.xml.in.h:64
+msgid "Adjacent vertical columns grouped by major and minor categories."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:65
+msgid "Area"
+msgstr "Περιοχή"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:66
+msgid "Area plot."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:67
+msgid "Areas"
+msgstr "Περιοχές"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:68
+#, fuzzy
+msgid "Bar"
+msgstr "Ραβδόγραμμα"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:69
+msgid "Column"
+msgstr "Στήλη"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:70
+msgid "DropBar"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:71
+#, fuzzy
+msgid "Horizontal Drop Bars"
+msgstr "Οριζόντιες Ρίγες"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:72
+#, fuzzy
+msgid "Horizontal Min Max Lines"
+msgstr "Οριζόντιες Ρίγες"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:73
+#, fuzzy
+msgid "Horizontal drop bars."
+msgstr "Οριζόντιες Ρίγες"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:74
+msgid "Horizontal min max lines with markers."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:75
+#, fuzzy
+msgid "Horizontal min max lines."
+msgstr "Οριζόντιες Ρίγες"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:76
+msgid "Line"
+msgstr "Γραμμή"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:77
+#, fuzzy
+msgid "Line plot with markers."
+msgstr "Τίτλοι προς εκτύπωση"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:79
+msgid "Marked Horizontal Min Max Lines"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:80
+#, fuzzy
+msgid "Marked Vertical Min Max Lines"
+msgstr "_Ποσοστό"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:81
+msgid "MinMax"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:82
+msgid ""
+"Minor categories stacked as percentages of the minor total, in horizontal "
+"bars, grouped by major category."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:83
+msgid ""
+"Minor categories stacked as percentages of the minor total, in vertical "
+"columns, grouped by major category."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:84
+msgid "Minor categories stacked in horizontal bars grouped by major category."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:85
+msgid "Minor categories stacked in vertical columns grouped by major category."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:86
+#, fuzzy
+msgid "Percentage Areas"
+msgstr "_Ποσοστό"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:87
+#, fuzzy
+msgid "Percentage Bars"
+msgstr "_Ποσοστό"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:88
+#, fuzzy
+msgid "Percentage Columns"
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:89
+#, fuzzy
+msgid "Percentage Lines"
+msgstr "_Ποσοστό"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:90
+#, fuzzy
+msgid "Percentage area plot."
+msgstr "_Ποσοστό"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:91
+#, fuzzy
+msgid "Percentage line plot with markers."
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:92
+#, fuzzy
+msgid "Stacked Areas"
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:93
+#, fuzzy
+msgid "Stacked Bars"
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:94
+#, fuzzy
+msgid "Stacked Columns"
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:95
+#, fuzzy
+msgid "Stacked Lines"
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:96
+#, fuzzy
+msgid "Stacked area plot."
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:97
+#, fuzzy
+msgid "Stacked line plot with markers."
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:98
+#, fuzzy
+msgid "Unmarked Lines"
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:99
+#, fuzzy
+msgid "Unmarked Percentage Lines"
+msgstr "_Ποσοστό"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:100
+#, fuzzy
+msgid "Unmarked Stacked Lines"
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:101
+#, fuzzy
+msgid "Unmarked line plot."
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:102
+#, fuzzy
+msgid "Unmarked percentage line plot."
+msgstr "_Ποσοστό"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:103
+#, fuzzy
+msgid "Unmarked stacked line plot."
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:104
+#, fuzzy
+msgid "Vertical Drop Bars"
+msgstr "Κατακόρυφες Ρίγες"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:105
+msgid "Vertical Min Max Lines"
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:106
+#, fuzzy
+msgid "Vertical drop bars."
+msgstr "Κατακόρυφες Ρίγες"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:107
+msgid "Vertical min max lines with markers."
+msgstr ""
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:108
+msgid "Vertical min max lines."
+msgstr ""
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:1
+msgid "Area plotting engine"
+msgstr ""
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:2
+msgid "Bar/Col plotting engine"
+msgstr ""
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:3
+msgid "Charting : Bar/Col/Line/Area"
+msgstr ""
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:4
+#, fuzzy
+msgid "Default 1.5d plot types"
+msgstr "Ορισμός Ονόματος"
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:5
+#, fuzzy
+msgid "Drop Bar/Col plotting engine"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:6
+msgid "Line plotting engine"
+msgstr ""
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:7
+#, fuzzy
+msgid "Line, Area, Bar and Column plots"
+msgstr "Τίτλοι σειρών και στη_λών"
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:8
+#, fuzzy
+msgid "Min Max plotting engine"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_distrib/go-distribution-prefs.c:62
+#: ../plugins/plot_distrib/go-distribution-prefs.c:139
+msgid ":"
+msgstr ""
+
+#: ../plugins/plot_distrib/go-distribution-prefs.c:101
+#, fuzzy
+msgid "Distribution:"
+msgstr "<b>Προσανατολισμός</b>"
+
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:4
+#: ../plugins/plot_distrib/gog-boxplot.c:377
+#, fuzzy
+msgid "Vertical"
+msgstr "Κατακόρυφες Ρίγες"
+
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:5
+#, fuzzy
+msgid "_Diameter/width:"
+msgstr "Πλάτος Γραμμής:"
+
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:6
+msgid "_Exclude and show outliers"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:8
+msgid "_Layout"
+msgstr ""
+
+#. xgettext : the base for how to name box-plot objects
+#. * eg The 2nd box-plot in a chart will be called
+#. * 	BoxPlot2
+#: ../plugins/plot_distrib/gog-boxplot.c:198
+#, fuzzy
+msgid "Box-Plot"
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_distrib/gog-boxplot.c:378
+msgid "Whether the box-plot should be vertical instead of horizontal"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-boxplot.c:383
+#, fuzzy
+msgid "Outliers"
+msgstr "Περίγραμμα"
+
+#: ../plugins/plot_distrib/gog-boxplot.c:384
+msgid "Whether outliers should be taken into account and displayed"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-boxplot.c:389
+msgid "Radius ratio"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-boxplot.c:390
+msgid ""
+"The ratio between the radius of the circles representing outliers and the "
+"rectangle width"
+msgstr ""
+
+#. xgettext : the base for how to name histogram-plot objects
+#. * eg The 2nd histogram-plot in a chart will be called
+#. * 	Histogram2
+#: ../plugins/plot_distrib/gog-histogram.c:69
+#: ../plugins/plot_distrib/plot-types.xml.in.h:3
+msgid "Histogram"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-histogram.c:188
+msgid "Limits"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:63
+#: ../plugins/plot_distrib/gog-probability-plot.c:254
+#, fuzzy
+msgid "Distribution"
+msgstr "<b>Προσανατολισμός</b>"
+
+#. xgettext : the base for how to name probability-plot objects
+#. * eg The 2nd probability-plot in a chart will be called
+#. * 	ProbabilityPlot2
+#: ../plugins/plot_distrib/gog-probability-plot.c:133
+#: ../plugins/plot_distrib/plot-types.xml.in.h:8
+msgid "ProbabilityPlot"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:255
+msgid "A pointer to the GODistribution used by this plot"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:260
+msgid "Shape parameter"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:261
+msgid "Name of the first shape parameter if any"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:266
+msgid "Second shape parameter"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:267
+msgid "Name of the second shape parameter if any"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:584
+#, fuzzy
+msgid "Regression line"
+msgstr "Σειρά"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:1
+#, fuzzy
+msgid "HBoxPlotOutliers"
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:2
+#, fuzzy
+msgid "HBoxPlots"
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:4
+msgid "Histogram."
+msgstr ""
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:5
+#, fuzzy
+msgid "Horizontal Box-Plot showing outliers."
+msgstr "Οριζόντιες Ρίγες"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:6
+#, fuzzy
+msgid "Horizontal Box-Plot."
+msgstr "Οριζόντιες Ρίγες"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:7
+#, fuzzy
+msgid "Probability plot."
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:9
+#, fuzzy
+msgid "Statistics"
+msgstr "Ορισμός Ονόματος"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:10
+#, fuzzy
+msgid "VBoxPlotOutliers"
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:11
+#, fuzzy
+msgid "VBoxPlots"
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:12
+#, fuzzy
+msgid "Vertical Box-Plot showing outliers."
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:13
+#, fuzzy
+msgid "Vertical Box-Plot."
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:1
+#, fuzzy
+msgid "Box-plot plotting engine"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:2
+msgid "Charting : distribution related plots"
+msgstr ""
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:3
+#, fuzzy
+msgid "Histograms plotting engine"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:4
+#, fuzzy
+msgid "Probability plots engine"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:5
+#, fuzzy
+msgid "Statistics plot types"
+msgstr "Ορισμός Ονόματος"
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:6
+msgid "box-plots, histograms, and other distribution related plots"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:3
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:3
+msgid "Absolute value"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:4
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:4
+msgid "Absolute value with white background"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:5
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:6
+#, fuzzy
+msgid "Negative data:"
+msgstr "Αρνητ_ικός αριθμός:"
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:6
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:7
+msgid "Skip"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:7
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:8
+msgid "Slices start _at:"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:8
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:9
+#, fuzzy
+msgid "_Slice Separation:"
+msgstr "Περιγραφή:"
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:9
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:10
+msgid "_Vary colors by slice"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-series.ui.h:3
+#, fuzzy
+msgid "_Separation:"
+msgstr "Διαχωριστικό:"
+
+#: ../plugins/plot_pie/gog-pie.c:110 ../plugins/plot_pie/gog-pie.c:1296
+#, fuzzy
+msgid "Separation"
+msgstr "Διαχωριστικό:"
+
+#: ../plugins/plot_pie/gog-pie.c:111
+msgid "Amount a slice is extended as a percentage of the radius"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:259
+#, fuzzy
+msgid "PlotPie"
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_pie/gog-pie.c:305
+msgid "Initial angle"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:306
+msgid "Degrees clockwise from 12 O'Clock."
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:311
+#, fuzzy
+msgid "Default separation"
+msgstr "Περιγραφή:"
+
+#: ../plugins/plot_pie/gog-pie.c:312 ../plugins/plot_pie/gog-pie.c:1297
+msgid "Default amount a slice is extended as a percentage of the radius"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:318
+msgid "Draw 3d wedges"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:323 ../plugins/smoothing/gog-moving-avg.c:196
+msgid "Span"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:324
+msgid "Total angle used as a percentage of the full circle"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:329
+#, fuzzy
+msgid "Show negative values"
+msgstr "Εμφάνιση Ε_τικετών"
+
+#: ../plugins/plot_pie/gog-pie.c:330
+msgid "How negative values are displayed"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:418
+#, fuzzy
+msgid "PlotRing"
+msgstr "Αλφαριθμ."
+
+#: ../plugins/plot_pie/gog-pie.c:455
+#, fuzzy
+msgid "Center-size"
+msgstr "Κατηγορία:"
+
+#: ../plugins/plot_pie/gog-pie.c:456
+msgid "Size of the center hole as a percentage of the radius"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:616
+msgid "Move pie"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:1169
+#, c-format
+msgid "%s: %g (%.2f%%)"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:1171
+#, c-format
+msgid "%g (%.2f%%)"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:1290
+msgid "Initial-angle"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:1291
+msgid "Degrees clockwise from 12 O'Clock"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:5
+#, fuzzy
+msgid "Cen_ter size:"
+msgstr "Κατηγορία:"
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:1
+msgid "Half Pie"
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:2
+msgid ""
+"Percentage of each contributor displayed as a segment of a ring with one "
+"ring for each series."
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:3
+msgid ""
+"Percentage of each contributor displayed as a segment of a ring with one "
+"ring for each series; the wedges of the outside ring (corresponding to the "
+"last series) are split apart."
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:4
+msgid ""
+"Percentage of each contributor in a half circle with wedges split apart."
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:5
+msgid "Percentage of each contributor in a half circle."
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:6
+msgid "Percentage of each contributor with wedges split apart."
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:7
+msgid "Percentage of each contributor."
+msgstr ""
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:8
+msgid "Pie"
+msgstr "Κυκλικό"
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:9
+msgid "Ring"
+msgstr "Δακτυλίδι"
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:10
+#, fuzzy
+msgid "Split Half Pie"
+msgstr "Δειγματοληψία"
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:11
+#, fuzzy
+msgid "Split Pie"
+msgstr "Δειγματοληψία"
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:12
+#, fuzzy
+msgid "Split Ring"
+msgstr "Δειγματοληψία"
+
+#: ../plugins/plot_pie/plugin.xml.in.h:1
+msgid "Charting : Pie/Ring"
+msgstr ""
+
+#: ../plugins/plot_pie/plugin.xml.in.h:2
+msgid "Default pie types"
+msgstr ""
+
+#: ../plugins/plot_pie/plugin.xml.in.h:3
+msgid "Pie and Ring plots"
+msgstr ""
+
+#: ../plugins/plot_pie/plugin.xml.in.h:4
+msgid "Pie plotting engine"
+msgstr ""
+
+#: ../plugins/plot_pie/plugin.xml.in.h:5
+msgid "Ring plotting engine"
+msgstr ""
+
+#: ../plugins/plot_radar/gog-radar.c:236
+#, fuzzy
+msgid "Default fill"
+msgstr "Εξ ορισμού"
+
+#: ../plugins/plot_radar/gog-radar.c:237 ../plugins/plot_xy/gog-xy.c:357
+#: ../plugins/plot_xy/gog-xy.c:784
+msgid "Should the default style of a series include fill"
+msgstr ""
+
+#. xgettext : the base for how to name rt plot objects
+#. * eg The 2nd rt plot in a chart will be called
+#. * 	PlotRT2
+#: ../plugins/plot_radar/gog-radar.c:272
+#, fuzzy
+msgid "PlotRadar"
+msgstr "Ταξινόμιση"
+
+#. xgettext : the base for how to name bar/col plot objects
+#. * eg The 2nd line plot in a chart will be called
+#. * 	PlotRadarArea2
+#.
+#: ../plugins/plot_radar/gog-radar.c:358
+#, fuzzy
+msgid "PlotRadarArea"
+msgstr "Ταξινόμιση"
+
+#. xgettext : the base for how to name rt plot objects
+#. * eg The 2nd rt plot in a chart will be called
+#. * 	PlotPolar2
+#: ../plugins/plot_radar/gog-radar.c:391
+#, fuzzy
+msgid "PlotPolar"
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_radar/gog-radar.c:430 ../plugins/plot_radar/gog-radar.c:638
+msgid "Angle"
+msgstr ""
+
+#: ../plugins/plot_radar/gog-radar.c:432 ../plugins/plot_radar/gog-radar.c:640
+#, fuzzy
+msgid "Magnitude"
+msgstr "Μωβ"
+
+#. xgettext : the base for how to name rt plot objects
+#. * eg The 2nd rt plot in a chart will be called
+#. * 	PlotColoredPolar2
+#: ../plugins/plot_radar/gog-radar.c:549
+#, fuzzy
+msgid "PlotColorPolar"
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_radar/gog-radar.c:629 ../plugins/plot_xy/gog-xy.c:789
+msgid "hide-outliers"
+msgstr ""
+
+#: ../plugins/plot_radar/gog-radar.c:630 ../plugins/plot_xy/gog-xy.c:790
+msgid "Hide data outside of the color axis bounds"
+msgstr ""
+
+#: ../plugins/plot_radar/gog-radar.c:642 ../plugins/plot_surface/gog-xyz.c:398
+#: ../plugins/plot_surface/gog-xyz-surface.c:334
+#: ../plugins/plot_surface/xl-surface.c:304
+#: ../plugins/plot_surface/xl-surface.c:397 ../plugins/plot_xy/gog-xy.c:802
+msgid "Z"
+msgstr ""
+
+#: ../plugins/plot_radar/gog-radar.c:1219
+#: ../plugins/plot_radar/gog-radar.c:1252
+#, fuzzy
+msgid "Radial error bars"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_radar/gog-radar.c:1227
+#, fuzzy
+msgid "Radial drop lines"
+msgstr "Κατακόρυφες Ρίγες"
+
+#: ../plugins/plot_radar/gog-radar.c:1335
+#: ../plugins/plot_radar/gog-radar.c:1378
+#, fuzzy
+msgid "Angular error bars"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_radar/gog-color-polar-prefs.ui.h:1
+#: ../plugins/plot_xy/gog-xy-color-prefs.ui.h:1
+msgid "Hide data outside of color axis bounds"
+msgstr ""
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:1
+msgid "Area Radar"
+msgstr ""
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:2
+#, fuzzy
+msgid "Area radar plot."
+msgstr "_Ποσοστό"
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:3
+#, fuzzy
+msgid "Colored Polar"
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:4
+msgid "Dotted Radar"
+msgstr ""
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:5
+msgid "Polar"
+msgstr ""
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:6
+msgid "Polar plot with colored marks."
+msgstr ""
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:7
+#, fuzzy
+msgid "Polar plot."
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:8
+#, fuzzy
+msgid "Radar"
+msgstr "κανονικό-σφάλμα"
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:9
+msgid "Radar plot with dots."
+msgstr ""
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:10
+#, fuzzy
+msgid "Radar plot."
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:1
+msgid "Charting : Polar/Radar"
+msgstr ""
+
+#: ../plugins/plot_radar/plugin.xml.in.h:2
+#, fuzzy
+msgid "Default radar plot types"
+msgstr "Ορισμός Ονόματος"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:3
+#, fuzzy
+msgid "Polar and Radar plots"
+msgstr "_Ποσοστό"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:4
+#, fuzzy
+msgid "Polar plotting engine"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:5
+#, fuzzy
+msgid "Polar plotting engine with colored marks"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:6
+msgid "Radar Area plotting engine"
+msgstr ""
+
+#: ../plugins/plot_radar/plugin.xml.in.h:7
+#, fuzzy
+msgid "Radar plotting engine"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#. xgettext : the base for how to name contour plot objects
+#.
+#: ../plugins/plot_surface/gog-contour.c:128
+msgid "PlotContour"
+msgstr ""
+
+#. xgettext : the base for how to name surface plot objects
+#.
+#: ../plugins/plot_surface/gog-surface.c:68
+#, fuzzy
+msgid "PlotSurface"
+msgstr "Πηγή"
+
+#: ../plugins/plot_surface/gog-xyz.c:381
+msgid "Transposed"
+msgstr ""
+
+#: ../plugins/plot_surface/gog-xyz.c:382
+msgid "Transpose the plot"
+msgstr ""
+
+#: ../plugins/plot_surface/gog-xyz.c:394
+#: ../plugins/plot_surface/gog-xyz-surface.c:330
+#: ../plugins/plot_surface/xl-surface.c:302
+#: ../plugins/plot_surface/xl-surface.c:395 ../plugins/plot_xy/gog-xy.c:370
+#: ../plugins/plot_xy/gog-xy.c:540 ../plugins/plot_xy/gog-xy.c:798
+msgid "X"
+msgstr "Χ"
+
+#: ../plugins/plot_surface/gog-xyz.c:396
+#: ../plugins/plot_surface/gog-xyz-surface.c:332
+#: ../plugins/plot_xy/gog-xy.c:372 ../plugins/plot_xy/gog-xy.c:542
+#: ../plugins/plot_xy/gog-xy.c:800
+msgid "Y"
+msgstr "Ψ"
+
+#: ../plugins/plot_surface/gog-xyz-prefs.ui.h:1
+msgid "Transpose"
+msgstr ""
+
+#. xgettext : the base for how to name surface plot objects
+#.
+#: ../plugins/plot_surface/gog-xyz-surface.c:157
+#, fuzzy
+msgid "PlotXYZContour"
+msgstr "Πλήθος"
+
+#. xgettext : the base for how to name surface plot objects
+#.
+#: ../plugins/plot_surface/gog-xyz-surface.c:165
+#, fuzzy
+msgid "PlotXYZSurface"
+msgstr "Πηγή"
+
+#: ../plugins/plot_surface/gog-xyz-surface.c:311
+msgid "Rows"
+msgstr ""
+
+#: ../plugins/plot_surface/gog-xyz-surface.c:312
+#, fuzzy
+msgid "Number of rows"
+msgstr "Αντιγραφή μορφοποίησης"
+
+#: ../plugins/plot_surface/gog-xyz-surface.c:317
+#, fuzzy
+msgid "Columns"
+msgstr "Στήλη"
+
+#: ../plugins/plot_surface/gog-xyz-surface.c:318
+#, fuzzy
+msgid "Number of columns"
+msgstr "Αντιγραφή μορφοποίησης"
+
+#: ../plugins/plot_surface/gog-xyz-surface-prefs.ui.h:1
+#, fuzzy
+msgid "_Columns:"
+msgstr "Στήλη"
+
+#: ../plugins/plot_surface/gog-xyz-surface-prefs.ui.h:2
+#, fuzzy
+msgid "_Rows:"
+msgstr "Χαμηλή"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:1
+msgid "Builds a contour from a set of points with three coordinates"
+msgstr ""
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:2
+msgid "Builds a surface from a set of points with three coordinates"
+msgstr ""
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:3
+#, fuzzy
+msgid "Contour"
+msgstr "Πλήθος"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:4
+#, fuzzy
+msgid "Contour plot."
+msgstr "Τίτλοι προς εκτύπωση"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:5
+#, fuzzy
+msgid "Surface"
+msgstr "Πηγή"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:6
+#, fuzzy
+msgid "Surface plot."
+msgstr "Πηγή"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:7
+#, fuzzy
+msgid "XYZContour"
+msgstr "Πλήθος"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:8
+#, fuzzy
+msgid "XYZSurface"
+msgstr "Πηγή"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:1
+msgid "Charting : Surfaces"
+msgstr ""
+
+#: ../plugins/plot_surface/plugin.xml.in.h:2
+#, fuzzy
+msgid "Contour plotting engine"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:3
+#, fuzzy
+msgid "Default surface plot types"
+msgstr "Ορισμός Ονόματος"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:4
+#, fuzzy
+msgid "Surface charts"
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:5
+#, fuzzy
+msgid "Surface plotting engine"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:6
+#, fuzzy
+msgid "XYZ contour plotting engine"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:7
+#, fuzzy
+msgid "XYZ surface plotting engine"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:2
+#, fuzzy, no-c-format
+msgid "% of default size"
+msgstr "Κανο&νικό μέγεθος"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:3
+msgid "3_d"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:4
+#, fuzzy
+msgid "Dia_meter"
+msgstr "Παράμετροι"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:5
+msgid "Show _negative values"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:6
+#, fuzzy
+msgid "Sur_face"
+msgstr "Πηγή"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:7
+msgid "_Bubbles scaled to"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:8
+msgid "_Size represented by:"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:9
+msgid "_Vary colors by bubble"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy-series-prefs.ui.h:1
+msgid "_Use nul value instead of invalid"
+msgstr ""
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	PlotXY2
+#: ../plugins/plot_xy/gog-xy.c:272
+#, fuzzy
+msgid "PlotXY"
+msgstr "Ταξινόμιση"
+
+#: ../plugins/plot_xy/gog-xy.c:344
+msgid "Has markers by default"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:350 ../plugins/plot_xy/gog-xy.c:777
+msgid "Has lines by default"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:351 ../plugins/plot_xy/gog-xy.c:778
+msgid "Should the default style of a series include lines"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:356 ../plugins/plot_xy/gog-xy.c:783
+msgid "Has fill by default"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:362
+#, fuzzy
+msgid "Use splines"
+msgstr "Γραμμές"
+
+#: ../plugins/plot_xy/gog-xy.c:363
+msgid "Should the plot use splines instead of linear interpolation"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:416
+#, fuzzy
+msgid "PlotBubble"
+msgstr "Διπλή"
+
+#: ../plugins/plot_xy/gog-xy.c:516
+msgid "Size as area"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:517
+msgid "Display size as area instead of diameter"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:522
+#, fuzzy
+msgid "Show negatives"
+msgstr "Εμφάνιση Ε_τικετών"
+
+#: ../plugins/plot_xy/gog-xy.c:523
+msgid "Draw bubbles for negative values"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:529
+msgid "Draw 3d bubbles"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:534
+#, fuzzy
+msgid "Bubble scale"
+msgstr "Διπλή"
+
+#: ../plugins/plot_xy/gog-xy.c:535
+msgid "Fraction of default radius used for display"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:544 ../plugins/plot_xy/plot-types.xml.in.h:1
+#, fuzzy
+msgid "Bubble"
+msgstr "Διπλή"
+
+#. xgettext : the base for how to name map like plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Map2
+#: ../plugins/plot_xy/gog-xy.c:669
+#, fuzzy
+msgid "XYColor"
+msgstr "Χρώμα:"
+
+#: ../plugins/plot_xy/gog-xy.c:1930 ../plugins/plot_xy/gog-xy.c:1997
+#, fuzzy
+msgid "X error bars"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_xy/gog-xy.c:1933 ../plugins/plot_xy/gog-xy.c:2003
+#, fuzzy
+msgid "Y error bars"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_xy/gog-xy.c:1942
+#, fuzzy
+msgid "Horizontal drop lines"
+msgstr "Οριζόντιες Ρίγες"
+
+#: ../plugins/plot_xy/gog-xy.c:1950
+#, fuzzy
+msgid "Vertical drop lines"
+msgstr "Κατακόρυφες Ρίγες"
+
+#: ../plugins/plot_xy/gog-xy.c:2009
+#, fuzzy
+msgid "Invalid as zero"
+msgstr "Μη έγκυρο συνθηματικό"
+
+#: ../plugins/plot_xy/gog-xy.c:2010
+msgid "Replace invalid values by 0 when drawing markers or bubbles"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:2015
+msgid "Clamp at start"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:2016
+msgid ""
+"Slope at start of the interpolated curve when using clamped spline "
+"interpolation"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:2021
+msgid "Clamp at end"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:2022
+msgid ""
+"Slope at end of the interpolated curve when using clamped spline "
+"interpolation"
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:2
+#, fuzzy
+msgid "ColoredXY"
+msgstr "Χρώμα:"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:3
+msgid "Interpolate between multi-dimensional points with Bezier splines."
+msgstr ""
+
+#. really 3_1
+#: ../plugins/plot_xy/plot-types.xml.in.h:5
+msgid ""
+"Linearly interpolate between multi-dimensional points,with markers at each "
+"point."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:6
+msgid "Linearly interpolate between multi-dimensional points."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:7
+#, fuzzy
+msgid "Map"
+msgstr "Μάιος"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:8
+#, fuzzy
+msgid "Markers at each point."
+msgstr "Διαγραφή στη_λών"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:9
+msgid "Multi-dimensional points with circle at each point."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:10
+msgid ""
+"Multi-dimensional points with data dependent color marker at each point."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:11
+msgid "Stepped curve using the first y value."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:12
+msgid "Stepped curve using the last y value."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:13
+msgid "Stepped curve using the mean y value."
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:14
+msgid "Stepped curve using the nearest y value."
+msgstr ""
+
+#. really 3_1
+#: ../plugins/plot_xy/plot-types.xml.in.h:16
+msgid "XY"
+msgstr "ΧΨ"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:17
+#, fuzzy
+msgid "XY Lines"
+msgstr "Γραμμές"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:18
+#, fuzzy
+msgid "XY Points"
+msgstr "Εκτύπωση"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:19
+#, fuzzy
+msgid "XY Splines"
+msgstr "Γραμμές"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:20
+msgid "XY Steps Center"
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:21
+msgid "XY Steps End"
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:22
+msgid "XY Steps Mean"
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:23
+msgid "XY Steps Start"
+msgstr ""
+
+#: ../plugins/plot_xy/plugin.xml.in.h:1
+#, fuzzy
+msgid "2D colored scatter plotting engine"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/plot_xy/plugin.xml.in.h:2
+msgid "2D plots"
+msgstr ""
+
+#: ../plugins/plot_xy/plugin.xml.in.h:3
+msgid "2D scatter plotting engine"
+msgstr ""
+
+#: ../plugins/plot_xy/plugin.xml.in.h:4
+msgid "Bubble plotting engine"
+msgstr ""
+
+#: ../plugins/plot_xy/plugin.xml.in.h:5
+msgid "Charting : XY/Scatter/Bubble"
+msgstr ""
+
+#: ../plugins/plot_xy/plugin.xml.in.h:6
+msgid "Stock Scatter plot types"
+msgstr ""
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Exponential regression2
+#: ../plugins/reg_linear/gog-exp-reg.c:63
+msgid "Exponential regression"
+msgstr ""
+
+#: ../plugins/reg_linear/gog-lin-reg.c:159
+#: ../plugins/reg_linear/gog-lin-reg.c:265
+msgid "Affine"
+msgstr ""
+
+#: ../plugins/reg_linear/gog-lin-reg.c:160
+msgid "Uncheck to force zero intercept"
+msgstr ""
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Linear regression2
+#: ../plugins/reg_linear/gog-lin-reg.c:174
+msgid "Linear regression"
+msgstr ""
+
+#: ../plugins/reg_linear/gog-lin-reg.c:266
+msgid "If true, a non-zero constant is allowed"
+msgstr ""
+
+#: ../plugins/reg_linear/gog-lin-reg.c:271
+msgid "Dims"
+msgstr ""
+
+#: ../plugins/reg_linear/gog-lin-reg.c:272
+#, fuzzy
+msgid "Number of x-vectors"
+msgstr "Αντιγραφή μορφοποίησης"
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Logarithmic regression2
+#: ../plugins/reg_linear/gog-log-reg.c:94
+#, fuzzy
+msgid "Logarithmic regression"
+msgstr "Λογαριθμικό"
+
+#: ../plugins/reg_linear/gog-polynom-reg.c:203
+#, fuzzy
+msgid "Order:"
+msgstr "&Σειρά"
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Polynomial regression2
+#: ../plugins/reg_linear/gog-polynom-reg.c:222
+msgid "Polynomial regression"
+msgstr ""
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Power regression2
+#: ../plugins/reg_linear/gog-power-reg.c:63
+#, fuzzy
+msgid "Power regression"
+msgstr "Λογαριθμικό"
+
+#: ../plugins/reg_linear/plugin.xml.in.h:1
+msgid "Exponential regression curve engine"
+msgstr ""
+
+#: ../plugins/reg_linear/plugin.xml.in.h:2
+msgid "Linear regression curve engine"
+msgstr ""
+
+#: ../plugins/reg_linear/plugin.xml.in.h:3
+msgid "Linear regression curves"
+msgstr ""
+
+#: ../plugins/reg_linear/plugin.xml.in.h:4
+msgid "Linear regression curves types"
+msgstr ""
+
+#: ../plugins/reg_linear/plugin.xml.in.h:5
+msgid "Logarithmic regression curve engine"
+msgstr ""
+
+#: ../plugins/reg_linear/plugin.xml.in.h:6
+msgid "Polynomial regression curve engine"
+msgstr ""
+
+#: ../plugins/reg_linear/plugin.xml.in.h:7
+msgid "Power regression curve engine"
+msgstr ""
+
+#: ../plugins/reg_linear/plugin.xml.in.h:8
+msgid "Regression curve : linear"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:1
+msgid "Exponential"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:2
+msgid "Exponential regression curve"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:4
+msgid "Linear regression curve"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:5
+#, fuzzy
+msgid "Logarithmic"
+msgstr "Λογαριθμικό"
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:6
+msgid "Logarithmic regression curve"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:7
+msgid "Polynomial"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:8
+msgid "Polynomial regression curve"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:9
+msgid "Power"
+msgstr ""
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:10
+msgid "Power regression curve"
+msgstr ""
+
+#. xgettext : the base for how to name logarithmic fits
+#. * eg The 2nd fit for a series will be called
+#. * 	Log fit2
+#: ../plugins/reg_logfit/gog-logfit.c:140
+msgid "Log fit"
+msgstr ""
+
+#: ../plugins/reg_logfit/plugin.xml.in.h:1
+msgid "Logarithmic fitting curve engine"
+msgstr ""
+
+#: ../plugins/reg_logfit/plugin.xml.in.h:2
+#, fuzzy
+msgid "Logarithmic fitting curves"
+msgstr "Λογαριθμικό"
+
+#: ../plugins/reg_logfit/plugin.xml.in.h:3
+msgid "Logarithmic fitting curves types"
+msgstr ""
+
+#: ../plugins/reg_logfit/plugin.xml.in.h:4
+msgid "Regression curve : logfit"
+msgstr ""
+
+#: ../plugins/reg_logfit/reg-types.xml.in.h:1
+msgid "Log Fit (y=a+b*ln(sign*(x-c)))"
+msgstr ""
+
+#: ../plugins/reg_logfit/reg-types.xml.in.h:2
+#, fuzzy
+msgid "Logarithmic fitting curve"
+msgstr "Λογαριθμικό"
+
+#: ../plugins/smoothing/gog-moving-avg.c:104
+msgid "Number of values from which to calculate an average"
+msgstr ""
+
+#: ../plugins/smoothing/gog-moving-avg.c:109
+msgid "Whether to average x values as well or use the last one"
+msgstr ""
+
+#. xgettext : the base for how to name moving averge smoothed curves objects
+#. * eg The 2nd one for a series will be called
+#. * 	Moving average2
+#: ../plugins/smoothing/gog-moving-avg.c:176
+#: ../plugins/smoothing/types.xml.in.h:2
+msgid "Moving average"
+msgstr ""
+
+#: ../plugins/smoothing/gog-moving-avg.c:197
+msgid "Number of averaged values"
+msgstr ""
+
+#: ../plugins/smoothing/gog-moving-avg.c:202
+msgid "Average X"
+msgstr ""
+
+#: ../plugins/smoothing/gog-moving-avg.c:203
+msgid "Use averaged x values"
+msgstr ""
+
+#: ../plugins/smoothing/gog-moving-avg.ui.h:1
+#, fuzzy
+msgid "_Span:"
+msgstr "Διαχωριστικό:"
+
+#: ../plugins/smoothing/gog-moving-avg.ui.h:2
+msgid "_Use averaged abscissa"
+msgstr ""
+
+#: ../plugins/smoothing/gog-exp-smooth.c:65
+#: ../plugins/smoothing/gog-exp-smooth.c:232
+msgid "Number of interpolation steps"
+msgstr ""
+
+#: ../plugins/smoothing/gog-exp-smooth.c:73
+msgid ""
+"Default period is 10 * (xmax - xmin)/(nvalues - 1)\n"
+"If no value or a negative (or nul) value is provided, the default will be "
+"used"
+msgstr ""
+
+#. xgettext : the base for how to name exponentially smoothed curves objects
+#. * eg The 2nd one for a series will be called
+#. * 	Exponentially smoothed curve2
+#: ../plugins/smoothing/gog-exp-smooth.c:166
+#: ../plugins/smoothing/types.xml.in.h:1
+msgid "Exponentially smoothed curve"
+msgstr ""
+
+#: ../plugins/smoothing/gog-exp-smooth.c:231
+#, fuzzy
+msgid "Steps"
+msgstr "*Σεπ"
+
+#: ../plugins/smoothing/gog-exp-smooth.ui.h:1
+#, fuzzy
+msgid "_Period:"
+msgstr "_Προσκήνιο"
+
+#: ../plugins/smoothing/gog-exp-smooth.ui.h:2
+#, fuzzy
+msgid "_Steps:"
+msgstr "_Μέγεθος:"
+
+#: ../plugins/smoothing/plugin.xml.in.h:1
+msgid "Charting : Trends and Curves"
+msgstr ""
+
+#: ../plugins/smoothing/plugin.xml.in.h:2
+#, fuzzy
+msgid "Moving average smoothing engine"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/smoothing/plugin.xml.in.h:3
+msgid "Smoothed curves"
+msgstr ""
+
+#: ../plugins/smoothing/plugin.xml.in.h:4
+msgid "Smoothed curves types"
+msgstr ""
+
+#: ../plugins/smoothing/plugin.xml.in.h:5
+#, fuzzy
+msgid "exponential smoothing engine"
+msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#: ../plugins/smoothing/types.xml.in.h:3
+msgid "Moving average smoothed curve"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Font description"
+#~ msgstr "Περιγραφή"
+
+#, fuzzy
+#~ msgid "Font style"
+#~ msgstr "Στύλ γραμ/σειράς:"
+
+#, fuzzy
+#~ msgid "Font size"
+#~ msgstr "Στύλ γραμ/σειράς:"
+
+#, fuzzy
+#~ msgid "Color"
+#~ msgstr "Χρώμα:"
+
+#, fuzzy
+#~ msgid "Text width"
+#~ msgstr "Πλάτος Γραμμής:"
+
+#, fuzzy
+#~ msgid "Font style set"
+#~ msgstr "Στύλ γραμ/σειράς:"
+
+#, fuzzy
+#~ msgid "Scale set"
+#~ msgstr "Αποθήκευση όλων"
+
+#, fuzzy
+#~ msgid "H"
+#~ msgstr "H"
+
+#, fuzzy
+#~ msgid "W"
+#~ msgstr "Δ"
+
+#, fuzzy
+#~ msgid "<b>Description</b>"
+#~ msgstr "<b>Προσανατολισμός</b>"
+
+#, fuzzy
+#~ msgid "Show sample"
+#~ msgstr "Δείγμα"
+
+#, fuzzy
+#~ msgid ""
+#~ "Automatic\n"
+#~ "Manual"
+#~ msgstr "Αυτόματο"
+
+#, fuzzy
+#~ msgid "GogObjectPrefs"
+#~ msgstr "Αντικείμεν_ο..."
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#, fuzzy
+#~ msgid ""
+#~ "Horizontal\n"
+#~ "Vertical"
+#~ msgstr "Οριζόντιες Ρίγες"
+
+#, fuzzy
+#~ msgid "Angles"
+#~ msgstr "Περιοχές"
+
+#, fuzzy
+#~ msgid "Indexs"
+#~ msgstr "&Στοίχιση"
+
+#, fuzzy
+#~ msgid "Legends"
+#~ msgstr "Λεζάντα"
+
+#, fuzzy
+#~ msgid "Matrix"
+#~ msgstr "Μέγιστο"
+
+#, fuzzy
+#~ msgid "Regenerate Charts"
+#~ msgstr "Ταξινόμιση"
+
+#, fuzzy
+#~ msgid "Starts"
+#~ msgstr "Ένα_ρξη"
+
+#, fuzzy
+#~ msgid "_File"
+#~ msgstr "Ταίριασμα"
+
+#, fuzzy
+#~ msgid "fifth"
+#~ msgstr "Πλάτος"
+
+#, fuzzy
+#~ msgid "first"
+#~ msgstr "Διακριτή"
+
+#, fuzzy
+#~ msgid "sixth"
+#~ msgstr "Πλάτος"
+
+#, fuzzy
+#~ msgid "third"
+#~ msgstr "Άλλη"
+
+#, fuzzy
+#~ msgid "Grid"
+#~ msgstr "Πλέγμα"
+
+#, fuzzy
+#~ msgid "Type axis:"
+#~ msgstr "_Τύπος:"
+
+#, fuzzy
+#~ msgid "Shadow type"
+#~ msgstr "Σκιά"
+
+#, fuzzy
+#~ msgid "Orientation"
+#~ msgstr "<b>Προσανατολισμός</b>"
+
+#, fuzzy
+#~ msgid "[Color"
+#~ msgstr "Χρώμα:"
+
+#, fuzzy
+#~ msgid "Spline"
+#~ msgstr "Γραμμές"
+
+#, fuzzy
+#~ msgid "BoxPlot"
+#~ msgstr "Ταξινόμιση"
+
+#, fuzzy
+#~ msgid "Default lines"
+#~ msgstr "Εξ ορισμού"
+
+#, fuzzy
+#~ msgid "<b>Plot area position</b>"
+#~ msgstr "Γραμμή"
+
+#, fuzzy
+#~ msgid "_Order"
+#~ msgstr "&Σειρά"
+
+#, fuzzy
+#~ msgid "<b>Automatic position</b>"
+#~ msgstr "Γραμμή"
+
+#, fuzzy
+#~ msgid "<b>Manual position</b>"
+#~ msgstr "Γραμμή"
+
+#, fuzzy
+#~ msgid ""
+#~ "2 Colors\n"
+#~ "Brightness"
+#~ msgstr "Φωτεινότητα"
+
+#~ msgid "Ty_pe:"
+#~ msgstr "_Τύπος:"
+
+#, fuzzy
+#~ msgid "_Fill color:"
+#~ msgstr "Χρώμα γεμίσματος"
+
+#, fuzzy
+#~ msgid "Indicator Size"
+#~ msgstr "Μέγεθος σήμανσης"
+
+#, fuzzy
+#~ msgid "Size of dropdown indicator"
+#~ msgstr "Μέγεθος του δείκτη κύλισης προς τα κάτω"
+
+#, fuzzy
+#~ msgid "Indicator Spacing"
+#~ msgstr "Διαστήματα επισήμανσης"
+
+#, fuzzy
+#~ msgid "Spacing around indicator"
+#~ msgstr "Διάστημα γύρω από το δείκτη"
+
+#~ msgid "*Sun"
+#~ msgstr "*Κυ"
+
+#~ msgid "*Mon"
+#~ msgstr "*Δε"
+
+#~ msgid "*Tue"
+#~ msgstr "*Τρ"
+
+#~ msgid "*Wed"
+#~ msgstr "*Τε"
+
+#~ msgid "*Thu"
+#~ msgstr "*Πε"
+
+#~ msgid "*Fri"
+#~ msgstr "*Πα"
+
+#~ msgid "*Sat"
+#~ msgstr "*Σα"
+
+#~ msgid "Sunday"
+#~ msgstr "Κυριακή"
+
+#~ msgid "Monday"
+#~ msgstr "Δευτέρα"
+
+#~ msgid "Tuesday"
+#~ msgstr "Τρίτη"
+
+#~ msgid "Wednesday"
+#~ msgstr "Τετάρτη"
+
+#~ msgid "Thursday"
+#~ msgstr "Πέμπτη"
+
+#~ msgid "Friday"
+#~ msgstr "Παρασκευή"
+
+#~ msgid "Saturday"
+#~ msgstr "Σάββατο"
+
+#~ msgid "*Jan"
+#~ msgstr "*Ιαν"
+
+#~ msgid "*Feb"
+#~ msgstr "*Φεβ"
+
+#~ msgid "*Mar"
+#~ msgstr "*Μαρ"
+
+#~ msgid "*Apr"
+#~ msgstr "*Απρ"
+
+#~ msgid "*May"
+#~ msgstr "*Μαι"
+
+#~ msgid "*Jun"
+#~ msgstr "*Ιουν"
+
+#~ msgid "*Jul"
+#~ msgstr "*Ιουλ"
+
+#~ msgid "*Aug"
+#~ msgstr "*Αυγ"
+
+#~ msgid "*Oct"
+#~ msgstr "*Οκτ"
+
+#~ msgid "*Nov"
+#~ msgstr "*Νοε"
+
+#~ msgid "*Dec"
+#~ msgstr "*Δεκ"
+
+#~ msgid "January"
+#~ msgstr "Ιανουάριος"
+
+#~ msgid "February"
+#~ msgstr "Φεβρουάριος"
+
+#~ msgid "March"
+#~ msgstr "Μάρτιος"
+
+#~ msgid "April"
+#~ msgstr "Απρίλιος"
+
+#~ msgid "June"
+#~ msgstr "Ιούνιος"
+
+#~ msgid "July"
+#~ msgstr "Ιούλιος"
+
+#~ msgid "August"
+#~ msgstr "Αύγουστος"
+
+#~ msgid "September"
+#~ msgstr "Σεπτέμβριος"
+
+#~ msgid "October"
+#~ msgstr "Οκτώβριος"
+
+#~ msgid "November"
+#~ msgstr "Νοέμβριος"
+
+#~ msgid "December"
+#~ msgstr "Δεκέμβριος"
+
+#, fuzzy
+#~ msgid "Automatic (%s)"
+#~ msgstr "Αυτόματο"
+
+#, fuzzy
+#~ msgid "Box-Plots"
+#~ msgstr "Ταξινόμιση"
+
+#, fuzzy
+#~ msgid "Excel compatibility contour plotting engine"
+#~ msgstr "σφάλμα συντακτικής ανάλυσης\n"
+
+#, fuzzy
+#~ msgid "Plugin version \"%s\" is different from application \"%s\"."
+#~ msgstr ""
+#~ "Άνοιγμα αρθρώματος  αδύνατο\n"
+#~ "Η έκδοση του αρθρώματος '%s' και της εφαρμογής '%s' διαφέρουν."
+
+#, fuzzy
+#~ msgid "Error while saving file."
+#~ msgstr "Σφάλμα: ανύπαρκτο φύλλο"
+
+#, fuzzy
+#~ msgid "_Cross at category #"
+#~ msgstr "_Κατηγορία"
+
+#, fuzzy
+#~ msgid "Bounds"
+#~ msgstr "Φόντο"
+
+#~ msgid "T_ype:"
+#~ msgstr "Τ_ύπος:"
+
+#, fuzzy
+#~ msgid "3D Adjacent Bars"
+#~ msgstr "Διαγραφή στη_λών"
+
+#, fuzzy
+#~ msgid "3D Adjacent Columns"
+#~ msgstr "Διαγραφή στη_λών"
+
+#, fuzzy
+#~ msgid "3D Percentage Bars"
+#~ msgstr "_Ποσοστό"
+
+#, fuzzy
+#~ msgid "3D Percentage Columns"
+#~ msgstr "Διαγραφή στη_λών"
+
+#, fuzzy
+#~ msgid "3D Stacked Bars"
+#~ msgstr "Διαγραφή στη_λών"
+
+#, fuzzy
+#~ msgid "3D Stacked Columns"
+#~ msgstr "Διαγραφή στη_λών"
+
+#, fuzzy
+#~ msgid "3D Pie"
+#~ msgstr "Πίτα 3D"
+
+#, fuzzy
+#~ msgid "3D Split Pie"
+#~ msgstr "Δειγματοληψία"
+
+#, fuzzy
+#~ msgid "Multi-Pie"
+#~ msgstr "Πολ/μος"
+
+#, fuzzy
+#~ msgid "Multi-pie-bars"
+#~ msgstr "Πολ/μος"
+
+#, fuzzy
+#~ msgid "_Slices number:"
+#~ msgstr "Ακέραιοι Αριθμοί"

@@ -1,0 +1,61 @@
+<!-- ##### SECTION Title ##### -->
+GocPixbuf
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GocPixbuf ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GocPixbuf:height ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocPixbuf:pixbuf ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocPixbuf:width ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocPixbuf:x ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocPixbuf:y ##### -->
+<para>
+
+</para>
+
+<!-- ##### TYPEDEF GocPixbufClass ##### -->
+<para>
+
+</para>
+
+

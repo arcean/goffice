@@ -1,0 +1,93 @@
+<!-- ##### SECTION Title ##### -->
+GOPluginLoaderModule
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_PLUGIN_LOADER_MODULE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_PLUGIN_LOADER_MODULE ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_PLUGIN_LOADER_MODULE ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_PLUGIN_LOADER_MODULE_CLASS ##### -->
+<para>
+
+</para>
+
+@k: 
+
+
+<!-- ##### MACRO GO_IS_PLUGIN_LOADER_MODULE_CLASS ##### -->
+<para>
+
+</para>
+
+@k: 
+
+
+<!-- ##### STRUCT GOPluginLoaderModule ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### TYPEDEF GOPluginLoaderModuleClass ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION go_plugin_loader_module_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_plugin_loader_module_register_version ##### -->
+<para>
+
+</para>
+
+@id: 
+@ver: 
+
+

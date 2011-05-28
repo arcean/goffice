@@ -1,0 +1,111 @@
+<!-- ##### SECTION Title ##### -->
+GOArrow
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOArrow ##### -->
+<para>
+
+</para>
+
+@typ: 
+@a: 
+@b: 
+@c: 
+
+<!-- ##### ENUM GOArrowType ##### -->
+<para>
+
+</para>
+
+@GO_ARROW_NONE: 
+@GO_ARROW_KITE: 
+@GO_ARROW_OVAL: 
+
+<!-- ##### FUNCTION go_arrow_clear ##### -->
+<para>
+
+</para>
+
+@dst: 
+
+
+<!-- ##### FUNCTION go_arrow_dup ##### -->
+<para>
+
+</para>
+
+@src: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_arrow_init ##### -->
+<para>
+
+</para>
+
+@res: 
+@typ: 
+@a: 
+@b: 
+@c: 
+
+
+<!-- ##### FUNCTION go_arrow_init_kite ##### -->
+<para>
+
+</para>
+
+@dst: 
+@a: 
+@b: 
+@c: 
+
+
+<!-- ##### FUNCTION go_arrow_init_oval ##### -->
+<para>
+
+</para>
+
+@dst: 
+@ra: 
+@rb: 
+
+
+<!-- ##### FUNCTION go_arrow_type_as_str ##### -->
+<para>
+
+</para>
+
+@typ: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_arrow_type_from_str ##### -->
+<para>
+
+</para>
+
+@name: 
+@Returns: 
+
+

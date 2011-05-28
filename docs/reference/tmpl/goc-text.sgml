@@ -1,0 +1,86 @@
+<!-- ##### SECTION Title ##### -->
+GocText
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GocText ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GocText:anchor ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocText:attributes ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocText:clip ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocText:clip-height ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocText:clip-width ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocText:rotation ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocText:text ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocText:wrap-width ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocText:x ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocText:y ##### -->
+<para>
+
+</para>
+
+<!-- ##### TYPEDEF GocTextClass ##### -->
+<para>
+
+</para>
+
+

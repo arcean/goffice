@@ -1,0 +1,65 @@
+<!-- ##### SECTION Title ##### -->
+GocStyledItem
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GocStyledItem ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GocStyledItem::style-changed ##### -->
+<para>
+
+</para>
+
+@gocstyleditem: the object which received the signal.
+@arg1: 
+
+<!-- ##### ARG GocStyledItem:scale-line-width ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocStyledItem:style ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT GocStyledItemClass ##### -->
+<para>
+
+</para>
+
+@init_style: 
+
+<!-- ##### FUNCTION goc_styled_item_set_cairo_line ##### -->
+<para>
+
+</para>
+
+@gsi: 
+@cr: 
+@Returns: 
+
+

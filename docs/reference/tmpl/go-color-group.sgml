@@ -1,0 +1,105 @@
+<!-- ##### SECTION Title ##### -->
+go-color-group
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_COLOR_GROUP_HISTORY_SIZE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT GOColorGroup ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOColorGroup::history-changed ##### -->
+<para>
+
+</para>
+
+@gocolorgroup: the object which received the signal.
+
+<!-- ##### MACRO GO_TYPE_COLOR_GROUP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_COLOR_GROUP ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+
+<!-- ##### MACRO GO_IS_COLOR_GROUP ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+
+<!-- ##### FUNCTION go_color_group_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_color_group_find ##### -->
+<para>
+
+</para>
+
+@name: 
+@context: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_color_group_fetch ##### -->
+<para>
+
+</para>
+
+@name: 
+@context: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_color_group_add_color ##### -->
+<para>
+
+</para>
+
+@cg: 
+@c: 
+
+

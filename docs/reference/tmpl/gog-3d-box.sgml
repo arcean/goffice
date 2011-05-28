@@ -1,0 +1,57 @@
+<!-- ##### SECTION Title ##### -->
+Gog3DBox
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT Gog3DBox ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG Gog3DBox:fov ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG Gog3DBox:phi ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG Gog3DBox:psi ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG Gog3DBox:theta ##### -->
+<para>
+
+</para>
+
+<!-- ##### MACRO GOG_3D_BOX_TYPE ##### -->
+<para>
+
+</para>
+
+
+

@@ -1,0 +1,105 @@
+<!-- ##### SECTION Title ##### -->
+GOEditor
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOEditor ##### -->
+<para>
+
+</para>
+
+@store_page: 
+@pages: 
+@registered_widgets: 
+
+<!-- ##### STRUCT GOEditorPage ##### -->
+<para>
+
+</para>
+
+@label: 
+@widget: 
+
+<!-- ##### FUNCTION go_editor_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_editor_free ##### -->
+<para>
+
+</para>
+
+@editor: 
+
+
+<!-- ##### FUNCTION go_editor_add_page ##### -->
+<para>
+
+</para>
+
+@editor: 
+@widget: 
+@label: 
+
+
+<!-- ##### FUNCTION go_editor_set_store_page ##### -->
+<para>
+
+</para>
+
+@editor: 
+@store_page: 
+
+
+<!-- ##### FUNCTION go_editor_get_notebook ##### -->
+<para>
+
+</para>
+
+@editor: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_editor_get_registered_widget ##### -->
+<para>
+
+</para>
+
+@editor: 
+@name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_editor_register_widget ##### -->
+<para>
+
+</para>
+
+@editor: 
+@widget: 
+
+

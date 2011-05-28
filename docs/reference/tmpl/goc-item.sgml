@@ -1,0 +1,230 @@
+<!-- ##### SECTION Title ##### -->
+GocItem
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GocItem ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GocItem:canvas ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocItem:parent ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT GocItemClass ##### -->
+<para>
+
+</para>
+
+@base: 
+@distance: 
+@draw: 
+@draw_region: 
+@update_bounds: 
+@button_pressed: 
+@button2_pressed: 
+@button_released: 
+@motion: 
+@enter_notify: 
+@leave_notify: 
+@realize: 
+@unrealize: 
+@key_pressed: 
+@key_released: 
+@notify_scrolled: 
+
+<!-- ##### FUNCTION goc_item_new ##### -->
+<para>
+
+</para>
+
+@parent: 
+@type: 
+@first_arg_name: 
+@Varargs: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_item_destroy ##### -->
+<para>
+
+</para>
+
+@item: 
+
+
+<!-- ##### FUNCTION goc_item_set ##### -->
+<para>
+
+</para>
+
+@item: 
+@first_arg_name: 
+@Varargs: 
+
+
+<!-- ##### FUNCTION goc_item_distance ##### -->
+<para>
+
+</para>
+
+@item: 
+@x: 
+@y: 
+@near_item: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_item_draw ##### -->
+<para>
+
+</para>
+
+@item: 
+@cr: 
+
+
+<!-- ##### FUNCTION goc_item_draw_region ##### -->
+<para>
+
+</para>
+
+@item: 
+@cr: 
+@x0: 
+@y0: 
+@x1: 
+@y1: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_item_invalidate ##### -->
+<para>
+
+</para>
+
+@item: 
+
+
+<!-- ##### FUNCTION goc_item_show ##### -->
+<para>
+
+</para>
+
+@item: 
+
+
+<!-- ##### FUNCTION goc_item_hide ##### -->
+<para>
+
+</para>
+
+@item: 
+
+
+<!-- ##### FUNCTION goc_item_is_visible ##### -->
+<para>
+
+</para>
+
+@item: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_item_get_bounds ##### -->
+<para>
+
+</para>
+
+@item: 
+@x0: 
+@y0: 
+@x1: 
+@y1: 
+
+
+<!-- ##### FUNCTION goc_item_bounds_changed ##### -->
+<para>
+
+</para>
+
+@item: 
+
+
+<!-- ##### FUNCTION goc_item_grab ##### -->
+<para>
+
+</para>
+
+@item: 
+
+
+<!-- ##### FUNCTION goc_item_ungrab ##### -->
+<para>
+
+</para>
+
+@item: 
+
+
+<!-- ##### FUNCTION goc_item_raise ##### -->
+<para>
+
+</para>
+
+@item: 
+@n: 
+
+
+<!-- ##### FUNCTION goc_item_lower ##### -->
+<para>
+
+</para>
+
+@item: 
+@n: 
+
+
+<!-- ##### FUNCTION goc_item_lower_to_bottom ##### -->
+<para>
+
+</para>
+
+@item: 
+
+
+<!-- ##### FUNCTION goc_item_raise_to_top ##### -->
+<para>
+
+</para>
+
+@item: 
+
+

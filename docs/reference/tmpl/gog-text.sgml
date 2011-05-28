@@ -1,0 +1,52 @@
+<!-- ##### SECTION Title ##### -->
+GogText
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GogText ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GogText:allow-markup ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT GogTextClass ##### -->
+<para>
+
+</para>
+
+@base: 
+@get_str: 
+
+<!-- ##### FUNCTION gog_text_get_str ##### -->
+<para>
+
+</para>
+
+@text: 
+@Returns: 
+
+

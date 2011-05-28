@@ -1,0 +1,114 @@
+<!-- ##### SECTION Title ##### -->
+GOSearchReplace
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOSearchReplace ##### -->
+<para>
+
+</para>
+
+@search_text: 
+@replace_text: 
+@comp_search: 
+@is_regexp: 
+@ignore_case: 
+@preserve_case: 
+@match_words: 
+
+<!-- ##### ARG GOSearchReplace:ignore-case ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GOSearchReplace:is-regexp ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GOSearchReplace:match-words ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GOSearchReplace:preserve-case ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GOSearchReplace:replace-text ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GOSearchReplace:search-text ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT GOSearchReplaceClass ##### -->
+<para>
+
+</para>
+
+@g_object_class: 
+
+<!-- ##### FUNCTION go_search_replace_error_quark ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_search_replace_verify ##### -->
+<para>
+
+</para>
+
+@sr: 
+@repl: 
+@err: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_search_match_string ##### -->
+<para>
+
+</para>
+
+@sr: 
+@src: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_search_replace_string ##### -->
+<para>
+
+</para>
+
+@sr: 
+@src: 
+@Returns: 
+
+

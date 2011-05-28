@@ -1,0 +1,42 @@
+<!-- ##### SECTION Title ##### -->
+Simple structures
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GocPoint ##### -->
+<para>
+
+</para>
+
+@x: 
+@y: 
+
+<!-- ##### STRUCT GocRect ##### -->
+<para>
+
+</para>
+
+@x: 
+@y: 
+@width: 
+@height: 
+

@@ -1,0 +1,65 @@
+<!-- ##### SECTION Title ##### -->
+GOGradient
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### ENUM GOGradientDirection ##### -->
+<para>
+
+</para>
+
+@GO_GRADIENT_N_TO_S: 
+@GO_GRADIENT_S_TO_N: 
+@GO_GRADIENT_N_TO_S_MIRRORED: 
+@GO_GRADIENT_S_TO_N_MIRRORED: 
+@GO_GRADIENT_W_TO_E: 
+@GO_GRADIENT_E_TO_W: 
+@GO_GRADIENT_W_TO_E_MIRRORED: 
+@GO_GRADIENT_E_TO_W_MIRRORED: 
+@GO_GRADIENT_NW_TO_SE: 
+@GO_GRADIENT_SE_TO_NW: 
+@GO_GRADIENT_NW_TO_SE_MIRRORED: 
+@GO_GRADIENT_SE_TO_NW_MIRRORED: 
+@GO_GRADIENT_NE_TO_SW: 
+@GO_GRADIENT_SW_TO_NE: 
+@GO_GRADIENT_SW_TO_NE_MIRRORED: 
+@GO_GRADIENT_NE_TO_SW_MIRRORED: 
+@GO_GRADIENT_MAX: 
+
+<!-- ##### FUNCTION go_gradient_dir_from_str ##### -->
+<para>
+
+</para>
+
+@name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_gradient_dir_as_str ##### -->
+<para>
+
+</para>
+
+@dir: 
+@Returns: 
+
+

@@ -1,0 +1,96 @@
+<!-- ##### SECTION Title ##### -->
+GODocControl
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GODocControl ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GODocControlClass ##### -->
+<para>
+
+</para>
+
+@base: 
+
+<!-- ##### MACRO GO_TYPE_DOC_CONTROL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_DOC_CONTROL ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_DOC_CONTROL ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### ENUM GODocControlState ##### -->
+<para>
+
+</para>
+
+@GO_DOC_CONTROL_STATE_NORMAL: 
+@GO_DOC_CONTROL_STATE_FULLSCREEN: 
+@GO_DOC_CONTROL_STATE_MAX: 
+
+<!-- ##### FUNCTION go_doc_control_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_control_get_doc ##### -->
+<para>
+
+</para>
+
+@dc: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_doc_control_set_doc ##### -->
+<para>
+
+</para>
+
+@dc: 
+@doc: 
+
+

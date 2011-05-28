@@ -1,0 +1,73 @@
+<!-- ##### SECTION Title ##### -->
+GogRegCurve
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GogRegCurve ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GogRegCurve:skip-invalid ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT GogRegCurveClass ##### -->
+<para>
+
+</para>
+
+@base: 
+@get_value_at: 
+@get_equation: 
+@populate_editor: 
+
+<!-- ##### FUNCTION gog_reg_curve_get_equation ##### -->
+<para>
+
+</para>
+
+@reg_curve: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_reg_curve_get_R2 ##### -->
+<para>
+
+</para>
+
+@reg_curve: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_reg_curve_get_bounds ##### -->
+<para>
+
+</para>
+
+@reg_curve: 
+@xmin: 
+@xmax: 
+
+

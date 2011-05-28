@@ -1,0 +1,315 @@
+<!-- ##### SECTION Title ##### -->
+Gtk+
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION go_gtk_editable_enters ##### -->
+<para>
+
+</para>
+
+@window: 
+@w: 
+
+
+<!-- ##### FUNCTION go_gtk_builder_new ##### -->
+<para>
+
+</para>
+
+@uifile: 
+@domain: 
+@gcc: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_gtk_builder_signal_connect ##### -->
+<para>
+
+</para>
+
+@gui: 
+@instance_name: 
+@detailed_signal: 
+@c_handler: 
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_gtk_builder_signal_connect_swapped ##### -->
+<para>
+
+</para>
+
+@gui: 
+@instance_name: 
+@detailed_signal: 
+@c_handler: 
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_gtk_builder_get_widget ##### -->
+<para>
+
+</para>
+
+@gui: 
+@widget_name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_gtk_builder_combo_box_init_text ##### -->
+<para>
+
+</para>
+
+@gui: 
+@widget_name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_gtk_builder_group_value ##### -->
+<para>
+
+</para>
+
+@gui: 
+@group: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_pango_measure_string ##### -->
+<para>
+
+</para>
+
+@context: 
+@font_desc: 
+@str: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_gtk_dialog_run ##### -->
+<para>
+
+</para>
+
+@dialog: 
+@parent: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_gtk_dialog_add_button ##### -->
+<para>
+
+</para>
+
+@dialog: 
+@text: 
+@stock_id: 
+@response_id: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_gtk_notice_dialog ##### -->
+<para>
+
+</para>
+
+@parent: 
+@type: 
+@format: 
+@Varargs: 
+
+
+<!-- ##### FUNCTION go_gtk_notice_nonmodal_dialog ##### -->
+<para>
+
+</para>
+
+@parent: 
+@ref: 
+@type: 
+@format: 
+@Varargs: 
+
+
+<!-- ##### FUNCTION go_gtk_query_yes_no ##### -->
+<para>
+
+</para>
+
+@toplevel: 
+@default_answer: 
+@format: 
+@Varargs: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_gtk_button_new_with_stock ##### -->
+<para>
+
+</para>
+
+@text: 
+@stock_id: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_gtk_widget_disable_focus ##### -->
+<para>
+
+</para>
+
+@w: 
+
+
+<!-- ##### FUNCTION go_gtk_window_set_transient ##### -->
+<para>
+
+</para>
+
+@toplevel: 
+@window: 
+
+
+<!-- ##### FUNCTION go_gtk_help_button_init ##### -->
+<para>
+
+</para>
+
+@w: 
+@data_dir: 
+@app: 
+@link: 
+
+
+<!-- ##### FUNCTION go_gtk_nonmodal_dialog ##### -->
+<para>
+
+</para>
+
+@toplevel: 
+@dialog: 
+
+
+<!-- ##### FUNCTION go_gtk_file_sel_dialog ##### -->
+<para>
+
+</para>
+
+@toplevel: 
+@w: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_gtk_select_image ##### -->
+<para>
+
+</para>
+
+@toplevel: 
+@initial: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_gui_get_image_save_info ##### -->
+<para>
+
+</para>
+
+@toplevel: 
+@supported_formats: 
+@ret_format: 
+@resolution: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_gtk_url_is_writeable ##### -->
+<para>
+
+</para>
+
+@parent: 
+@uri: 
+@overwrite_by_default: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_atk_setup_label ##### -->
+<para>
+
+</para>
+
+@label: 
+@target: 
+
+
+<!-- ##### FUNCTION go_dialog_guess_alternative_button_order ##### -->
+<para>
+
+</para>
+
+@dialog: 
+
+
+<!-- ##### FUNCTION go_widget_set_tooltip_text ##### -->
+<para>
+
+</para>
+
+@widget: 
+@tip: 
+
+
+<!-- ##### FUNCTION go_tool_item_set_tooltip_text ##### -->
+<para>
+
+</para>
+
+@item: 
+@tip: 
+
+
+<!-- ##### FUNCTION go_menu_position_below ##### -->
+<para>
+
+</para>
+
+@menu: 
+@x: 
+@y: 
+@push_in: 
+@user_data: 
+
+
+<!-- ##### FUNCTION go_gtk_url_show ##### -->
+<para>
+
+</para>
+
+@url: 
+@screen: 
+@Returns: 
+
+

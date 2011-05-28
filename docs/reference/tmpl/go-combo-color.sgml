@@ -1,0 +1,155 @@
+<!-- ##### SECTION Title ##### -->
+GOComboColor
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_COMBO_COLOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_COMBO_COLOR ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_COMBO_COLOR ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_COMBO_COLOR_CLASS ##### -->
+<para>
+
+</para>
+
+@k: 
+
+
+<!-- ##### STRUCT GOComboColor ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOComboColor::color-changed ##### -->
+<para>
+
+</para>
+
+@gocombocolor: the object which received the signal.
+@arg1: 
+@arg2: 
+@arg3: 
+@arg4: 
+
+<!-- ##### SIGNAL GOComboColor::display-custom-dialog ##### -->
+<para>
+
+</para>
+
+@gocombocolor: the object which received the signal.
+@arg1: 
+
+<!-- ##### FUNCTION go_combo_color_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_color_new ##### -->
+<para>
+
+</para>
+
+@icon: 
+@no_color_label: 
+@default_color: 
+@color_group: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_color_get_color ##### -->
+<para>
+
+</para>
+
+@cc: 
+@is_default: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_color_set_color ##### -->
+<para>
+
+</para>
+
+@cc: 
+@color: 
+
+
+<!-- ##### FUNCTION go_combo_color_set_color_to_default ##### -->
+<para>
+
+</para>
+
+@cc: 
+
+
+<!-- ##### FUNCTION go_combo_color_set_color_gdk ##### -->
+<para>
+
+</para>
+
+@cc: 
+@color: 
+
+
+<!-- ##### FUNCTION go_combo_color_set_allow_alpha ##### -->
+<para>
+
+</para>
+
+@cc: 
+@allow_alpha: 
+
+
+<!-- ##### FUNCTION go_combo_color_set_instant_apply ##### -->
+<para>
+
+</para>
+
+@cc: 
+@active: 
+
+

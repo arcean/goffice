@@ -1,0 +1,111 @@
+<!-- ##### SECTION Title ##### -->
+GOCSpline
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOCSpline ##### -->
+<para>
+
+</para>
+
+@x: 
+@y: 
+@a: 
+@b: 
+@c: 
+@n: 
+
+<!-- ##### ENUM GOCSplineType ##### -->
+<para>
+
+</para>
+
+@GO_CSPLINE_NATURAL: 
+@GO_CSPLINE_PARABOLIC: 
+@GO_CSPLINE_CUBIC: 
+@GO_CSPLINE_CLAMPED: 
+@GO_CSPLINE_MAX: 
+
+<!-- ##### FUNCTION go_cspline_init ##### -->
+<para>
+
+</para>
+
+@x: 
+@y: 
+@n: 
+@limits: 
+@c0: 
+@cn: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_cspline_destroy ##### -->
+<para>
+
+</para>
+
+@sp: 
+
+
+<!-- ##### FUNCTION go_cspline_get_value ##### -->
+<para>
+
+</para>
+
+@sp: 
+@x: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_cspline_get_deriv ##### -->
+<para>
+
+</para>
+
+@sp: 
+@x: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_cspline_get_values ##### -->
+<para>
+
+</para>
+
+@sp: 
+@x: 
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_cspline_get_derivs ##### -->
+<para>
+
+</para>
+
+@sp: 
+@x: 
+@n: 
+@Returns: 
+
+

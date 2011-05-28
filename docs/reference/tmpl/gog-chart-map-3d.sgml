@@ -1,0 +1,84 @@
+<!-- ##### SECTION Title ##### -->
+GogChartMap3D
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GogChartMap3D ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION gog_chart_map_3d_new ##### -->
+<para>
+
+</para>
+
+@chart: 
+@area: 
+@axis0: 
+@axis1: 
+@axis2: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_chart_map_3d_to_view ##### -->
+<para>
+
+</para>
+
+@map: 
+@x: 
+@y: 
+@z: 
+@u: 
+@v: 
+@w: 
+
+
+<!-- ##### FUNCTION gog_chart_map_3d_get_axis_map ##### -->
+<para>
+
+</para>
+
+@map: 
+@index: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_chart_map_3d_is_valid ##### -->
+<para>
+
+</para>
+
+@map: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_chart_map_3d_free ##### -->
+<para>
+
+</para>
+
+@map: 
+
+

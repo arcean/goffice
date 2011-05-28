@@ -1,0 +1,321 @@
+<!-- ##### SECTION Title ##### -->
+GOColor
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### TYPEDEF GOColor ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GONamedColor ##### -->
+<para>
+
+</para>
+
+@color: 
+@name: 
+
+<!-- ##### MACRO GO_COLOR_FROM_GDK ##### -->
+<para>
+
+</para>
+
+@c: 
+
+
+<!-- ##### MACRO GO_COLOR_FROM_RGB ##### -->
+<para>
+
+</para>
+
+@r: 
+@g: 
+@b: 
+
+
+<!-- ##### MACRO GO_COLOR_FROM_RGBA ##### -->
+<para>
+
+</para>
+
+@r: 
+@g: 
+@b: 
+@a: 
+
+
+<!-- ##### MACRO GO_COLOR_WHITE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_COLOR_BLACK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_COLOR_RED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_COLOR_GREEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_COLOR_BLUE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_COLOR_YELLOW ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_COLOR_VIOLET ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_COLOR_CYAN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_COLOR_GREY ##### -->
+<para>
+
+</para>
+
+@x: 
+
+
+<!-- ##### MACRO GO_COLOR_UINT_R ##### -->
+<para>
+
+</para>
+
+@x: 
+
+
+<!-- ##### MACRO GO_COLOR_UINT_G ##### -->
+<para>
+
+</para>
+
+@x: 
+
+
+<!-- ##### MACRO GO_COLOR_UINT_B ##### -->
+<para>
+
+</para>
+
+@x: 
+
+
+<!-- ##### MACRO GO_COLOR_UINT_A ##### -->
+<para>
+
+</para>
+
+@x: 
+
+
+<!-- ##### MACRO GO_COLOR_CHANGE_R ##### -->
+<para>
+
+</para>
+
+@x: 
+@r: 
+
+
+<!-- ##### MACRO GO_COLOR_CHANGE_G ##### -->
+<para>
+
+</para>
+
+@x: 
+@g: 
+
+
+<!-- ##### MACRO GO_COLOR_CHANGE_B ##### -->
+<para>
+
+</para>
+
+@x: 
+@b: 
+
+
+<!-- ##### MACRO GO_COLOR_CHANGE_A ##### -->
+<para>
+
+</para>
+
+@x: 
+@a: 
+
+
+<!-- ##### MACRO GO_COLOR_TO_RGB ##### -->
+<para>
+
+</para>
+
+@u: 
+@r: 
+@g: 
+@b: 
+
+
+<!-- ##### MACRO GO_COLOR_TO_RGBA ##### -->
+<para>
+
+</para>
+
+@u: 
+@r: 
+@g: 
+@b: 
+@a: 
+
+
+<!-- ##### MACRO GO_COLOR_MONO_INTERPOLATE ##### -->
+<para>
+
+</para>
+
+@v1: 
+@v2: 
+@t: 
+
+
+<!-- ##### MACRO GO_COLOR_INTERPOLATE ##### -->
+<para>
+
+</para>
+
+@c1: 
+@c2: 
+@t: 
+
+
+<!-- ##### MACRO GO_COLOR_DOUBLE_R ##### -->
+<para>
+
+</para>
+
+@x: 
+
+
+<!-- ##### MACRO GO_COLOR_DOUBLE_G ##### -->
+<para>
+
+</para>
+
+@x: 
+
+
+<!-- ##### MACRO GO_COLOR_DOUBLE_B ##### -->
+<para>
+
+</para>
+
+@x: 
+
+
+<!-- ##### MACRO GO_COLOR_DOUBLE_A ##### -->
+<para>
+
+</para>
+
+@x: 
+
+
+<!-- ##### MACRO GO_COLOR_TO_CAIRO ##### -->
+<para>
+
+</para>
+
+@x: 
+
+
+<!-- ##### FUNCTION go_color_from_str ##### -->
+<para>
+
+</para>
+
+@str: 
+@res: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_color_as_str ##### -->
+<para>
+
+</para>
+
+@color: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_color_to_pango ##### -->
+<para>
+
+</para>
+
+@color: 
+@is_fore: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_color_to_gdk ##### -->
+<para>
+
+</para>
+
+@color: 
+@res: 
+@Returns: 
+
+

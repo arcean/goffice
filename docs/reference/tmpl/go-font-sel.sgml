@@ -1,0 +1,115 @@
+<!-- ##### SECTION Title ##### -->
+GOFontSel
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_FONT_SEL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_FONT_SEL ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+
+<!-- ##### MACRO GO_IS_FONT_SEL ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+
+<!-- ##### STRUCT GOFontSel ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOFontSel::font-changed ##### -->
+<para>
+
+</para>
+
+@gofontsel: the object which received the signal.
+@arg1: 
+
+<!-- ##### FUNCTION go_font_sel_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_font_sel_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_font_sel_set_font ##### -->
+<para>
+
+</para>
+
+@fs: 
+@font: 
+
+
+<!-- ##### FUNCTION go_font_sel_get_font ##### -->
+<para>
+
+</para>
+
+@fs: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_font_sel_editable_enters ##### -->
+<para>
+
+</para>
+
+@fs: 
+@dialog: 
+
+
+<!-- ##### FUNCTION go_font_sel_set_sample_text ##### -->
+<para>
+
+</para>
+
+@fs: 
+@text: 
+
+

@@ -1,0 +1,316 @@
+<!-- ##### SECTION Title ##### -->
+go-conf
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOConfNode ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION go_conf_get_node ##### -->
+<para>
+
+</para>
+
+@parent: 
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_free_node ##### -->
+<para>
+
+</para>
+
+@node: 
+
+
+<!-- ##### FUNCTION go_conf_get_short_desc ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_get_long_desc ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_node_get_key_type ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_get_value_as_str ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_get_bool ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_get_int ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_get_double ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_get_string ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_get_str_list ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_get_enum_as_str ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_load_bool ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@default_val: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_load_int ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@minima: 
+@maxima: 
+@default_val: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_load_double ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@minima: 
+@maxima: 
+@default_val: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_load_string ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_load_str_list ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_load_enum ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@t: 
+@default_val: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_conf_set_bool ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@val: 
+
+
+<!-- ##### FUNCTION go_conf_set_int ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@val: 
+
+
+<!-- ##### FUNCTION go_conf_set_double ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@val: 
+
+
+<!-- ##### FUNCTION go_conf_set_string ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@str: 
+
+
+<!-- ##### FUNCTION go_conf_set_str_list ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@list: 
+
+
+<!-- ##### FUNCTION go_conf_set_enum ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@t: 
+@val: 
+
+
+<!-- ##### FUNCTION go_conf_sync ##### -->
+<para>
+
+</para>
+
+@node: 
+
+
+<!-- ##### USER_FUNCTION GOConfMonitorFunc ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@data: 
+
+
+<!-- ##### FUNCTION go_conf_remove_monitor ##### -->
+<para>
+
+</para>
+
+@monitor_id: 
+
+
+<!-- ##### FUNCTION go_conf_add_monitor ##### -->
+<para>
+
+</para>
+
+@node: 
+@key: 
+@monitor: 
+@data: 
+@Returns: 
+
+

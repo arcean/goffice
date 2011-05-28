@@ -1,0 +1,96 @@
+<!-- ##### SECTION Title ##### -->
+GOMatrix3x3
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOMatrix3x3 ##### -->
+<para>
+
+</para>
+
+@a11: 
+@a12: 
+@a13: 
+@a21: 
+@a22: 
+@a23: 
+@a31: 
+@a32: 
+@a33: 
+
+<!-- ##### FUNCTION go_matrix3x3_transform ##### -->
+<para>
+
+</para>
+
+@mat: 
+@xo: 
+@yo: 
+@zo: 
+@x: 
+@y: 
+@z: 
+
+
+<!-- ##### FUNCTION go_matrix3x3_from_euler ##### -->
+<para>
+
+</para>
+
+@mat: 
+@Psi: 
+@Theta: 
+@Phi: 
+
+
+<!-- ##### FUNCTION go_matrix3x3_from_euler_transposed ##### -->
+<para>
+
+</para>
+
+@mat: 
+@Psi: 
+@Theta: 
+@Phi: 
+
+
+<!-- ##### FUNCTION go_matrix3x3_to_euler ##### -->
+<para>
+
+</para>
+
+@mat: 
+@Psi: 
+@Theta: 
+@Phi: 
+
+
+<!-- ##### FUNCTION go_matrix3x3_multiply ##### -->
+<para>
+
+</para>
+
+@dest: 
+@src1: 
+@src2: 
+
+

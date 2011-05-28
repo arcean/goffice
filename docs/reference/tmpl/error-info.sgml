@@ -1,0 +1,175 @@
+<!-- ##### SECTION Title ##### -->
+GOErrorInfo
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOErrorInfo ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ENUM GOSeverity ##### -->
+<para>
+
+</para>
+
+@GO_WARNING: 
+@GO_ERROR: 
+
+<!-- ##### FUNCTION go_error_info_new_str ##### -->
+<para>
+
+</para>
+
+@msg: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_error_info_new_printf ##### -->
+<para>
+
+</para>
+
+@msg_format: 
+@Varargs: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_error_info_new_vprintf ##### -->
+<para>
+
+</para>
+
+@severity: 
+@msg_format: 
+@args: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_error_info_new_str_with_details ##### -->
+<para>
+
+</para>
+
+@msg: 
+@details: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_error_info_new_str_with_details_list ##### -->
+<para>
+
+</para>
+
+@msg: 
+@details: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_error_info_new_from_error_list ##### -->
+<para>
+
+</para>
+
+@errors: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_error_info_new_from_errno ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_error_info_add_details ##### -->
+<para>
+
+</para>
+
+@error: 
+@details: 
+
+
+<!-- ##### FUNCTION go_error_info_add_details_list ##### -->
+<para>
+
+</para>
+
+@error: 
+@details: 
+
+
+<!-- ##### FUNCTION go_error_info_free ##### -->
+<para>
+
+</para>
+
+@error: 
+
+
+<!-- ##### FUNCTION go_error_info_print ##### -->
+<para>
+
+</para>
+
+@error: 
+
+
+<!-- ##### FUNCTION go_error_info_peek_message ##### -->
+<para>
+
+</para>
+
+@error: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_error_info_peek_details ##### -->
+<para>
+
+</para>
+
+@error: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_error_info_peek_severity ##### -->
+<para>
+
+</para>
+
+@error: 
+@Returns: 
+
+
+<!-- ##### MACRO GO_INIT_RET_ERROR_INFO ##### -->
+<para>
+
+</para>
+
+@ret_error: 
+
+

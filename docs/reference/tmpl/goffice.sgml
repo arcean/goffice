@@ -1,0 +1,47 @@
+<!-- ##### SECTION Title ##### -->
+goffice
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_VAR_DECL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION libgoffice_init ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION libgoffice_shutdown ##### -->
+<para>
+
+</para>
+
+@void: 
+
+

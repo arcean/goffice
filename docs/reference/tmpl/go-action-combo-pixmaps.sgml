@@ -1,0 +1,110 @@
+<!-- ##### SECTION Title ##### -->
+GOActionComboPixmaps
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_ACTION_COMBO_PIXMAPS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_ACTION_COMBO_PIXMAPS ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_ACTION_COMBO_PIXMAPS ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### STRUCT GOActionComboPixmaps ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOActionComboPixmaps::combo-activate ##### -->
+<para>
+
+</para>
+
+@goactioncombopixmaps: the object which received the signal.
+
+<!-- ##### STRUCT GOActionComboPixmapsElement ##### -->
+<para>
+
+</para>
+
+@untranslated_tooltip: 
+@stock_id: 
+@id: 
+
+<!-- ##### FUNCTION go_action_combo_pixmaps_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_action_combo_pixmaps_new ##### -->
+<para>
+
+</para>
+
+@name: 
+@elements: 
+@ncols: 
+@nrows: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_action_combo_pixmaps_get_selected ##### -->
+<para>
+
+</para>
+
+@action: 
+@indx: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_action_combo_pixmaps_select_id ##### -->
+<para>
+
+</para>
+
+@action: 
+@id: 
+@Returns: 
+
+

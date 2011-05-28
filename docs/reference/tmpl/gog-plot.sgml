@@ -1,0 +1,288 @@
+<!-- ##### SECTION Title ##### -->
+GogPlot
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GogPlot ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GogPlot:guru-hints ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogPlot:interpolation ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogPlot:plot-group ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogPlot:vary-style-by-element ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogPlot:x-axis ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GogPlot:y-axis ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT GogPlotClass ##### -->
+<para>
+
+</para>
+
+@base: 
+@desc: 
+@series_type: 
+@axis_set: 
+@axis_get_bounds: 
+@supports_vary_style_by_element: 
+@enum_in_reverse: 
+@foreach_elem: 
+@update_3d: 
+@guru_helper: 
+
+<!-- ##### STRUCT GogPlotBoundInfo ##### -->
+<para>
+
+</para>
+
+@is_discrete: 
+@center_on_ticks: 
+@fmt: 
+@date_conv: 
+
+<!-- ##### FUNCTION gog_plot_new_by_type ##### -->
+<para>
+
+</para>
+
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_plot_new_by_name ##### -->
+<para>
+
+</para>
+
+@id: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_plot_request_cardinality_update ##### -->
+<para>
+
+</para>
+
+@plot: 
+
+
+<!-- ##### FUNCTION gog_plot_get_cardinality ##### -->
+<para>
+
+</para>
+
+@plot: 
+@full: 
+@visible: 
+
+
+<!-- ##### FUNCTION gog_plot_update_cardinality ##### -->
+<para>
+
+</para>
+
+@plot: 
+@index_num: 
+
+
+<!-- ##### FUNCTION gog_plot_foreach_elem ##### -->
+<para>
+
+</para>
+
+@plot: 
+@only_visible: 
+@handler: 
+@data: 
+
+
+<!-- ##### FUNCTION gog_plot_get_series ##### -->
+<para>
+
+</para>
+
+@plot: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_plot_get_axis_bounds ##### -->
+<para>
+
+</para>
+
+@plot: 
+@axis: 
+@bounds: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_plot_supports_vary_style_by_element ##### -->
+<para>
+
+</para>
+
+@plot: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_plot_new_series ##### -->
+<para>
+
+</para>
+
+@plot: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_plot_description ##### -->
+<para>
+
+</para>
+
+@plot: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_plot_axis_set_pref ##### -->
+<para>
+
+</para>
+
+@plot: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_plot_axis_set_is_valid ##### -->
+<para>
+
+</para>
+
+@plot: 
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_plot_axis_set_assign ##### -->
+<para>
+
+</para>
+
+@plot: 
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_plot_axis_clear ##### -->
+<para>
+
+</para>
+
+@plot: 
+@filter: 
+
+
+<!-- ##### FUNCTION gog_plot_set_axis ##### -->
+<para>
+
+</para>
+
+@plot: 
+@axis: 
+
+
+<!-- ##### FUNCTION gog_plot_get_axis ##### -->
+<para>
+
+</para>
+
+@plot: 
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_plot_update_3d ##### -->
+<para>
+
+</para>
+
+@plot: 
+
+
+<!-- ##### FUNCTION gog_plot_guru_helper ##### -->
+<para>
+
+</para>
+
+@plot: 
+
+
+<!-- ##### FUNCTION gog_plot_clear_series ##### -->
+<para>
+
+</para>
+
+@plot: 
+
+
+<!-- ##### STRUCT GogPlotView ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION gog_plot_view_get_data_at_point ##### -->
+<para>
+
+</para>
+
+@view: 
+@x: 
+@y: 
+@series: 
+@Returns: 
+
+

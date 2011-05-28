@@ -1,0 +1,76 @@
+<!-- ##### SECTION Title ##### -->
+GocRectangle
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GocRectangle ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GocRectangle:height ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocRectangle:rotation ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocRectangle:rx ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocRectangle:ry ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocRectangle:type ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocRectangle:width ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocRectangle:x ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocRectangle:y ##### -->
+<para>
+
+</para>
+
+<!-- ##### TYPEDEF GocRectangleClass ##### -->
+<para>
+
+</para>
+
+

@@ -1,0 +1,102 @@
+<!-- ##### SECTION Title ##### -->
+GogPlotEngine
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GogPlotFamily ##### -->
+<para>
+
+</para>
+
+@name: 
+@sample_image_file: 
+@priority: 
+@axis_set: 
+@types: 
+
+<!-- ##### STRUCT GogPlotType ##### -->
+<para>
+
+</para>
+
+@family: 
+@engine: 
+@name: 
+@sample_image_file: 
+@description: 
+@col: 
+@row: 
+@properties: 
+
+<!-- ##### FUNCTION gog_plot_families ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_plot_family_by_name ##### -->
+<para>
+
+</para>
+
+@name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_plot_family_register ##### -->
+<para>
+
+</para>
+
+@name: 
+@sample_image_file: 
+@priority: 
+@axis_set: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gog_plot_family_unregister ##### -->
+<para>
+
+</para>
+
+@family: 
+
+
+<!-- ##### FUNCTION gog_plot_type_register ##### -->
+<para>
+
+</para>
+
+@famlily: 
+@col: 
+@row: 
+@name: 
+@sample_image_file: 
+@description: 
+@engine: 
+@Returns: 
+
+

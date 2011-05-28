@@ -1,0 +1,7427 @@
+# Vietnamese translation for GOffice.
+# Copyright © 2007 Free Software Foundation, Inc.
+# Nguyễn Thái Ngọc Duy <pclouds@gmx.net>, 2003.
+# Clytie Siddall <clytie@riverland.net.au>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: goffice TRUNK\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-22 20:44-0400\n"
+"PO-Revision-Date: 2007-09-14 18:48+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.7b1\n"
+
+#: ../goffice/app/file.c:459
+msgid "ID"
+msgstr "ID"
+
+#: ../goffice/app/file.c:460
+msgid "The identifier of the saver."
+msgstr "Dấu hiệu nhận bộ lưu."
+
+#: ../goffice/app/file.c:470
+msgid "MIME type"
+msgstr "Kiểu MIME"
+
+#: ../goffice/app/file.c:471
+msgid "The MIME type of the saver."
+msgstr "Kiểu MIME của bộ lưu."
+
+#: ../goffice/app/file.c:480
+msgid "Extension"
+msgstr "Phần mở rộng"
+
+#: ../goffice/app/file.c:481
+msgid "The standard file name extension of the saver."
+msgstr "Phần mở rộng tên tập tin chuẩn của bộ lưu."
+
+#: ../goffice/app/file.c:490
+msgid "Description"
+msgstr "Mô tả"
+
+#: ../goffice/app/file.c:491
+msgid "The description of the saver."
+msgstr "Mô tả của bộ lưu."
+
+#: ../goffice/app/file.c:500
+msgid "Overwrite"
+msgstr "Ghi đè"
+
+#: ../goffice/app/file.c:501
+msgid "Whether the saver will overwrite files."
+msgstr "Bộ lưu có nên ghi đè lên tập tin hay không."
+
+#: ../goffice/app/file.c:511
+msgid "Format Level"
+msgstr "Cấp định dạng"
+
+#: ../goffice/app/file.c:522
+msgid "Scope"
+msgstr "Phạm vi"
+
+#: ../goffice/app/file.c:523
+msgid "How much of a document is saved"
+msgstr "Phần tài liệu được lưu"
+
+#: ../goffice/app/file.c:687
+msgid "Saving over old files of this type is disabled for safety."
+msgstr "Khả năng lưu lên tập tin cũ kiểu này bị tắt để an toàn."
+
+#: ../goffice/app/file.c:697
+msgid ""
+"You can turn this safety feature off by editing appropriate plugin.xml file."
+msgstr ""
+"Bạn có thể tắt tính năng an toàn này bằng cách sửa tập tin « plugin.xml » "
+"thích hợp."
+
+#: ../goffice/app/go-cmd-context.c:65
+#, c-format
+msgid "Invalid %s: '%s'"
+msgstr "%s không hợp lệ: « %s »"
+
+#: ../goffice/app/go-doc.c:136
+msgid "URI"
+msgstr "URI"
+
+#: ../goffice/app/go-doc.c:137
+msgid "The URI associated with this document."
+msgstr "Địa chỉ URL liên quan đến tài liệu này."
+
+#: ../goffice/app/go-doc.c:141
+msgid "Dirty"
+msgstr "Bẩn"
+
+#: ../goffice/app/go-doc.c:142
+msgid "Whether the document has been changed."
+msgstr "Tài liệu đã được thay đổi chưa."
+
+#: ../goffice/app/go-doc.c:146
+#, fuzzy
+msgid "Pristine"
+msgstr "Đường trục"
+
+#: ../goffice/app/go-doc.c:147
+#, fuzzy
+msgid "Whether the document is unchanged since it was created."
+msgstr "Tài liệu đã được thay đổi chưa."
+
+#: ../goffice/app/go-doc.c:380 ../goffice/utils/go-style-prefs.ui.h:8
+#, fuzzy
+msgid "Image"
+msgstr "Ảnh"
+
+#: ../goffice/app/go-object.c:51
+msgid "Objects"
+msgstr "Đối tượng"
+
+#: ../goffice/app/go-object.c:109
+#, c-format
+msgid "Loading plugin '%s' that contains the object '%s'"
+msgstr "Đang nạp phần bổ sung « %s » chứa đối tượng « %s »"
+
+#: ../goffice/app/go-plugin-loader-module.c:56
+msgid "Module file name not given."
+msgstr "Chưa cho biết tên tập tin mô đun."
+
+#: ../goffice/app/go-plugin-loader-module.c:67
+#, c-format
+msgid "Module \"%s\" has an inconsistent dependency list."
+msgstr "Mô-đun « %s » có danh sách quan hệ phụ thuộc không thống nhất."
+
+#: ../goffice/app/go-plugin-loader-module.c:75
+#, c-format
+msgid "Module \"%s\" depends on an invalid null dependency."
+msgstr ""
+"Mô-đun « %s » phụ thuộc vào một quan hệ phụ thuộc vô giá trị không hợp lệ."
+
+#: ../goffice/app/go-plugin-loader-module.c:80
+#, c-format
+msgid "Module \"%s\" depends on an unknown dependency '%s'."
+msgstr "Mô-đun « %s » phụ thuộc vào một quan hệ phụ thuộc không rõ « %s »."
+
+#: ../goffice/app/go-plugin-loader-module.c:85
+#, c-format
+msgid ""
+"Module \"%s\" was built with version %s of %s, but this executable supplied "
+"version %s."
+msgstr ""
+"Mô-đun « %s » đã được xây dựng với phiên bản %s của %s, nhưng tập tin thực "
+"hiện được này cung cấp phân vùng %s."
+
+#: ../goffice/app/go-plugin-loader-module.c:103
+msgid "Dynamic module loading is not supported in this system."
+msgstr "Không hỗ trợ khả năng nạp mô-đun một cách động trong hệ thống này."
+
+#: ../goffice/app/go-plugin-loader-module.c:113
+#, c-format
+msgid "Unable to open module file \"%s\"."
+msgstr "Không thể mở tập tin mô-đun « %s »."
+
+#: ../goffice/app/go-plugin-loader-module.c:121
+#, c-format
+msgid "Module \"%s\" doesn't contain (\"go_plugin_header\" symbol)."
+msgstr "Mô-đun « %s » không chứa (ký hiệu \"go_plugin_header\")."
+
+#: ../goffice/app/go-plugin-loader-module.c:125
+#, c-format
+msgid "Module \"%s\" has an invalid magic number."
+msgstr "Mô-đun « %s » có con số ma thuật không hợp lệ."
+
+#: ../goffice/app/go-plugin-loader-module.c:152
+#, c-format
+msgid "Unable to close module file \"%s\"."
+msgstr "Không thể đóng tập tin mô-đun « %s »."
+
+#: ../goffice/app/go-plugin-loader-module.c:292
+#: ../goffice/app/go-plugin-loader-module.c:354
+#, c-format
+msgid "Module file \"%s\" has invalid format."
+msgstr "Tập tin mô đun « %s » sai dạng thức."
+
+#: ../goffice/app/go-plugin-loader-module.c:295
+#: ../goffice/app/go-plugin-loader-module.c:357
+#, c-format
+msgid "File doesn't contain \"%s\" function."
+msgstr "Tập tin không chứa hàm « %s »."
+
+#: ../goffice/app/go-plugin-loader-module.c:421
+#, c-format
+msgid "Module doesn't contain \"%s\" function."
+msgstr "Mô-đun không chứa hàm « %s »."
+
+#: ../goffice/app/go-plugin-loader.c:47
+msgid "Loader has no set_attributes method.\n"
+msgstr "Bộ nạp không có phương pháp đặt các thuộc tính (set_attributes).\n"
+
+#: ../goffice/app/go-plugin-loader.c:62
+msgid "Loader has no load_base method.\n"
+msgstr "Bộ nạp không có phương pháp nạp cơ bản (load_base).\n"
+
+#: ../goffice/app/go-plugin-loader.c:107 ../goffice/app/go-plugin-loader.c:145
+#, fuzzy, c-format
+msgid "Service '%s' not supported by loader."
+msgstr "Trình này không hỗ trợ dịch vụ « %s »."
+
+#: ../goffice/app/go-plugin-service.c:132
+#: ../goffice/app/go-plugin-service.c:835
+msgid "Error while loading plugin service."
+msgstr "Gặp lỗi trong khi nạp dịch vụ phần bổ sung."
+
+#: ../goffice/app/go-plugin-service.c:140
+msgid "Initializing function inside plugin returned error."
+msgstr "Việc khởi tạo hàm bên trong phần bổ sung đã trả lại lỗi."
+
+#: ../goffice/app/go-plugin-service.c:158
+msgid "Cleanup function inside plugin returned error."
+msgstr "Hàm cleanup (làm sạch) bên trong phần bổ sung đã trả lại lỗi."
+
+#: ../goffice/app/go-plugin-service.c:168 ../goffice/gtk/go-format-sel.c:61
+#: ../goffice/utils/go-format.c:733 ../goffice/utils/go-format.c:3679
+msgid "General"
+msgstr "Chung"
+
+#: ../goffice/app/go-plugin-service.c:319
+msgid "File opener has no description"
+msgstr "Trình mở tập tin không có mô tả"
+
+#: ../goffice/app/go-plugin-service.c:353
+#, c-format
+msgid "File opener - %s"
+msgstr "Bộ mở tập tin — %s"
+
+#: ../goffice/app/go-plugin-service.c:474
+msgid "Error while reading file."
+msgstr "Gặp lỗi khi đọc tập tin."
+
+#: ../goffice/app/go-plugin-service.c:642
+msgid "File saver has no description"
+msgstr "Bộ lưu tập tin không có mô tả"
+
+#: ../goffice/app/go-plugin-service.c:685
+#, c-format
+msgid "File saver - %s"
+msgstr "Bộ lưu tập tin — %s"
+
+#: ../goffice/app/go-plugin-service.c:745
+msgid "Error while loading plugin for saving."
+msgstr "Gặp lỗi khi nạp phần bổ sung để lưu."
+
+#: ../goffice/app/go-plugin-service.c:747
+msgid "Failed to load plugin for saving"
+msgstr "Lỗi nạp phần bổ sung để lưu."
+
+#: ../goffice/app/go-plugin-service.c:872
+msgid "Plugin loader"
+msgstr "Bộ nạp phần bổ sung"
+
+#: ../goffice/app/go-plugin-service.c:897
+msgid "GObject loader"
+msgstr "Bộ nạp đối tượng GObject"
+
+#: ../goffice/app/go-plugin-service.c:1004
+msgid "No \"type\" attribute on \"service\" element."
+msgstr "Không có thuộc tính « type » (kiểu) trong phần tử « service » (dịch vụ)."
+
+#: ../goffice/app/go-plugin-service.c:1010
+#, c-format
+msgid "Unknown service type: %s."
+msgstr "Không rõ kiểu dịch vụ : %s"
+
+#: ../goffice/app/go-plugin-service.c:1026
+msgid "Error reading service information."
+msgstr "Gặp lỗi khi đọc thông tin dịch vụ."
+
+#: ../goffice/app/go-plugin-service.c:1088
+msgid ""
+"We must load service before activating it (PLUGIN_ALWAYS_LOAD is set) but "
+"loading failed."
+msgstr ""
+"Cần phải nạp dịch vụ trước khi kích hoạt nó (biến PLUGIN_ALWAYS_LOAD đã được "
+"đặt) nhưng tiến trình nạp bị lỗi."
+
+#: ../goffice/app/go-plugin.c:334
+#, c-format
+msgid "File contains plugin info with invalid id (%s), expected %s."
+msgstr ""
+"Tập tin chứa thông tin phần bổ sung có ID không hợp lệ (%s), mong đợi %s."
+
+#: ../goffice/app/go-plugin.c:338
+msgid "Couldn't read plugin info from file."
+msgstr "Không thể đọc thông tin phần bổ sung từ tập tin."
+
+#: ../goffice/app/go-plugin.c:483
+msgid "Unknown name"
+msgstr "Tên không rõ"
+
+#: ../goffice/app/go-plugin.c:578
+#, c-format
+msgid "Unsupported loader type \"%s\"."
+msgstr "Kiểu bộ nạp « %s » không được hỗ trợ."
+
+#: ../goffice/app/go-plugin.c:586
+#, c-format
+msgid "Error while preparing loader \"%s\"."
+msgstr "Gặp lỗi khi chuẩn bị trình nạp « %s »."
+
+#: ../goffice/app/go-plugin.c:664
+#, c-format
+msgid "Error while reading service #%d info."
+msgstr "Gặp lỗi khi đọc thông tin dịch vụ #%d."
+
+#: ../goffice/app/go-plugin.c:745
+#, c-format
+msgid "Can't read plugin info file (\"%s\")."
+msgstr "Không thể đọc tập tin thông tin phần bổ sung (« %s »)."
+
+#: ../goffice/app/go-plugin.c:749
+#, c-format
+msgid "File \"%s\" is not valid plugin info file."
+msgstr "Tập tin « %s » không phải tập tin thông tin phần bổ sung hợp lệ."
+
+#: ../goffice/app/go-plugin.c:839
+#, c-format
+msgid "Errors while reading services for plugin with id=\"%s\"."
+msgstr "Gặp lỗi khi đọc các dịch vụ đối với phần bổ sung có id=\"%s\"."
+
+#: ../goffice/app/go-plugin.c:851
+#, c-format
+msgid "Plugin id contains invalid characters (%s)."
+msgstr "ID phần bổ sung chứa ký tự không hợp lệ (%s)."
+
+#: ../goffice/app/go-plugin.c:855
+msgid "Unknown plugin name."
+msgstr "Tên phần bổ sung không rõ."
+
+#: ../goffice/app/go-plugin.c:859
+#, c-format
+msgid "No loader defined or loader id invalid for plugin with id=\"%s\"."
+msgstr ""
+"Không có bộ nạp nào (hoặc id của bộ nạp không hợp lệ) cho phần bổ sung với "
+"id=\"%s\"."
+
+#: ../goffice/app/go-plugin.c:865
+msgid "Plugin has no id."
+msgstr "Phần bổ sung không có ID."
+
+#: ../goffice/app/go-plugin.c:906
+#, c-format
+msgid "Error initializing plugin loader (\"%s\")."
+msgstr "Gặp lỗi khi khởi chạy bộ nạp phần bổ sung (\"%s\")."
+
+#: ../goffice/app/go-plugin.c:937 ../goffice/app/go-plugin.c:1099
+msgid "Detected cyclic plugin dependencies."
+msgstr "Phát hiện quan hệ phụ thuộc phần bổ sung theo chu kỳ."
+
+#: ../goffice/app/go-plugin.c:961
+#, c-format
+msgid "Couldn't activate plugin with id=\"%s\"."
+msgstr "Không thể kích hoạt phần bổ sung với id=\"%s\"."
+
+#: ../goffice/app/go-plugin.c:967 ../goffice/app/go-plugin.c:1145
+#, c-format
+msgid "Couldn't find plugin with id=\"%s\"."
+msgstr "Không thể tìm thấy phần bổ sung với id=\"%s\"."
+
+#: ../goffice/app/go-plugin.c:974
+msgid "Error while activating plugin dependencies."
+msgstr "Gặp lỗi khi kích hoạt quan hệ phụ thuộc của phần bổ sung."
+
+#: ../goffice/app/go-plugin.c:988
+#, c-format
+msgid "Error while activating plugin service #%d."
+msgstr "Gặp lỗi khi kích hoạt dịch vụ phần bổ sung #%d."
+
+#: ../goffice/app/go-plugin.c:1044
+#, c-format
+msgid "Error while deactivating plugin service #%d."
+msgstr "Gặp lỗi khi hủy kích hoạt dịch vụ phần bổ sung #%d."
+
+#: ../goffice/app/go-plugin.c:1111 ../goffice/app/go-plugin.c:1132
+msgid "Cannot load plugin loader."
+msgstr "Không thể nạp bộ nạp phần bổ sung."
+
+#: ../goffice/app/go-plugin.c:1139
+#, c-format
+msgid "Couldn't load plugin with id=\"%s\"."
+msgstr "Không thể nạp phần bổ sung với id=\"%s\"."
+
+#: ../goffice/app/go-plugin.c:1152
+msgid "Error while loading plugin dependencies."
+msgstr "Gặp lỗi khi nạp quan hệ phụ thuộc của phần bổ sung."
+
+#: ../goffice/app/go-plugin.c:1342
+#, fuzzy, c-format
+msgid "Errors occurred while reading plugin information from file \"%s\"."
+msgstr "Gặp lỗi khi đọc thông tin phần bổ sung từ tập tin « %s »."
+
+#: ../goffice/app/go-plugin.c:1461
+#, c-format
+msgid "Couldn't activate plugin \"%s\" (ID: %s)."
+msgstr "Không thể kích hoạt phần bổ sung « %s » (ID: %s)"
+
+#: ../goffice/app/go-plugin.c:1496
+#, c-format
+msgid "Couldn't deactivate plugin \"%s\" (ID: %s)."
+msgstr "Không thể hủy kích hoạt phần bổ sung « %s » (ID: %s)"
+
+#: ../goffice/app/go-plugin.c:1621 ../goffice/app/go-plugin.c:1787
+msgid "Errors while reading info about available plugins."
+msgstr "Gặp lỗi khi đọc thông tin về các phần bổ sung sẵn sàng."
+
+#: ../goffice/app/go-plugin.c:1645
+msgid "Errors while deactivating plugins that are no longer on disk."
+msgstr "Gặp lỗi khi hủy kích hoạt các phần bổ sung không còn nằm trên đĩa."
+
+#: ../goffice/app/go-plugin.c:1666
+#, c-format
+msgid ""
+"The following plugins are no longer on disk but are still active:\n"
+"%s.\n"
+"You should restart this program now."
+msgstr ""
+"Những phần bổ sung sau không còn tồn tại trên đĩa, nhưng vẫn còn hoạt động:\n"
+"%s.\n"
+"Bạn nên khởi chạy lại chương trình này ngay."
+
+#: ../goffice/app/go-plugin.c:1763 ../goffice/app/go-plugin.c:1854
+#, fuzzy
+msgid "Errors while reading info about new plugins."
+msgstr "Gặp lỗi khi đọc thông tin về các phần bổ sung sẵn sàng."
+
+#: ../goffice/app/go-plugin.c:1811 ../goffice/app/go-plugin.c:1878
+msgid "Errors while activating plugins."
+msgstr "Gặp lỗi khi kích hoạt phần bổ sung."
+
+#: ../goffice/app/go-plugin.c:1818 ../goffice/app/go-plugin.c:1885
+msgid "Errors while initializing plugin system."
+msgstr "Gặp lỗi khi khởi tạo hệ thống bổ sung."
+
+# Name: don't translate/Tên: đừng dịch
+#: ../goffice/app/io-context.c:155
+msgid "exec-main-loop"
+msgstr "exec-main-loop"
+
+#: ../goffice/app/io-context.c:156
+msgid "Execute main loop iteration"
+msgstr "Thực hiện sự lặp lại vòng chính"
+
+#: ../goffice/canvas/goc-arc.c:437
+#, fuzzy
+msgid "xc"
+msgstr "x"
+
+#: ../goffice/canvas/goc-arc.c:438
+msgid "The arc center x coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:443
+msgid "yc"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:444
+msgid "The arc center y coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:449
+#, fuzzy
+msgid "xr"
+msgstr "x"
+
+#: ../goffice/canvas/goc-arc.c:450
+msgid "The arc x radius"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:455
+msgid "yr"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:456
+msgid "The arc y radius"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:461
+#, fuzzy
+msgid "ang1"
+msgstr "cam"
+
+#: ../goffice/canvas/goc-arc.c:462
+#, fuzzy
+msgid "The arc start angle"
+msgstr "Rộng văn bản"
+
+#: ../goffice/canvas/goc-arc.c:467
+#, fuzzy
+msgid "ang2"
+msgstr "cam"
+
+#: ../goffice/canvas/goc-arc.c:468
+#, fuzzy
+msgid "The arc end angle"
+msgstr "Rộng văn bản"
+
+#: ../goffice/canvas/goc-arc.c:473 ../goffice/canvas/goc-ellipse.c:263
+#: ../goffice/canvas/goc-path.c:251 ../goffice/canvas/goc-rectangle.c:354
+#: ../goffice/canvas/goc-text.c:440 ../goffice/graph/gog-3d-box.c:166
+#, fuzzy
+msgid "Rotation"
+msgstr "Độ _xoay:"
+
+#: ../goffice/canvas/goc-arc.c:474
+#, fuzzy
+msgid "The rotation around center position"
+msgstr "Mô tả của bộ lưu."
+
+#: ../goffice/canvas/goc-arc.c:479 ../goffice/canvas/goc-rectangle.c:360
+#: ../goffice/graph/gog-axis.c:2460 ../goffice/graph/gog-grid.c:116
+#: ../plugins/plot_barcol/gog-1.5d.c:332
+msgid "Type"
+msgstr "Kiểu"
+
+#: ../goffice/canvas/goc-arc.c:480
+msgid "The type of arc: arc, chord or pie"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:486 ../goffice/canvas/goc-line.c:347
+#, fuzzy
+msgid "Start Arrow"
+msgstr "Đầu"
+
+#: ../goffice/canvas/goc-arc.c:487 ../goffice/canvas/goc-line.c:348
+msgid "Arrow for line's start"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:492 ../goffice/canvas/goc-line.c:353
+msgid "End Arrow"
+msgstr ""
+
+#: ../goffice/canvas/goc-arc.c:493 ../goffice/canvas/goc-line.c:354
+msgid "Arrow for line's end"
+msgstr ""
+
+#: ../goffice/canvas/goc-circle.c:169 ../goffice/canvas/goc-ellipse.c:239
+#: ../goffice/canvas/goc-graph.c:412 ../goffice/canvas/goc-group.c:243
+#: ../goffice/canvas/goc-path.c:239 ../goffice/canvas/goc-pixbuf.c:231
+#: ../goffice/canvas/goc-rectangle.c:330 ../goffice/canvas/goc-text.c:428
+#: ../goffice/canvas/goc-widget.c:318 ../goffice/utils/go-marker.c:83
+msgid "x"
+msgstr "x"
+
+#: ../goffice/canvas/goc-circle.c:170
+msgid "The circle center horizontal position"
+msgstr ""
+
+#: ../goffice/canvas/goc-circle.c:175 ../goffice/canvas/goc-ellipse.c:245
+#: ../goffice/canvas/goc-graph.c:418 ../goffice/canvas/goc-group.c:249
+#: ../goffice/canvas/goc-path.c:245 ../goffice/canvas/goc-pixbuf.c:237
+#: ../goffice/canvas/goc-rectangle.c:336 ../goffice/canvas/goc-text.c:434
+#: ../goffice/canvas/goc-widget.c:324
+msgid "y"
+msgstr ""
+
+#: ../goffice/canvas/goc-circle.c:176
+msgid "The circle center vertical position"
+msgstr ""
+
+#: ../goffice/canvas/goc-circle.c:181
+#, fuzzy
+msgid "Radius"
+msgstr "Radian"
+
+#: ../goffice/canvas/goc-circle.c:182
+msgid "The circle radius"
+msgstr ""
+
+#: ../goffice/canvas/goc-ellipse.c:240
+msgid "The ellipse left position (or right position in RTL mode)"
+msgstr ""
+
+#: ../goffice/canvas/goc-ellipse.c:246
+#, fuzzy
+msgid "The ellipse top position"
+msgstr "Trình đơn các tùy chọn"
+
+#: ../goffice/canvas/goc-ellipse.c:251 ../goffice/canvas/goc-graph.c:430
+#: ../goffice/canvas/goc-graph.c:431 ../goffice/canvas/goc-pixbuf.c:243
+#: ../goffice/canvas/goc-rectangle.c:342 ../goffice/canvas/goc-widget.c:331
+#: ../goffice/graph/gog-graph.c:368 ../goffice/utils/go-image.c:472
+msgid "Width"
+msgstr "Độ rộng"
+
+#: ../goffice/canvas/goc-ellipse.c:252
+#, fuzzy
+msgid "The ellipse width"
+msgstr "Rộng văn bản"
+
+#: ../goffice/canvas/goc-ellipse.c:257 ../goffice/canvas/goc-graph.c:424
+#: ../goffice/canvas/goc-graph.c:425 ../goffice/canvas/goc-pixbuf.c:249
+#: ../goffice/canvas/goc-rectangle.c:348 ../goffice/canvas/goc-widget.c:337
+#: ../goffice/graph/gog-graph.c:374 ../goffice/utils/go-image.c:476
+msgid "Height"
+msgstr "Độ cao"
+
+#: ../goffice/canvas/goc-ellipse.c:258
+#, fuzzy
+msgid "The ellipse height"
+msgstr "Cao văn bản"
+
+#: ../goffice/canvas/goc-ellipse.c:264 ../goffice/canvas/goc-rectangle.c:355
+#, fuzzy
+msgid "The rotation around top left position"
+msgstr "Mô tả của bộ lưu."
+
+#: ../goffice/canvas/goc-graph.c:413
+msgid "The graph left position"
+msgstr ""
+
+#: ../goffice/canvas/goc-graph.c:419
+msgid "The graph top position"
+msgstr ""
+
+#. default
+#. Cheat and assign a name here, graphs will not have parents until we
+#. * support graphs in graphs
+#: ../goffice/canvas/goc-graph.c:436 ../goffice/graph/gog-graph.c:161
+#: ../goffice/graph/gog-graph.c:400
+msgid "Graph"
+msgstr "Đồ thị"
+
+#: ../goffice/canvas/goc-graph.c:437
+#, fuzzy
+msgid "The GogGraph this object displays"
+msgstr "GogObject đối tượng này hiển thị"
+
+#: ../goffice/canvas/goc-graph.c:442 ../goffice/graph/gog-graph.c:902
+msgid "Renderer"
+msgstr "Bộ vẽ"
+
+#: ../goffice/canvas/goc-graph.c:443
+msgid "The GogRenderer being displayed"
+msgstr "GogRenderer được hiển thị"
+
+#: ../goffice/canvas/goc-group.c:244
+#, fuzzy
+msgid "The group horizontal offset"
+msgstr "Lưới vuông thưa"
+
+#: ../goffice/canvas/goc-group.c:250
+msgid "The group vertical offset"
+msgstr ""
+
+#: ../goffice/canvas/goc-item.c:256
+#, fuzzy
+msgid "Canvas"
+msgstr "Lưu dạng"
+
+#: ../goffice/canvas/goc-item.c:257
+msgid "The canvas object on which the item resides"
+msgstr ""
+
+#: ../goffice/canvas/goc-item.c:262 ../goffice/graph/gog-view.c:584
+msgid "Parent"
+msgstr "Cha"
+
+#: ../goffice/canvas/goc-item.c:263
+msgid "The group in which the item resides"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:323
+#, fuzzy
+msgid "x0"
+msgstr "x"
+
+#: ../goffice/canvas/goc-line.c:324
+msgid "The line start x coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:329
+msgid "y0"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:330
+msgid "The line start y coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:335
+#, fuzzy
+msgid "x1"
+msgstr "x"
+
+#: ../goffice/canvas/goc-line.c:336
+msgid "The line end x coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:341
+msgid "y1"
+msgstr ""
+
+#: ../goffice/canvas/goc-line.c:342
+msgid "The line end y coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-path.c:240
+msgid "The path first point x coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-path.c:246
+msgid "The path first point y coordinate"
+msgstr ""
+
+#: ../goffice/canvas/goc-path.c:252
+#, fuzzy
+msgid "The rotation around first point position"
+msgstr "Mô tả của bộ lưu."
+
+#: ../goffice/canvas/goc-path.c:257
+#, fuzzy
+msgid "Closed"
+msgstr "Tô màu XY"
+
+#: ../goffice/canvas/goc-path.c:258
+msgid "The flag for closed path"
+msgstr ""
+
+#: ../goffice/canvas/goc-path.c:263
+#, fuzzy
+msgid "Path"
+msgstr "ở"
+
+#: ../goffice/canvas/goc-path.c:264
+#, fuzzy
+msgid "The path points"
+msgstr "Vị trí trục"
+
+#: ../goffice/canvas/goc-pixbuf.c:232
+#, fuzzy
+msgid "The image left position"
+msgstr "Trình đơn các tùy chọn"
+
+#: ../goffice/canvas/goc-pixbuf.c:238
+#, fuzzy
+msgid "The image top position"
+msgstr "Trình đơn các tùy chọn"
+
+#: ../goffice/canvas/goc-pixbuf.c:244
+msgid "The image width or -1 to use the image width"
+msgstr ""
+
+#: ../goffice/canvas/goc-pixbuf.c:250
+msgid "The image height or -1 to use the image height"
+msgstr ""
+
+#: ../goffice/canvas/goc-pixbuf.c:260 ../goffice/utils/go-image.c:481
+msgid "Pixbuf"
+msgstr "Đệm điểm ảnh"
+
+#: ../goffice/canvas/goc-pixbuf.c:261
+msgid "The GdkPixbuf to display"
+msgstr ""
+
+#: ../goffice/canvas/goc-polyline.c:229 ../goffice/canvas/goc-polygon.c:345
+#, fuzzy
+msgid "points"
+msgstr "Điểm"
+
+#: ../goffice/canvas/goc-polyline.c:229
+msgid "The polyline vertices"
+msgstr ""
+
+#: ../goffice/canvas/goc-polyline.c:234 ../goffice/canvas/goc-polygon.c:350
+#, fuzzy
+msgid "Use spline"
+msgstr "Dùng spline"
+
+#: ../goffice/canvas/goc-polyline.c:235
+msgid "Use a Bezier cubic spline as line"
+msgstr ""
+
+#: ../goffice/canvas/goc-polygon.c:345
+msgid "The polygon vertices"
+msgstr ""
+
+#: ../goffice/canvas/goc-polygon.c:351
+msgid "Use a Bezier closed cubic spline as contour"
+msgstr ""
+
+#: ../goffice/canvas/goc-polygon.c:356
+#, fuzzy
+msgid "Fill rule"
+msgstr "Kiểu tô đầy"
+
+#: ../goffice/canvas/goc-polygon.c:357
+msgid "Set fill rule to winding or even/odd"
+msgstr ""
+
+#: ../goffice/canvas/goc-polygon.c:361
+#, fuzzy
+msgid "sizes"
+msgstr "Cỡ :"
+
+#: ../goffice/canvas/goc-polygon.c:362
+msgid ""
+"If set, the polygon will be split as several polygons according to the given "
+"sizes. Each size must be at least 3. Values following an invalid value will "
+"be discarded. Setting the \"point\" property will reset the sizes."
+msgstr ""
+
+#: ../goffice/canvas/goc-rectangle.c:331
+#, fuzzy
+msgid "The rectangle left position (or right position in RTL mode)"
+msgstr "Trình đơn các tùy chọn"
+
+#: ../goffice/canvas/goc-rectangle.c:337
+#, fuzzy
+msgid "The rectangle top position"
+msgstr "Trình đơn các tùy chọn"
+
+#: ../goffice/canvas/goc-rectangle.c:343
+#, fuzzy
+msgid "The rectangle width"
+msgstr "Rộng văn bản"
+
+#: ../goffice/canvas/goc-rectangle.c:349
+#, fuzzy
+msgid "The rectangle height"
+msgstr "tam giác hướng bên phải"
+
+#: ../goffice/canvas/goc-rectangle.c:361
+#, fuzzy
+msgid "The rectangle type"
+msgstr "Rộng văn bản"
+
+#: ../goffice/canvas/goc-rectangle.c:366
+#, fuzzy
+msgid "rx"
+msgstr "x"
+
+#: ../goffice/canvas/goc-rectangle.c:367
+#, fuzzy
+msgid "The round rectangle rx"
+msgstr "Rộng văn bản"
+
+#: ../goffice/canvas/goc-rectangle.c:372
+#, fuzzy
+msgid "ry"
+msgstr "xám"
+
+#: ../goffice/canvas/goc-rectangle.c:373
+#, fuzzy
+msgid "The round rectangle ry"
+msgstr "Rộng văn bản"
+
+#: ../goffice/canvas/goc-styled-item.c:161
+#: ../goffice/graph/gog-styled-object.c:199 ../goffice/utils/go-style.c:1041
+msgid "Style"
+msgstr "Kiểu dáng"
+
+#: ../goffice/canvas/goc-styled-item.c:162
+#: ../goffice/graph/gog-styled-object.c:200
+#, fuzzy
+msgid "A pointer to the GOStyle object"
+msgstr "Bộ trỏ tới đối tượng kiểu dáng GogStyle"
+
+#: ../goffice/canvas/goc-styled-item.c:167
+#, fuzzy
+msgid "Scale line width"
+msgstr "Độ _rộng đường:"
+
+#: ../goffice/canvas/goc-styled-item.c:168
+msgid "Whether to scale the line width when zooming"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:429
+#, fuzzy
+msgid "The text horizontal position"
+msgstr "Đường nằm ngang mảnh"
+
+#: ../goffice/canvas/goc-text.c:435
+#, fuzzy
+msgid "The text position"
+msgstr "Vị trí trục"
+
+#: ../goffice/canvas/goc-text.c:441
+#, fuzzy
+msgid "The rotation around the anchor"
+msgstr "Mô tả của bộ lưu."
+
+#: ../goffice/canvas/goc-text.c:446 ../goffice/graph/gog-object.c:628
+msgid "Anchor"
+msgstr "Neo"
+
+#: ../goffice/canvas/goc-text.c:447
+msgid "The anchor point for the text"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:452 ../goffice/gtk/go-format-sel.c:70
+#: ../goffice/gtk/go-rotation-sel.c:136 ../goffice/utils/go-style.c:907
+msgid "Text"
+msgstr "Văn bản"
+
+#: ../goffice/canvas/goc-text.c:453
+#, fuzzy
+msgid "The text to display"
+msgstr "Chuỗi bằng đó cần thay thế"
+
+#: ../goffice/canvas/goc-text.c:456
+msgid "Attributes"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:456
+msgid "The attributes list as a PangoAttrList"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:461
+msgid "Clip"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:462
+msgid "Whether to clip or not"
+msgstr ""
+
+#: ../goffice/canvas/goc-text.c:467
+#, fuzzy
+msgid "Clip width"
+msgstr "Độ _rộng đường:"
+
+#: ../goffice/canvas/goc-text.c:468
+#, fuzzy
+msgid "Clip width for the text"
+msgstr "Độ rộng của văn bản đã vẽ"
+
+#: ../goffice/canvas/goc-text.c:473
+#, fuzzy
+msgid "Clip height"
+msgstr "Cao văn bản"
+
+#: ../goffice/canvas/goc-text.c:474
+#, fuzzy
+msgid "Clip height for the text"
+msgstr "Độ cao của văn bản đã vẽ"
+
+#: ../goffice/canvas/goc-text.c:479
+#, fuzzy
+msgid "Wrap width"
+msgstr "Độ rộng"
+
+#: ../goffice/canvas/goc-text.c:480
+#, fuzzy
+msgid "Wrap width for the text"
+msgstr "Độ rộng của văn bản đã vẽ"
+
+#: ../goffice/canvas/goc-widget.c:312
+#, fuzzy
+msgid "Widget"
+msgstr "Độ rộng"
+
+#: ../goffice/canvas/goc-widget.c:313
+#, fuzzy
+msgid "A pointer to the embedded widget"
+msgstr "Bộ trỏ tới đối tượng kiểu dáng GogStyle"
+
+#: ../goffice/canvas/goc-widget.c:319
+#, fuzzy
+msgid "The widget left position"
+msgstr "Trình đơn các tùy chọn"
+
+#: ../goffice/canvas/goc-widget.c:325
+#, fuzzy
+msgid "The widget top position"
+msgstr "Trình đơn các tùy chọn"
+
+#: ../goffice/canvas/goc-widget.c:332
+#, fuzzy
+msgid "The widget width"
+msgstr "Rộng văn bản"
+
+#: ../goffice/canvas/goc-widget.c:338
+#, fuzzy
+msgid "The widget height"
+msgstr "Cao văn bản"
+
+#: ../goffice/component/go-component-factory.c:58
+msgid "Component Engine"
+msgstr "Cơ chế thành phần:"
+
+#: ../goffice/component/go-component-factory.c:197
+msgid "Component Type"
+msgstr "Kiểu thành phần"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:203
+#: ../goffice/drawing/god-paragraph-attributes.c:204
+msgid "Flags"
+msgstr "Cờ"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:209
+#: ../goffice/drawing/god-paragraph-attributes.c:210
+msgid "Indent"
+msgstr "Thụt lề"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:215
+#: ../goffice/drawing/god-paragraph-attributes.c:216
+msgid "Space Before"
+msgstr "Khoảng trước"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:221
+#: ../goffice/drawing/god-paragraph-attributes.c:222
+msgid "Space After"
+msgstr "Khoảng sau"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:227
+#: ../goffice/drawing/god-paragraph-attributes.c:228
+#: ../goffice/graph/gog-object.c:616
+msgid "Alignment"
+msgstr "Chỉnh canh"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:233
+#: ../goffice/drawing/god-paragraph-attributes.c:234
+msgid "Bullet Character"
+msgstr "Ký tự chấm điểm"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:239
+#: ../goffice/drawing/god-paragraph-attributes.c:240
+msgid "Bullet Indent"
+msgstr "Thụt lề chấm điểm"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:245
+#: ../goffice/drawing/god-paragraph-attributes.c:246
+msgid "Bullet Size"
+msgstr "Cỡ chấm điểm"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:251
+#: ../goffice/drawing/god-paragraph-attributes.c:252
+msgid "Bullet Family"
+msgstr "Nhóm chấm điểm"
+
+#: ../goffice/drawing/god-paragraph-attributes.c:257
+#: ../goffice/drawing/god-paragraph-attributes.c:258
+msgid "Bullet On"
+msgstr "Bật chấm điểm"
+
+#: ../goffice/graph/gog-3d-box-prefs.ui.h:1
+#, fuzzy
+msgid "<b>Euler angles</b>"
+msgstr "<b>Giá trị</b>"
+
+#: ../goffice/graph/gog-3d-box-prefs.ui.h:2
+msgid "Phi:"
+msgstr ""
+
+#: ../goffice/graph/gog-3d-box-prefs.ui.h:3
+msgid "Psi:"
+msgstr ""
+
+#: ../goffice/graph/gog-3d-box-prefs.ui.h:4
+#, fuzzy
+msgid "Theta:"
+msgstr "Sắc thái:"
+
+#: ../goffice/graph/gog-3d-box.c:215
+msgid "Advanced"
+msgstr ""
+
+#: ../goffice/graph/gog-3d-box.c:284
+#, fuzzy
+msgid "Euler angle psi"
+msgstr "tam giác hướng trên"
+
+#: ../goffice/graph/gog-3d-box.c:291
+#, fuzzy
+msgid "Euler angle theta"
+msgstr "tam giác hướng bên trái"
+
+#: ../goffice/graph/gog-3d-box.c:298
+#, fuzzy
+msgid "Euler angle phi"
+msgstr "tam giác hướng trên"
+
+#: ../goffice/graph/gog-3d-box.c:305
+msgid "Field of view"
+msgstr ""
+
+#: ../goffice/graph/gog-axis-line.c:636
+msgid "Layout"
+msgstr "Bố trí"
+
+#: ../goffice/graph/gog-axis-line.c:665
+msgid "Axis position"
+msgstr "Vị trí trục"
+
+#: ../goffice/graph/gog-axis-line.c:666 ../goffice/graph/gog-axis-line.c:672
+msgid "Where to position an axis low, high, or crossing"
+msgstr "Vị trí của trục: thấp, cao hay chéo"
+
+#: ../goffice/graph/gog-axis-line.c:671
+#, fuzzy
+msgid "Axis position (as a string)"
+msgstr "Mô tả phông theo chuỗi."
+
+#: ../goffice/graph/gog-axis-line.c:677
+msgid "Major labels"
+msgstr "Nhãn chính"
+
+#: ../goffice/graph/gog-axis-line.c:678
+msgid "Show labels for major ticks"
+msgstr "Hiển thị nhãn cho vạch khấc chính"
+
+#: ../goffice/graph/gog-axis-line.c:683
+msgid "Inside major ticks"
+msgstr "Bên trong vạch khấc chính"
+
+#: ../goffice/graph/gog-axis-line.c:684
+msgid "Major tick marks inside the chart area"
+msgstr "Vạch khấc chính bên trong vùng sơ đồ"
+
+#: ../goffice/graph/gog-axis-line.c:689
+msgid "Outside major ticks"
+msgstr "Bên ngoài vạch khấc chính"
+
+#: ../goffice/graph/gog-axis-line.c:690
+msgid "Major tick marks outside the chart area"
+msgstr "Vạch khấc chính bên ngoài vùng sơ đồ"
+
+#: ../goffice/graph/gog-axis-line.c:695
+msgid "Major tick size"
+msgstr "Cỡ vạch khấc chính"
+
+#: ../goffice/graph/gog-axis-line.c:696
+msgid "Size of the major tick marks, in points"
+msgstr "Kích cỡ của vạch khấc chính, theo điểm"
+
+#: ../goffice/graph/gog-axis-line.c:702
+msgid "Inside minor ticks"
+msgstr "Bên trong vạch khấc phụ"
+
+#: ../goffice/graph/gog-axis-line.c:703
+msgid "Minor tick marks inside the chart area"
+msgstr "Vạch khấc phụ bên trong vùng sơ đồ"
+
+#: ../goffice/graph/gog-axis-line.c:708
+msgid "Outside minor ticks"
+msgstr "Bên ngoài vạch khấc phụ"
+
+#: ../goffice/graph/gog-axis-line.c:709
+msgid "Minor tick marks outside the axis"
+msgstr "Vạch khấc phụ bên ngoài vùng sơ đồ"
+
+#: ../goffice/graph/gog-axis-line.c:714
+msgid "Minor tick size"
+msgstr "Cỡ vạch khấc phụ"
+
+#: ../goffice/graph/gog-axis-line.c:715
+msgid "Size of the minor tick marks, in points"
+msgstr "Kích cỡ của vạch khấc phụ, theo điểm"
+
+#: ../goffice/graph/gog-axis-line.c:721
+msgid "Cross axis id"
+msgstr "ID trục chéo"
+
+#: ../goffice/graph/gog-axis-line.c:722
+msgid "Which axis to cross"
+msgstr "Trục nào nên cắt chéo"
+
+#: ../goffice/graph/gog-axis-line.c:728
+msgid "Axis padding"
+msgstr "Đệm trục"
+
+#: ../goffice/graph/gog-axis-line.c:729
+msgid "Distance from axis line to plot area, in points"
+msgstr "Khoảng cách từ đường trục đến vùng vẽ đồ thị, theo điểm"
+
+#: ../goffice/graph/gog-axis-line.c:821
+msgid "Select axis"
+msgstr "Chọn trục"
+
+#: ../goffice/graph/gog-axis-line.c:927
+msgid "Set start bound"
+msgstr "Đặt biên bắt đầu"
+
+#: ../goffice/graph/gog-axis-line.c:938
+msgid "Set stop bound"
+msgstr "Đặt biên kết thúc"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:1
+msgid "<b>Bounds</b>"
+msgstr "<b>Biên</b>"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:2
+msgid "<b>Major ticks</b>"
+msgstr "<b>Vạch khấc chính</b>"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:3
+msgid "<b>Mapping</b>"
+msgstr "<b>Ánh xạ</b>"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:4
+msgid "<b>Minor ticks</b>"
+msgstr "<b>Vạch khấc phụ</b>"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:5
+msgid "<b>Position</b>"
+msgstr "<b>Vị trí</b>"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:6
+#: ../goffice/graph/gog-object-prefs.ui.h:4
+#: ../goffice/graph/gog-plot-prefs.ui.h:3 ../goffice/gtk/go-palette.c:349
+msgid "Automatic"
+msgstr "Tự động"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:7
+msgid "I_nside"
+msgstr "Bê_n trong"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:8
+msgid "O_utside"
+msgstr "_Bên ngoài"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:9
+msgid "Padding:"
+msgstr "Đệm:"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:10
+msgid "_Cross"
+msgstr "_Chéo"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:11
+msgid "_High"
+msgstr "_Cao"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:12
+msgid "_Inside"
+msgstr "Bên _trong"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:13
+msgid "_Invert axis"
+msgstr "Đả_o trục"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:14
+msgid "_Low"
+msgstr "_Thấp"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:15
+msgid "_Outside"
+msgstr "Bên n_goài"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:16
+msgid "_Rotation:"
+msgstr "Độ _xoay:"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:17
+msgid "_Show Labels"
+msgstr "_Hiện nhãn"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:18
+#: ../goffice/graph/gog-series-prefs.ui.h:8
+#: ../goffice/utils/go-style-prefs.ui.h:24
+msgid "_Type:"
+msgstr "_Kiểu :"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:19
+msgid "_Unit:"
+msgstr "Đơn _vị:"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:20
+msgid "at"
+msgstr "ở"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:21
+#: ../goffice/gtk/go-rotation-sel.ui.h:3
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:10
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:11
+msgid "degrees"
+msgstr "độ"
+
+#: ../goffice/graph/gog-axis-prefs.ui.h:22
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:14
+#: ../goffice/utils/go-style-prefs.ui.h:25
+msgid "pts"
+msgstr "pt"
+
+#: ../goffice/graph/gog-axis.c:46
+msgid "Degrees"
+msgstr "Độ"
+
+#: ../goffice/graph/gog-axis.c:47
+msgid "Radians"
+msgstr "Radian"
+
+#: ../goffice/graph/gog-axis.c:48
+msgid "Grads"
+msgstr "Grad"
+
+#: ../goffice/graph/gog-axis.c:1284
+msgid "Discrete"
+msgstr "Rời rạc"
+
+#: ../goffice/graph/gog-axis.c:1284
+msgid "Discrete mapping"
+msgstr "Ánh xạ rời rạc"
+
+#: ../goffice/graph/gog-axis.c:1296 ../goffice/utils/go-line.c:118
+#: ../goffice/utils/go-line.c:329 ../plugins/reg_linear/reg-types.xml.in.h:3
+msgid "Linear"
+msgstr "Tuyến"
+
+#: ../goffice/graph/gog-axis.c:1296
+msgid "Linear mapping"
+msgstr "Ánh xạ tuyến"
+
+#: ../goffice/graph/gog-axis.c:1308
+msgid "Log"
+msgstr "Lôga"
+
+#: ../goffice/graph/gog-axis.c:1308
+msgid "Logarithm mapping"
+msgstr "Ánh xạ lôga"
+
+#: ../goffice/graph/gog-axis.c:2321 ../goffice/graph/gog-axis.c:2331
+msgid "M_inimum"
+msgstr "Tố_i thiểu"
+
+#: ../goffice/graph/gog-axis.c:2322 ../goffice/graph/gog-axis.c:2332
+msgid "M_aximum"
+msgstr "Tối đ_a"
+
+#: ../goffice/graph/gog-axis.c:2323
+msgid "Categories between _ticks"
+msgstr "Phân loại giữa _vạch khấc"
+
+#: ../goffice/graph/gog-axis.c:2324
+msgid "Categories between _labels"
+msgstr "Phân loại giữa _nhãn"
+
+#: ../goffice/graph/gog-axis.c:2333
+msgid "Ma_jor ticks"
+msgstr "Vạch khấc _chính"
+
+#: ../goffice/graph/gog-axis.c:2334
+msgid "Mi_nor ticks"
+msgstr "Vạch khấc _phụ"
+
+#: ../goffice/graph/gog-axis.c:2388 ../goffice/math/go-distribution.c:163
+#: ../goffice/math/go-distribution.c:164
+msgid "Scale"
+msgstr "Tỷ lệ"
+
+#: ../goffice/graph/gog-axis.c:2404
+msgid "Format"
+msgstr "Định dạng"
+
+#: ../goffice/graph/gog-axis.c:2436
+msgid "MajorGrid"
+msgstr "Lưới chính"
+
+#: ../goffice/graph/gog-axis.c:2439
+msgid "MinorGrid"
+msgstr "Lưới phụ"
+
+#: ../goffice/graph/gog-axis.c:2442
+msgid "AxisLine"
+msgstr "Đường trục"
+
+#: ../goffice/graph/gog-axis.c:2445
+msgid "Label"
+msgstr "Nhãn"
+
+#: ../goffice/graph/gog-axis.c:2461
+msgid "Numerical type of this axis"
+msgstr "Kiểu hành động"
+
+#: ../goffice/graph/gog-axis.c:2465
+msgid "Invert axis"
+msgstr "Đảo trục"
+
+#: ../goffice/graph/gog-axis.c:2466
+msgid "Scale from high to low rather than low to high"
+msgstr "Co dãn từ cao xuống dưới, hơn là từ thấp lên cao"
+
+#: ../goffice/graph/gog-axis.c:2470
+msgid "MapName"
+msgstr "Tên mẫu"
+
+#: ../goffice/graph/gog-axis.c:2471
+msgid "The name of the map for scaling"
+msgstr "Tên của mẫu co dãn"
+
+#: ../goffice/graph/gog-axis.c:2476
+msgid "Assigned XL format"
+msgstr "Định dạng XL đã gán"
+
+#: ../goffice/graph/gog-axis.c:2477
+msgid ""
+"The user assigned format to use for non-discrete axis labels (XL format)"
+msgstr ""
+"Định dạng được người dùng gán để sử dụng cho các nhãn trục không phải rời "
+"rạc (định dạng XL)"
+
+#: ../goffice/graph/gog-axis.c:2482 ../goffice/graph/gog-axis.c:2483
+msgid "Rotation of circular axis"
+msgstr "Độ xoay trục hình tròn"
+
+#: ../goffice/graph/gog-axis.c:2490 ../goffice/graph/gog-axis.c:2491
+msgid "Polar axis set unit"
+msgstr "Đơn vị đặt trục cục"
+
+#: ../goffice/graph/gog-chart.c:367 ../goffice/graph/gog-chart.c:670
+msgid "Plot area"
+msgstr "Vùng vẽ"
+
+#: ../goffice/graph/gog-chart.c:576
+msgid "Backplane"
+msgstr "Mặt phẳng ngược"
+
+#: ../goffice/graph/gog-chart.c:579
+#, fuzzy
+msgid "XY-Backplane"
+msgstr "Mặt phẳng ngược"
+
+#: ../goffice/graph/gog-chart.c:583
+#, fuzzy
+msgid "YZ-Backplane"
+msgstr "Mặt phẳng ngược"
+
+#: ../goffice/graph/gog-chart.c:587
+#, fuzzy
+msgid "ZX-Backplane"
+msgstr "Mặt phẳng ngược"
+
+#: ../goffice/graph/gog-chart.c:591
+msgid "X-Axis"
+msgstr "Trục X"
+
+#: ../goffice/graph/gog-chart.c:595
+msgid "Y-Axis"
+msgstr "Trục Y"
+
+#: ../goffice/graph/gog-chart.c:599
+msgid "Z-Axis"
+msgstr "Trục Z"
+
+#: ../goffice/graph/gog-chart.c:603
+msgid "Circular-Axis"
+msgstr "Trục tròn"
+
+#: ../goffice/graph/gog-chart.c:607
+msgid "Radial-Axis"
+msgstr "Trục toả tròn"
+
+#: ../goffice/graph/gog-chart.c:611
+msgid "Pseudo-3D-Axis"
+msgstr "Trục 3D giả"
+
+#: ../goffice/graph/gog-chart.c:615
+msgid "Bubble-Axis"
+msgstr "Trục bọt"
+
+#: ../goffice/graph/gog-chart.c:619
+msgid "Color-Axis"
+msgstr "Trục màu"
+
+#: ../goffice/graph/gog-chart.c:623
+msgid "Plot"
+msgstr "Đồ thị vẽ"
+
+#: ../goffice/graph/gog-chart.c:626 ../goffice/graph/gog-graph.c:301
+#: ../goffice/graph/gog-legend.c:187
+msgid "Title"
+msgstr "Tựa"
+
+#: ../goffice/graph/gog-chart.c:631
+msgid "Legend"
+msgstr "Chú giải"
+
+#: ../goffice/graph/gog-chart.c:637 ../goffice/graph/gog-reg-curve.c:154
+msgid "Equation"
+msgstr "Phương trình"
+
+#: ../goffice/graph/gog-chart.c:643
+msgid "3D-Box"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:664
+msgid "Valid cardinality"
+msgstr "Bản số hợp lệ"
+
+#: ../goffice/graph/gog-chart.c:665
+msgid "Is the charts cardinality currently valid"
+msgstr "Số các yếu tố của sơ đồ hiện thời hợp lệ không"
+
+#: ../goffice/graph/gog-chart.c:671
+msgid "Position and size of plot area, in percentage of chart size"
+msgstr ""
+"Vị trí và kích cỡ của vùng vẽ đồ thị, theo phần trăm kích cỡ toàn sơ đồ"
+
+#: ../goffice/graph/gog-chart.c:676
+msgid "Manual plot area"
+msgstr "Vùng tự vẽ"
+
+#: ../goffice/graph/gog-chart.c:677
+msgid "Is plot area manual"
+msgstr "Vùng chứa đường vẽ bằng tay không"
+
+#: ../goffice/graph/gog-chart.c:681
+#, fuzzy
+msgid "xpos"
+msgstr "Điểm"
+
+#: ../goffice/graph/gog-chart.c:682
+msgid "Horizontal chart position in graph grid"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:686
+#, fuzzy
+msgid "ypos"
+msgstr "Điểm"
+
+#: ../goffice/graph/gog-chart.c:687
+msgid "Vertical chart position in graph grid"
+msgstr ""
+
+#: ../goffice/graph/gog-chart.c:690
+#, fuzzy
+msgid "columns"
+msgstr "Cột"
+
+#: ../goffice/graph/gog-chart.c:691
+#, fuzzy
+msgid "Number of columns in graph grid"
+msgstr "Số véc-tơ X"
+
+#: ../goffice/graph/gog-chart.c:694
+#, fuzzy
+msgid "rows"
+msgstr "chữ thập"
+
+#: ../goffice/graph/gog-chart.c:695
+#, fuzzy
+msgid "Number of rows in graph grid"
+msgstr "Số véc-tơ X"
+
+#. Note for translators: first string represent the new child object and second string is the parent object
+#: ../goffice/graph/gog-child-button.c:501
+#, c-format
+msgid "%s to %s"
+msgstr ""
+
+#: ../goffice/graph/gog-equation-prefs.ui.h:1
+#, fuzzy
+msgid "_Compact mode"
+msgstr "Định dạng _mã:"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:1
+msgid "(+)"
+msgstr "(+)"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:2
+msgid "(-)"
+msgstr "(-)"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:3
+msgid "<b>Error category</b>"
+msgstr "<b>Loại lỗi</b>"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:4
+msgid "<b>Style</b>"
+msgstr "<b>Kiểu dáng</b>"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:5
+msgid "<b>Values</b>"
+msgstr "<b>Giá trị</b>"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:6
+#, fuzzy
+msgid "Absolute"
+msgstr "xanh"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:7
+msgid "Colo_r:"
+msgstr "_Màu :"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:8
+msgid "Dis_play:"
+msgstr "_Hiển thị:"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:9
+#: ../goffice/graph/gog-error-bar.c:75 ../goffice/gtk/go-format-sel.c:1105
+#: ../goffice/gtk/go-format-sel.c:1270 ../goffice/utils/formats.c:348
+#: ../goffice/utils/go-line.c:84 ../goffice/utils/go-style-prefs.ui.h:9
+msgid "None"
+msgstr "Không có"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:10
+#, fuzzy
+msgid "Percent"
+msgstr "Phần trăm"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:11
+#, fuzzy
+msgid "Relative"
+msgstr "Âm"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:12
+msgid "_Line width:"
+msgstr "Độ _rộng đường:"
+
+#: ../goffice/graph/gog-error-bar-prefs.ui.h:13
+#: ../goffice/graph/gog-object-prefs.ui.h:14
+#: ../goffice/graph/gog-plot-prefs.ui.h:7
+msgid "_Width:"
+msgstr "Độ _rộng:"
+
+#: ../goffice/graph/gog-error-bar.c:76
+msgid "Positive"
+msgstr "Dương"
+
+#: ../goffice/graph/gog-error-bar.c:77
+msgid "Negative"
+msgstr "Âm"
+
+#: ../goffice/graph/gog-error-bar.c:78
+msgid "Both"
+msgstr "Cả hai"
+
+#. Note for translator: the angle unit
+#: ../goffice/graph/gog-error-bar.c:308
+msgid "°"
+msgstr ""
+
+#. An MS Excel-ish theme
+#: ../goffice/graph/gog-graph-prefs.ui.h:1 ../goffice/graph/gog-theme.c:500
+msgid "Default"
+msgstr "Mặc định"
+
+#: ../goffice/graph/gog-graph-prefs.ui.h:2
+msgid "Forget user styles"
+msgstr "Quên kiểu dáng người dùng"
+
+#: ../goffice/graph/gog-graph-prefs.ui.h:3
+msgid "Theme:"
+msgstr "Sắc thái:"
+
+#: ../goffice/graph/gog-graph.c:235 ../goffice/graph/gog-graph.c:356
+msgid "Theme"
+msgstr "Sắc thái"
+
+#: ../goffice/graph/gog-graph.c:296
+msgid "Chart"
+msgstr "Sơ đồ"
+
+#: ../goffice/graph/gog-graph.c:357
+msgid "The theme for elements of the graph"
+msgstr "Sắc thái về các yếu tố của đồ thị"
+
+#: ../goffice/graph/gog-graph.c:362
+msgid "Theme name"
+msgstr "Tên sắc thái"
+
+#: ../goffice/graph/gog-graph.c:363
+msgid "The name of the theme for elements of the graph"
+msgstr "Tên của sắc thái về các yếu tố của đồ thị"
+
+#: ../goffice/graph/gog-graph.c:369
+msgid "Logical graph width, in points"
+msgstr "Độ rộng đồ thị lôgic, theo điểm"
+
+#: ../goffice/graph/gog-graph.c:375
+#, fuzzy
+msgid "Logical graph height, in points"
+msgstr "Độ cao đồ thị lôgic, theo điểm"
+
+#: ../goffice/graph/gog-graph.c:380
+msgid "Document"
+msgstr ""
+
+#: ../goffice/graph/gog-graph.c:381
+#, fuzzy
+msgid "the document for this graph"
+msgstr "Sắc thái về các yếu tố của đồ thị"
+
+#: ../goffice/graph/gog-graph.c:903
+msgid "the renderer for this view"
+msgstr "bộ vẽ cho ô xem này"
+
+#: ../goffice/graph/gog-grid-line.c:111
+msgid "Is-minor"
+msgstr "Phụ"
+
+#: ../goffice/graph/gog-grid-line.c:112
+msgid "Are these minor grid lines"
+msgstr "Có đường lưới phụ không"
+
+#: ../goffice/graph/gog-grid.c:117
+#, fuzzy
+msgid "Numerical type of this backplane"
+msgstr "Kiểu hành động"
+
+#: ../goffice/graph/gog-guru-type-selector.ui.h:1
+#, fuzzy
+msgid "<b>Sample</b>"
+msgstr "<b>Kiểu dáng</b>"
+
+#: ../goffice/graph/gog-guru-type-selector.ui.h:2
+msgid "<b>_Plot type</b>"
+msgstr "<b>Kiểu đồ thị _vẽ</b>"
+
+#: ../goffice/graph/gog-guru-type-selector.ui.h:3
+msgid "<b>_Subtype</b>"
+msgstr "<b>Kiểu _con</b>"
+
+#: ../goffice/graph/gog-guru.c:999 ../goffice/graph/gog-series.c:474
+msgid "Name"
+msgstr "Tên"
+
+#: ../goffice/graph/gog-guru.c:1026
+msgid "Step 1 of 2: Select Chart Type"
+msgstr "Bước 1 trên 2: Chọn kiểu đồ thị"
+
+#: ../goffice/graph/gog-guru.c:1034
+msgid "Step 2 of 2: Customize Chart"
+msgstr "Bước 2 trên 2: Tùy chỉnh đồ thị"
+
+#: ../goffice/graph/gog-guru.c:1039
+msgid "Customize Chart"
+msgstr "Tùy chỉnh đồ thị"
+
+#: ../goffice/graph/gog-guru.c:1114
+msgid "_Insert"
+msgstr "C_hèn"
+
+#: ../goffice/graph/gog-guru.c:1181
+msgid "_Plot Type"
+msgstr "Kiểu đồ thị _vẽ"
+
+#: ../goffice/graph/gog-label.c:108
+msgid "Allow markup"
+msgstr "Cho phép mã định dạng"
+
+#: ../goffice/graph/gog-label.c:109
+msgid "Support basic html-ish markup"
+msgstr "Hỗ trợ mã định dạng kiểu HTML cơ bản"
+
+#: ../goffice/graph/gog-label.c:171
+msgid "_Text:"
+msgstr "_Văn bản:"
+
+#: ../goffice/graph/gog-label.c:176 ../goffice/graph/gog-series.c:515
+msgid "Data"
+msgstr "Dữ liệu"
+
+#: ../goffice/graph/gog-label.c:330 ../goffice/graph/gog-reg-curve.c:71
+#: ../plugins/plot_xy/gog-xy.c:1925
+msgid "Details"
+msgstr "Chi tiết"
+
+#: ../goffice/graph/gog-label.c:351
+msgid "Regression Equation"
+msgstr "Phương trình hồi quy"
+
+#: ../goffice/graph/gog-label.c:390
+msgid "Show equation"
+msgstr "Hiện phương trình"
+
+#: ../goffice/graph/gog-label.c:391
+msgid "Show the equation on the graph"
+msgstr "Hiển thị phương trình trên đồ thị"
+
+#: ../goffice/graph/gog-label.c:396
+msgid "Show coefficient"
+msgstr "Hiện hệ số"
+
+#: ../goffice/graph/gog-label.c:397
+msgid "Show the correlation coefficient on the graph"
+msgstr "Hiển thị hệ số tương quan trên đồ thị"
+
+#: ../goffice/graph/gog-legend.c:210
+msgid "Swatch Size pts"
+msgstr "Cỡ dải màu (điểm)"
+
+#: ../goffice/graph/gog-legend.c:211
+msgid "size of the swatches in pts."
+msgstr "kích cỡ của dải màu, theo điểm"
+
+#: ../goffice/graph/gog-legend.c:216
+msgid "Swatch Padding pts"
+msgstr "Đệm dải màu (điểm)"
+
+#: ../goffice/graph/gog-legend.c:217
+msgid "padding between the swatches in pts."
+msgstr "độ đệm giữa hai dải màu, theo điểm"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:2
+#: ../goffice/graph/gog-plot-prefs.ui.h:2
+#: ../plugins/plot_barcol/gog-barcol-prefs.ui.h:2
+#: ../plugins/plot_barcol/gog-minmax-prefs.ui.h:2
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:2
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:2
+#: ../plugins/plot_pie/gog-pie-series.ui.h:2
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:2
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:3
+msgid "Anchor:"
+msgstr "Neo :"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:5
+#, fuzzy
+msgid "Column:"
+msgstr "Cột"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:6
+#, fuzzy
+msgid "Height in rows:"
+msgstr "nâu nhạt"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:7
+#: ../goffice/graph/gog-plot-prefs.ui.h:4
+#, fuzzy
+msgid "Manual"
+msgstr "Đỏ tươi"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:8
+#, fuzzy
+msgid "Row:"
+msgstr "_Thấp"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:9
+msgid "Width in columns:"
+msgstr ""
+
+#: ../goffice/graph/gog-object-prefs.ui.h:10
+msgid "_Alignment:"
+msgstr "Chỉnh c_anh:"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:11
+#: ../goffice/graph/gog-plot-prefs.ui.h:5
+msgid "_Height:"
+msgstr "Độ _cao :"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:12
+#: ../goffice/graph/gog-plot-prefs.ui.h:6
+msgid "_Object position:"
+msgstr "Vị trí đố_i tượng:"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:13
+msgid "_Position:"
+msgstr "_Vị trí:"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:15
+#: ../goffice/graph/gog-plot-prefs.ui.h:8
+msgid "_X:"
+msgstr "_X:"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:16
+#: ../goffice/graph/gog-plot-prefs.ui.h:9
+msgid "_Y:"
+msgstr "_Y:"
+
+#: ../goffice/graph/gog-object-prefs.ui.h:17
+msgid "page 3"
+msgstr ""
+
+#: ../goffice/graph/gog-object.c:38 ../goffice/graph/gog-object.c:57
+#: ../goffice/graph/gog-series.c:40
+msgid "Top"
+msgstr "Trên"
+
+#: ../goffice/graph/gog-object.c:39 ../goffice/graph/gog-object.c:58
+msgid "Top right"
+msgstr "Góc trên bên phải"
+
+#: ../goffice/graph/gog-object.c:40 ../goffice/graph/gog-object.c:61
+#: ../goffice/graph/gog-series.c:41
+msgid "Right"
+msgstr "Phải"
+
+#: ../goffice/graph/gog-object.c:41 ../goffice/graph/gog-object.c:64
+msgid "Bottom right"
+msgstr "Góc dưới, bên phải"
+
+#: ../goffice/graph/gog-object.c:42 ../goffice/graph/gog-object.c:63
+#: ../goffice/graph/gog-series.c:38
+msgid "Bottom"
+msgstr "Dưới"
+
+#: ../goffice/graph/gog-object.c:43 ../goffice/graph/gog-object.c:62
+msgid "Bottom left"
+msgstr "Góc dưới, bên trái"
+
+#: ../goffice/graph/gog-object.c:44 ../goffice/graph/gog-object.c:59
+#: ../goffice/graph/gog-series.c:39
+msgid "Left"
+msgstr "Trái"
+
+#: ../goffice/graph/gog-object.c:45 ../goffice/graph/gog-object.c:56
+msgid "Top left"
+msgstr "Góc trên, bên trái"
+
+#: ../goffice/graph/gog-object.c:49
+msgid "Fill"
+msgstr "Tô đầy"
+
+#: ../goffice/graph/gog-object.c:50 ../plugins/plot_barcol/gog-dropbar.c:61
+msgid "Start"
+msgstr "Đầu"
+
+#: ../goffice/graph/gog-object.c:51 ../plugins/plot_barcol/gog-dropbar.c:63
+msgid "End"
+msgstr "Cuối"
+
+#: ../goffice/graph/gog-object.c:52 ../goffice/graph/gog-object.c:60
+#: ../goffice/graph/gog-series.c:43
+msgid "Center"
+msgstr "Ở giữa"
+
+#: ../goffice/graph/gog-object.c:559 ../goffice/graph/gog-object.c:604
+msgid "Position"
+msgstr "Vị trí"
+
+#: ../goffice/graph/gog-object.c:598
+msgid "Object ID"
+msgstr "ID đối tượng"
+
+#: ../goffice/graph/gog-object.c:599
+msgid "Object numerical ID"
+msgstr "Mã thuộc số nhận diện đối tượng"
+
+#: ../goffice/graph/gog-object.c:605
+msgid "Position and size of object, in percentage of parent size"
+msgstr "Vị trí và kích cỡ của đối tượng, theo phần trăm kích cỡ đối tượng cha"
+
+#: ../goffice/graph/gog-object.c:610
+msgid "Compass"
+msgstr "La bàn"
+
+#: ../goffice/graph/gog-object.c:611
+msgid "Compass auto position flags"
+msgstr "Các cờ vị trí tự động la bàn"
+
+#: ../goffice/graph/gog-object.c:617
+msgid "Alignment flag"
+msgstr "Cờ chỉnh canh"
+
+#: ../goffice/graph/gog-object.c:622 ../goffice/graph/gog-object.c:623
+msgid "Is position manual"
+msgstr "Vị trí đặt bằng tay không"
+
+#: ../goffice/graph/gog-object.c:629
+msgid "Anchor for manual position"
+msgstr "Neo đối với vị trí đặt bằng tay"
+
+#: ../goffice/graph/gog-object.c:634 ../goffice/graph/gog-object.c:635
+msgid "Should the object be hidden"
+msgstr ""
+
+#: ../goffice/graph/gog-outlined-object.c:74
+msgid "Padding Pts"
+msgstr "Đệm (điểm)"
+
+#: ../goffice/graph/gog-outlined-object.c:75
+msgid "Number of pts separating charts in the grid"
+msgstr "Số điểm phân cách hai đồ thị trên lưới"
+
+#: ../goffice/graph/gog-plot-engine.c:56
+msgid "Plot Engine"
+msgstr "Cơ chế vẽ đồ thị"
+
+#: ../goffice/graph/gog-plot-engine.c:297
+msgid "Plot Type"
+msgstr "Kiểu đồ thị vẽ"
+
+#: ../goffice/graph/gog-plot-engine.c:394
+msgid "Chart Theme"
+msgstr "Sắc thái đồ thị"
+
+#: ../goffice/graph/gog-plot-engine.c:425
+msgid "Regression Curve Engine"
+msgstr "Cơ chế đường cong hồi quy"
+
+#: ../goffice/graph/gog-plot-engine.c:615
+msgid "Regression Curve Type"
+msgstr "Kiểu đường cong hồi quy"
+
+#: ../goffice/graph/gog-plot.c:161
+msgid "X axis:"
+msgstr "Trục X:"
+
+#: ../goffice/graph/gog-plot.c:162
+msgid "Y axis:"
+msgstr "Trục Y:"
+
+#: ../goffice/graph/gog-plot.c:163
+msgid "Z axis:"
+msgstr "Trục Z:"
+
+#: ../goffice/graph/gog-plot.c:164
+msgid "Circular axis:"
+msgstr "Trục tròn:"
+
+#: ../goffice/graph/gog-plot.c:165
+msgid "Radial axis:"
+msgstr "Trục toả tròn:"
+
+#: ../goffice/graph/gog-plot.c:166
+msgid "Pseudo 3D axis:"
+msgstr "Trục 3D giả:"
+
+#: ../goffice/graph/gog-plot.c:167
+#, fuzzy
+msgid "Color axis:"
+msgstr "Trục màu"
+
+#: ../goffice/graph/gog-plot.c:168
+#, fuzzy
+msgid "Bubble axis:"
+msgstr "Trục bọt"
+
+#: ../goffice/graph/gog-plot.c:232
+msgid "Axes"
+msgstr "Trục"
+
+#: ../goffice/graph/gog-plot.c:334
+msgid "Series"
+msgstr "Dãy"
+
+#: ../goffice/graph/gog-plot.c:355
+msgid "Vary style by element"
+msgstr "Kiểu dáng theo yếu tố"
+
+#: ../goffice/graph/gog-plot.c:356
+msgid "Use a different style for each segments"
+msgstr "Đặt kiểu dáng riêng cho mỗi đoạn"
+
+#: ../goffice/graph/gog-plot.c:361
+msgid "X axis"
+msgstr "Trục X"
+
+#: ../goffice/graph/gog-plot.c:362
+msgid "Reference to X axis"
+msgstr "Tham chiếu đến trục X"
+
+#: ../goffice/graph/gog-plot.c:367
+msgid "Y axis"
+msgstr "Trục Y"
+
+#: ../goffice/graph/gog-plot.c:368
+msgid "Reference to Y axis"
+msgstr "Tham chiếu đến trục Y"
+
+#: ../goffice/graph/gog-plot.c:373
+msgid "Plot group"
+msgstr "Nhóm đồ thị vẽ"
+
+#: ../goffice/graph/gog-plot.c:374
+msgid "Name of plot group if any"
+msgstr "Tên của nhóm đồ thị vẽ, nếu có"
+
+#: ../goffice/graph/gog-plot.c:379
+msgid "Guru hints"
+msgstr "Mẹo Guru"
+
+#: ../goffice/graph/gog-plot.c:380
+msgid ""
+"Semicolon separated list of hints for automatic addition of objects in guru "
+"dialog"
+msgstr ""
+"Danh sách định giới bằng dấu chấm phẩy chứa các lời gọi ý đối tượng nên thêm "
+"tự động trong hộp thoại Guru"
+
+#: ../goffice/graph/gog-plot.c:386
+msgid "Default interpolation"
+msgstr "Nội suy mặc định:"
+
+#: ../goffice/graph/gog-plot.c:387
+msgid "Default type of series line interpolation"
+msgstr "Kiểu nội suy đường dãy mặc định"
+
+#: ../goffice/graph/gog-plot.c:992
+msgid "Move plot area"
+msgstr "Dời vùng vẽ"
+
+#: ../goffice/graph/gog-plot.c:1044
+msgid "Resize plot area"
+msgstr "Đổi cỡ vùng vẽ"
+
+#: ../goffice/graph/gog-reg-curve-prefs.ui.h:1
+#, fuzzy
+msgid "(_Name):"
+msgstr "Tên"
+
+#: ../goffice/graph/gog-reg-curve-prefs.ui.h:2
+msgid "High bound:"
+msgstr "Biên cao :"
+
+#: ../goffice/graph/gog-reg-curve-prefs.ui.h:3
+msgid "Low bound:"
+msgstr "Biên thấp:"
+
+#: ../goffice/graph/gog-reg-curve-prefs.ui.h:4
+#: ../goffice/graph/gog-reg-curve.c:183
+msgid "Skip invalid data"
+msgstr "Bỏ qua dữ liệu không hợp lệ"
+
+#: ../goffice/graph/gog-reg-curve.c:147
+msgid "Regression Curve"
+msgstr "Đường cong hồi quy"
+
+#: ../goffice/graph/gog-reg-curve.c:182
+msgid "Skip invalid"
+msgstr "Bỏ qua mục không hợp lệ"
+
+#: ../goffice/graph/gog-reg-eqn-prefs.ui.h:1
+msgid "Display _equation"
+msgstr "Hiển thị _phương trình"
+
+#: ../goffice/graph/gog-reg-eqn-prefs.ui.h:2
+#, fuzzy
+msgid "Display _regression coefficient R&#xB2;"
+msgstr "Hiển thị hệ số hồi quy _R²"
+
+#: ../goffice/graph/gog-renderer.c:1525 ../goffice/graph/gog-view.c:590
+msgid "Model"
+msgstr "Mô hình"
+
+#: ../goffice/graph/gog-renderer.c:1526
+msgid "The GogGraph this renderer displays"
+msgstr "Đồ thị GogGraph bộ vẽ này hiển thị"
+
+#: ../goffice/graph/gog-renderer.c:1531
+msgid "View"
+msgstr "Xem"
+
+#: ../goffice/graph/gog-renderer.c:1532
+msgid "the GogView this renderer is displaying"
+msgstr "ô xem GogView bộ vẽ này đang hiển thị"
+
+#: ../goffice/graph/gog-series-prefs.ui.h:1
+msgid "<b>Interpolation</b>"
+msgstr "<b>Nội suy</b>"
+
+#. derivative (curve slope) at first point for the clamped cubic spline
+#: ../goffice/graph/gog-series-prefs.ui.h:3
+msgid "<i>y'</i>(<i>x</i><sub>first</sub>):"
+msgstr ""
+
+#. derivative (curve slope) at last point for the clamped cubic spline
+#: ../goffice/graph/gog-series-prefs.ui.h:5
+msgid "<i>y'</i>(<i>x</i><sub>last</sub>):"
+msgstr ""
+
+#: ../goffice/graph/gog-series-prefs.ui.h:6
+msgid "Fill _to:"
+msgstr "_Tô đầy tới:"
+
+#: ../goffice/graph/gog-series-prefs.ui.h:7
+#, fuzzy
+msgid "S_kip invalid data"
+msgstr "Bỏ qua dữ liệu không hợp lệ"
+
+#: ../goffice/graph/gog-series-prefs.ui.h:9
+msgid "content"
+msgstr "nội dung"
+
+#: ../goffice/graph/gog-series.c:36
+msgid "Y origin"
+msgstr "Gốc Y"
+
+#: ../goffice/graph/gog-series.c:37
+msgid "X origin"
+msgstr "Gốc X"
+
+#: ../goffice/graph/gog-series.c:42
+msgid "Origin"
+msgstr "Gốc"
+
+#: ../goffice/graph/gog-series.c:44
+msgid "Edge"
+msgstr "Cạnh"
+
+#: ../goffice/graph/gog-series.c:45
+msgid "Self"
+msgstr "Bản thân"
+
+#: ../goffice/graph/gog-series.c:46
+msgid "Next series"
+msgstr "Dãy kế"
+
+#: ../goffice/graph/gog-series.c:151
+msgid "Index:"
+msgstr "Chỉ mục:"
+
+#: ../goffice/graph/gog-series.c:170 ../plugins/plot_pie/gog-pie.c:89
+msgid "Settings"
+msgstr "Thiết lập"
+
+#: ../goffice/graph/gog-series.c:211
+msgid "Index"
+msgstr "Chỉ mục"
+
+#: ../goffice/graph/gog-series.c:212
+msgid "Index of the corresponding data element"
+msgstr "Chỉ mục của yếu tố dữ liệu tương ứng"
+
+#: ../goffice/graph/gog-series.c:560
+msgid "Derivative at first point of the clamped cubic spline."
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:564
+msgid "Derivative at last point of the clamped cubic spline."
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:629
+msgid "Point"
+msgstr "Điểm"
+
+#: ../goffice/graph/gog-series.c:635
+msgid "Regression curve"
+msgstr "Đường cong hồi quy"
+
+#: ../goffice/graph/gog-series.c:643
+msgid "Trend line"
+msgstr "Đường khuynh hướng"
+
+#: ../goffice/graph/gog-series.c:678
+msgid "Has-legend"
+msgstr "Có chú giải"
+
+#: ../goffice/graph/gog-series.c:679
+msgid "Should the series show up in legends"
+msgstr "Dãy nên hiển thị trong bản chú giải không"
+
+#: ../goffice/graph/gog-series.c:684
+msgid "Interpolation"
+msgstr "Nội suy"
+
+#: ../goffice/graph/gog-series.c:685
+msgid "Type of line interpolation"
+msgstr "Kiểu nội suy đường"
+
+#: ../goffice/graph/gog-series.c:690
+#, fuzzy
+msgid "Interpolation skip invalid"
+msgstr "Nội suy"
+
+#: ../goffice/graph/gog-series.c:691
+msgid "Should the series interpolation ignore the invalid data"
+msgstr ""
+
+#: ../goffice/graph/gog-series.c:696
+msgid "Fill type"
+msgstr "Kiểu tô đầy"
+
+#: ../goffice/graph/gog-series.c:697
+msgid "How to fill the area"
+msgstr "Cách tô đầy vùng"
+
+#: ../goffice/graph/gog-smoothed-curve.c:52
+msgid "Smoothed Curve"
+msgstr "Đường cong mịn"
+
+# Name: don't translate/Tên: đừng dịch
+#. Guppi
+#: ../goffice/graph/gog-theme.c:636
+msgid "Guppi"
+msgstr "Guppi"
+
+#: ../goffice/graph/gog-trend-line.c:39
+msgid "Trend Line"
+msgstr "Đường khuynh hướng"
+
+#: ../goffice/graph/gog-view.c:56
+msgid "Select object"
+msgstr "Chọn đối tượng"
+
+#: ../goffice/graph/gog-view.c:127
+msgid "Move"
+msgstr "Chuyển"
+
+#: ../goffice/graph/gog-view.c:179
+msgid "Resize object"
+msgstr "Đổi cỡ đối tượng"
+
+#: ../goffice/graph/gog-view.c:585
+msgid "the GogView parent"
+msgstr "cha của ô xem GogView"
+
+#: ../goffice/graph/gog-view.c:591
+msgid "The GogObject this view displays"
+msgstr "Đối tượng GogObject ô xem này hiển thị"
+
+#: ../goffice/gtk/go-3d-rotation-sel.ui.h:1
+#, fuzzy
+msgid "<b>Rotation</b>"
+msgstr "<b>Vị trí</b>"
+
+#: ../goffice/gtk/go-action-combo-text.c:253
+msgid "Case Sensitive"
+msgstr "Phân biệt chữ hoa/thường"
+
+#: ../goffice/gtk/go-action-combo-text.c:254
+msgid "Should the text comparison be case sensitive"
+msgstr "Tiến trình so sánh văn bản nên phân biệt chữ hoa/thường không"
+
+#: ../goffice/gtk/go-charmap-sel.c:68
+msgid "Arabic"
+msgstr "Ả Rập"
+
+#: ../goffice/gtk/go-charmap-sel.c:69
+msgid "Baltic"
+msgstr "Ban-tích"
+
+#: ../goffice/gtk/go-charmap-sel.c:70
+msgid "Central European"
+msgstr "Vùng Trung Âu"
+
+#: ../goffice/gtk/go-charmap-sel.c:71
+msgid "Chinese"
+msgstr "Trung Quốc"
+
+#: ../goffice/gtk/go-charmap-sel.c:72
+msgid "Cyrillic"
+msgstr "Ki-rin"
+
+#: ../goffice/gtk/go-charmap-sel.c:73
+msgid "Greek"
+msgstr "Hy Lạp"
+
+#: ../goffice/gtk/go-charmap-sel.c:74
+msgid "Hebrew"
+msgstr "Do Thái"
+
+#: ../goffice/gtk/go-charmap-sel.c:75
+msgid "Indian"
+msgstr "Ấn Độ"
+
+#: ../goffice/gtk/go-charmap-sel.c:76
+msgid "Japanese"
+msgstr "Nhật"
+
+#: ../goffice/gtk/go-charmap-sel.c:77
+msgid "Korean"
+msgstr "Hàn"
+
+#: ../goffice/gtk/go-charmap-sel.c:78
+msgid "Turkish"
+msgstr "Thổ Nhĩ Kỳ"
+
+#: ../goffice/gtk/go-charmap-sel.c:79
+msgid "Unicode"
+msgstr "Unicode"
+
+#: ../goffice/gtk/go-charmap-sel.c:80
+msgid "Vietnamese"
+msgstr "Việt"
+
+#: ../goffice/gtk/go-charmap-sel.c:81
+msgid "Western"
+msgstr "Phương Tây"
+
+#: ../goffice/gtk/go-charmap-sel.c:82 ../goffice/gtk/go-locale-sel.c:70
+msgid "Other"
+msgstr "Khác"
+
+#: ../goffice/gtk/go-charmap-sel.c:113
+msgid "Arabic (IBM-864)"
+msgstr "Ả Rập (IBM-864)"
+
+#: ../goffice/gtk/go-charmap-sel.c:114
+msgid "Arabic (IBM-864-I)"
+msgstr "Ả Rập (IBM-864-I)"
+
+#: ../goffice/gtk/go-charmap-sel.c:115
+msgid "Arabic (ISO-8859-6)"
+msgstr "Ả Rập (ISO-8859-6)"
+
+#: ../goffice/gtk/go-charmap-sel.c:116
+msgid "Arabic (ISO-8859-6-E)"
+msgstr "Ả Rập (ISO-8859-6-E)"
+
+#: ../goffice/gtk/go-charmap-sel.c:118
+msgid "Arabic (ISO-8859-6-I)"
+msgstr "Ả Rập (ISO-8859-6-I)"
+
+#: ../goffice/gtk/go-charmap-sel.c:119
+msgid "Arabic (MacArabic)"
+msgstr "Ả Rập (MacArabic)"
+
+#: ../goffice/gtk/go-charmap-sel.c:120
+msgid "Arabic (Windows-1256)"
+msgstr "Ả Rập (Windows-1256)"
+
+#: ../goffice/gtk/go-charmap-sel.c:121
+msgid "Armenian (ARMSCII-8)"
+msgstr "Armenia (ARMSCII-8)"
+
+#: ../goffice/gtk/go-charmap-sel.c:122
+msgid "Baltic (ISO-8859-13)"
+msgstr "Ban-tích (ISO-8859-13)"
+
+#: ../goffice/gtk/go-charmap-sel.c:123
+msgid "Baltic (ISO-8859-4)"
+msgstr "Ban-tích (ISO-8859-4)"
+
+#: ../goffice/gtk/go-charmap-sel.c:124
+msgid "Baltic (Windows-1257)"
+msgstr "Ban-tích (Windows-1257)"
+
+#: ../goffice/gtk/go-charmap-sel.c:125
+msgid "Celtic (ISO-8859-14)"
+msgstr "Celtic (ISO-8859-14)"
+
+#: ../goffice/gtk/go-charmap-sel.c:126
+msgid "Central European (IBM-852)"
+msgstr "Vùng Trung Âu (IBM-852)"
+
+#: ../goffice/gtk/go-charmap-sel.c:127
+msgid "Central European (ISO-8859-2)"
+msgstr "Vùng Trung Âu (ISO-8859-2)"
+
+#: ../goffice/gtk/go-charmap-sel.c:128
+msgid "Central European (MacCE)"
+msgstr "Vùng Trung Âu (MacCE)"
+
+#: ../goffice/gtk/go-charmap-sel.c:129
+msgid "Central European (Windows-1250)"
+msgstr "Vùng Trung Âu (Windows-1250)"
+
+#: ../goffice/gtk/go-charmap-sel.c:130
+msgid "Chinese Simplified (GB18030)"
+msgstr "Tiếng Hoa Giản thể (GB18030)"
+
+#: ../goffice/gtk/go-charmap-sel.c:131
+msgid "Chinese Simplified (GB2312)"
+msgstr "Tiếng Hoa Giản thể (GB2312)"
+
+#: ../goffice/gtk/go-charmap-sel.c:132
+msgid "Chinese Simplified (GBK)"
+msgstr "Tiếng Hoa Giản thể (GBK)"
+
+#: ../goffice/gtk/go-charmap-sel.c:133
+msgid "Chinese Simplified (HZ)"
+msgstr "Tiếng Hoa Giản thể (HZ)"
+
+#: ../goffice/gtk/go-charmap-sel.c:134
+msgid "Chinese Simplified (Windows-936)"
+msgstr "Tiếng Hoa Giản thể (Windows-936)"
+
+#: ../goffice/gtk/go-charmap-sel.c:135
+msgid "Chinese Traditional (Big5)"
+msgstr "Tiếng Hoa Phồn thể (Big5)"
+
+#: ../goffice/gtk/go-charmap-sel.c:136
+msgid "Chinese Traditional (Big5-HKSCS)"
+msgstr "Tiếng Hoa Phồn thể (Big5-HKSCS)"
+
+#: ../goffice/gtk/go-charmap-sel.c:137
+msgid "Chinese Traditional (EUC-TW)"
+msgstr "Tiếng Hoa Phồn thể (EUC-TW)"
+
+#: ../goffice/gtk/go-charmap-sel.c:138
+msgid "Croatian (MacCroatian)"
+msgstr "Cợ-rô-a-ti-a (MacCroatian)"
+
+#: ../goffice/gtk/go-charmap-sel.c:139
+msgid "Cyrillic (IBM-855)"
+msgstr "Ki-rin (IBM-855)"
+
+#: ../goffice/gtk/go-charmap-sel.c:140
+msgid "Cyrillic (ISO-8859-5)"
+msgstr "Ki-rin (ISO-8859-5)"
+
+#: ../goffice/gtk/go-charmap-sel.c:141
+msgid "Cyrillic (ISO-IR-111)"
+msgstr "Ki-rin (ISO-IR-111)"
+
+#: ../goffice/gtk/go-charmap-sel.c:142
+msgid "Cyrillic (KOI8-R)"
+msgstr "Ki-rin (KOI8-R)"
+
+#: ../goffice/gtk/go-charmap-sel.c:143
+msgid "Cyrillic (MacCyrillic)"
+msgstr "Ki-rin (MacCyrillic)"
+
+#: ../goffice/gtk/go-charmap-sel.c:144
+msgid "Cyrillic (Windows-1251)"
+msgstr "Ki-rin (Windows-1251)"
+
+#: ../goffice/gtk/go-charmap-sel.c:145
+msgid "Russian (CP-866)"
+msgstr "Nga (CP-866)"
+
+#: ../goffice/gtk/go-charmap-sel.c:146
+msgid "Ukrainian (KOI8-U)"
+msgstr "U-cợ-rainh (KOI8-U)"
+
+#: ../goffice/gtk/go-charmap-sel.c:147
+msgid "Ukrainian (MacUkrainian)"
+msgstr "U-cợ-rainh (MacUkrainian)"
+
+#: ../goffice/gtk/go-charmap-sel.c:148
+msgid "English (ASCII)"
+msgstr "Anh (ASCII)"
+
+#: ../goffice/gtk/go-charmap-sel.c:149
+msgid "Farsi (MacFarsi)"
+msgstr "Pha-xi (MacFarsi)"
+
+#: ../goffice/gtk/go-charmap-sel.c:150
+msgid "Georgian (GEOSTD8)"
+msgstr "Gi-oa-gi-a (GEOSTD8)"
+
+#: ../goffice/gtk/go-charmap-sel.c:151
+msgid "Greek (ISO-8859-7)"
+msgstr "Hy Lạp (ISO-8859-7)"
+
+#: ../goffice/gtk/go-charmap-sel.c:152
+msgid "Greek (MacGreek)"
+msgstr "Hy Lạp (MacGreek)"
+
+#: ../goffice/gtk/go-charmap-sel.c:153
+msgid "Greek (Windows-1253)"
+msgstr "Hy Lạp (Windows-1253)"
+
+#: ../goffice/gtk/go-charmap-sel.c:154
+msgid "Gujarati (MacGujarati)"
+msgstr "Gu-gia-ra-ti (MacGujarati)"
+
+#: ../goffice/gtk/go-charmap-sel.c:155
+msgid "Gurmukhi (MacGurmukhi)"
+msgstr "Guổ-mu-khi (MacGurmukhi)"
+
+#: ../goffice/gtk/go-charmap-sel.c:156
+msgid "Hebrew (IBM-862)"
+msgstr "Do Thái (IBM-862)"
+
+#: ../goffice/gtk/go-charmap-sel.c:157
+msgid "Hebrew (ISO-8859-8-E)"
+msgstr "Do Thái (ISO-8859-8-E)"
+
+#: ../goffice/gtk/go-charmap-sel.c:158
+msgid "Hebrew (ISO-8859-8-I)"
+msgstr "Do Thái (ISO-8859-8-I)"
+
+#: ../goffice/gtk/go-charmap-sel.c:159
+msgid "Hebrew (MacHebrew)"
+msgstr "Do Thái (MacHebrew)"
+
+#: ../goffice/gtk/go-charmap-sel.c:160
+msgid "Hebrew (Windows-1255)"
+msgstr "Do Thái (Windows-1255)"
+
+#: ../goffice/gtk/go-charmap-sel.c:161
+msgid "Hindi (MacDevanagari)"
+msgstr "Hin-đi (MacDevanagari)"
+
+#: ../goffice/gtk/go-charmap-sel.c:162
+msgid "Icelandic (MacIcelandic)"
+msgstr "Băng Đảo (MacIcelandic)"
+
+#: ../goffice/gtk/go-charmap-sel.c:163
+msgid "Japanese (EUC-JP)"
+msgstr "Nhật (EUC-JP)"
+
+#: ../goffice/gtk/go-charmap-sel.c:164
+msgid "Japanese (ISO-2022-JP)"
+msgstr "Nhật (ISO-2022-JP)"
+
+#: ../goffice/gtk/go-charmap-sel.c:165
+msgid "Japanese (Shift_JIS)"
+msgstr "Nhật (Shift_JIS)"
+
+#: ../goffice/gtk/go-charmap-sel.c:166
+msgid "Korean (EUC-KR)"
+msgstr "Hàn (EUC-KR)"
+
+#: ../goffice/gtk/go-charmap-sel.c:167
+msgid "Korean (ISO-2022-KR)"
+msgstr "Hàn (ISO-2022-KR)"
+
+#: ../goffice/gtk/go-charmap-sel.c:168
+msgid "Korean (JOHAB)"
+msgstr "Hàn (JOHAB)"
+
+#: ../goffice/gtk/go-charmap-sel.c:169
+msgid "Korean (UHC)"
+msgstr "Hàn (UHC)"
+
+#: ../goffice/gtk/go-charmap-sel.c:170
+msgid "Nordic (ISO-8859-10)"
+msgstr "Na Uy (ISO-8859-10)"
+
+#: ../goffice/gtk/go-charmap-sel.c:171
+msgid "Romanian (MacRomanian)"
+msgstr "Ru-ma-ni (MacRomanian)"
+
+#: ../goffice/gtk/go-charmap-sel.c:172
+msgid "Romanian (ISO-8859-16)"
+msgstr "Ru-ma-ni (ISO-8859-16)"
+
+#: ../goffice/gtk/go-charmap-sel.c:173
+msgid "South European (ISO-8859-3)"
+msgstr "Vùng Nam Âu (ISO-8859-3)"
+
+#: ../goffice/gtk/go-charmap-sel.c:174
+msgid "Thai (TIS-620)"
+msgstr "Thái Lan (TIS-620)"
+
+#: ../goffice/gtk/go-charmap-sel.c:175
+msgid "Turkish (IBM-857)"
+msgstr "Thổ Nhĩ Kỳ (IBM-857)"
+
+#: ../goffice/gtk/go-charmap-sel.c:176
+msgid "Turkish (ISO-8859-9)"
+msgstr "Thổ Nhĩ Kỳ (ISO-8859-9)"
+
+#: ../goffice/gtk/go-charmap-sel.c:177
+msgid "Turkish (MacTurkish)"
+msgstr "Thổ Nhĩ Kỳ (MacTurkish)"
+
+#: ../goffice/gtk/go-charmap-sel.c:178
+msgid "Turkish (Windows-1254)"
+msgstr "Thổ Nhĩ Kỳ (Windows-1254)"
+
+#: ../goffice/gtk/go-charmap-sel.c:179
+msgid "Unicode (UTF-7)"
+msgstr "Unicode (UTF-7)"
+
+#: ../goffice/gtk/go-charmap-sel.c:180
+msgid "Unicode (UTF-8)"
+msgstr "Unicode (UTF-8)"
+
+#: ../goffice/gtk/go-charmap-sel.c:181
+msgid "Unicode (UTF-16BE)"
+msgstr "Unicode (UTF-16BE)"
+
+#: ../goffice/gtk/go-charmap-sel.c:182
+msgid "Unicode (UTF-16LE)"
+msgstr "Unicode (UTF-16LE)"
+
+#: ../goffice/gtk/go-charmap-sel.c:183
+msgid "Unicode (UTF-32BE)"
+msgstr "Unicode (UTF-32BE)"
+
+#: ../goffice/gtk/go-charmap-sel.c:184
+msgid "Unicode (UTF-32LE)"
+msgstr "Unicode (UTF-32LE)"
+
+#: ../goffice/gtk/go-charmap-sel.c:185
+msgid "User Defined"
+msgstr "Tự xác định"
+
+#: ../goffice/gtk/go-charmap-sel.c:186
+msgid "Vietnamese (TCVN)"
+msgstr "Việt (TCVN)"
+
+#: ../goffice/gtk/go-charmap-sel.c:187
+msgid "Vietnamese (VISCII)"
+msgstr "Việt (VISCII)"
+
+#: ../goffice/gtk/go-charmap-sel.c:188
+msgid "Vietnamese (VPS)"
+msgstr "Việt (VPS)"
+
+#: ../goffice/gtk/go-charmap-sel.c:189
+msgid "Vietnamese (Windows-1258)"
+msgstr "Việt (Windows-1258)"
+
+#: ../goffice/gtk/go-charmap-sel.c:190
+msgid "Visual Hebrew (ISO-8859-8)"
+msgstr "Do Thái trực quan (ISO-8859-8)"
+
+#: ../goffice/gtk/go-charmap-sel.c:191
+msgid "Western (IBM-850)"
+msgstr "Phương Tây (IBM-850)"
+
+#: ../goffice/gtk/go-charmap-sel.c:192
+msgid "Western (ISO-8859-1)"
+msgstr "Phương Tây (ISO-8859-1)"
+
+#: ../goffice/gtk/go-charmap-sel.c:193
+msgid "Western (ISO-8859-15)"
+msgstr "Phương Tây (ISO-8859-15)"
+
+#: ../goffice/gtk/go-charmap-sel.c:194
+msgid "Western (MacRoman)"
+msgstr "Phương Tây (MacRoman)"
+
+#: ../goffice/gtk/go-charmap-sel.c:195
+msgid "Western (Windows-1252)"
+msgstr "Phương Tây (Windows-1252)"
+
+#: ../goffice/gtk/go-charmap-sel.c:412
+msgid "Locale: "
+msgstr "Miền địa phương: "
+
+#: ../goffice/gtk/go-charmap-sel.c:452
+msgid "Conversion Direction"
+msgstr "Hướng chuyển đổi"
+
+#: ../goffice/gtk/go-charmap-sel.c:453
+msgid "This value determines which iconv test to perform."
+msgstr "Giá trị này xác định tiến trình thử iconv nào cần thực hiện."
+
+#: ../goffice/gtk/go-color-palette.c:77
+msgid "black"
+msgstr "đen"
+
+#: ../goffice/gtk/go-color-palette.c:78
+msgid "light brown"
+msgstr "nâu nhạt"
+
+#: ../goffice/gtk/go-color-palette.c:79
+msgid "brown gold"
+msgstr "vàng nâu"
+
+#: ../goffice/gtk/go-color-palette.c:80
+msgid "dark green #2"
+msgstr "lục thẫm #2"
+
+#: ../goffice/gtk/go-color-palette.c:81
+msgid "navy"
+msgstr "xanh hải quân"
+
+#: ../goffice/gtk/go-color-palette.c:82 ../goffice/gtk/go-color-palette.c:134
+msgid "dark blue"
+msgstr "xanh sẫm"
+
+#: ../goffice/gtk/go-color-palette.c:83
+msgid "purple #2"
+msgstr "tím #2"
+
+#: ../goffice/gtk/go-color-palette.c:84
+msgid "very dark gray"
+msgstr "xám rất đen"
+
+#: ../goffice/gtk/go-color-palette.c:86 ../goffice/gtk/go-color-palette.c:139
+msgid "dark red"
+msgstr "đỏ sẫm"
+
+#: ../goffice/gtk/go-color-palette.c:87
+msgid "red-orange"
+msgstr "cam đỏ"
+
+#: ../goffice/gtk/go-color-palette.c:88
+msgid "gold"
+msgstr "vàng kim"
+
+#: ../goffice/gtk/go-color-palette.c:89
+msgid "dark green"
+msgstr "lục thẫm"
+
+#: ../goffice/gtk/go-color-palette.c:90 ../goffice/gtk/go-color-palette.c:140
+msgid "dull blue"
+msgstr "xanh xỉn"
+
+#: ../goffice/gtk/go-color-palette.c:91 ../goffice/gtk/go-color-palette.c:141
+msgid "blue"
+msgstr "xanh"
+
+#: ../goffice/gtk/go-color-palette.c:92
+msgid "dull purple"
+msgstr "tím xỉn"
+
+#: ../goffice/gtk/go-color-palette.c:93
+msgid "dark gray"
+msgstr "xám đen"
+
+#: ../goffice/gtk/go-color-palette.c:95
+msgid "red"
+msgstr "đỏ"
+
+#: ../goffice/gtk/go-color-palette.c:96
+msgid "orange"
+msgstr "cam"
+
+#: ../goffice/gtk/go-color-palette.c:97
+msgid "lime"
+msgstr "xanh lá mạ"
+
+#: ../goffice/gtk/go-color-palette.c:98
+msgid "dull green"
+msgstr "lục xỉn"
+
+#: ../goffice/gtk/go-color-palette.c:99
+msgid "dull blue #2"
+msgstr "xanh xỉn #2"
+
+#: ../goffice/gtk/go-color-palette.c:100
+msgid "sky blue #2"
+msgstr "xanh da trời #2"
+
+#: ../goffice/gtk/go-color-palette.c:101 ../goffice/gtk/go-color-palette.c:138
+msgid "purple"
+msgstr "tím"
+
+#: ../goffice/gtk/go-color-palette.c:102
+msgid "gray"
+msgstr "xám"
+
+#: ../goffice/gtk/go-color-palette.c:104 ../goffice/gtk/go-color-palette.c:135
+msgid "magenta"
+msgstr "đỏ tươi"
+
+#: ../goffice/gtk/go-color-palette.c:105
+msgid "bright orange"
+msgstr "cam sáng"
+
+#: ../goffice/gtk/go-color-palette.c:106 ../goffice/gtk/go-color-palette.c:136
+msgid "yellow"
+msgstr "vàng"
+
+#: ../goffice/gtk/go-color-palette.c:107
+msgid "green"
+msgstr "lục"
+
+#: ../goffice/gtk/go-color-palette.c:108 ../goffice/gtk/go-color-palette.c:137
+msgid "cyan"
+msgstr "xanh lông mòng"
+
+#: ../goffice/gtk/go-color-palette.c:109
+msgid "bright blue"
+msgstr "xanh sáng"
+
+#: ../goffice/gtk/go-color-palette.c:110 ../goffice/gtk/go-color-palette.c:126
+msgid "red purple"
+msgstr "tím đỏ"
+
+#: ../goffice/gtk/go-color-palette.c:111
+msgid "light gray"
+msgstr "xám nhạt"
+
+#: ../goffice/gtk/go-color-palette.c:113 ../goffice/gtk/go-color-palette.c:130
+msgid "pink"
+msgstr "hồng"
+
+#: ../goffice/gtk/go-color-palette.c:114
+msgid "light orange"
+msgstr "cam sáng"
+
+#: ../goffice/gtk/go-color-palette.c:115 ../goffice/gtk/go-color-palette.c:127
+msgid "light yellow"
+msgstr "vàng sáng"
+
+#: ../goffice/gtk/go-color-palette.c:116
+msgid "light green"
+msgstr "xanh lá nhạt"
+
+#: ../goffice/gtk/go-color-palette.c:117
+msgid "light cyan"
+msgstr "xanh lông mòng sáng"
+
+#: ../goffice/gtk/go-color-palette.c:118 ../goffice/gtk/go-color-palette.c:128
+msgid "light blue"
+msgstr "xanh nhạt"
+
+#: ../goffice/gtk/go-color-palette.c:119 ../goffice/gtk/go-color-palette.c:132
+msgid "light purple"
+msgstr "tím nhạt"
+
+#: ../goffice/gtk/go-color-palette.c:120
+msgid "white"
+msgstr "trắng"
+
+#. Disable these for now, they are mostly repeats
+#: ../goffice/gtk/go-color-palette.c:125
+msgid "purplish blue"
+msgstr "xanh tím"
+
+#: ../goffice/gtk/go-color-palette.c:129
+msgid "dark purple"
+msgstr "tím tối"
+
+#: ../goffice/gtk/go-color-palette.c:131
+msgid "sky blue"
+msgstr "xanh da trời"
+
+#: ../goffice/gtk/go-color-palette.c:453
+msgid "custom"
+msgstr "tự chọn"
+
+#: ../goffice/gtk/go-color-palette.c:460 ../goffice/gtk/go-color-palette.c:714
+msgid "Custom Color..."
+msgstr "Màu tự chọn..."
+
+#: ../goffice/gtk/go-color-selector.c:206
+msgid "Custom color..."
+msgstr "Màu tự chọn..."
+
+#: ../goffice/gtk/go-combo-box.c:274
+msgid "Add tearoffs to menus"
+msgstr "Thêm mục tách rời vào trình đơn"
+
+#: ../goffice/gtk/go-combo-box.c:275
+msgid "Whether dropdowns should have a tearoff menu item"
+msgstr "Trình đơn thả xuống nên có mục trình đơn tách rời không"
+
+#: ../goffice/gtk/go-font-sel.c:174 ../goffice/math/go-distribution.c:67
+msgid "Normal"
+msgstr "Chuẩn"
+
+#: ../goffice/gtk/go-font-sel.c:175
+msgid "Bold"
+msgstr "Đậm"
+
+#: ../goffice/gtk/go-font-sel.c:176
+msgid "Bold italic"
+msgstr "Nghiêng đậm"
+
+#: ../goffice/gtk/go-font-sel.c:177
+msgid "Italic"
+msgstr "Nghiêng"
+
+#. xgettext: This text is used as a sample when selecting a font
+#. * please choose a translation that would produce common
+#. * characters specific to the target alphabet.
+#: ../goffice/gtk/go-font-sel.c:460
+msgid "AaBbCcDdEe12345"
+msgstr "« Một câu mẫu bằng tiếng Việt. » đ Đ ổ ự ợ ữ Ỡ Ể ẳ"
+
+#: ../goffice/gtk/go-font-sel.ui.h:1
+msgid "Font style:"
+msgstr "Kiểu phông:"
+
+#: ../goffice/gtk/go-font-sel.ui.h:2
+msgid "Font:"
+msgstr "Phông:"
+
+#: ../goffice/gtk/go-font-sel.ui.h:3
+msgid "Preview"
+msgstr "Xem thử"
+
+#: ../goffice/gtk/go-font-sel.ui.h:4
+msgid "Size:"
+msgstr "Cỡ :"
+
+#: ../goffice/gtk/go-format-sel.c:62
+msgid "Number"
+msgstr "Số"
+
+#: ../goffice/gtk/go-format-sel.c:63
+msgid "Currency"
+msgstr "Tiền tệ"
+
+#: ../goffice/gtk/go-format-sel.c:64
+msgid "Accounting"
+msgstr "Kế toán"
+
+#: ../goffice/gtk/go-format-sel.c:65
+msgid "Date"
+msgstr "Ngày"
+
+#: ../goffice/gtk/go-format-sel.c:66
+msgid "Time"
+msgstr "Giờ"
+
+#: ../goffice/gtk/go-format-sel.c:67
+msgid "Percentage"
+msgstr "Phần trăm"
+
+#: ../goffice/gtk/go-format-sel.c:68
+msgid "Fraction"
+msgstr "Phân số"
+
+#: ../goffice/gtk/go-format-sel.c:69
+msgid "Scientific"
+msgstr "Khoa học"
+
+#: ../goffice/gtk/go-format-sel.c:71
+msgid "Special"
+msgstr "Đặc biệt"
+
+#: ../goffice/gtk/go-format-sel.c:72
+msgid "Custom"
+msgstr "Tự chọn"
+
+#: ../goffice/gtk/go-format-sel.c:1047
+msgid "Negative Number Format"
+msgstr "Định dạng số âm"
+
+#: ../goffice/gtk/go-format-sel.c:1075
+msgid "Number Formats"
+msgstr "Định dạng số"
+
+#: ../goffice/gtk/go-format-sel.ui.h:1
+msgid "Ca_tegories:"
+msgstr "L_oại:"
+
+#: ../goffice/gtk/go-format-sel.ui.h:2
+msgid "Deci_mal places:"
+msgstr "Lần _số :"
+
+#: ../goffice/gtk/go-format-sel.ui.h:3
+msgid "Display amounts in traditional accounting styles."
+msgstr "Hiển thị số lượng theo kiểu dáng kế toán truyền thống."
+
+#: ../goffice/gtk/go-format-sel.ui.h:4
+msgid "Display and input values as strings with no interpretation."
+msgstr "Hiển thị và gõ giá trị theo chuỗi, không giải thích."
+
+#: ../goffice/gtk/go-format-sel.ui.h:5
+msgid "Display currency amounts."
+msgstr "Hiển thị các số lượng tiền tệ."
+
+#: ../goffice/gtk/go-format-sel.ui.h:6
+msgid "Display dates and optionally times of day."
+msgstr "Hiển thị ngày tháng và (tùy chọn) giờ."
+
+#: ../goffice/gtk/go-format-sel.ui.h:7
+msgid "Display numeric values with a fixed number of decimals."
+msgstr "Hiển thị giá trị thuộc số có số lần số cố định."
+
+#: ../goffice/gtk/go-format-sel.ui.h:8
+msgid "Display times of day."
+msgstr "Hiển thị giờ."
+
+#: ../goffice/gtk/go-format-sel.ui.h:9
+msgid "Display values as closest fractional approximation."
+msgstr "Hiển thị giá trị theo số xấp xỉ phân số gần nhất."
+
+#: ../goffice/gtk/go-format-sel.ui.h:10
+msgid "Display values as percentages."
+msgstr "Hiển thị giá trị theo phần trăm."
+
+#: ../goffice/gtk/go-format-sel.ui.h:11
+msgid "Display values with power-of-ten scaling."
+msgstr "Hiển thị giá trị theo tỷ lệ mười lũy thừa."
+
+#: ../goffice/gtk/go-format-sel.ui.h:12
+msgid "Format c_ode:"
+msgstr "Định dạng _mã:"
+
+#: ../goffice/gtk/go-format-sel.ui.h:13
+msgid "Negative number _format:"
+msgstr "Định _dạng số âm:"
+
+#: ../goffice/gtk/go-format-sel.ui.h:14
+msgid "Preview:"
+msgstr "Xem thử :"
+
+#: ../goffice/gtk/go-format-sel.ui.h:15
+msgid "Restrict exponent to multiples of 3"
+msgstr "Hạn chế số mũ thành bội số cho 3"
+
+#: ../goffice/gtk/go-format-sel.ui.h:16
+msgid "S_ymbol:"
+msgstr "_Ký hiệu :"
+
+#: ../goffice/gtk/go-format-sel.ui.h:17
+msgid "Select an appropriate format automatically."
+msgstr "Tự động chọn định dạng thích hợp."
+
+#: ../goffice/gtk/go-format-sel.ui.h:18
+msgid "Specify an XL-style format directly"
+msgstr "Xác định trực tiếp định dạng kiểu XL"
+
+#: ../goffice/gtk/go-format-sel.ui.h:19
+msgid "Use _superscript"
+msgstr "Hiển thị chữ c_ao"
+
+#: ../goffice/gtk/go-format-sel.ui.h:20
+#, fuzzy
+msgid "Use superscript for exponent (e.g. 4&#xD7;10&#xB2;)"
+msgstr "Hiển thị số mũ dạng chữ cao (v.d. 4×10²)"
+
+#: ../goffice/gtk/go-format-sel.ui.h:21
+#, fuzzy
+msgid "When mantissa is equal to 1, only show exponent part (e.g. 10&#xB2;)"
+msgstr "Khi phần định trị bằng 1, chỉ hiển thị phần số mũ (v.d. 10²)"
+
+#: ../goffice/gtk/go-format-sel.ui.h:22
+#, fuzzy
+msgid "_Don't show 1xs"
+msgstr "Khô_ng hiện 1×"
+
+#: ../goffice/gtk/go-format-sel.ui.h:23
+msgid "_Engineering notation"
+msgstr "Cách ghi _kỹ thuật"
+
+#: ../goffice/gtk/go-format-sel.ui.h:24
+msgid "_Format:"
+msgstr "Định _dạng:"
+
+#: ../goffice/gtk/go-format-sel.ui.h:25
+msgid "_Use separator for 1000s"
+msgstr "Hiển thị dấ_u cách hàng nghìn"
+
+#: ../goffice/gtk/go-image-save-dialog-extra.ui.h:1
+msgid "Export settings"
+msgstr "Thiết lập xuất khẩu"
+
+#: ../goffice/gtk/go-image-save-dialog-extra.ui.h:2
+msgid "Resolution:"
+msgstr "Độ phân giải:"
+
+#: ../goffice/gtk/go-image-save-dialog-extra.ui.h:3
+msgid "_File type:"
+msgstr "_Kiểu tập tin:"
+
+#: ../goffice/gtk/go-image-save-dialog-extra.ui.h:4
+msgid "pixels/in"
+msgstr "điểm ảnh/insơ"
+
+#: ../goffice/gtk/go-image-sel.ui.h:1
+#, fuzzy
+msgid "<b>Add an image</b>"
+msgstr "<b>Ánh xạ</b>"
+
+#: ../goffice/gtk/go-image-sel.ui.h:2
+#, fuzzy
+msgid "Name:"
+msgstr "Tên"
+
+#: ../goffice/gtk/go-image-sel.ui.h:3 ../goffice/utils/go-style-prefs.ui.h:22
+msgid "_Select..."
+msgstr "_Chọn..."
+
+#: ../goffice/gtk/go-locale-sel.c:63
+msgid "Western Europe"
+msgstr "Vùng Tây Âu"
+
+#: ../goffice/gtk/go-locale-sel.c:64
+msgid "Eastern Europe"
+msgstr "Vùng Đông Âu"
+
+#: ../goffice/gtk/go-locale-sel.c:65
+msgid "North America"
+msgstr "Bắc Mỹ"
+
+#: ../goffice/gtk/go-locale-sel.c:66
+msgid "South & Central America"
+msgstr "Nam và Trung Mỹ"
+
+#: ../goffice/gtk/go-locale-sel.c:67
+msgid "Asia"
+msgstr "Châu Á"
+
+#: ../goffice/gtk/go-locale-sel.c:68
+msgid "Africa"
+msgstr "Châu Phi"
+
+#: ../goffice/gtk/go-locale-sel.c:69
+msgid "Australia"
+msgstr "Úc"
+
+#.
+#. * The format here is "Country/Language (locale)" or just
+#. * "Country (locale)" when there is only one choice or one
+#. * very dominant language.
+#. *
+#. * Note: lots of people get very emotional over this.  Please
+#. * err on the safe side, if any.
+#.
+#: ../goffice/gtk/go-locale-sel.c:102
+msgid "United States/English (C)"
+msgstr "Tiếng Anh (Mỹ) (C)"
+
+#: ../goffice/gtk/go-locale-sel.c:103
+msgid "South Africa Afrikaans (af_ZA)"
+msgstr "Ha Lan Nam Phi (af_ZA)"
+
+#: ../goffice/gtk/go-locale-sel.c:104
+msgid "Ethiopia/Amharic (am_ET)"
+msgstr "Am-ha-ri (am_ET)"
+
+#: ../goffice/gtk/go-locale-sel.c:105
+msgid "United Arab Emirates (ar_AE)"
+msgstr "Các Tiểu Vương Quốc A Rập Thống Nhất (ar_AE)"
+
+#: ../goffice/gtk/go-locale-sel.c:106
+msgid "Bahrain (ar_BH)"
+msgstr "Bah-rainh (ar_BH)"
+
+#: ../goffice/gtk/go-locale-sel.c:107
+msgid "Algeria (ar_DZ)"
+msgstr "An-giê-ri (ar_DZ)"
+
+#: ../goffice/gtk/go-locale-sel.c:108
+msgid "Egypt (ar_EG)"
+msgstr "Ai Cập (ar_EG)"
+
+#: ../goffice/gtk/go-locale-sel.c:109
+msgid "India/Arabic (ar_IN)"
+msgstr "Ả rập (ar_IN)"
+
+#: ../goffice/gtk/go-locale-sel.c:110
+msgid "Iraq (ar_IQ)"
+msgstr "Ả rập I-rắc (ar-IQ)"
+
+#: ../goffice/gtk/go-locale-sel.c:111
+msgid "Jordan (ar_JO)"
+msgstr "Gioa-đanh (ar_JO)"
+
+#: ../goffice/gtk/go-locale-sel.c:112
+msgid "Kuwait (ar_KW)"
+msgstr "Cu-ouai-th (ar_KW)"
+
+#: ../goffice/gtk/go-locale-sel.c:113
+msgid "Lebanon (ar_LB)"
+msgstr "Le-ba-non (ar_LB)"
+
+#: ../goffice/gtk/go-locale-sel.c:114
+msgid "Libya (ar_LY)"
+msgstr "Li-bia (ar_LY)"
+
+#: ../goffice/gtk/go-locale-sel.c:115
+msgid "Morocco (ar_MA)"
+msgstr "Ma Rốc (ar_MA)"
+
+#: ../goffice/gtk/go-locale-sel.c:116
+msgid "Oman (ar_OM)"
+msgstr "Ô-man (ar_OM)"
+
+#: ../goffice/gtk/go-locale-sel.c:117
+msgid "Qatar (ar_QA)"
+msgstr "Ca-tă (ar_QA)"
+
+#: ../goffice/gtk/go-locale-sel.c:118
+msgid "Saudi Arabia (ar_SA)"
+msgstr "A Rập Xau-đi (ar_SA)"
+
+#: ../goffice/gtk/go-locale-sel.c:119
+msgid "Sudan (ar_SD)"
+msgstr "Xu-đanh (ar_SD)"
+
+#: ../goffice/gtk/go-locale-sel.c:120
+msgid "Syria (ar_SY)"
+msgstr "Xy-ri (ar_SY)"
+
+#: ../goffice/gtk/go-locale-sel.c:121
+msgid "Tunisia (ar_TN)"
+msgstr "Tu-ni-xi-a (ar_TN)"
+
+#: ../goffice/gtk/go-locale-sel.c:122
+msgid "Yemen (ar_YE)"
+msgstr "Ye-men (ar_YE)"
+
+#: ../goffice/gtk/go-locale-sel.c:123
+msgid "Azerbaijan (az_AZ)"
+msgstr "A-dơ-bai-gianh (az_AZ)"
+
+#: ../goffice/gtk/go-locale-sel.c:124
+msgid "Belarus (be_BY)"
+msgstr "Be-la-ru-xợ (be_BY)"
+
+#: ../goffice/gtk/go-locale-sel.c:125
+msgid "Bulgaria (bg_BG)"
+msgstr "Bun-ga-ri (bg_BG)"
+
+#: ../goffice/gtk/go-locale-sel.c:126
+msgid "Bangladesh (bn_BD)"
+msgstr "Băng-la-đe-xợ (bn_BD)"
+
+#: ../goffice/gtk/go-locale-sel.c:127
+msgid "India/Bengali (bn_IN)"
+msgstr "Ben-ga-li (bn_IN)"
+
+#: ../goffice/gtk/go-locale-sel.c:128
+msgid "France/Breton (br_FR)"
+msgstr "Pháp Bợ-re-ton (br_FR)"
+
+#: ../goffice/gtk/go-locale-sel.c:129
+msgid "Bosnia and Herzegowina (bs_BA)"
+msgstr "Boxợ-ni-a và He-de-go-vi-nạ (bs_BA)"
+
+#: ../goffice/gtk/go-locale-sel.c:130
+msgid "Spain/Catalan (ca_ES)"
+msgstr "Ca-ta-lan (ca_ES)"
+
+#: ../goffice/gtk/go-locale-sel.c:131
+msgid "Czech Republic (cs_CZ)"
+msgstr "Cộng Hoà Séc (cs_CZ)"
+
+#: ../goffice/gtk/go-locale-sel.c:132
+msgid "Great Britain/Welsh (cy_GB)"
+msgstr "Ouen-s (cy_GB)"
+
+#: ../goffice/gtk/go-locale-sel.c:133
+msgid "Denmark (da_DK)"
+msgstr "Đan Mạch (da_DK)"
+
+#: ../goffice/gtk/go-locale-sel.c:134
+msgid "Austria (de_AT)"
+msgstr "Áo (de_AT)"
+
+#: ../goffice/gtk/go-locale-sel.c:135
+msgid "Belgium/German (de_BE)"
+msgstr "Đức Bỉ (de_BE))"
+
+#: ../goffice/gtk/go-locale-sel.c:136
+msgid "Switzerland/German (de_CH)"
+msgstr "Đức Thuỵ Sĩ (de_CH)"
+
+#: ../goffice/gtk/go-locale-sel.c:137
+msgid "Germany (de_DE)"
+msgstr "Đức (de_DE)"
+
+#: ../goffice/gtk/go-locale-sel.c:138
+msgid "Luxembourg/German (de_LU)"
+msgstr "Đức Lúc-xăm-buac (de_LU)"
+
+#: ../goffice/gtk/go-locale-sel.c:139
+msgid "Greece (el_GR)"
+msgstr "Hy Lạp (el_GR)"
+
+#: ../goffice/gtk/go-locale-sel.c:140
+msgid "Australia (en_AU)"
+msgstr "Úc (en_AU)"
+
+#: ../goffice/gtk/go-locale-sel.c:141
+msgid "Botswana (en_BW)"
+msgstr "Bốt-xoă-na (en_BW)"
+
+#: ../goffice/gtk/go-locale-sel.c:142
+msgid "Canada/English (en_CA)"
+msgstr "Anh Ca-na-đa (en_CA)"
+
+#: ../goffice/gtk/go-locale-sel.c:143
+msgid "Great Britain (en_GB)"
+msgstr "Anh Quốc Anh (en_GB)"
+
+#: ../goffice/gtk/go-locale-sel.c:144
+msgid "Hong Kong/English (en_HK)"
+msgstr "Anh Hồng Kông (en_HK)"
+
+#: ../goffice/gtk/go-locale-sel.c:145
+msgid "Ireland (en_IE)"
+msgstr "Ai-len (en_IE)"
+
+#: ../goffice/gtk/go-locale-sel.c:146
+msgid "India/English (en_IN)"
+msgstr "Anh Ấn Độ (en_IN)"
+
+#: ../goffice/gtk/go-locale-sel.c:147
+msgid "New Zealand (en_NZ)"
+msgstr "Anh Niu Xi-lân (en_NZ)"
+
+#: ../goffice/gtk/go-locale-sel.c:148
+msgid "Philippines (en_PH)"
+msgstr "Phi Luật Tân (en_PH)"
+
+#: ../goffice/gtk/go-locale-sel.c:149
+msgid "Singapore/English (en_SG)"
+msgstr "Anh Xin-ga-po (en_SG)"
+
+#: ../goffice/gtk/go-locale-sel.c:150
+msgid "United States/English (en_US)"
+msgstr "Anh Mỹ (en_US)"
+
+#: ../goffice/gtk/go-locale-sel.c:151
+msgid "South Africa/English (en_ZA)"
+msgstr "Anh Nam Phi (en_ZA)"
+
+#: ../goffice/gtk/go-locale-sel.c:152
+msgid "Zimbabwe (en_ZW)"
+msgstr "Xim-ba-buê (en_ZW)"
+
+#: ../goffice/gtk/go-locale-sel.c:153
+msgid "Esperanto (eo_EO)"
+msgstr "Etpêrantô (eo_EO)"
+
+#: ../goffice/gtk/go-locale-sel.c:154
+msgid "Argentina (es_AR)"
+msgstr "Ác-hen-ti-na (es_AR)"
+
+#: ../goffice/gtk/go-locale-sel.c:155
+msgid "Bolivia (es_BO)"
+msgstr "Bô-li-vi-a (es_BO)"
+
+#: ../goffice/gtk/go-locale-sel.c:156
+msgid "Chile (es_CL)"
+msgstr "Chi-lê (es_CL)"
+
+#: ../goffice/gtk/go-locale-sel.c:157
+msgid "Colombia (es_CO)"
+msgstr "Cô-lôm-bi-a (es_CO)"
+
+#: ../goffice/gtk/go-locale-sel.c:158
+msgid "Costa Rica (es_CR)"
+msgstr "Cốt-x-tha Ri-ca (es_CR)"
+
+#: ../goffice/gtk/go-locale-sel.c:159
+msgid "Dominican Republic (es_DO)"
+msgstr "Cộng Hoà Đô-mi-ni-cạ (es_DO)"
+
+#: ../goffice/gtk/go-locale-sel.c:160
+msgid "Ecuador (es_EC)"
+msgstr "Ê-cu-a-đoa (es_EC)"
+
+#: ../goffice/gtk/go-locale-sel.c:161
+msgid "Spain (es_ES)"
+msgstr "Tây Ban Nha (es_ES)"
+
+#: ../goffice/gtk/go-locale-sel.c:162
+msgid "Guatemala (es_GT)"
+msgstr "Gua-tê-ma-la (es_GT)"
+
+#: ../goffice/gtk/go-locale-sel.c:163
+msgid "Honduras (es_HN)"
+msgstr "Hôn-đu-rát (es_HN)"
+
+#: ../goffice/gtk/go-locale-sel.c:164
+msgid "Mexico (es_MX)"
+msgstr "Mê-hi-cô (es_MX)"
+
+#: ../goffice/gtk/go-locale-sel.c:165
+msgid "Nicaragua (es_NI)"
+msgstr "Ni-ca-ra-gua (es_NI)"
+
+#: ../goffice/gtk/go-locale-sel.c:166
+msgid "Panama (es_PA)"
+msgstr "Pa-na-ma (es_PA)"
+
+#: ../goffice/gtk/go-locale-sel.c:167
+msgid "Peru (es_PE)"
+msgstr "Pe-ru (es_PE)"
+
+#: ../goffice/gtk/go-locale-sel.c:168
+msgid "Puerto Rico (es_PR)"
+msgstr "Pu-e-tô Ri-cô (es_PR)"
+
+#: ../goffice/gtk/go-locale-sel.c:169
+msgid "Paraguay (es_PY)"
+msgstr "Pa-ra-guay (es_PY)"
+
+#: ../goffice/gtk/go-locale-sel.c:170
+msgid "El Salvador (es_SV)"
+msgstr "En-xan-va-đoa (es_SV)"
+
+#: ../goffice/gtk/go-locale-sel.c:171
+msgid "United States/Spanish (es_US)"
+msgstr "Tây Ban Nha Mỹ (es_US)"
+
+#: ../goffice/gtk/go-locale-sel.c:172
+msgid "Uruguay (es_UY)"
+msgstr "U-ru-guay (es_UY)"
+
+#: ../goffice/gtk/go-locale-sel.c:173
+msgid "Venezuela (es_VE)"
+msgstr "Vê-nê-xu-ê-la (es_VE)"
+
+#: ../goffice/gtk/go-locale-sel.c:174
+msgid "Estonia (et_EE)"
+msgstr "E-x-tô-ni-a (et_EE)"
+
+#: ../goffice/gtk/go-locale-sel.c:175
+msgid "Spain/Basque (eu_ES)"
+msgstr "Bas-quợ (eu_ES)"
+
+#: ../goffice/gtk/go-locale-sel.c:176
+msgid "Iran (fa_IR)"
+msgstr "I-ran (fa_IR)"
+
+#: ../goffice/gtk/go-locale-sel.c:177
+msgid "Finland/Finnish (fi_FI)"
+msgstr "Phần Lan (fi_FI)"
+
+#: ../goffice/gtk/go-locale-sel.c:178
+msgid "Faroe Islands (fo_FO)"
+msgstr "Quần Đảo Pha-rô (fo_FO)"
+
+#: ../goffice/gtk/go-locale-sel.c:179
+msgid "Belgium/French (fr_BE)"
+msgstr "Pháp Bỉ (fr_BE)"
+
+#: ../goffice/gtk/go-locale-sel.c:180
+msgid "Canada/French (fr_CA)"
+msgstr "Pháp Ca-na-đa (fr_CA)"
+
+#: ../goffice/gtk/go-locale-sel.c:181
+msgid "Switzerland/French (fr_CH)"
+msgstr "Pháp Thuỵ Sĩ (fr_CH)"
+
+#: ../goffice/gtk/go-locale-sel.c:182
+msgid "France (fr_FR)"
+msgstr "Pháp (fr_FR)"
+
+#: ../goffice/gtk/go-locale-sel.c:183
+msgid "Ireland/Gaelic (ga_IE)"
+msgstr "Xen-tơ Ai-len (ga_IE)"
+
+#: ../goffice/gtk/go-locale-sel.c:184
+msgid "Great Britain/Scottish Gaelic (gd_GB)"
+msgstr "Xen-tư Ê-cốt (gd_GB)"
+
+#: ../goffice/gtk/go-locale-sel.c:185
+msgid "Spain/Galician (gl_ES)"
+msgstr "Ga-li-xi (gl_ES)"
+
+#: ../goffice/gtk/go-locale-sel.c:186
+msgid "Great Britain/Manx Gaelic (gv_GB)"
+msgstr "Xen-tơ Mankh-x (gv_GB)"
+
+#: ../goffice/gtk/go-locale-sel.c:187
+msgid "India/Hindu (hi_IN)"
+msgstr "Hin-đi (hi_IN)"
+
+#: ../goffice/gtk/go-locale-sel.c:188
+msgid "Croatia (hr_HR)"
+msgstr "Cợ-rô-a-ti-a (hr_HR)"
+
+#: ../goffice/gtk/go-locale-sel.c:189
+msgid "Hungary (hu_HU)"
+msgstr "Hun-ga-ri (hu_HU)"
+
+#: ../goffice/gtk/go-locale-sel.c:190
+msgid "Armenia (hy_AM)"
+msgstr "Ac-mê-ni (hy_AM)"
+
+#: ../goffice/gtk/go-locale-sel.c:191
+msgid "(i18n)"
+msgstr "(i18n)"
+
+#: ../goffice/gtk/go-locale-sel.c:192
+msgid "Indonesia (id_ID)"
+msgstr "Indonesia (id_ID)"
+
+#: ../goffice/gtk/go-locale-sel.c:193
+msgid "Iceland (is_IS)"
+msgstr "Băng Đảo (is_IS)"
+
+#: ../goffice/gtk/go-locale-sel.c:194
+msgid "(iso14651_t1)"
+msgstr "(iso14651_t1)"
+
+#: ../goffice/gtk/go-locale-sel.c:195
+msgid "Switzerland/Italian (it_CH)"
+msgstr "Ý Thuỵ Sĩ (it_CH)"
+
+#: ../goffice/gtk/go-locale-sel.c:196
+msgid "Italy (it_IT)"
+msgstr "Ý (it_IT)"
+
+#: ../goffice/gtk/go-locale-sel.c:197
+msgid "Israel/Hebrew (iw_IL)"
+msgstr "Do Thái (iw_IL)"
+
+#: ../goffice/gtk/go-locale-sel.c:198
+msgid "Japan (ja_JP)"
+msgstr "Nhật (ja_JP)"
+
+#: ../goffice/gtk/go-locale-sel.c:199
+msgid "Georgia (ka_GE)"
+msgstr "Gi-oa-gi-a (ka_GE)"
+
+#: ../goffice/gtk/go-locale-sel.c:200
+msgid "Greenland (kl_GL)"
+msgstr "Đảo Băng (kl_GL)"
+
+#: ../goffice/gtk/go-locale-sel.c:201
+msgid "Korea (ko_KR)"
+msgstr "Hàn (ko_KR)"
+
+#: ../goffice/gtk/go-locale-sel.c:202
+msgid "Great Britain/Cornish (kw_GB)"
+msgstr "Coa-ni-s (kw_GB)"
+
+#: ../goffice/gtk/go-locale-sel.c:203
+msgid "Lithuania (lt_LT)"
+msgstr "Li-tu-a-ni (lt_LT)"
+
+#: ../goffice/gtk/go-locale-sel.c:204
+msgid "Latvia (lv_LV)"
+msgstr "Lát-vi-a (lv_LV)"
+
+#: ../goffice/gtk/go-locale-sel.c:205
+msgid "New Zealand/Maori (mi_NZ)"
+msgstr "Mao-ri (mi_NZ)"
+
+#: ../goffice/gtk/go-locale-sel.c:206
+msgid "Macedonia (mk_MK)"
+msgstr "Ma-xê-đô-ni-a (mk_MK)"
+
+#: ../goffice/gtk/go-locale-sel.c:207
+msgid "India/Marathi (mr_IN)"
+msgstr "Ma-ra-ti (mr_IN)"
+
+#: ../goffice/gtk/go-locale-sel.c:208
+msgid "Malaysia (ms_MY)"
+msgstr "Mã Lai (ms_MY)"
+
+#: ../goffice/gtk/go-locale-sel.c:209
+msgid "Malta (mt_MT)"
+msgstr "Man-tơ (mt_MT)"
+
+#: ../goffice/gtk/go-locale-sel.c:210
+msgid "Belgium/Flemish (nl_BE)"
+msgstr "Ha Lan Bỉ (nl_BE)"
+
+#: ../goffice/gtk/go-locale-sel.c:211
+msgid "The Netherlands (nl_NL)"
+msgstr "Ha Lan (nl_NL)"
+
+#: ../goffice/gtk/go-locale-sel.c:212
+msgid "Norway/Nynorsk (nn_NO)"
+msgstr "Na Uy/Ny-noa-x-kh (nn_NO)"
+
+#: ../goffice/gtk/go-locale-sel.c:213
+msgid "Norway/Bokmal (no_NO)"
+msgstr "Na Uy/Bokh-măn (no_NO)"
+
+#: ../goffice/gtk/go-locale-sel.c:214
+msgid "France/Occitan (oc_FR)"
+msgstr "Ô-xi-tan (oc_FR)"
+
+#: ../goffice/gtk/go-locale-sel.c:215
+msgid "Poland (pl_PL)"
+msgstr "Ba Lan (pl_PL)"
+
+#: ../goffice/gtk/go-locale-sel.c:216
+msgid "Brazil (pt_BR)"
+msgstr "Bra-xin (pt_BR)"
+
+#: ../goffice/gtk/go-locale-sel.c:217
+msgid "Portugal (pt_PT)"
+msgstr "Bồ Đào Nha (pt_PT)"
+
+#: ../goffice/gtk/go-locale-sel.c:218
+msgid "Romania (ro_RO)"
+msgstr "Ru-ma-ni (ro_RO)"
+
+#: ../goffice/gtk/go-locale-sel.c:219
+msgid "Russia (ru_RU)"
+msgstr "Nga (ru_RU)"
+
+#: ../goffice/gtk/go-locale-sel.c:220
+msgid "Ukraine/Russian (ru_UA)"
+msgstr "Nga U-cơ-rainh (ru_UA)"
+
+#: ../goffice/gtk/go-locale-sel.c:221
+msgid "Norway/Saami (se_NO)"
+msgstr "Thuỵ ĐIển Na Uy (se_NO)"
+
+#: ../goffice/gtk/go-locale-sel.c:222
+msgid "Slovakia (sk_SK)"
+msgstr "Xlô-vác (sk_SK)"
+
+#: ../goffice/gtk/go-locale-sel.c:223
+msgid "Slovenia (sl_SI)"
+msgstr "Xlô-ven (sl_SL)"
+
+#: ../goffice/gtk/go-locale-sel.c:224
+msgid "Albania (sq_AL)"
+msgstr "An-ba-ni (sq_AL)"
+
+#: ../goffice/gtk/go-locale-sel.c:225
+msgid "Yugoslavia (sr_YU)"
+msgstr "Nam Tư (sr_YU)"
+
+#: ../goffice/gtk/go-locale-sel.c:226
+msgid "Finland/Swedish (sv_FI)"
+msgstr "Thụy Điển Phần Lan (sv_FI)"
+
+#: ../goffice/gtk/go-locale-sel.c:227
+msgid "Sweden (sv_SE)"
+msgstr "Thuỵ Điển (sv_SE)"
+
+#: ../goffice/gtk/go-locale-sel.c:228
+msgid "India/Tamil (ta_IN)"
+msgstr "Ta-min (ta_IN)"
+
+#: ../goffice/gtk/go-locale-sel.c:229
+msgid "India/Telugu (te_IN)"
+msgstr "Te-lu-gu (te_IN)"
+
+#: ../goffice/gtk/go-locale-sel.c:230
+msgid "Tajikistan (tg_TJ)"
+msgstr "Ta-gí-khi-x-thanh (tg_TJ)"
+
+#: ../goffice/gtk/go-locale-sel.c:231
+msgid "Thailand (th_TH)"
+msgstr "Thái Lan (th_TH)"
+
+#: ../goffice/gtk/go-locale-sel.c:232
+msgid "Eritrea (ti_ER)"
+msgstr "Ê-ri-tơ-rê-a (ti_ER)"
+
+#: ../goffice/gtk/go-locale-sel.c:233
+msgid "Ethiopia/Tigrinya (ti_ET)"
+msgstr "Ê-ti-ô-pi (ti_ET)"
+
+#: ../goffice/gtk/go-locale-sel.c:234
+msgid "Philippines/Tagalog (tl_PH)"
+msgstr "Ta-ga-loc (tl_PH)"
+
+#: ../goffice/gtk/go-locale-sel.c:235
+msgid "Turkey (tr_TR)"
+msgstr "Thổ Nhĩ Kỳ (tr_TR)"
+
+#: ../goffice/gtk/go-locale-sel.c:236
+msgid "Russia/Tatar (tt_RU)"
+msgstr "Ta-tă (tt_RU)"
+
+#: ../goffice/gtk/go-locale-sel.c:237
+msgid "Ukraine (uk_UA)"
+msgstr "U-cợ-rainh (uk_UA)"
+
+#: ../goffice/gtk/go-locale-sel.c:238
+msgid "Pakistan (ur_PK)"
+msgstr "Pa-ki-x-thănh (ur_PK)"
+
+#: ../goffice/gtk/go-locale-sel.c:239
+msgid "Uzbekistan (uz_UZ)"
+msgstr "U-xơ-bê-ki-x-tanh (uz_UZ)"
+
+#: ../goffice/gtk/go-locale-sel.c:240
+msgid "Vietnam (vi_VN)"
+msgstr "Việt (vi_VN)"
+
+#: ../goffice/gtk/go-locale-sel.c:241
+msgid "Belgium/Walloon (wa_BE)"
+msgstr "Oua-lunh (wa_BE)"
+
+#: ../goffice/gtk/go-locale-sel.c:242
+msgid "United States/Yiddish (yi_US)"
+msgstr "Y-đít (yi_US)"
+
+#: ../goffice/gtk/go-locale-sel.c:243
+msgid "China (zh_CN)"
+msgstr "Trung Quốc (zh_CN)"
+
+#: ../goffice/gtk/go-locale-sel.c:244
+msgid "Hong Kong/Chinese (zh_HK)"
+msgstr "Trung Hồng Kông (zh_HK)"
+
+#: ../goffice/gtk/go-locale-sel.c:245
+msgid "Singapore/Chinese (zh_SG)"
+msgstr "Trung Xin-ga-po (zh_SG)"
+
+#: ../goffice/gtk/go-locale-sel.c:246
+msgid "Taiwan (zh_TW)"
+msgstr "Trung Đài Loan (zh_TW)"
+
+#: ../goffice/gtk/go-locale-sel.c:466
+msgid "Current Locale: "
+msgstr "Miền địa phương hiện có : "
+
+#: ../goffice/gtk/go-optionmenu.c:418
+msgid "Menu"
+msgstr "Trình đơn"
+
+#: ../goffice/gtk/go-optionmenu.c:419
+msgid "The menu of options"
+msgstr "Trình đơn các tùy chọn"
+
+#: ../goffice/gtk/go-palette.c:373
+msgid "Custom..."
+msgstr "Tự chọn..."
+
+#: ../goffice/gtk/go-rotation-sel.ui.h:1
+msgid "<b>Orientation</b>"
+msgstr "<b>Hướng</b>"
+
+#: ../goffice/gtk/go-rotation-sel.ui.h:2
+msgid "A_ngle:"
+msgstr "_Góc:"
+
+#: ../goffice/gtk/goffice-gtk.c:140
+#, c-format
+msgid "Unable to open file '%s'"
+msgstr "Không thể mở tập tin « %s »."
+
+#: ../goffice/gtk/goffice-gtk.c:555 ../goffice/utils/go-style.c:152
+#, c-format
+msgid "%d x %d"
+msgstr "%d × %d"
+
+#: ../goffice/gtk/goffice-gtk.c:590
+msgid "All Files"
+msgstr "Mọi tập tin"
+
+#: ../goffice/gtk/goffice-gtk.c:595
+msgid "Images"
+msgstr "Ảnh"
+
+#: ../goffice/gtk/goffice-gtk.c:639
+msgid "Select an Image"
+msgstr "Chọn ảnh"
+
+#: ../goffice/gtk/goffice-gtk.c:718
+msgid "Save as"
+msgstr "Lưu dạng"
+
+#: ../goffice/gtk/goffice-gtk.c:788
+msgid ""
+"The given file extension does not match the chosen file type. Do you want to "
+"use this name anyway?"
+msgstr ""
+"Phần mở rộng tập tin cho trước không khớp với kiểu tập tin đã chọn. Bạn vẫn "
+"còn có muốn dùng tên này không?"
+
+#: ../goffice/gtk/goffice-gtk.c:1005
+#, c-format
+msgid ""
+"%s\n"
+"is a directory name"
+msgstr ""
+"%s\n"
+"là tên thư mục"
+
+#: ../goffice/gtk/goffice-gtk.c:1009
+#, c-format
+msgid ""
+"You do not have permission to save to\n"
+"%s"
+msgstr ""
+"Bạn không có quyền lưu vào\n"
+"%s"
+
+#: ../goffice/gtk/goffice-gtk.c:1019
+#, c-format
+msgid ""
+"A file called <i>%s</i> already exists in %s.\n"
+"\n"
+"Do you want to save over it?"
+msgstr ""
+"Tập tin tên « %s » đã có trong %s.\n"
+"\n"
+"Bạn có muốn lưu đè lên nó không?"
+
+#: ../goffice/math/go-distribution.c:68
+msgid "Uniform"
+msgstr ""
+
+#: ../goffice/math/go-distribution.c:69
+msgid "Cauchy"
+msgstr ""
+
+#: ../goffice/math/go-distribution.c:70
+msgid "Weibull"
+msgstr ""
+
+#: ../goffice/math/go-distribution.c:71
+#, fuzzy
+msgid "Lognormal"
+msgstr "Chuẩn"
+
+#: ../goffice/math/go-distribution.c:155 ../goffice/math/go-distribution.c:156
+#, fuzzy
+msgid "Location"
+msgstr "Độ _xoay:"
+
+#: ../goffice/math/go-distribution.c:693 ../goffice/math/go-distribution.c:805
+#, fuzzy
+msgid "Shape"
+msgstr "_Hình:"
+
+#: ../goffice/math/go-distribution.c:694 ../goffice/math/go-distribution.c:806
+#, fuzzy
+msgid "Shape factor"
+msgstr "Khoảng sau"
+
+#. The first column has three letter acronyms
+#. * for each currency.  They MUST start with '[$'
+#. * The second column has the long names of the currencies.
+#.
+#. 2002/08/04 Updated to match iso 4217
+#: ../goffice/utils/formats.c:363
+msgid "United Arab Emirates, Dirhams"
+msgstr "Đồng đơ-âm UAE"
+
+#: ../goffice/utils/formats.c:364
+msgid "Afghanistan, Afghanis"
+msgstr "Đồng Ap-ga-ni"
+
+#: ../goffice/utils/formats.c:365
+msgid "Albania, Leke"
+msgstr "Đồng Léc An-ba-ni"
+
+#: ../goffice/utils/formats.c:366
+msgid "Armenia, Drams"
+msgstr "Đồng Đơ-ram Ac-mê-ni"
+
+#: ../goffice/utils/formats.c:367
+msgid "Netherlands Antilles, Guilders"
+msgstr "Đồng guin-đơn An-ti-li Hòa Lan"
+
+#: ../goffice/utils/formats.c:368
+msgid "Angola, Kwanza"
+msgstr "Đồng Cou-ăn-xa An-gô-la"
+
+#: ../goffice/utils/formats.c:369
+msgid "Argentina, Pesos"
+msgstr "Đồng Pê-xô Á-căn-đình"
+
+#: ../goffice/utils/formats.c:370
+msgid "Australia, Dollars"
+msgstr "Đô-la Úc"
+
+#: ../goffice/utils/formats.c:371
+msgid "Aruba, Guilders"
+msgstr "Đồng guin-đơn A-ru-ba"
+
+#: ../goffice/utils/formats.c:372
+msgid "Azerbaijan, Manats"
+msgstr "Đồng Ma-nát Ai-xơ-bai-gianh"
+
+#: ../goffice/utils/formats.c:373
+msgid "Bosnia and Herzegovina, Convertible Marka"
+msgstr "Đồng Mác có thể chuyển đổi của Bô-x-ni-a và Héc-xê-gô-vi-na"
+
+#: ../goffice/utils/formats.c:374
+msgid "Barbados, Dollars"
+msgstr "Đô-la Ba-bê-đoxơ"
+
+#: ../goffice/utils/formats.c:375
+msgid "Bangladesh, Taka"
+msgstr "Đồng Tha-ca Bang-la-dexợ"
+
+#: ../goffice/utils/formats.c:376
+msgid "Bulgaria, Leva"
+msgstr "Đồng Lév Bảo Gia Lơi"
+
+#: ../goffice/utils/formats.c:377
+msgid "Bahrain, Dinars"
+msgstr "Đồng Đi-nă Ba-rê-ni"
+
+#: ../goffice/utils/formats.c:378
+msgid "Burundi, Francs"
+msgstr "Đồng frăng Bu-run-đi"
+
+#: ../goffice/utils/formats.c:379
+msgid "Bermuda, Dollars"
+msgstr "Đô-la Bơ-mu-đa"
+
+#: ../goffice/utils/formats.c:380
+msgid "Brunei Darussalam, Dollars"
+msgstr "Đô-la Bơ-ru-nei"
+
+#: ../goffice/utils/formats.c:381
+msgid "Bolivia, Bolivianos"
+msgstr "Đồng Bo-li-vi-a-nô của Bo-li-vi-a"
+
+#: ../goffice/utils/formats.c:382
+msgid "Brazil, Brazil Real"
+msgstr "Đồng Rê-ăn Braxin"
+
+#: ../goffice/utils/formats.c:383
+msgid "Bahamas, Dollars"
+msgstr "Đô-la Ba-ha-ma"
+
+#: ../goffice/utils/formats.c:384
+msgid "Bhutan, Ngultrum"
+msgstr "Đồng Ngun-trum Bu-tanh"
+
+#: ../goffice/utils/formats.c:385
+msgid "Botswana, Pulas"
+msgstr "Đồng Pu-la Bót-xouă-na"
+
+#: ../goffice/utils/formats.c:386
+msgid "Belarus, Rubles"
+msgstr "Đồng Rúp Be-la-ruxợ"
+
+#: ../goffice/utils/formats.c:387
+msgid "Belize, Dollars"
+msgstr "Đô-la Be-li-xợ"
+
+#: ../goffice/utils/formats.c:388
+msgid "Canada, Dollars"
+msgstr "Đô-la Ca-na-đa"
+
+#: ../goffice/utils/formats.c:389
+msgid "Congo/Kinshasa, Congolese Francs"
+msgstr "Đồng Frăng Con-gô"
+
+#: ../goffice/utils/formats.c:390
+msgid "Switzerland, Francs"
+msgstr "Đồng Frăng Thuỵ Sĩ"
+
+#: ../goffice/utils/formats.c:391
+msgid "Chile, Pesos"
+msgstr "Đồng Pê-sô Chi-lê"
+
+#: ../goffice/utils/formats.c:392
+msgid "China, Yuan Renminbi"
+msgstr "Đồng Yu-an Ren-min-bi Trung Quốc"
+
+#: ../goffice/utils/formats.c:393
+msgid "Colombia, Pesos"
+msgstr "Đồng Pê-sô Co-lom-bi-a"
+
+#: ../goffice/utils/formats.c:394
+msgid "Costa Rica, Colones"
+msgstr "Đồng Co-lon Cốt-x-tha Ri-ca"
+
+#: ../goffice/utils/formats.c:395
+msgid "Cuba, Pesos"
+msgstr "Đồng Pê-sô Cu-ba"
+
+#: ../goffice/utils/formats.c:396
+msgid "Cape Verde, Escudos"
+msgstr "Đồng Ex-cu-đô Cáp Vea-đợ"
+
+#: ../goffice/utils/formats.c:397
+msgid "Cyprus, Pounds"
+msgstr "Đồng bảng Síp"
+
+#: ../goffice/utils/formats.c:398
+msgid "Czech Republic, Koruny"
+msgstr "Đồng Ko-ru-na Séc"
+
+#: ../goffice/utils/formats.c:399
+msgid "Djibouti, Francs"
+msgstr "Đồng Frăng Gi-bou-ti"
+
+#: ../goffice/utils/formats.c:400
+msgid "Denmark, Kroner"
+msgstr "Đồng Cơ-rô-ne Đan Mạch"
+
+#: ../goffice/utils/formats.c:401
+msgid "Dominican Republic, Pesos"
+msgstr "Đồng Pê-sô Đo-mi-ni-ca"
+
+#: ../goffice/utils/formats.c:402
+msgid "Algeria, Algeria Dinars"
+msgstr "Đồng Đi-nă An-giê-ri"
+
+#: ../goffice/utils/formats.c:403
+msgid "Estonia, Krooni"
+msgstr "Đồng Cơ-runh Ex-tô-ni-a"
+
+#: ../goffice/utils/formats.c:404
+msgid "Egypt, Pounds"
+msgstr "Đồng bảng Ai Cập"
+
+#: ../goffice/utils/formats.c:405
+msgid "Eritrea, Nakfa"
+msgstr "Đồng Nac-pha Ê-ri-tơ-rê-a"
+
+#: ../goffice/utils/formats.c:406
+msgid "Ethiopia, Birr"
+msgstr "Đông Bi-rợ Ê-ti-ô-pi"
+
+#: ../goffice/utils/formats.c:407
+msgid "Euro Member Countries, Euro"
+msgstr "Đồng Eu-rô"
+
+#: ../goffice/utils/formats.c:408
+msgid "Fiji, Dollars"
+msgstr "Đô-la Phi-gi"
+
+#: ../goffice/utils/formats.c:409
+msgid "Falkland Islands (Malvinas), Pounds"
+msgstr "Đồng bảng Đảo Phoa-kh-lận-đh"
+
+#: ../goffice/utils/formats.c:410
+msgid "United Kingdom, Pounds"
+msgstr "Đồng bảng Anh"
+
+#: ../goffice/utils/formats.c:411
+msgid "Georgia, Lari"
+msgstr "Đồng La-ri Gi-oa-gi-a"
+
+#: ../goffice/utils/formats.c:412
+msgid "Guernsey, Pounds"
+msgstr "Đồng bảng Ghơ-n-xị"
+
+#: ../goffice/utils/formats.c:413
+msgid "Ghana, Cedis"
+msgstr "Đồng Xê-đi Gha-na"
+
+#: ../goffice/utils/formats.c:414
+msgid "Gibraltar, Pounds"
+msgstr "Đồng bảng Gi-boa-tha"
+
+#: ../goffice/utils/formats.c:415
+msgid "Gambia, Dalasi"
+msgstr "Đồng Đa-la-si Gam-bi-a"
+
+#: ../goffice/utils/formats.c:416
+msgid "Guinea, Francs"
+msgstr "Đồng Frăng Ghi-ni"
+
+#: ../goffice/utils/formats.c:417
+msgid "Guatemala, Quetzales"
+msgstr "Đồng Cu-eth-xan Gua-te-ma-la"
+
+#: ../goffice/utils/formats.c:418
+msgid "Guyana, Dollars"
+msgstr "Đô-la Guy-a-na"
+
+#: ../goffice/utils/formats.c:419
+msgid "Hong Kong, Dollars"
+msgstr "Đô-la Hồng Kông"
+
+#: ../goffice/utils/formats.c:420
+msgid "Honduras, Lempiras"
+msgstr "Đồng Lem-pi-ra Hon-đu-ra"
+
+#: ../goffice/utils/formats.c:421
+msgid "Croatia, Kuna"
+msgstr "Đồng Cu-na Cơ-rô-a-ti-a"
+
+#: ../goffice/utils/formats.c:422
+msgid "Haiti, Gourdes"
+msgstr "Đồng Guo-đe Ha-i-ti"
+
+#: ../goffice/utils/formats.c:423
+msgid "Hungary, Forint"
+msgstr "Đồng Pho-rin-th Hung-ga-ri"
+
+#: ../goffice/utils/formats.c:424
+msgid "Indonesia, Rupiahs"
+msgstr "Đồng Ru-pi-a Indonesia"
+
+#: ../goffice/utils/formats.c:425
+msgid "Israel, New Shekels"
+msgstr "Đồng seken Do Thái mới"
+
+#: ../goffice/utils/formats.c:426
+msgid "Isle of Man, Pounds"
+msgstr "Đồng băng Đảo Man"
+
+#: ../goffice/utils/formats.c:427
+msgid "India, Rupees"
+msgstr "Đồng Ru-pi Ấn Độ"
+
+#: ../goffice/utils/formats.c:428
+msgid "Iraq, Dinars"
+msgstr "Đồng Đi-nă I-rắc"
+
+#: ../goffice/utils/formats.c:429
+msgid "Iran, Rials"
+msgstr "Đồng Ri-an Ba Tư"
+
+#: ../goffice/utils/formats.c:430
+msgid "Iceland, Kronur"
+msgstr "Đồng Cơ-rô-na Băng Đảo"
+
+#: ../goffice/utils/formats.c:431
+msgid "Jersey, Pounds"
+msgstr "Đồng băng Giơ-xị"
+
+#: ../goffice/utils/formats.c:432
+msgid "Jamaica, Dollars"
+msgstr "Đô-la Gia-mê-ca"
+
+#: ../goffice/utils/formats.c:433
+msgid "Jordan, Dinars"
+msgstr "Đồng Đi-nă Gi-oa-đanh"
+
+#: ../goffice/utils/formats.c:434
+msgid "Japan, Yen"
+msgstr "Đồng Yên Nhật"
+
+#: ../goffice/utils/formats.c:435
+msgid "Kenya, Shillings"
+msgstr "Đồng Silinh Khi-ni-a"
+
+#: ../goffice/utils/formats.c:436
+msgid "Kyrgyzstan, Soms"
+msgstr "Đồng Xom Cư-rơ-gư-xtanh"
+
+#: ../goffice/utils/formats.c:437
+msgid "Cambodia, Riels"
+msgstr "Đồng Ri-en Căm Bốt"
+
+#: ../goffice/utils/formats.c:438
+msgid "Comoros, Francs"
+msgstr "Đồng Frăng Co-mo-rô"
+
+#: ../goffice/utils/formats.c:439
+msgid "Korea (North), Won"
+msgstr "Đồng Won Bắc Hàn"
+
+#: ../goffice/utils/formats.c:440
+msgid "Korea (South), Won"
+msgstr "Đồng Won Nam Hàn"
+
+#: ../goffice/utils/formats.c:441
+msgid "Kuwait, Dinars"
+msgstr "Đồng Đi-nă Cu-ouai-thi"
+
+#: ../goffice/utils/formats.c:442
+msgid "Cayman Islands, Dollars"
+msgstr "Đô-la Quần Đảo Cay-manh"
+
+#: ../goffice/utils/formats.c:443
+msgid "Kazakstan, Tenge"
+msgstr "Đồng Ten-ge Ca-xa-kh-x-thanh"
+
+#: ../goffice/utils/formats.c:444
+msgid "Laos, Kips"
+msgstr "Đồng Kip Lào"
+
+#: ../goffice/utils/formats.c:445
+msgid "Lebanon, Pounds"
+msgstr "Đồng Bảng Le-ba-non"
+
+#: ../goffice/utils/formats.c:446
+msgid "Sri Lanka, Rupees"
+msgstr "Đồng Ru-pi Tích Lan"
+
+#: ../goffice/utils/formats.c:447
+msgid "Liberia, Dollars"
+msgstr "Đô-la Li-bê-ri-a"
+
+#: ../goffice/utils/formats.c:448
+msgid "Lesotho, Maloti"
+msgstr "Đồng Lo-thi Le-so-to"
+
+#: ../goffice/utils/formats.c:449
+msgid "Lithuania, Litai"
+msgstr "Đồng Li-tax Li-tu-a-ni-a"
+
+#: ../goffice/utils/formats.c:450
+msgid "Latvia, Lati"
+msgstr "Đồng Lát-x Lát-vi-a"
+
+#: ../goffice/utils/formats.c:451
+msgid "Libya, Dinars"
+msgstr "Đồng Đi-nă Lib-i-a"
+
+#: ../goffice/utils/formats.c:452
+msgid "Morocco, Dirhams"
+msgstr "Đồng Đơ-rậm Mo-ro-cô"
+
+#: ../goffice/utils/formats.c:453
+msgid "Moldova, Lei"
+msgstr "Đồng Leu Moc-đo-vanh"
+
+#: ../goffice/utils/formats.c:454
+msgid "Madagascar, Malagasy Francs"
+msgstr "Đồng A-ri-a-ri Ma-la-ga-xi"
+
+#: ../goffice/utils/formats.c:455
+msgid "Macedonia, Denars"
+msgstr "Đồng Đe-nă Ma-xê-đôn-i"
+
+#: ../goffice/utils/formats.c:456
+msgid "Myanmar (Burma), Kyats"
+msgstr "Đồng Ky-ath Miến Điện"
+
+#: ../goffice/utils/formats.c:457
+msgid "Mongolia, Tugriks"
+msgstr "Đồng Tu-gơ-rikh Mông Cổ"
+
+#: ../goffice/utils/formats.c:458
+msgid "Macau, Patacas"
+msgstr "Đồng Pa-ta-ca Ma-cao"
+
+#: ../goffice/utils/formats.c:459
+msgid "Mauritania, Ouguiyas"
+msgstr "Đồng Ou-gui-a Mau-ri-ta-ni-a"
+
+#: ../goffice/utils/formats.c:460
+msgid "Malta, Liri"
+msgstr "Đồng Li-ra Mantơ"
+
+#: ../goffice/utils/formats.c:461
+msgid "Mauritius, Rupees"
+msgstr "Đồng Ru-pi Mau-ri-sợx"
+
+#: ../goffice/utils/formats.c:462
+msgid "Maldives (Maldive Islands), Rufiyaa"
+msgstr "Đồng Ru-fi-i-ă Man-đi-ve"
+
+#: ../goffice/utils/formats.c:463
+msgid "Malawi, Kwachas"
+msgstr "Đồng Cơ-ouă-cha Ma-la-oui"
+
+#: ../goffice/utils/formats.c:464
+msgid "Mexico, Pesos"
+msgstr "Đồng Pê-sô Mê-hi-cô"
+
+#: ../goffice/utils/formats.c:465
+msgid "Malaysia, Ringgits"
+msgstr "Đồng Ring-git Ma-lay-si-a"
+
+#: ../goffice/utils/formats.c:466
+msgid "Mozambique, Meticais"
+msgstr "Đồng Me-ti-can Mo-xam-bi-khợ"
+
+#: ../goffice/utils/formats.c:467
+msgid "Namibia, Dollars"
+msgstr "Đô-la Na-mi-bia"
+
+#: ../goffice/utils/formats.c:468
+msgid "Nigeria, Nairas"
+msgstr "Đồng Nai-ra Ni-gie-ri-a"
+
+#: ../goffice/utils/formats.c:469
+msgid "Nicaragua, Gold Cordobas"
+msgstr "Đồng Coa-đô-ba O-rô Ni-ca-ra-gu-a"
+
+#: ../goffice/utils/formats.c:470
+msgid "Norway, Krone"
+msgstr "Đồng Cu-rô-ne Na Uy"
+
+#: ../goffice/utils/formats.c:471
+msgid "Nepal, Nepal Rupees"
+msgstr "Đồng Ru-pi Ne-pan"
+
+#: ../goffice/utils/formats.c:472
+msgid "New Zealand, Dollars"
+msgstr "Đô-la Niu Xi-lân"
+
+#: ../goffice/utils/formats.c:473
+msgid "Oman, Rials"
+msgstr "Đồng Ri-an O-ma-ni"
+
+#: ../goffice/utils/formats.c:474
+msgid "Panama, Balboa"
+msgstr "Đồng Ban-bô-a Pa-na-ma"
+
+#: ../goffice/utils/formats.c:475
+msgid "Peru, Nuevos Soles"
+msgstr "Đồng Nu-ê-vô Son Pe-ru"
+
+#: ../goffice/utils/formats.c:476
+msgid "Papua New Guinea, Kina"
+msgstr "Đồng Khi-na Pa-pu-a Niu Ghi-nê"
+
+#: ../goffice/utils/formats.c:477
+msgid "Philippines, Pesos"
+msgstr "Đồng Pê-sô Phi-li-pi-nô"
+
+#: ../goffice/utils/formats.c:478
+msgid "Pakistan, Rupees"
+msgstr "Đồng Ru-pi Pa-ki-x-thănh"
+
+#: ../goffice/utils/formats.c:479
+msgid "Poland, Zlotys"
+msgstr "Đồng Doua-ti Ba Lan"
+
+#: ../goffice/utils/formats.c:480
+msgid "Paraguay, Guarani"
+msgstr "Đồng Gua-ra-ni Pa-ra-guay"
+
+#: ../goffice/utils/formats.c:481
+msgid "Qatar, Rials"
+msgstr "Đồng Ri-an Ca-tă"
+
+#: ../goffice/utils/formats.c:482
+msgid "Romania, Lei"
+msgstr "Đồng Leu Ru-ma-ni"
+
+#: ../goffice/utils/formats.c:483
+msgid "Russia, Rubles"
+msgstr "Đồng Rúp Nga"
+
+#: ../goffice/utils/formats.c:484
+msgid "Rwanda, Rwanda Francs"
+msgstr "Đồng Frăng Rou-an-đa"
+
+#: ../goffice/utils/formats.c:485
+msgid "Saudi Arabia, Riyals"
+msgstr "Đồng Ri-an Sau-đi"
+
+#: ../goffice/utils/formats.c:486
+msgid "Solomon Islands, Dollars"
+msgstr "Đô-la Quần Đảo So-lo-mon"
+
+#: ../goffice/utils/formats.c:487
+msgid "Seychelles, Rupees"
+msgstr "Đồng Ru-pi Xê-sen"
+
+#: ../goffice/utils/formats.c:488
+msgid "Sudan, Dinars"
+msgstr "Đồng Đi-nă Xu-đănh"
+
+#: ../goffice/utils/formats.c:489
+msgid "Sweden, Kronor"
+msgstr "Đồng Cơ-rô-na Thuỵ Điển"
+
+#: ../goffice/utils/formats.c:490
+msgid "Singapore, Dollars"
+msgstr "Đô-la Xin-ga-po"
+
+#: ../goffice/utils/formats.c:491
+msgid "Saint Helena, Pounds"
+msgstr "Đồng Bảng Xan He-le-na"
+
+#: ../goffice/utils/formats.c:492
+msgid "Slovenia, Tolars"
+msgstr "Đồng To-la Xlô-ven"
+
+#: ../goffice/utils/formats.c:493
+msgid "Slovakia, Koruny"
+msgstr "Đồng Co-ru-na Xlô-vác"
+
+#: ../goffice/utils/formats.c:494
+msgid "Sierra Leone, Leones"
+msgstr "Đồng Le-ô-ne"
+
+#: ../goffice/utils/formats.c:495
+msgid "Somalia, Shillings"
+msgstr "Đồng Silinh So-ma-li"
+
+#: ../goffice/utils/formats.c:496
+msgid "Seborga, Luigini"
+msgstr "Đồng Lui-gi-ni Xe-boa-ga"
+
+#: ../goffice/utils/formats.c:497
+msgid "Suriname, Guilders"
+msgstr "Đô-la Xu-ri-nam"
+
+#: ../goffice/utils/formats.c:498
+msgid "Sao Tome and Principe, Dobras"
+msgstr "Đồng Đo-b-ra Sao To-mê và Pơ-rin-xi-pê"
+
+#: ../goffice/utils/formats.c:499
+msgid "El Salvador, Colones"
+msgstr "Đồng Co-lon En Xan-va-đoa"
+
+#: ../goffice/utils/formats.c:500
+msgid "Syria, Pounds"
+msgstr "Đồng Bảng Xi-ri"
+
+#: ../goffice/utils/formats.c:501
+msgid "Swaziland, Emalangeni"
+msgstr "Đồng Li-lan-ge-ni Xou-a-xi-lan"
+
+#: ../goffice/utils/formats.c:502
+msgid "Thailand, Baht"
+msgstr "Đồng Băt Thái"
+
+#: ../goffice/utils/formats.c:503
+msgid "Tajikistan, Rubles"
+msgstr "Đồng Ta-gíc Xo-mo-ni"
+
+#: ../goffice/utils/formats.c:504
+msgid "Turkmenistan, Manats"
+msgstr "Đồng Ma-nat Tuốc-mê-ni-xtanh"
+
+#: ../goffice/utils/formats.c:505
+msgid "Tunisia, Dinars"
+msgstr "Đồng Đi-nă Tu-ni-xi-a"
+
+#: ../goffice/utils/formats.c:506
+msgid "Tonga, Pa'anga"
+msgstr "Đồng Pa-an-ga Ton-ga"
+
+#: ../goffice/utils/formats.c:507
+msgid "Turkey, Liras"
+msgstr "Đồng Li-ra mới Thổ Nhĩ Kỳ"
+
+#: ../goffice/utils/formats.c:508
+msgid "Trinidad and Tobago, Dollars"
+msgstr "Đô-la Trinh-i-đat và To-ba-gô"
+
+#: ../goffice/utils/formats.c:509
+msgid "Tuvalu, Tuvalu Dollars"
+msgstr "Đô-la Tu-va-lu"
+
+#: ../goffice/utils/formats.c:510
+msgid "Taiwan, New Dollars"
+msgstr "Đô-la mới Đài Loan"
+
+#: ../goffice/utils/formats.c:511
+msgid "Tanzania, Shillings"
+msgstr "Đồng Silinh Tan-xa-ni-a"
+
+#: ../goffice/utils/formats.c:512
+msgid "Ukraine, Hryvnia"
+msgstr "Đồng Hơ-riv-ni-a U-cợ-rainh"
+
+#: ../goffice/utils/formats.c:513
+msgid "Uganda, Shillings"
+msgstr "Đồng Silinh U-gan-đa"
+
+#: ../goffice/utils/formats.c:514
+msgid "United States of America, Dollars"
+msgstr "Đô-la Mỹ"
+
+#: ../goffice/utils/formats.c:515
+msgid "Uruguay, Pesos"
+msgstr "Đồng Pê-sô U-ru-guay"
+
+#: ../goffice/utils/formats.c:516
+msgid "Uzbekistan, Sums"
+msgstr "Đồng Xum U-dơ-bê-ki-xtanh"
+
+#: ../goffice/utils/formats.c:517
+msgid "Venezuela, Bolivares"
+msgstr "Đồng Bo-li-vă Ve-ne-xuê-la"
+
+#: ../goffice/utils/formats.c:518
+msgid "Viet Nam, Dong"
+msgstr "Đồng Việt Nam"
+
+#: ../goffice/utils/formats.c:519
+msgid "Vanuatu, Vatu"
+msgstr "Đồng Va-tu Va-nu-a-tu"
+
+#: ../goffice/utils/formats.c:520
+msgid "Samoa, Tala"
+msgstr "Đồng Ta-la Sa-mô-a"
+
+#: ../goffice/utils/formats.c:521
+msgid "Communaute Financiere Africaine BEAC, Francs"
+msgstr "Đồng Frăng CFA BEAC"
+
+#: ../goffice/utils/formats.c:522
+msgid "Silver, Ounces"
+msgstr "Bạc"
+
+#: ../goffice/utils/formats.c:523
+msgid "Gold, Ounces"
+msgstr "Vàng"
+
+#: ../goffice/utils/formats.c:524
+msgid "East Caribbean Dollars"
+msgstr "Đô-la Đông Ca-rib"
+
+#: ../goffice/utils/formats.c:525
+msgid "International Monetary Fund (IMF) Special Drawing Rights"
+msgstr "Quyền lĩnh đặc biệt IMF"
+
+#: ../goffice/utils/formats.c:526
+msgid "Communaute Financiere Africaine BCEAO, Francs"
+msgstr "Đồng Frăng CFA BCEAO"
+
+#: ../goffice/utils/formats.c:527
+msgid "Palladium, Ounces"
+msgstr "Pa-la-đi"
+
+#: ../goffice/utils/formats.c:528
+msgid "Comptoirs Francais du Pacifique Francs"
+msgstr "Đồng Frăng CFP"
+
+#: ../goffice/utils/formats.c:529
+msgid "Platinum, Ounces"
+msgstr "Bạch kim"
+
+#: ../goffice/utils/formats.c:530
+msgid "Yemen, Rials"
+msgstr "Đồng Ri-an Ye-me-ni"
+
+#: ../goffice/utils/formats.c:531
+msgid "Yugoslavia, New Dinars"
+msgstr "Đồng Đi-nă Mới Nam Tư"
+
+#: ../goffice/utils/formats.c:532
+msgid "South Africa, Rand"
+msgstr "Đồng Ranh-đh Nam Phi"
+
+#: ../goffice/utils/formats.c:533
+msgid "Zambia, Kwacha"
+msgstr "Đồng Cou-a-cha Xam-bi-a"
+
+#: ../goffice/utils/formats.c:534
+msgid "Zimbabwe, Zimbabwe Dollars"
+msgstr "Đô-la Xim-ba-bui"
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:439
+msgid "*Long Date Format"
+msgstr ""
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:447
+#, fuzzy
+msgid "*Medium Date Format"
+msgstr "Định dạng số"
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:455
+msgid "*Short Date Format"
+msgstr ""
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:468
+msgid "*Short Date/Time Format"
+msgstr ""
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:483
+msgid "*Long Time Format"
+msgstr ""
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:495
+#, fuzzy
+msgid "*Medium Time Format"
+msgstr "Định dạng số"
+
+#. xgettext: See http://projects.gnome.org/gnumeric/date-time-formats.shtml
+#: ../goffice/utils/go-format.c:507
+msgid "*Short Time Format"
+msgstr ""
+
+#: ../goffice/utils/go-format.c:541
+msgid "Black"
+msgstr "Đen"
+
+#: ../goffice/utils/go-format.c:542
+msgid "Blue"
+msgstr "Xanh"
+
+#: ../goffice/utils/go-format.c:543
+msgid "Cyan"
+msgstr "Xanh lông mòng"
+
+#: ../goffice/utils/go-format.c:544
+msgid "Green"
+msgstr "Lục"
+
+#: ../goffice/utils/go-format.c:545
+msgid "Magenta"
+msgstr "Đỏ tươi"
+
+#: ../goffice/utils/go-format.c:546
+msgid "Red"
+msgstr "Đỏ"
+
+#: ../goffice/utils/go-format.c:547
+msgid "White"
+msgstr "Trắng"
+
+#: ../goffice/utils/go-format.c:548
+msgid "Yellow"
+msgstr "Vàng"
+
+#: ../goffice/utils/go-format.c:568
+#, fuzzy
+msgid "color"
+msgstr "Màu"
+
+#: ../goffice/utils/go-glib-extras.c:836
+msgid "yes"
+msgstr ""
+
+#: ../goffice/utils/go-glib-extras.c:842
+#, fuzzy
+msgid "no"
+msgstr "không có"
+
+#: ../goffice/utils/go-glib-extras.c:1036
+#, c-format
+msgid "Quoted string not terminated"
+msgstr ""
+
+#: ../goffice/utils/go-glib-extras.c:1043
+#, c-format
+msgid "Syntax error"
+msgstr ""
+
+#: ../goffice/utils/go-image.c:132
+msgid "SVG (vector graphics)"
+msgstr "SVG (đồ họa véc-tơ)"
+
+#: ../goffice/utils/go-image.c:134
+msgid "PNG (raster graphics)"
+msgstr "PNG (đồ họa mành)"
+
+#: ../goffice/utils/go-image.c:136
+msgid "JPEG (photograph)"
+msgstr "JPEG (ảnh chụp)"
+
+#: ../goffice/utils/go-image.c:138
+msgid "PDF (portable document format)"
+msgstr "PDF (định dạng tài liệu di động)"
+
+#: ../goffice/utils/go-image.c:140
+msgid "PS (postscript)"
+msgstr "PS (postscript)"
+
+#: ../goffice/utils/go-image.c:142
+msgid "EMF (extended metafile)"
+msgstr "EMF (siêu tập tin đã mở rộng)"
+
+#: ../goffice/utils/go-image.c:144
+msgid "WMF (windows metafile)"
+msgstr "WMF (siêu tập tin Windows)"
+
+#: ../goffice/utils/go-image.c:147
+#, fuzzy
+msgid "EPS (encapsulated postscript)"
+msgstr "PS (postscript)"
+
+#: ../goffice/utils/go-image.c:473
+msgid "Image width in pixels"
+msgstr "Độ rộng ảnh theo điểm ảnh"
+
+#: ../goffice/utils/go-image.c:477
+msgid "Image height in pixels"
+msgstr "Độ cao ảnh theo điểm ảnh"
+
+#: ../goffice/utils/go-image.c:482
+msgid "GdkPixbuf object from which the GOImage is built"
+msgstr "Đối tượng GdkPixbuf từ đó xây dựng đối tượng GOImage"
+
+#: ../goffice/utils/go-line.c:86 ../goffice/utils/go-pattern.c:41
+msgid "Solid"
+msgstr "Đặc"
+
+#: ../goffice/utils/go-line.c:88
+msgid "Dot"
+msgstr "Chấm"
+
+#: ../goffice/utils/go-line.c:90
+msgid "Dash dot"
+msgstr "Gạch chấm"
+
+#: ../goffice/utils/go-line.c:92
+msgid "Dash dot dot"
+msgstr "Gạch chấm chấm"
+
+#: ../goffice/utils/go-line.c:94
+msgid "Dash dot dot dot"
+msgstr "Gạch chấm chấm chấm"
+
+#: ../goffice/utils/go-line.c:96
+msgid "Short dash"
+msgstr "Gạch ngắn"
+
+#: ../goffice/utils/go-line.c:98
+msgid "Dash"
+msgstr "Gạch"
+
+#: ../goffice/utils/go-line.c:100
+msgid "Long dash"
+msgstr "Gạch dài"
+
+#: ../goffice/utils/go-line.c:102
+msgid "Very long dash"
+msgstr "Gạch rất dài"
+
+#: ../goffice/utils/go-line.c:104
+msgid "Long dash dash"
+msgstr "Gạch gạch dài"
+
+#: ../goffice/utils/go-line.c:106
+msgid "Long dash dash dash"
+msgstr "Gạch gạch gạch dài"
+
+#: ../goffice/utils/go-line.c:120
+msgid "Bezier cubic spline"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:122
+msgid "Closed Bezier cubic spline"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:124
+msgid "Natural cubic spline"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:126
+msgid "Cubic spline with parabolic extrapolation"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:128
+msgid "Cubic spline with cubic extrapolation"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:130
+msgid "Clamped cubic spline"
+msgstr ""
+
+#: ../goffice/utils/go-line.c:132
+msgid "Step at start"
+msgstr "Bước ở đầu"
+
+#: ../goffice/utils/go-line.c:134
+msgid "Step at end"
+msgstr "Bước ở cuối"
+
+#: ../goffice/utils/go-line.c:136
+msgid "Step at center"
+msgstr "Bước ở giữa"
+
+#: ../goffice/utils/go-line.c:138
+msgid "Step to mean"
+msgstr "Bước đến trung bình"
+
+#: ../goffice/utils/go-locale.c:496
+msgid "TRUE"
+msgstr "ĐÚNG"
+
+#: ../goffice/utils/go-locale.c:497
+msgid "FALSE"
+msgstr "SAI"
+
+#: ../goffice/utils/go-marker.c:75
+msgid "none"
+msgstr "không có"
+
+#: ../goffice/utils/go-marker.c:76
+msgid "square"
+msgstr "vuông"
+
+#: ../goffice/utils/go-marker.c:77
+msgid "diamond"
+msgstr "thoi"
+
+#: ../goffice/utils/go-marker.c:78
+msgid "triangle down"
+msgstr "tam giác hướng xuống"
+
+#: ../goffice/utils/go-marker.c:79
+msgid "triangle up"
+msgstr "tam giác hướng trên"
+
+#: ../goffice/utils/go-marker.c:80
+msgid "triangle right"
+msgstr "tam giác hướng bên phải"
+
+#: ../goffice/utils/go-marker.c:81
+msgid "triangle left"
+msgstr "tam giác hướng bên trái"
+
+#: ../goffice/utils/go-marker.c:82
+msgid "circle"
+msgstr "tròn"
+
+#: ../goffice/utils/go-marker.c:84
+msgid "cross"
+msgstr "chữ thập"
+
+#: ../goffice/utils/go-marker.c:85
+msgid "asterisk"
+msgstr "sao"
+
+#: ../goffice/utils/go-marker.c:86
+msgid "bar"
+msgstr "thanh"
+
+#: ../goffice/utils/go-marker.c:87
+msgid "half bar"
+msgstr "nửa thanh"
+
+#: ../goffice/utils/go-marker.c:88
+msgid "butterfly"
+msgstr "bướm"
+
+#: ../goffice/utils/go-marker.c:89
+msgid "hourglass"
+msgstr "đồng hồ cát"
+
+#: ../goffice/utils/go-marker.c:90
+#, fuzzy
+msgid "left half bar"
+msgstr "nửa thanh"
+
+#: ../goffice/utils/go-pattern.c:43
+#, no-c-format
+msgid "75% Grey"
+msgstr "75% Xám"
+
+#: ../goffice/utils/go-pattern.c:45
+#, no-c-format
+msgid "50% Grey"
+msgstr "50% Xám"
+
+#: ../goffice/utils/go-pattern.c:47
+#, no-c-format
+msgid "25% Grey"
+msgstr "25% Xám"
+
+#: ../goffice/utils/go-pattern.c:49
+#, no-c-format
+msgid "12.5% Grey"
+msgstr "12.5% Xám"
+
+#: ../goffice/utils/go-pattern.c:51
+#, no-c-format
+msgid "6.25% Grey"
+msgstr "6.25% Xám"
+
+#: ../goffice/utils/go-pattern.c:52
+msgid "Horizontal Stripe"
+msgstr "Sọc nằm ngang"
+
+#: ../goffice/utils/go-pattern.c:53
+msgid "Vertical Stripe"
+msgstr "Sọc thẳng đứng"
+
+#: ../goffice/utils/go-pattern.c:54
+msgid "Reverse Diagonal Stripe"
+msgstr "Sọc chéo ngược"
+
+#: ../goffice/utils/go-pattern.c:55
+msgid "Diagonal Stripe"
+msgstr "Sọc chéo"
+
+#: ../goffice/utils/go-pattern.c:56
+msgid "Diagonal Crosshatch"
+msgstr "Lưới đan chéo"
+
+#: ../goffice/utils/go-pattern.c:57
+msgid "Thick Diagonal Crosshatch"
+msgstr "Lưới đan chéo dày"
+
+#: ../goffice/utils/go-pattern.c:58
+msgid "Thin Horizontal Stripe"
+msgstr "Đường nằm ngang mảnh"
+
+#: ../goffice/utils/go-pattern.c:59
+msgid "Thin Vertical Stripe"
+msgstr "Đường thẳng đứng mảnh"
+
+#: ../goffice/utils/go-pattern.c:60
+msgid "Thin Reverse Diagonal Stripe"
+msgstr "Đường chéo ngược mảnh"
+
+#: ../goffice/utils/go-pattern.c:61
+msgid "Thin Diagonal Stripe"
+msgstr "Đường chéo mảnh"
+
+#: ../goffice/utils/go-pattern.c:62
+msgid "Thin Horizontal Crosshatch"
+msgstr "Lưới vuông thưa"
+
+#: ../goffice/utils/go-pattern.c:63
+msgid "Thin Diagonal Crosshatch"
+msgstr "Lưới đan chéo thưa"
+
+#: ../goffice/utils/go-pattern.c:64
+msgid "Foreground Solid"
+msgstr "Tiền cảnh đặc"
+
+#: ../goffice/utils/go-pattern.c:65
+msgid "Small Circles"
+msgstr "Vòng tròn nhỏ"
+
+#. Applix
+#: ../goffice/utils/go-pattern.c:66
+msgid "Semi Circles"
+msgstr "Nửa vòng tròn"
+
+#. Applix
+#: ../goffice/utils/go-pattern.c:67
+msgid "Thatch"
+msgstr "Mật độ dày"
+
+#. Applix small thatch
+#: ../goffice/utils/go-pattern.c:68
+msgid "Large Circles"
+msgstr "Vòng tròn lớn"
+
+#: ../goffice/utils/go-pattern.c:70
+msgid "Bricks"
+msgstr "Gạch"
+
+#: ../goffice/utils/go-style.c:583
+msgid "Start:"
+msgstr "Đầu :"
+
+#: ../goffice/utils/go-style.c:584
+msgid "End:"
+msgstr "Cuối:"
+
+#: ../goffice/utils/go-style.c:586
+msgid "Foreground:"
+msgstr "Cảnh gần:"
+
+#: ../goffice/utils/go-style.c:587
+msgid "Background:"
+msgstr "Nền:"
+
+#: ../goffice/utils/go-style.c:806
+msgid "Markers"
+msgstr "Dấu hiệu"
+
+#: ../goffice/utils/go-style.c:878
+msgid "Font"
+msgstr "Phông"
+
+#: ../goffice/utils/go-style-prefs.ui.h:1
+msgid "<b>Fill</b>"
+msgstr "<b>Tô đầy</b>"
+
+#: ../goffice/utils/go-style-prefs.ui.h:2
+msgid "<b>Line</b>"
+msgstr "<b>Đường</b>"
+
+#: ../goffice/utils/go-style-prefs.ui.h:3
+msgid "<b>Marker</b>"
+msgstr "<b>Dấu hiệu</b>"
+
+#: ../goffice/utils/go-style-prefs.ui.h:4
+msgid "<b>Outline</b>"
+msgstr "<b>Nét ngoài</b>"
+
+#: ../goffice/utils/go-style-prefs.ui.h:5
+msgid "B_rightness:"
+msgstr "Độ _sáng:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:6
+msgid "Bicolor gradient"
+msgstr ""
+
+#: ../goffice/utils/go-style-prefs.ui.h:7
+msgid "Co_lor:"
+msgstr "_Màu :"
+
+#: ../goffice/utils/go-style-prefs.ui.h:10
+msgid "O_utline:"
+msgstr "Nét ng_oài:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:11
+#, fuzzy
+msgid "Pattern"
+msgstr "_Mẫu :"
+
+#: ../goffice/utils/go-style-prefs.ui.h:12
+msgid "Sha_pe:"
+msgstr "_Hình:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:13
+msgid "Si_ze:"
+msgstr "_Cỡ :"
+
+#: ../goffice/utils/go-style-prefs.ui.h:14
+msgid "St_yle:"
+msgstr "_Kiểu dáng:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:15
+msgid "Unicolor gradient"
+msgstr ""
+
+#: ../goffice/utils/go-style-prefs.ui.h:16
+msgid "_Background:"
+msgstr "_Nền:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:17
+msgid "_Direction:"
+msgstr "Hướn_g:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:18
+msgid "_Fill:"
+msgstr "_Tô đầy:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:19
+msgid "_Fit:"
+msgstr "_Vừa:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:20
+msgid "_Foreground:"
+msgstr "_Cảnh gần:"
+
+#: ../goffice/utils/go-style-prefs.ui.h:21
+msgid "_Pattern:"
+msgstr "_Mẫu :"
+
+#: ../goffice/utils/go-style-prefs.ui.h:23
+msgid "_Size:"
+msgstr "_Cỡ :"
+
+#: ../goffice/utils/go-style-prefs.ui.h:26
+#, fuzzy
+msgid "stretched"
+msgstr "Độ dãn phông"
+
+#: ../goffice/utils/go-style-prefs.ui.h:27
+#, fuzzy
+msgid "wallpaper"
+msgstr ""
+"dãn ra\n"
+"ảnh nền"
+
+#: ../goffice/utils/regutf8.c:41
+msgid "Pattern not found."
+msgstr "Không tìm thấy mẫu."
+
+#: ../goffice/utils/regutf8.c:43
+msgid "Invalid pattern."
+msgstr "Mẫu không hợp lệ."
+
+#: ../goffice/utils/regutf8.c:44
+msgid "Invalid collating element."
+msgstr "Yếu tố đối xứng không hợp lệ."
+
+#: ../goffice/utils/regutf8.c:45
+msgid "Invalid character class name."
+msgstr "Tên hạng ký tự không hợp lệ"
+
+#: ../goffice/utils/regutf8.c:46
+msgid "Trailing backslash."
+msgstr "Dấu xuyệc ngược theo sau."
+
+#: ../goffice/utils/regutf8.c:47
+msgid "Invalid back reference."
+msgstr "Tham chiếu ngược không hợp lệ."
+
+#: ../goffice/utils/regutf8.c:48
+msgid "Unmatched left bracket."
+msgstr "Dấu ngoặc bên trái chưa khớp"
+
+#: ../goffice/utils/regutf8.c:49
+msgid "Parenthesis imbalance."
+msgstr "Dấu ngoặc thừa."
+
+#: ../goffice/utils/regutf8.c:50
+msgid "Unmatched \\{."
+msgstr "Có dấu ngoặc đơn mở « \\( » riêng lẻ."
+
+#: ../goffice/utils/regutf8.c:51
+msgid "Invalid contents of \\{\\}."
+msgstr "Nội dụng « \\{\\} » không hợp lệ."
+
+#: ../goffice/utils/regutf8.c:52
+msgid "Invalid range end."
+msgstr "Kết thúc phạm vi không hợp lệ."
+
+#: ../goffice/utils/regutf8.c:53
+msgid "Out of memory."
+msgstr "Hết bộ nhớ."
+
+#: ../goffice/utils/regutf8.c:54
+msgid "Invalid repetition operator."
+msgstr "Toán tử lặp lại không hợp lệ."
+
+#: ../goffice/utils/regutf8.c:55
+msgid "Premature end of pattern."
+msgstr "Kết thúc mẫu quá sớm."
+
+#: ../goffice/utils/regutf8.c:56
+msgid "Pattern is too big."
+msgstr "Mẫu quá lớn."
+
+#: ../goffice/utils/regutf8.c:57
+msgid "Unmatched ) or \\)"
+msgstr "Chưa khớp ký tự « ) » hay « \\) »"
+
+#: ../goffice/utils/regutf8.c:359
+#, c-format
+msgid "Search string must not be empty."
+msgstr "Không cho phép chuỗi tìm kiếm rỗng."
+
+#: ../goffice/utils/regutf8.c:369
+#, c-format
+msgid "Replacement string must be set."
+msgstr "Cần phải đặt chuỗi thay thế."
+
+#: ../goffice/utils/regutf8.c:381
+#, c-format
+msgid "Invalid search pattern (%s)"
+msgstr "Mẫu tìm kiếm không hợp lệ (%s)"
+
+#: ../goffice/utils/regutf8.c:405
+#, c-format
+msgid "Invalid $-specification in replacement."
+msgstr "Sai xác định $ trong chuỗi thay thế."
+
+#: ../goffice/utils/regutf8.c:415
+#, c-format
+msgid "Invalid trailing backslash in replacement."
+msgstr "Chuỗi thay thế chứa dấu xuyệc ngước theo sau không hợp lệ."
+
+#: ../goffice/utils/regutf8.c:892
+msgid "Search Text"
+msgstr "Chuỗi tìm kiếm"
+
+#: ../goffice/utils/regutf8.c:893
+msgid "The text to search for"
+msgstr "Chuỗi cần tìm"
+
+#: ../goffice/utils/regutf8.c:902
+msgid "Replacement Text"
+msgstr "Chuỗi thay thế"
+
+#: ../goffice/utils/regutf8.c:903
+msgid "The text to replace with"
+msgstr "Chuỗi bằng đó cần thay thế"
+
+#: ../goffice/utils/regutf8.c:911
+msgid "Is Regular Expression"
+msgstr "Là biểu thức chính quy"
+
+#: ../goffice/utils/regutf8.c:912
+msgid "Is the search text a regular expression."
+msgstr "Chuỗi tìm kiếm là biểu thức chính quy không."
+
+#: ../goffice/utils/regutf8.c:920
+msgid "Ignore Case"
+msgstr "Bỏ qua chữ hoa/thường"
+
+#: ../goffice/utils/regutf8.c:921
+msgid "Ignore the case of letters."
+msgstr "Không phân biệt chữ hoa/thường."
+
+#: ../goffice/utils/regutf8.c:929
+msgid "Preserve Case"
+msgstr "Bảo tồn chữ hoa/thường"
+
+#: ../goffice/utils/regutf8.c:930
+msgid "Preserve the case of letters."
+msgstr "Không thay đổi chữ hoa/thường."
+
+#: ../goffice/utils/regutf8.c:938
+msgid "Match Words"
+msgstr "Khớp nguyên từ"
+
+#: ../goffice/utils/regutf8.c:939
+msgid "Match whole words only."
+msgstr "Chỉ khớp nguyên từ."
+
+#: ../plugins/plot_barcol/gog-1.5d.c:333
+msgid "How to group multiple series, normal, stacked, as_percentage"
+msgstr ""
+"Cách nhóm lại nhiều dãy:\n"
+" • normal\t\tchuẩn\n"
+" • stacked\tđống\n"
+" • as_percentage\ttheo phần trăm."
+
+#: ../plugins/plot_barcol/gog-1.5d.c:338 ../plugins/plot_pie/gog-pie.c:317
+#: ../plugins/plot_xy/gog-xy.c:528
+msgid "In 3d"
+msgstr "Theo 3D"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:339
+msgid "Placeholder to allow us to round trip pseudo 3d state"
+msgstr "Bộ giữ chỗ để cho phép theo chu kỳ của tình trạng ba chiều giả."
+
+#: ../plugins/plot_barcol/gog-1.5d.c:347
+#: ../plugins/plot_barcol/gog-dropbar.c:59
+#: ../plugins/plot_barcol/gog-minmax.c:249 ../plugins/plot_pie/gog-pie.c:336
+#: ../plugins/plot_radar/gog-radar.c:319
+msgid "Labels"
+msgstr "Nhãn"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:349
+#: ../plugins/plot_distrib/gog-boxplot.c:404
+#: ../plugins/plot_distrib/gog-histogram.c:190
+#: ../plugins/plot_distrib/gog-probability-plot.c:277
+#: ../plugins/plot_pie/gog-pie.c:338 ../plugins/plot_radar/gog-radar.c:321
+msgid "Values"
+msgstr "Giá trị"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:578 ../plugins/plot_barcol/gog-1.5d.c:641
+msgid "Error bars"
+msgstr "Thanh lỗi"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:598
+msgid "Series lines"
+msgstr "Đường dãy"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:605
+#: ../plugins/plot_distrib/gog-histogram.c:475
+msgid "Drop lines"
+msgstr "Đường thả"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:613
+#: ../plugins/plot_barcol/plot-types.xml.in.h:78
+msgid "Lines"
+msgstr "Đường"
+
+#: ../plugins/plot_barcol/gog-1.5d.c:642
+#: ../plugins/plot_radar/gog-radar.c:1253
+#: ../plugins/plot_radar/gog-radar.c:1379 ../plugins/plot_xy/gog-xy.c:1998
+#: ../plugins/plot_xy/gog-xy.c:2004
+msgid "GogErrorBar *"
+msgstr "GogErrorBar *"
+
+#: ../plugins/plot_barcol/gog-barcol-prefs.ui.h:3
+msgid "O_verlap:"
+msgstr "Chồng _lấp:"
+
+#: ../plugins/plot_barcol/gog-barcol-prefs.ui.h:4
+#: ../plugins/plot_barcol/gog-minmax-prefs.ui.h:3
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:7
+msgid "_Gap:"
+msgstr "_Khe:"
+
+#. xgettext : the base for how to name bar/col plot objects
+#. * eg The 2nd bar/col plot in a chart will be called
+#. * 	PlotBarCol2
+#: ../plugins/plot_barcol/gog-barcol.c:138
+msgid "PlotBarCol"
+msgstr "PlotBarCol"
+
+#: ../plugins/plot_barcol/gog-barcol.c:150
+#: ../plugins/plot_barcol/gog-minmax.c:198
+#: ../plugins/plot_distrib/gog-boxplot.c:162 ../plugins/plot_pie/gog-pie.c:273
+#: ../plugins/plot_pie/gog-pie.c:432 ../plugins/plot_radar/gog-radar.c:503
+#: ../plugins/plot_surface/gog-xyz.c:99
+#: ../plugins/plot_surface/gog-xyz-surface.c:180
+#: ../plugins/plot_xy/gog-xy.c:428 ../plugins/plot_xy/gog-xy.c:704
+#: ../plugins/smoothing/gog-moving-avg.c:113
+#: ../plugins/smoothing/gog-exp-smooth.c:80
+msgid "Properties"
+msgstr "Thuộc tính"
+
+#: ../plugins/plot_barcol/gog-barcol.c:244
+#: ../plugins/plot_barcol/gog-minmax.c:224
+#: ../plugins/plot_distrib/gog-boxplot.c:371
+msgid "Gap percentage"
+msgstr "Phần trăm khe"
+
+#: ../plugins/plot_barcol/gog-barcol.c:245
+#: ../plugins/plot_barcol/gog-minmax.c:225
+#: ../plugins/plot_distrib/gog-boxplot.c:372
+msgid "The padding around each group as a percentage of their width"
+msgstr "Độ đệm chung quanh mỗi nhóm, theo phần trăm độ rộng nó"
+
+#: ../plugins/plot_barcol/gog-barcol.c:250
+msgid "Overlap percentage"
+msgstr "Phần trăm chồng lấp"
+
+#: ../plugins/plot_barcol/gog-barcol.c:251
+msgid "The distance between series as a percentage of their width"
+msgstr "Khoảng cách giữa hai dãy, theo phần trăm độ rộng chúng"
+
+#: ../plugins/plot_barcol/gog-barcol.c:256
+msgid "horizontal"
+msgstr "nằm ngang"
+
+#: ../plugins/plot_barcol/gog-barcol.c:257
+msgid "horizontal bars or vertical columns"
+msgstr "thanh nằm ngang hay cột thẳng đứng"
+
+#. xgettext : the base for how to name drop bar/col plot objects
+#. * eg The 2nd drop bar/col plot in a chart will be called
+#. * 	PlotDropBar2
+#: ../plugins/plot_barcol/gog-dropbar.c:44
+msgid "PlotDropBar"
+msgstr "Thanh thả vẽ"
+
+#. xgettext : the base for how to name bar/col plot objects
+#. * eg The 2nd line plot in a chart will be called
+#. * 	PlotLine2
+#.
+#: ../plugins/plot_barcol/gog-line.c:239
+msgid "PlotLine"
+msgstr "Đường vẽ"
+
+#: ../plugins/plot_barcol/gog-line.c:326
+#: ../plugins/plot_barcol/gog-minmax.c:236
+#: ../plugins/plot_radar/gog-radar.c:229
+msgid "Default markers"
+msgstr "Dấu hiệu mặc định"
+
+#: ../plugins/plot_barcol/gog-line.c:327
+#: ../plugins/plot_barcol/gog-minmax.c:237
+#: ../plugins/plot_radar/gog-radar.c:230 ../plugins/plot_xy/gog-xy.c:345
+msgid "Should the default style of a series include markers"
+msgstr "Kiểu dáng mặc định của dãy nên gồm dấu hiệu không."
+
+#. xgettext : the base for how to name bar/col plot objects
+#. * eg The 2nd line plot in a chart will be called
+#. * 	PlotArea2
+#.
+#: ../plugins/plot_barcol/gog-line.c:363
+msgid "PlotArea"
+msgstr "Vùng vẽ"
+
+#. xgettext : the base for how to name min/max line plot objects
+#. * eg The 2nd min/max line plot in a chart will be called
+#. * 	PlotMinMax2
+#: ../plugins/plot_barcol/gog-minmax.c:144
+msgid "PlotMinMax"
+msgstr "Đại/Cực Vẽ"
+
+#: ../plugins/plot_barcol/gog-minmax.c:230
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:3
+msgid "Horizontal"
+msgstr "Nằm ngang"
+
+#: ../plugins/plot_barcol/gog-minmax.c:231
+msgid "Horizontal or vertical lines"
+msgstr "Đường nằm ngang hay thẳng đứng"
+
+#: ../plugins/plot_barcol/gog-minmax.c:251
+msgid "Min"
+msgstr "Cực"
+
+#: ../plugins/plot_barcol/gog-minmax.c:253
+msgid "Max"
+msgstr "Đại"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:1
+msgid "Adjacent Bars"
+msgstr "Thanh kề nhau"
+
+#. No 3d yet
+#. <Type _name="3D Adjacent Bars" row="2" col="1"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Adjacent horizontal 3D bars grouped by major and minor categories."
+#. sample_image_file="chart_bar_2_1.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">normal</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#. <Type _name="3D Stacked Bars" row="2" col="2"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Minor categories stacked in horizontal 3D bars, grouped by major category."
+#. sample_image_file="chart_bar_2_2.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">stacked</property>
+#. <property name="overlap_percentage">100</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#. <Type _name="3D Percentage Bars" row="2" col="3"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Minor categories stacked as percentages of the minor total, in 3D horizontal bars, grouped by major category."
+#. sample_image_file="chart_bar_2_3.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">as_percentage</property>
+#. <property name="overlap_percentage">100</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#: ../plugins/plot_barcol/plot-types.xml.in.h:32
+msgid "Adjacent Columns"
+msgstr "Cột kề nhau"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:33
+msgid "Adjacent horizontal bars grouped by major and minor categories."
+msgstr ""
+"Các thanh nằm ngang kề nhau, được nhóm lại theo phân loại chính và phụ."
+
+#. No 3d yet
+#. <Type _name="3D Adjacent Bars" row="2" col="1"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Adjacent horizontal 3D bars grouped by major and minor categories."
+#. sample_image_file="chart_bar_2_1.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">normal</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#. <Type _name="3D Stacked Bars" row="2" col="2"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Minor categories stacked in horizontal 3D bars, grouped by major category."
+#. sample_image_file="chart_bar_2_2.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">stacked</property>
+#. <property name="overlap_percentage">100</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#. <Type _name="3D Percentage Bars" row="2" col="3"
+#. engine="GogBarColPlot" family="Bar"
+#. _description="Minor categories stacked as percentages of the minor total, in 3D horizontal bars, grouped by major category."
+#. sample_image_file="chart_bar_2_3.png">
+#. <property name="horizontal">True</property>
+#. <property name="type">as_percentage</property>
+#. <property name="overlap_percentage">100</property>
+#. <property name="in_3d"/>
+#. </Type>
+#.
+#: ../plugins/plot_barcol/plot-types.xml.in.h:64
+msgid "Adjacent vertical columns grouped by major and minor categories."
+msgstr "Các cột thẳng đứng kề nhau, được nhóm lại theo phân loại chính và phụ."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:65
+msgid "Area"
+msgstr "Vùng"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:66
+msgid "Area plot."
+msgstr "Vùng vẽ."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:67
+msgid "Areas"
+msgstr "Vùng"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:68
+msgid "Bar"
+msgstr "Thanh"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:69
+msgid "Column"
+msgstr "Cột"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:70
+msgid "DropBar"
+msgstr "Thanh thả"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:71
+msgid "Horizontal Drop Bars"
+msgstr "Thanh thả nằm ngang"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:72
+msgid "Horizontal Min Max Lines"
+msgstr "Đường Đại Cực nằm ngang"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:73
+msgid "Horizontal drop bars."
+msgstr "Thanh thả nằm ngang."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:74
+msgid "Horizontal min max lines with markers."
+msgstr "Đường tối thiểu và tối đa nằm ngang có dấu hiệu."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:75
+msgid "Horizontal min max lines."
+msgstr "Đường Đại Cực nằm ngang"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:76
+msgid "Line"
+msgstr "Đường"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:77
+#, fuzzy
+msgid "Line plot with markers."
+msgstr "Đồ thị vẽ ra đa có các dấu chấm."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:79
+msgid "Marked Horizontal Min Max Lines"
+msgstr "Đường Đại Cực nằm ngang đã đánh dấu"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:80
+msgid "Marked Vertical Min Max Lines"
+msgstr "Đường Đại Cực thẳng đứng đã đánh dấu"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:81
+msgid "MinMax"
+msgstr "Cực/Đại"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:82
+msgid ""
+"Minor categories stacked as percentages of the minor total, in horizontal "
+"bars, grouped by major category."
+msgstr ""
+"Các phân loại phụ, được xếp đống theo phần trăm tổng số phụ, theo thanh nằm "
+"ngang, được nhóm lại theo phân loại chính."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:83
+msgid ""
+"Minor categories stacked as percentages of the minor total, in vertical "
+"columns, grouped by major category."
+msgstr ""
+"Các phân loại phụ, được xếp đống theo phần trăm tổng số phụ, theo thanh "
+"thẳng đứng, được nhóm lại theo phân loại chính."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:84
+msgid "Minor categories stacked in horizontal bars grouped by major category."
+msgstr ""
+"Các phân loại phụ, được xếp đống theo thanh nằm ngang, được nhóm lại theo "
+"phân loại chính."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:85
+msgid "Minor categories stacked in vertical columns grouped by major category."
+msgstr ""
+"Các phân loại phụ, được xếp đống theo cột thẳng đứng, được nhóm lại theo "
+"phân loại chính."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:86
+msgid "Percentage Areas"
+msgstr "Vùng phần trăm"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:87
+msgid "Percentage Bars"
+msgstr "Thanh phần trăm"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:88
+msgid "Percentage Columns"
+msgstr "Cột phần trăm"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:89
+msgid "Percentage Lines"
+msgstr "Đường phần trăm"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:90
+msgid "Percentage area plot."
+msgstr "Vùng vẽ phần trăm."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:91
+#, fuzzy
+msgid "Percentage line plot with markers."
+msgstr "Đường vẽ phần trăm."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:92
+msgid "Stacked Areas"
+msgstr "Vùng xếp đống"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:93
+msgid "Stacked Bars"
+msgstr "Thanh xếp đống"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:94
+msgid "Stacked Columns"
+msgstr "Cột xếp đống"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:95
+msgid "Stacked Lines"
+msgstr "Đường xếp đống"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:96
+msgid "Stacked area plot."
+msgstr "Vùng vẽ xếp đống."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:97
+#, fuzzy
+msgid "Stacked line plot with markers."
+msgstr "Đường vẽ xếp đống."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:98
+msgid "Unmarked Lines"
+msgstr "Đường không có dấu"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:99
+msgid "Unmarked Percentage Lines"
+msgstr "Đường phần trăm không có dấu"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:100
+msgid "Unmarked Stacked Lines"
+msgstr "Đường xếp đống không có dấu"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:101
+#, fuzzy
+msgid "Unmarked line plot."
+msgstr "Đường vẽ xếp đống."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:102
+#, fuzzy
+msgid "Unmarked percentage line plot."
+msgstr "Đường phần trăm không có dấu"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:103
+#, fuzzy
+msgid "Unmarked stacked line plot."
+msgstr "Đường xếp đống không có dấu"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:104
+msgid "Vertical Drop Bars"
+msgstr "Thanh thả thẳng đứng"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:105
+msgid "Vertical Min Max Lines"
+msgstr "Đường Cực Đại thẳng đứng"
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:106
+msgid "Vertical drop bars."
+msgstr "Thanh thả thẳng đứng."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:107
+msgid "Vertical min max lines with markers."
+msgstr "Đường tối thiểu và tối đa thẳng đứng có dấu hiệu."
+
+#: ../plugins/plot_barcol/plot-types.xml.in.h:108
+msgid "Vertical min max lines."
+msgstr "Đường Cực Đại thẳng đứng"
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:1
+msgid "Area plotting engine"
+msgstr "Cơ chế vẽ vùng"
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:2
+msgid "Bar/Col plotting engine"
+msgstr "Cơ chế vẽ thanh/cột"
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:3
+msgid "Charting : Bar/Col/Line/Area"
+msgstr "Vẽ đồ thị: Thanh/Cột/Đường/Vùng"
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:4
+msgid "Default 1.5d plot types"
+msgstr "Kiểu đồ thị vẽ 1,5d mặc định"
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:5
+msgid "Drop Bar/Col plotting engine"
+msgstr "Cơ chế tạo thanh/cột thả"
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:6
+msgid "Line plotting engine"
+msgstr "Cơ chế vẽ đường"
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:7
+msgid "Line, Area, Bar and Column plots"
+msgstr "Đồ thị vẽ Đường, Vùng, Thanh và Cột"
+
+#: ../plugins/plot_barcol/plugin.xml.in.h:8
+msgid "Min Max plotting engine"
+msgstr "Cơ chế vẽ đồ thị Cực Đại"
+
+#: ../plugins/plot_distrib/go-distribution-prefs.c:62
+#: ../plugins/plot_distrib/go-distribution-prefs.c:139
+msgid ":"
+msgstr ""
+
+#: ../plugins/plot_distrib/go-distribution-prefs.c:101
+#, fuzzy
+msgid "Distribution:"
+msgstr "Mô tả"
+
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:4
+#: ../plugins/plot_distrib/gog-boxplot.c:377
+msgid "Vertical"
+msgstr "Thẳng đứng"
+
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:5
+#, fuzzy
+msgid "_Diameter/width:"
+msgstr "Độ _rộng đường:"
+
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:6
+msgid "_Exclude and show outliers"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-boxplot-prefs.ui.h:8
+msgid "_Layout"
+msgstr "_Bố trí"
+
+#. xgettext : the base for how to name box-plot objects
+#. * eg The 2nd box-plot in a chart will be called
+#. * 	BoxPlot2
+#: ../plugins/plot_distrib/gog-boxplot.c:198
+msgid "Box-Plot"
+msgstr "Vẽ hộp"
+
+#: ../plugins/plot_distrib/gog-boxplot.c:378
+msgid "Whether the box-plot should be vertical instead of horizontal"
+msgstr "Đồ thị vẽ hộp nên nằm ngang hay thẳng đứng."
+
+#: ../plugins/plot_distrib/gog-boxplot.c:383
+#, fuzzy
+msgid "Outliers"
+msgstr "Nét ng_oài:"
+
+#: ../plugins/plot_distrib/gog-boxplot.c:384
+msgid "Whether outliers should be taken into account and displayed"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-boxplot.c:389
+msgid "Radius ratio"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-boxplot.c:390
+msgid ""
+"The ratio between the radius of the circles representing outliers and the "
+"rectangle width"
+msgstr ""
+
+#. xgettext : the base for how to name histogram-plot objects
+#. * eg The 2nd histogram-plot in a chart will be called
+#. * 	Histogram2
+#: ../plugins/plot_distrib/gog-histogram.c:69
+#: ../plugins/plot_distrib/plot-types.xml.in.h:3
+msgid "Histogram"
+msgstr "Biểu đồ tần xuất"
+
+#: ../plugins/plot_distrib/gog-histogram.c:188
+msgid "Limits"
+msgstr "Giới hạn"
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:63
+#: ../plugins/plot_distrib/gog-probability-plot.c:254
+#, fuzzy
+msgid "Distribution"
+msgstr "Mô tả"
+
+#. xgettext : the base for how to name probability-plot objects
+#. * eg The 2nd probability-plot in a chart will be called
+#. * 	ProbabilityPlot2
+#: ../plugins/plot_distrib/gog-probability-plot.c:133
+#: ../plugins/plot_distrib/plot-types.xml.in.h:8
+msgid "ProbabilityPlot"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:255
+msgid "A pointer to the GODistribution used by this plot"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:260
+msgid "Shape parameter"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:261
+msgid "Name of the first shape parameter if any"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:266
+msgid "Second shape parameter"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:267
+msgid "Name of the second shape parameter if any"
+msgstr ""
+
+#: ../plugins/plot_distrib/gog-probability-plot.c:584
+#, fuzzy
+msgid "Regression line"
+msgstr "Đường cong hồi quy"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:1
+#, fuzzy
+msgid "HBoxPlotOutliers"
+msgstr "HBoxPlot"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:2
+msgid "HBoxPlots"
+msgstr "HBoxPlot"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:4
+msgid "Histogram."
+msgstr "Biểu đồ tần xuất."
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:5
+#, fuzzy
+msgid "Horizontal Box-Plot showing outliers."
+msgstr "Vẽ hộp nằm ngang."
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:6
+msgid "Horizontal Box-Plot."
+msgstr "Vẽ hộp nằm ngang."
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:7
+#, fuzzy
+msgid "Probability plot."
+msgstr "Đồ thị vẽ cực."
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:9
+#, fuzzy
+msgid "Statistics"
+msgstr "Kiểu đồ thị vẽ thống kê"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:10
+#, fuzzy
+msgid "VBoxPlotOutliers"
+msgstr "VBoxPlot"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:11
+msgid "VBoxPlots"
+msgstr "VBoxPlot"
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:12
+#, fuzzy
+msgid "Vertical Box-Plot showing outliers."
+msgstr "Vẽ hộp thẳng đứng."
+
+#: ../plugins/plot_distrib/plot-types.xml.in.h:13
+msgid "Vertical Box-Plot."
+msgstr "Vẽ hộp thẳng đứng."
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:1
+msgid "Box-plot plotting engine"
+msgstr "Cơ chế vẽ đồ thị hộp"
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:2
+msgid "Charting : distribution related plots"
+msgstr ""
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:3
+msgid "Histograms plotting engine"
+msgstr "Cơ chế vẽ biểu đồ tần xuất"
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:4
+#, fuzzy
+msgid "Probability plots engine"
+msgstr "Cơ chế vẽ cực"
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:5
+msgid "Statistics plot types"
+msgstr "Kiểu đồ thị vẽ thống kê"
+
+#: ../plugins/plot_distrib/plugin.xml.in.h:6
+msgid "box-plots, histograms, and other distribution related plots"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:3
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:3
+msgid "Absolute value"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:4
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:4
+msgid "Absolute value with white background"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:5
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:6
+#, fuzzy
+msgid "Negative data:"
+msgstr "Âm"
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:6
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:7
+msgid "Skip"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:7
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:8
+msgid "Slices start _at:"
+msgstr "Lát _bắt đầu ở :"
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:8
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:9
+msgid "_Slice Separation:"
+msgstr "Phân cách _lát:"
+
+#: ../plugins/plot_pie/gog-pie-prefs.ui.h:9
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:10
+msgid "_Vary colors by slice"
+msgstr "_Màu theo lát"
+
+#: ../plugins/plot_pie/gog-pie-series.ui.h:3
+msgid "_Separation:"
+msgstr "_Phân cách:"
+
+#: ../plugins/plot_pie/gog-pie.c:110 ../plugins/plot_pie/gog-pie.c:1296
+msgid "Separation"
+msgstr "Phân cách"
+
+#: ../plugins/plot_pie/gog-pie.c:111
+msgid "Amount a slice is extended as a percentage of the radius"
+msgstr "Số lượng kéo dài lát theo phần trăm bán kính"
+
+#: ../plugins/plot_pie/gog-pie.c:259
+msgid "PlotPie"
+msgstr "Vẽ bánh"
+
+#: ../plugins/plot_pie/gog-pie.c:305
+msgid "Initial angle"
+msgstr "Góc đầu tiên"
+
+#: ../plugins/plot_pie/gog-pie.c:306
+msgid "Degrees clockwise from 12 O'Clock."
+msgstr "Độ theo xuôi chiều từ 12 giờ."
+
+#: ../plugins/plot_pie/gog-pie.c:311
+msgid "Default separation"
+msgstr "Phân cách mặc định"
+
+#: ../plugins/plot_pie/gog-pie.c:312 ../plugins/plot_pie/gog-pie.c:1297
+msgid "Default amount a slice is extended as a percentage of the radius"
+msgstr "Số lượng mặc định kéo dài lát theo phần trăm bán kính"
+
+#: ../plugins/plot_pie/gog-pie.c:318
+msgid "Draw 3d wedges"
+msgstr "Vẽ hình nêm 3D"
+
+#: ../plugins/plot_pie/gog-pie.c:323 ../plugins/smoothing/gog-moving-avg.c:196
+msgid "Span"
+msgstr "Nhịp"
+
+#: ../plugins/plot_pie/gog-pie.c:324
+msgid "Total angle used as a percentage of the full circle"
+msgstr "Tổng góc theo phần trăm toàn tròn"
+
+#: ../plugins/plot_pie/gog-pie.c:329
+#, fuzzy
+msgid "Show negative values"
+msgstr "Hiện giá trị â_m"
+
+#: ../plugins/plot_pie/gog-pie.c:330
+#, fuzzy
+msgid "How negative values are displayed"
+msgstr "Hiện giá trị â_m"
+
+#: ../plugins/plot_pie/gog-pie.c:418
+msgid "PlotRing"
+msgstr "Vẽ vòng"
+
+#: ../plugins/plot_pie/gog-pie.c:455
+msgid "Center-size"
+msgstr "Cỡ tâm"
+
+#: ../plugins/plot_pie/gog-pie.c:456
+msgid "Size of the center hole as a percentage of the radius"
+msgstr "Kích cỡ của lỗ tâm theo phần trăm bán kính"
+
+#: ../plugins/plot_pie/gog-pie.c:616
+msgid "Move pie"
+msgstr "Chuyển bánh"
+
+#: ../plugins/plot_pie/gog-pie.c:1169
+#, c-format
+msgid "%s: %g (%.2f%%)"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:1171
+#, c-format
+msgid "%g (%.2f%%)"
+msgstr ""
+
+#: ../plugins/plot_pie/gog-pie.c:1290
+msgid "Initial-angle"
+msgstr "Góc đầu tiên"
+
+#: ../plugins/plot_pie/gog-pie.c:1291
+msgid "Degrees clockwise from 12 O'Clock"
+msgstr "Độ theo xuôi chiều từ 12 giờ"
+
+#: ../plugins/plot_pie/gog-ring-prefs.ui.h:5
+msgid "Cen_ter size:"
+msgstr "Cỡ _tâm:"
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:1
+msgid "Half Pie"
+msgstr "Nửa bánh"
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:2
+#, fuzzy
+msgid ""
+"Percentage of each contributor displayed as a segment of a ring with one "
+"ring for each series."
+msgstr "Phần trăm mỗi người đóng góp, được hiển thị trong vòng cho mỗi dãy."
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:3
+#, fuzzy
+msgid ""
+"Percentage of each contributor displayed as a segment of a ring with one "
+"ring for each series; the wedges of the outside ring (corresponding to the "
+"last series) are split apart."
+msgstr ""
+"Phần trăm mỗi người đóng góp, được hiển thị trong vòng cho mỗi dãy, các hình "
+"nêm của vòng cuối cùng được chia ra."
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:4
+msgid ""
+"Percentage of each contributor in a half circle with wedges split apart."
+msgstr ""
+"Phần trăm mỗi người đóng góp, trong nửa tròn với các hình nêm được chia ra."
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:5
+msgid "Percentage of each contributor in a half circle."
+msgstr "Phần trăm mỗi người đóng góp, trong nửa tròn."
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:6
+msgid "Percentage of each contributor with wedges split apart."
+msgstr "Phần trăm mỗi người đóng góp, với các hình nêm được chia ra."
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:7
+msgid "Percentage of each contributor."
+msgstr "Phần trăm mỗi người đóng góp."
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:8
+msgid "Pie"
+msgstr "Bánh"
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:9
+msgid "Ring"
+msgstr "Vòng"
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:10
+msgid "Split Half Pie"
+msgstr "Nửa bánh xẻ"
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:11
+msgid "Split Pie"
+msgstr "Bánh xẻ"
+
+#: ../plugins/plot_pie/plot-types.xml.in.h:12
+msgid "Split Ring"
+msgstr "Vòng xẻ"
+
+#: ../plugins/plot_pie/plugin.xml.in.h:1
+msgid "Charting : Pie/Ring"
+msgstr "Vẽ đồ thị: Bánh/Vòng"
+
+#: ../plugins/plot_pie/plugin.xml.in.h:2
+msgid "Default pie types"
+msgstr "Kiểu bánh mặc định"
+
+#: ../plugins/plot_pie/plugin.xml.in.h:3
+msgid "Pie and Ring plots"
+msgstr "Đồ thị vẽ Bánh và Vòng"
+
+#: ../plugins/plot_pie/plugin.xml.in.h:4
+msgid "Pie plotting engine"
+msgstr "Cơ chế vẽ bánh"
+
+#: ../plugins/plot_pie/plugin.xml.in.h:5
+msgid "Ring plotting engine"
+msgstr "Cơ chế vẽ vòng"
+
+#: ../plugins/plot_radar/gog-radar.c:236
+msgid "Default fill"
+msgstr "Tô đầy mặc định"
+
+#: ../plugins/plot_radar/gog-radar.c:237 ../plugins/plot_xy/gog-xy.c:357
+#: ../plugins/plot_xy/gog-xy.c:784
+msgid "Should the default style of a series include fill"
+msgstr "Kiểu dáng mặc định của dãy nên gồm tô đầy không"
+
+#. xgettext : the base for how to name rt plot objects
+#. * eg The 2nd rt plot in a chart will be called
+#. * 	PlotRT2
+#: ../plugins/plot_radar/gog-radar.c:272
+msgid "PlotRadar"
+msgstr "Vẽ ra đa"
+
+#. xgettext : the base for how to name bar/col plot objects
+#. * eg The 2nd line plot in a chart will be called
+#. * 	PlotRadarArea2
+#.
+#: ../plugins/plot_radar/gog-radar.c:358
+msgid "PlotRadarArea"
+msgstr "Vẽ vùng ra đa"
+
+#. xgettext : the base for how to name rt plot objects
+#. * eg The 2nd rt plot in a chart will be called
+#. * 	PlotPolar2
+#: ../plugins/plot_radar/gog-radar.c:391
+msgid "PlotPolar"
+msgstr "Vẽ cực"
+
+#: ../plugins/plot_radar/gog-radar.c:430 ../plugins/plot_radar/gog-radar.c:638
+msgid "Angle"
+msgstr "Góc"
+
+#: ../plugins/plot_radar/gog-radar.c:432 ../plugins/plot_radar/gog-radar.c:640
+msgid "Magnitude"
+msgstr "Độ lớn"
+
+#. xgettext : the base for how to name rt plot objects
+#. * eg The 2nd rt plot in a chart will be called
+#. * 	PlotColoredPolar2
+#: ../plugins/plot_radar/gog-radar.c:549
+#, fuzzy
+msgid "PlotColorPolar"
+msgstr "Vẽ cực"
+
+#: ../plugins/plot_radar/gog-radar.c:629 ../plugins/plot_xy/gog-xy.c:789
+msgid "hide-outliers"
+msgstr "ẩn bên ngoài"
+
+#: ../plugins/plot_radar/gog-radar.c:630 ../plugins/plot_xy/gog-xy.c:790
+msgid "Hide data outside of the color axis bounds"
+msgstr "Ẩn dữ liệu nằm bên ngoài biên trục màu"
+
+#: ../plugins/plot_radar/gog-radar.c:642 ../plugins/plot_surface/gog-xyz.c:398
+#: ../plugins/plot_surface/gog-xyz-surface.c:334
+#: ../plugins/plot_surface/xl-surface.c:304
+#: ../plugins/plot_surface/xl-surface.c:397 ../plugins/plot_xy/gog-xy.c:802
+msgid "Z"
+msgstr "Z"
+
+#: ../plugins/plot_radar/gog-radar.c:1219
+#: ../plugins/plot_radar/gog-radar.c:1252
+#, fuzzy
+msgid "Radial error bars"
+msgstr "Thanh lỗi X"
+
+#: ../plugins/plot_radar/gog-radar.c:1227
+msgid "Radial drop lines"
+msgstr "Đường thả toả tròn"
+
+#: ../plugins/plot_radar/gog-radar.c:1335
+#: ../plugins/plot_radar/gog-radar.c:1378
+#, fuzzy
+msgid "Angular error bars"
+msgstr "Thanh lỗi X"
+
+#: ../plugins/plot_radar/gog-color-polar-prefs.ui.h:1
+#: ../plugins/plot_xy/gog-xy-color-prefs.ui.h:1
+msgid "Hide data outside of color axis bounds"
+msgstr "Ẩn dữ liệu nằm bên ngoài biên trục màu"
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:1
+msgid "Area Radar"
+msgstr "Vùng ra đa"
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:2
+msgid "Area radar plot."
+msgstr "Đồ thị vẽ vùng ra đa."
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:3
+#, fuzzy
+msgid "Colored Polar"
+msgstr "Vẽ cực"
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:4
+msgid "Dotted Radar"
+msgstr "Ra đa chấm chấm"
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:5
+msgid "Polar"
+msgstr "Cực"
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:6
+#, fuzzy
+msgid "Polar plot with colored marks."
+msgstr "Đồ thị vẽ ra đa có các dấu chấm."
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:7
+msgid "Polar plot."
+msgstr "Đồ thị vẽ cực."
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:8
+msgid "Radar"
+msgstr "Ra đa"
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:9
+msgid "Radar plot with dots."
+msgstr "Đồ thị vẽ ra đa có các dấu chấm."
+
+#: ../plugins/plot_radar/plot-types.xml.in.h:10
+msgid "Radar plot."
+msgstr "Đồ thị vẽ ra đa."
+
+#: ../plugins/plot_radar/plugin.xml.in.h:1
+msgid "Charting : Polar/Radar"
+msgstr "Vẽ đồ thị: Cực/Ra đa"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:2
+msgid "Default radar plot types"
+msgstr "Kiểu đồ thị vẽ ra đa mặc định"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:3
+msgid "Polar and Radar plots"
+msgstr "Đồ thị vẽ Cực và Ra đa"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:4
+msgid "Polar plotting engine"
+msgstr "Cơ chế vẽ cực"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:5
+#, fuzzy
+msgid "Polar plotting engine with colored marks"
+msgstr "Cơ chế vẽ cực"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:6
+msgid "Radar Area plotting engine"
+msgstr "Cơ chế vẽ vùng ra đa"
+
+#: ../plugins/plot_radar/plugin.xml.in.h:7
+msgid "Radar plotting engine"
+msgstr "Cơ chế vẽ ra đa"
+
+#. xgettext : the base for how to name contour plot objects
+#.
+#: ../plugins/plot_surface/gog-contour.c:128
+msgid "PlotContour"
+msgstr "Đường viền vẽ"
+
+#. xgettext : the base for how to name surface plot objects
+#.
+#: ../plugins/plot_surface/gog-surface.c:68
+#, fuzzy
+msgid "PlotSurface"
+msgstr "Mặt"
+
+#: ../plugins/plot_surface/gog-xyz.c:381
+msgid "Transposed"
+msgstr "Đã chuyển vị"
+
+#: ../plugins/plot_surface/gog-xyz.c:382
+msgid "Transpose the plot"
+msgstr "Chuyển vị đồ thị vẽ"
+
+#: ../plugins/plot_surface/gog-xyz.c:394
+#: ../plugins/plot_surface/gog-xyz-surface.c:330
+#: ../plugins/plot_surface/xl-surface.c:302
+#: ../plugins/plot_surface/xl-surface.c:395 ../plugins/plot_xy/gog-xy.c:370
+#: ../plugins/plot_xy/gog-xy.c:540 ../plugins/plot_xy/gog-xy.c:798
+msgid "X"
+msgstr "X"
+
+#: ../plugins/plot_surface/gog-xyz.c:396
+#: ../plugins/plot_surface/gog-xyz-surface.c:332
+#: ../plugins/plot_xy/gog-xy.c:372 ../plugins/plot_xy/gog-xy.c:542
+#: ../plugins/plot_xy/gog-xy.c:800
+msgid "Y"
+msgstr "Y"
+
+#: ../plugins/plot_surface/gog-xyz-prefs.ui.h:1
+msgid "Transpose"
+msgstr "Chuyển vị"
+
+#. xgettext : the base for how to name surface plot objects
+#.
+#: ../plugins/plot_surface/gog-xyz-surface.c:157
+#, fuzzy
+msgid "PlotXYZContour"
+msgstr "Đường viền vẽ"
+
+#. xgettext : the base for how to name surface plot objects
+#.
+#: ../plugins/plot_surface/gog-xyz-surface.c:165
+#, fuzzy
+msgid "PlotXYZSurface"
+msgstr "Mặt"
+
+#: ../plugins/plot_surface/gog-xyz-surface.c:311
+msgid "Rows"
+msgstr ""
+
+#: ../plugins/plot_surface/gog-xyz-surface.c:312
+#, fuzzy
+msgid "Number of rows"
+msgstr "Số véc-tơ X"
+
+#: ../plugins/plot_surface/gog-xyz-surface.c:317
+#, fuzzy
+msgid "Columns"
+msgstr "Cột"
+
+#: ../plugins/plot_surface/gog-xyz-surface.c:318
+#, fuzzy
+msgid "Number of columns"
+msgstr "Số véc-tơ X"
+
+#: ../plugins/plot_surface/gog-xyz-surface-prefs.ui.h:1
+#, fuzzy
+msgid "_Columns:"
+msgstr "Cột"
+
+#: ../plugins/plot_surface/gog-xyz-surface-prefs.ui.h:2
+#, fuzzy
+msgid "_Rows:"
+msgstr "_Thấp"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:1
+msgid "Builds a contour from a set of points with three coordinates"
+msgstr ""
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:2
+msgid "Builds a surface from a set of points with three coordinates"
+msgstr ""
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:3
+msgid "Contour"
+msgstr "Đường viền"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:4
+msgid "Contour plot."
+msgstr "Vẽ đồ thị kiểu đường viền."
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:5
+msgid "Surface"
+msgstr "Mặt"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:6
+#, fuzzy
+msgid "Surface plot."
+msgstr "Mặt"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:7
+#, fuzzy
+msgid "XYZContour"
+msgstr "Đường viền"
+
+#: ../plugins/plot_surface/plot-types.xml.in.h:8
+#, fuzzy
+msgid "XYZSurface"
+msgstr "Mặt"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:1
+#, fuzzy
+msgid "Charting : Surfaces"
+msgstr "Vẽ đồ thị: Cực/Ra đa"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:2
+msgid "Contour plotting engine"
+msgstr "Cơ chế vẽ đường viền"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:3
+msgid "Default surface plot types"
+msgstr "Kiểu đồ thị vẽ mặt mặc định"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:4
+msgid "Surface charts"
+msgstr "Sơ đồ mặt"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:5
+#, fuzzy
+msgid "Surface plotting engine"
+msgstr "Cơ chế vẽ vùng"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:6
+#, fuzzy
+msgid "XYZ contour plotting engine"
+msgstr "Cơ chế vẽ đường viền"
+
+#: ../plugins/plot_surface/plugin.xml.in.h:7
+#, fuzzy
+msgid "XYZ surface plotting engine"
+msgstr "Cơ chế vẽ vùng"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:2
+#, no-c-format
+msgid "% of default size"
+msgstr "%s kích cỡ mặc định"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:3
+msgid "3_d"
+msgstr "3_D"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:4
+msgid "Dia_meter"
+msgstr "Đường _kính"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:5
+msgid "Show _negative values"
+msgstr "Hiện giá trị â_m"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:6
+msgid "Sur_face"
+msgstr "_Mặt"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:7
+msgid "_Bubbles scaled to"
+msgstr "_Bọt đã co dãn thành"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:8
+msgid "_Size represented by:"
+msgstr "_Kích cỡ đại diện theo :"
+
+#: ../plugins/plot_xy/gog-bubble-prefs.ui.h:9
+msgid "_Vary colors by bubble"
+msgstr "Tha_y đổi màu theo bọt"
+
+#: ../plugins/plot_xy/gog-xy-series-prefs.ui.h:1
+msgid "_Use nul value instead of invalid"
+msgstr "Dùng _vô giá trị thay cho không hợp lệ"
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	PlotXY2
+#: ../plugins/plot_xy/gog-xy.c:272
+msgid "PlotXY"
+msgstr "Vẽ XY"
+
+#: ../plugins/plot_xy/gog-xy.c:344
+msgid "Has markers by default"
+msgstr "Có dấu hiệu theo mặc định"
+
+#: ../plugins/plot_xy/gog-xy.c:350 ../plugins/plot_xy/gog-xy.c:777
+msgid "Has lines by default"
+msgstr "Có đường theo mặc định"
+
+#: ../plugins/plot_xy/gog-xy.c:351 ../plugins/plot_xy/gog-xy.c:778
+msgid "Should the default style of a series include lines"
+msgstr "Kiểu dáng mặc định của dãy nên gồm đường không"
+
+#: ../plugins/plot_xy/gog-xy.c:356 ../plugins/plot_xy/gog-xy.c:783
+msgid "Has fill by default"
+msgstr "Tô đầy theo mặc định"
+
+#: ../plugins/plot_xy/gog-xy.c:362
+msgid "Use splines"
+msgstr "Dùng spline"
+
+#: ../plugins/plot_xy/gog-xy.c:363
+msgid "Should the plot use splines instead of linear interpolation"
+msgstr "Đồ thị vẽ nên dùng spline (chốt trục) thay vì nội suy tuyến không"
+
+#: ../plugins/plot_xy/gog-xy.c:416
+msgid "PlotBubble"
+msgstr "Vẽ Bọt"
+
+#: ../plugins/plot_xy/gog-xy.c:516
+msgid "Size as area"
+msgstr "Kích cỡ theo diện tích"
+
+#: ../plugins/plot_xy/gog-xy.c:517
+msgid "Display size as area instead of diameter"
+msgstr "Hiển thị kích cỡ theo diện tích thay cho đường kính"
+
+#: ../plugins/plot_xy/gog-xy.c:522
+msgid "Show negatives"
+msgstr "Hiện giá trị âm"
+
+#: ../plugins/plot_xy/gog-xy.c:523
+msgid "Draw bubbles for negative values"
+msgstr "Vẽ bọt để đại diện giá trị âm"
+
+#: ../plugins/plot_xy/gog-xy.c:529
+msgid "Draw 3d bubbles"
+msgstr "Vẽ bọt ba chiều"
+
+#: ../plugins/plot_xy/gog-xy.c:534
+msgid "Bubble scale"
+msgstr "Tỷ lệ bọt"
+
+#: ../plugins/plot_xy/gog-xy.c:535
+msgid "Fraction of default radius used for display"
+msgstr "Phân số bán kính mặc định được dùng để hiển thị"
+
+#: ../plugins/plot_xy/gog-xy.c:544 ../plugins/plot_xy/plot-types.xml.in.h:1
+msgid "Bubble"
+msgstr "Bọt"
+
+#. xgettext : the base for how to name map like plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Map2
+#: ../plugins/plot_xy/gog-xy.c:669
+msgid "XYColor"
+msgstr "Màu XY"
+
+#: ../plugins/plot_xy/gog-xy.c:1930 ../plugins/plot_xy/gog-xy.c:1997
+msgid "X error bars"
+msgstr "Thanh lỗi X"
+
+#: ../plugins/plot_xy/gog-xy.c:1933 ../plugins/plot_xy/gog-xy.c:2003
+msgid "Y error bars"
+msgstr "Thanh lỗi Y"
+
+#: ../plugins/plot_xy/gog-xy.c:1942
+msgid "Horizontal drop lines"
+msgstr "Đường thả nằm ngang"
+
+#: ../plugins/plot_xy/gog-xy.c:1950
+msgid "Vertical drop lines"
+msgstr "Đường thả thẳng đứng"
+
+#: ../plugins/plot_xy/gog-xy.c:2009
+msgid "Invalid as zero"
+msgstr "Không hợp lệ thì số không"
+
+#: ../plugins/plot_xy/gog-xy.c:2010
+msgid "Replace invalid values by 0 when drawing markers or bubbles"
+msgstr "Thay thế giá trị không hợp lệ bằng 0 khi vẽ dấu hiệu hay bọt"
+
+#: ../plugins/plot_xy/gog-xy.c:2015
+#, fuzzy
+msgid "Clamp at start"
+msgstr "Bước ở đầu"
+
+#: ../plugins/plot_xy/gog-xy.c:2016
+msgid ""
+"Slope at start of the interpolated curve when using clamped spline "
+"interpolation"
+msgstr ""
+
+#: ../plugins/plot_xy/gog-xy.c:2021
+#, fuzzy
+msgid "Clamp at end"
+msgstr "Bước ở cuối"
+
+#: ../plugins/plot_xy/gog-xy.c:2022
+msgid ""
+"Slope at end of the interpolated curve when using clamped spline "
+"interpolation"
+msgstr ""
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:2
+msgid "ColoredXY"
+msgstr "Tô màu XY"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:3
+msgid "Interpolate between multi-dimensional points with Bezier splines."
+msgstr "Nội suy giữa các điểm đa chiều bằng spline Bézier."
+
+#. really 3_1
+#: ../plugins/plot_xy/plot-types.xml.in.h:5
+msgid ""
+"Linearly interpolate between multi-dimensional points,with markers at each "
+"point."
+msgstr "Nội suy tuyến tính giữa các điểm đa chiều, kèm đánh dấu tại mỗi điểm."
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:6
+msgid "Linearly interpolate between multi-dimensional points."
+msgstr "Nội suy tuyến tính giữa các điểm đa chiều."
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:7
+msgid "Map"
+msgstr "Bản đồ"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:8
+msgid "Markers at each point."
+msgstr "Đánh dấu tại mỗi điểm."
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:9
+msgid "Multi-dimensional points with circle at each point."
+msgstr "Điểm đa nhiều có hình tròn tại mỗi điểm."
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:10
+msgid ""
+"Multi-dimensional points with data dependent color marker at each point."
+msgstr "Điểm đa nhiều có dấu hiệu màu phụ thuộc vào dữ liệu tại mỗi điểm."
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:11
+msgid "Stepped curve using the first y value."
+msgstr "Đường cong có bậc, dùng giá trị Y đầu tiên."
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:12
+msgid "Stepped curve using the last y value."
+msgstr "Đường cong có bậc, dùng giá trị Y cuối cùng."
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:13
+msgid "Stepped curve using the mean y value."
+msgstr "Đường cong có bậc, dùng giá trị Y trung bình."
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:14
+msgid "Stepped curve using the nearest y value."
+msgstr "Đường cong có bậc, dùng giá trị Y gần nhất."
+
+#. really 3_1
+#: ../plugins/plot_xy/plot-types.xml.in.h:16
+msgid "XY"
+msgstr "XY"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:17
+msgid "XY Lines"
+msgstr "Đường XY"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:18
+msgid "XY Points"
+msgstr "Điểm XY"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:19
+msgid "XY Splines"
+msgstr "Spline XY"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:20
+msgid "XY Steps Center"
+msgstr "Tâm bước XY"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:21
+msgid "XY Steps End"
+msgstr "Cuối bước XY"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:22
+msgid "XY Steps Mean"
+msgstr "Trung bình bước XY"
+
+#: ../plugins/plot_xy/plot-types.xml.in.h:23
+msgid "XY Steps Start"
+msgstr "Đầu bước XY"
+
+#: ../plugins/plot_xy/plugin.xml.in.h:1
+msgid "2D colored scatter plotting engine"
+msgstr "Cơ chế vẽ đồ thị rải màu hai chiều"
+
+#: ../plugins/plot_xy/plugin.xml.in.h:2
+msgid "2D plots"
+msgstr "Vẽ 2D"
+
+#: ../plugins/plot_xy/plugin.xml.in.h:3
+msgid "2D scatter plotting engine"
+msgstr "Cơ chế vẽ đồ thị rải hai chiều"
+
+#: ../plugins/plot_xy/plugin.xml.in.h:4
+msgid "Bubble plotting engine"
+msgstr "Cơ chế vẽ bọt"
+
+#: ../plugins/plot_xy/plugin.xml.in.h:5
+msgid "Charting : XY/Scatter/Bubble"
+msgstr "Vẽ đồ thị: XY/Rải/Bọt"
+
+#: ../plugins/plot_xy/plugin.xml.in.h:6
+msgid "Stock Scatter plot types"
+msgstr "Kiểu đồ thị vẽ Rải chứng khoán"
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Exponential regression2
+#: ../plugins/reg_linear/gog-exp-reg.c:63
+msgid "Exponential regression"
+msgstr "Hồi quy số mũ"
+
+#: ../plugins/reg_linear/gog-lin-reg.c:159
+#: ../plugins/reg_linear/gog-lin-reg.c:265
+msgid "Affine"
+msgstr "Afin"
+
+#: ../plugins/reg_linear/gog-lin-reg.c:160
+msgid "Uncheck to force zero intercept"
+msgstr "Bỏ chọn để ép buộc phần số không"
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Linear regression2
+#: ../plugins/reg_linear/gog-lin-reg.c:174
+msgid "Linear regression"
+msgstr "Hồi quy tuyến"
+
+#: ../plugins/reg_linear/gog-lin-reg.c:266
+msgid "If true, a non-zero constant is allowed"
+msgstr "Đúng thì cho phép hằng không phải số không"
+
+#: ../plugins/reg_linear/gog-lin-reg.c:271
+msgid "Dims"
+msgstr "Mờ đi"
+
+#: ../plugins/reg_linear/gog-lin-reg.c:272
+msgid "Number of x-vectors"
+msgstr "Số véc-tơ X"
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Logarithmic regression2
+#: ../plugins/reg_linear/gog-log-reg.c:94
+msgid "Logarithmic regression"
+msgstr "Hồi quy lôga"
+
+#: ../plugins/reg_linear/gog-polynom-reg.c:203
+msgid "Order:"
+msgstr "Thứ tự :"
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Polynomial regression2
+#: ../plugins/reg_linear/gog-polynom-reg.c:222
+msgid "Polynomial regression"
+msgstr "Hồi quy đa thức"
+
+#. xgettext : the base for how to name scatter plot objects
+#. * eg The 2nd plot in a chart will be called
+#. * 	Power regression2
+#: ../plugins/reg_linear/gog-power-reg.c:63
+msgid "Power regression"
+msgstr "Hồi quy lũy thừa"
+
+#: ../plugins/reg_linear/plugin.xml.in.h:1
+msgid "Exponential regression curve engine"
+msgstr "Cơ chế đường cong hồi quy số mũ"
+
+#: ../plugins/reg_linear/plugin.xml.in.h:2
+msgid "Linear regression curve engine"
+msgstr "Cơ chế đường cong hồi quy tuyến"
+
+#: ../plugins/reg_linear/plugin.xml.in.h:3
+msgid "Linear regression curves"
+msgstr "Đường cong hồi quy tuyến"
+
+#: ../plugins/reg_linear/plugin.xml.in.h:4
+msgid "Linear regression curves types"
+msgstr "Kiểu đường cong hồi quy tuyến"
+
+#: ../plugins/reg_linear/plugin.xml.in.h:5
+msgid "Logarithmic regression curve engine"
+msgstr "Cơ chế đường cong hồi quy lôga"
+
+#: ../plugins/reg_linear/plugin.xml.in.h:6
+msgid "Polynomial regression curve engine"
+msgstr "Cơ chế đường cong hồi quy đa thức"
+
+#: ../plugins/reg_linear/plugin.xml.in.h:7
+msgid "Power regression curve engine"
+msgstr "Cơ chế đường cong hồi quy lũy thừa"
+
+#: ../plugins/reg_linear/plugin.xml.in.h:8
+msgid "Regression curve : linear"
+msgstr "Đường cong hồi quy: tuyến"
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:1
+msgid "Exponential"
+msgstr "Số mũ"
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:2
+msgid "Exponential regression curve"
+msgstr "Đường cong hồi quy số mũ"
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:4
+msgid "Linear regression curve"
+msgstr "Đường cong hồi quy tuyến"
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:5
+msgid "Logarithmic"
+msgstr "Lôga"
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:6
+msgid "Logarithmic regression curve"
+msgstr "Đường cong hồi quy lôga"
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:7
+msgid "Polynomial"
+msgstr "Đa thức"
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:8
+msgid "Polynomial regression curve"
+msgstr "Đường cong hồi quy đa thức"
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:9
+msgid "Power"
+msgstr "Lũy thừa"
+
+#: ../plugins/reg_linear/reg-types.xml.in.h:10
+msgid "Power regression curve"
+msgstr "Đường cong hồi quy lũy thừa"
+
+#. xgettext : the base for how to name logarithmic fits
+#. * eg The 2nd fit for a series will be called
+#. * 	Log fit2
+#: ../plugins/reg_logfit/gog-logfit.c:140
+msgid "Log fit"
+msgstr "Vừa lôga"
+
+#: ../plugins/reg_logfit/plugin.xml.in.h:1
+msgid "Logarithmic fitting curve engine"
+msgstr "Cơ chế đường cong vừa lôga"
+
+#: ../plugins/reg_logfit/plugin.xml.in.h:2
+msgid "Logarithmic fitting curves"
+msgstr "Đường cong vừa lôga"
+
+#: ../plugins/reg_logfit/plugin.xml.in.h:3
+msgid "Logarithmic fitting curves types"
+msgstr "Kiểu đường cong vừa lôga"
+
+#: ../plugins/reg_logfit/plugin.xml.in.h:4
+msgid "Regression curve : logfit"
+msgstr "Đường cong hồi quy: vừa lôga"
+
+#: ../plugins/reg_logfit/reg-types.xml.in.h:1
+msgid "Log Fit (y=a+b*ln(sign*(x-c)))"
+msgstr "Vừa lôga (y=a+b*ln(dấu*(x-c)))"
+
+#: ../plugins/reg_logfit/reg-types.xml.in.h:2
+msgid "Logarithmic fitting curve"
+msgstr "Đường cong vừa lôga"
+
+#: ../plugins/smoothing/gog-moving-avg.c:104
+msgid "Number of values from which to calculate an average"
+msgstr "Số giá trị từ chúng cần tính số trung bình"
+
+#: ../plugins/smoothing/gog-moving-avg.c:109
+msgid "Whether to average x values as well or use the last one"
+msgstr "Có nên tính trùng bình các giá trị X, hay dùng giá trị cuối cùng"
+
+#. xgettext : the base for how to name moving averge smoothed curves objects
+#. * eg The 2nd one for a series will be called
+#. * 	Moving average2
+#: ../plugins/smoothing/gog-moving-avg.c:176
+#: ../plugins/smoothing/types.xml.in.h:2
+msgid "Moving average"
+msgstr "Trung bình động"
+
+#: ../plugins/smoothing/gog-moving-avg.c:197
+msgid "Number of averaged values"
+msgstr "Số giá trị đã tính trùng bình"
+
+#: ../plugins/smoothing/gog-moving-avg.c:202
+msgid "Average X"
+msgstr "X trung bình"
+
+#: ../plugins/smoothing/gog-moving-avg.c:203
+msgid "Use averaged x values"
+msgstr "Dùng giá trị X đã tính trung bình"
+
+#: ../plugins/smoothing/gog-moving-avg.ui.h:1
+msgid "_Span:"
+msgstr "_Nhịp:"
+
+#: ../plugins/smoothing/gog-moving-avg.ui.h:2
+msgid "_Use averaged abscissa"
+msgstr "Dùng hoành độ đã tính tr_ung bình"
+
+#: ../plugins/smoothing/gog-exp-smooth.c:65
+#: ../plugins/smoothing/gog-exp-smooth.c:232
+msgid "Number of interpolation steps"
+msgstr "Số bước nội suy"
+
+#: ../plugins/smoothing/gog-exp-smooth.c:73
+msgid ""
+"Default period is 10 * (xmax - xmin)/(nvalues - 1)\n"
+"If no value or a negative (or nul) value is provided, the default will be "
+"used"
+msgstr ""
+"Chu kỳ mặc định là 10 * (xđại - xcực)/(ngiá_trị - 1)\n"
+"Không có giá trị, hay cung cấp giá trị âm (hay vô giá trị) thì dùng giá trị "
+"mặc định."
+
+#. xgettext : the base for how to name exponentially smoothed curves objects
+#. * eg The 2nd one for a series will be called
+#. * 	Exponentially smoothed curve2
+#: ../plugins/smoothing/gog-exp-smooth.c:166
+#: ../plugins/smoothing/types.xml.in.h:1
+msgid "Exponentially smoothed curve"
+msgstr "Đường cong lam mịn theo mũ"
+
+#: ../plugins/smoothing/gog-exp-smooth.c:231
+msgid "Steps"
+msgstr "Bước"
+
+#: ../plugins/smoothing/gog-exp-smooth.ui.h:1
+msgid "_Period:"
+msgstr "_Chu kỳ:"
+
+#: ../plugins/smoothing/gog-exp-smooth.ui.h:2
+msgid "_Steps:"
+msgstr "_Bước:"
+
+#: ../plugins/smoothing/plugin.xml.in.h:1
+#, fuzzy
+msgid "Charting : Trends and Curves"
+msgstr "Vẽ đồ thị: Cực/Ra đa"
+
+#: ../plugins/smoothing/plugin.xml.in.h:2
+msgid "Moving average smoothing engine"
+msgstr "Cơ chế làm mịn trung bình động"
+
+#: ../plugins/smoothing/plugin.xml.in.h:3
+msgid "Smoothed curves"
+msgstr "Đường cong mịn"
+
+#: ../plugins/smoothing/plugin.xml.in.h:4
+msgid "Smoothed curves types"
+msgstr "Kiểu đường cong mịn"
+
+#: ../plugins/smoothing/plugin.xml.in.h:5
+msgid "exponential smoothing engine"
+msgstr "cơ chế lam mịn theo mũ"
+
+#: ../plugins/smoothing/types.xml.in.h:3
+msgid "Moving average smoothed curve"
+msgstr "Đường cong mịn trung bình động"
+
+#~ msgid "Text to render"
+#~ msgstr "Văn bản cần vẽ"
+
+#~ msgid "Markup"
+#~ msgstr "Mã định dạng"
+
+#~ msgid "Marked up text to render"
+#~ msgstr "Văn bản có mã định dạng cần vẽ"
+
+#~ msgid "Font description as a string"
+#~ msgstr "Mô tả phông theo chuỗi."
+
+#~ msgid "Font description"
+#~ msgstr "Mô tả phông"
+
+#~ msgid "Font description as a PangoFontDescription struct"
+#~ msgstr "Mô tả phông chữ theo cấu trúc PangoFontDescription"
+
+#~ msgid "Font family"
+#~ msgstr "Nhóm phông"
+
+#~ msgid "Name of the font family, e.g. Sans, Helvetica, Times, Monospace"
+#~ msgstr ""
+#~ "Tên nhóm phông chữ, v.d. Sans (không chân), Helvetica, Times, Monospace "
+#~ "(đơn cách)"
+
+#~ msgid "Font style"
+#~ msgstr "Kiểu phông"
+
+#~ msgid "Font variant"
+#~ msgstr "Biến thể phông"
+
+#~ msgid "Font weight"
+#~ msgstr "Độ đậm phông"
+
+#~ msgid "Font size"
+#~ msgstr "Cỡ phông"
+
+#~ msgid "Font points"
+#~ msgstr "ĐIểm phông"
+
+#~ msgid "Font size in points"
+#~ msgstr "Kích cỡ phông chữ theo điểm"
+
+#~ msgid "Rise"
+#~ msgstr "Độ nâng lên"
+
+#~ msgid ""
+#~ "Offset of text above the baseline (below the baseline if rise is negative)"
+#~ msgstr ""
+#~ "Hiệu số của văn bản trên đường cơ bản (dưới đường cơ bản nếu độ có nâng "
+#~ "lên âm)"
+
+#~ msgid "Strikethrough"
+#~ msgstr "Gạch đè"
+
+#~ msgid "Whether to strike through the text"
+#~ msgstr "Văn bản có bị gạch đè hay không"
+
+#~ msgid "Underline"
+#~ msgstr "Gạch dưới"
+
+#~ msgid "Style of underline for this text"
+#~ msgstr "Kiểu dáng gạch dưới của văn bản"
+
+#~ msgid "Size of font, relative to default size"
+#~ msgstr "Kích cỡ phông tương ứng với kích cỡ mặc định"
+
+#~ msgid "Color"
+#~ msgstr "Màu"
+
+#~ msgid "Text color, as string"
+#~ msgstr "Màu văn bản theo chuỗi"
+
+#~ msgid "Text color, as a GdkColor"
+#~ msgstr "Màu văn bản theo GdkColor"
+
+#~ msgid "Text color, as an R/G/B/A combined integer"
+#~ msgstr "Màu văn bản theo tổ hợp số nguyên R/G/B/A"
+
+#~ msgid "Text width"
+#~ msgstr "Rộng văn bản"
+
+#~ msgid "Font family set"
+#~ msgstr "Nhóm phông đã đặt"
+
+#~ msgid "Whether this tag affects the font family"
+#~ msgstr "Thẻ này có tác động nhóm phông không"
+
+#~ msgid "Font style set"
+#~ msgstr "Kiểu phông đã đặt"
+
+#~ msgid "Whether this tag affects the font style"
+#~ msgstr "Thẻ này có tác động kiểu dáng phông không"
+
+#~ msgid "Font variant set"
+#~ msgstr "Biến thể phông đã đặt"
+
+#~ msgid "Whether this tag affects the font variant"
+#~ msgstr "Thẻ này có tác động biến thể phông không"
+
+#~ msgid "Font weight set"
+#~ msgstr "Độ đậm phông đã đặt"
+
+#~ msgid "Whether this tag affects the font weight"
+#~ msgstr "Thẻ này có tác động độ đậm phông không"
+
+#~ msgid "Font stretch set"
+#~ msgstr "Độ dãn phông đã đặt"
+
+#~ msgid "Whether this tag affects the font stretch"
+#~ msgstr "Thẻ này có tác động độ dãn ra phông không"
+
+#~ msgid "Font size set"
+#~ msgstr "Cỡ phông đã đặt"
+
+#~ msgid "Whether this tag affects the font size"
+#~ msgstr "Thẻ này có tác động kích cỡ phông không"
+
+#~ msgid "Rise set"
+#~ msgstr "Độ nâng lên đã đặt"
+
+#~ msgid "Whether this tag affects the rise"
+#~ msgstr "Thẻ này có tác động độ nâng lên phông không"
+
+#~ msgid "Strikethrough set"
+#~ msgstr "Gạch đè đã đặt"
+
+#~ msgid "Whether this tag affects strikethrough"
+#~ msgstr "Thẻ này có tác động kiểu dáng ghi đè phông không"
+
+#~ msgid "Underline set"
+#~ msgstr "Gạch dưới đã đặt"
+
+#~ msgid "Whether this tag affects underlining"
+#~ msgstr "Thẻ này có tác động kiểu dáng gạch dưới phông không"
+
+#~ msgid "Scale set"
+#~ msgstr "Tỷ lệ phông đã đặt"
+
+#~ msgid "Whether this tag affects font scaling"
+#~ msgstr "Thẻ này có tác động tỷ lệ phông không"
+
+#~ msgid "H"
+#~ msgstr "C"
+
+#~ msgid "W"
+#~ msgstr "R"
+
+#~ msgid "The GogObject this object displays"
+#~ msgstr "GogObject đối tượng này hiển thị"
+
+#~ msgid ""
+#~ "None\n"
+#~ "Absolute\n"
+#~ "Relative\n"
+#~ "Percent"
+#~ msgstr ""
+#~ "Không có\n"
+#~ "Tuyệt đối\n"
+#~ "Tương đối\n"
+#~ "Phần trăm"
+
+#~ msgid "GogChartPrefs"
+#~ msgstr "Tùy thích Đồ thị GogChart"
+
+#~ msgid "<b>Description</b>"
+#~ msgstr "<b>Mô tả</b>"
+
+#~ msgid "Show sample"
+#~ msgstr "Hiện mẫu thí dụ"
+
+#~ msgid ""
+#~ "Automatic\n"
+#~ "Manual"
+#~ msgstr ""
+#~ "Tự động\n"
+#~ "Bằng tay"
+
+#~ msgid "GogObjectPrefs"
+#~ msgstr "Tùy thích Đối tượng GogObject"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid ""
+#~ "None\n"
+#~ "Pattern\n"
+#~ "Bicolor gradient\n"
+#~ "Unicolor gradient\n"
+#~ "Image"
+#~ msgstr ""
+#~ "Không có\n"
+#~ "Mẫu\n"
+#~ "Dải màu đôi\n"
+#~ "Dải màu đơn\n"
+#~ "Ảnh"
+
+#~ msgid "How far the bars/cols overlap as a percentage of the width"
+#~ msgstr "Vùng chồng lấp của các thanh/cột, theo phần trăm độ rộng"
+
+#~ msgid "Separation between groups as a percentage of bar/col width"
+#~ msgstr "Vùng phân cách các nhóm theo phần trăm độ rộng thanh/cột"
+
+#~ msgid "Line plot."
+#~ msgstr "Đường vẽ."
+
+#~ msgid ""
+#~ "Horizontal\n"
+#~ "Vertical"
+#~ msgstr ""
+#~ "Nằm ngang\n"
+#~ "Thẳng đứng"
+
+#~ msgid "Degrees counter clockwise from 3 O'Clock"
+#~ msgstr "Độ theo ngược chiều từ ba giờ"
+
+#~ msgid ""
+#~ "The default amount each slice is separated from the center measured as a "
+#~ "percentage of the radius of the pie"
+#~ msgstr ""
+#~ "Số lượng mặc định phân cách mỗi lát ra trung tâm, được đo theo phần trăm "
+#~ "bán kính hình tròn."
+
+#~ msgid ""
+#~ "The amount this slice is separated from the center measured as a "
+#~ "percentage of the radius of the pie"
+#~ msgstr ""
+#~ "Số lượng phân cách lát này ra trung tâm, được đo theo phần trăm bán kính "
+#~ "hình tròn."
+
+#~ msgid "Show markers or bubbles at 0 when the value is invalid"
+#~ msgstr "Hiển thị dấu hiệu hay bọt ở 0 khi giá trị không hợp lệ"
+
+#, fuzzy
+#~ msgid "Angles"
+#~ msgstr "Góc"
+
+#, fuzzy
+#~ msgid "Indexs"
+#~ msgstr "Chỉ mục"
+
+#, fuzzy
+#~ msgid "Legends"
+#~ msgstr "Chú giải"
+
+#, fuzzy
+#~ msgid "Matrix"
+#~ msgstr "Đại"
+
+#, fuzzy
+#~ msgid "Regenerate Charts"
+#~ msgstr "Sơ đồ mặt"
+
+#, fuzzy
+#~ msgid "Starts"
+#~ msgstr "Đầu"
+
+#, fuzzy
+#~ msgid "_File"
+#~ msgstr "_Tô đầy:"
+
+#, fuzzy
+#~ msgid "fifth"
+#~ msgstr "Độ rộng"
+
+#, fuzzy
+#~ msgid "first"
+#~ msgstr "Bẩn"
+
+#, fuzzy
+#~ msgid "fourth"
+#~ msgstr "Cả hai"
+
+#, fuzzy
+#~ msgid "sixth"
+#~ msgstr "Độ rộng"
+
+#, fuzzy
+#~ msgid "third"
+#~ msgstr "Khác"
+
+#~ msgid "Type axis:"
+#~ msgstr "Trục kiểu :"
+
+#~ msgid "Zoom Height Pts"
+#~ msgstr "Độ cao thu phóng (điểm)"
+
+#~ msgid "Global scale factor"
+#~ msgstr "Hệ số co dãn toàn cục"
+
+# Name: don't translate/Tên: đừng dịch
+#~ msgid "Cairo"
+#~ msgstr "Cairo"
+
+#~ msgid "The cairo_t* this renderer uses"
+#~ msgstr "cairo_t* bộ vẽ này sử dụng"
+
+#~ msgid "Is vector"
+#~ msgstr "Véc-tơ"
+
+#~ msgid "Tells if the cairo surface is vectorial or raster"
+#~ msgstr "Mặt cairo là kiểu véc-tơ hay mành"
+
+#~ msgid ""
+#~ "Linear\n"
+#~ "Spline\n"
+#~ "Step at start\n"
+#~ "Step at end\n"
+#~ "Step at center\n"
+#~ "Step to average"
+#~ msgstr ""
+#~ "Tuyến\n"
+#~ "Spline\n"
+#~ "Bước ở đầu\n"
+#~ "Bước ở cuối\n"
+#~ "Bước ở giữa\n"
+#~ "Bước đến trung bình"
+
+#~ msgid "Dock the toolbar"
+#~ msgstr "Thả neo thanh công cụ"
+
+#~ msgid "Undock the toolbar"
+#~ msgstr "Nhổ neo thanh công cụ"
+
+#~ msgid "Shadow type"
+#~ msgstr "Kiểu bóng"
+
+#~ msgid "Orientation"
+#~ msgstr "Hướng"
+
+#~ msgid "Preferred width"
+#~ msgstr "Độ rộng ưa thích"
+
+#~ msgid "Preferred height"
+#~ msgstr "Độ cao ưa thích"
+
+#~ msgid "remote user"
+#~ msgstr "người dùng từ xa"
+
+#~ msgid "remote"
+#~ msgstr "từ xa"
+
+#~ msgid "[Color"
+#~ msgstr "[Màu"
+
+#~ msgid "[Invalid]"
+#~ msgstr "[Không hợp lệ]"
+
+#~ msgid "Spline"
+#~ msgstr "Spline"
+
+#~ msgid "BoxPlot"
+#~ msgstr "BoxPlot"
+
+#~ msgid "Box-Plots and Histograms"
+#~ msgstr "Vẽ hộp và biểu đồ tần xuất"
+
+#~ msgid "Charting : Box-Plots/Histograms"
+#~ msgstr "Vẽ đồ thị: Hộp/Biểu đồ tần xuất"
+
+#~ msgid "Grid"
+#~ msgstr "Lưới"
+
+#~ msgid "Default lines"
+#~ msgstr "Đường mặc định"
+
+#~ msgid "<b>Plot area position</b>"
+#~ msgstr "<b>Vị trí vùng vẽ</b>"
+
+#~ msgid "_Order"
+#~ msgstr "_Thứ tự"
+
+#~ msgid "<b>Automatic position</b>"
+#~ msgstr "<b>Vị trí tự động</b>"
+
+#~ msgid "<b>Manual position</b>"
+#~ msgstr "<b>Vị trí tự đặt</b>"
+
+#~ msgid "Ty_pe:"
+#~ msgstr "_Kiểu :"
+
+#~ msgid "_Fill color:"
+#~ msgstr "_Màu tô đầy:"
+
+#~ msgid "*Sun"
+#~ msgstr "*CN"
+
+#~ msgid "*Mon"
+#~ msgstr "*T2"
+
+#~ msgid "*Tue"
+#~ msgstr "*T3"
+
+#~ msgid "*Wed"
+#~ msgstr "*T4"
+
+#~ msgid "*Thu"
+#~ msgstr "*T5"
+
+#~ msgid "*Fri"
+#~ msgstr "*T6"
+
+#~ msgid "*Sat"
+#~ msgstr "*T7"
+
+#~ msgid "Sunday"
+#~ msgstr "Chủ Nhật"
+
+#~ msgid "Monday"
+#~ msgstr "Thứ Hai"
+
+#~ msgid "Tuesday"
+#~ msgstr "Thứ Ba"
+
+#~ msgid "Wednesday"
+#~ msgstr "Thứ Tư"
+
+#~ msgid "Thursday"
+#~ msgstr "Thứ Năm"
+
+#~ msgid "Friday"
+#~ msgstr "Thứ Sáu"
+
+#~ msgid "Saturday"
+#~ msgstr "Thứ Bảy"
+
+#~ msgid "*Jan"
+#~ msgstr "*Một"
+
+#~ msgid "*Feb"
+#~ msgstr "*Hai"
+
+#~ msgid "*Mar"
+#~ msgstr "*Ba"
+
+#~ msgid "*Apr"
+#~ msgstr "*Bốn"
+
+#~ msgid "*May"
+#~ msgstr "*Năm"
+
+#~ msgid "*Jun"
+#~ msgstr "*Sáu"
+
+#~ msgid "*Jul"
+#~ msgstr "*Bảy"
+
+#~ msgid "*Aug"
+#~ msgstr "*Tám"
+
+#~ msgid "*Oct"
+#~ msgstr "*Mười"
+
+#~ msgid "*Nov"
+#~ msgstr "*Mười Một"
+
+#~ msgid "*Dec"
+#~ msgstr "*Mười Hai"
+
+#~ msgid "January"
+#~ msgstr "Tháng Giêng"
+
+#~ msgid "February"
+#~ msgstr "Tháng Hai"
+
+#~ msgid "March"
+#~ msgstr "Tháng Ba"
+
+#~ msgid "April"
+#~ msgstr "Tháng Tư"
+
+#~ msgid "June"
+#~ msgstr "Tháng Sáu"
+
+#~ msgid "July"
+#~ msgstr "Tháng Bảy"
+
+#~ msgid "August"
+#~ msgstr "Tháng Tám"
+
+#~ msgid "October"
+#~ msgstr "Tháng Mười"
+
+#~ msgid "November"
+#~ msgstr "Tháng Mười Một"
+
+#~ msgid "December"
+#~ msgstr "Tháng Chạp"
+
+#~ msgid "Automatic (%s)"
+#~ msgstr "Tự động (%s)"
+
+#~ msgid "Box-Plots"
+#~ msgstr "Vẽ hộp"
+
+#~ msgid "Excel compatibility contour plotting engine"
+#~ msgstr "Cơ chế vẽ đường viền tương thích với Excel"
+
+#~ msgid "Plugin version \"%s\" is different from application \"%s\"."
+#~ msgstr "Phiên bản phần bổ sung « %s » khác với ứng dụng « %s »."
+
+#~ msgid "Error while saving file."
+#~ msgstr "Gặp lỗi khi lưu tập tin."
+
+#~ msgid "_Cross at category #"
+#~ msgstr "Cắt chéo ở loại #"
+
+#~ msgid "Bounds"
+#~ msgstr "Biên"
+
+#~ msgid "T_ype:"
+#~ msgstr "Kiể_u :"
+
+#~ msgid "3D Adjacent Bars"
+#~ msgstr "Thanh kề nhau 3D"
+
+#~ msgid "3D Adjacent Columns"
+#~ msgstr "Cột kề nhau 3D"
+
+#~ msgid "3D Percentage Bars"
+#~ msgstr "Thanh phần trăm 3D"
+
+#~ msgid "3D Percentage Columns"
+#~ msgstr "Cột phần trăm 3D"
+
+#~ msgid "3D Stacked Bars"
+#~ msgstr "Thanh xếp đống 3D"
+
+#~ msgid "3D Stacked Columns"
+#~ msgstr "Cột xếp đống 3D"
+
+#~ msgid "3D Pie"
+#~ msgstr "Bánh 3D"
+
+#~ msgid "3D Split Pie"
+#~ msgstr "Bánh xẻ 3D"
+
+#~ msgid "Multi-pie-bars"
+#~ msgstr "Thanh đa bánh"
+
+#~ msgid "_Slices number:"
+#~ msgstr "_Số lát:"

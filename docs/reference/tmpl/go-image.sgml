@@ -1,0 +1,299 @@
+<!-- ##### SECTION Title ##### -->
+go-image
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOImage ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GOImage:height ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GOImage:pixbuf ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GOImage:width ##### -->
+<para>
+
+</para>
+
+<!-- ##### ENUM GOImageFormat ##### -->
+<para>
+
+</para>
+
+@GO_IMAGE_FORMAT_SVG: 
+@GO_IMAGE_FORMAT_PNG: 
+@GO_IMAGE_FORMAT_JPG: 
+@GO_IMAGE_FORMAT_PDF: 
+@GO_IMAGE_FORMAT_PS: 
+@GO_IMAGE_FORMAT_EMF: 
+@GO_IMAGE_FORMAT_WMF: 
+@GO_IMAGE_FORMAT_EPS: 
+@GO_IMAGE_FORMAT_UNKNOWN: 
+
+<!-- ##### STRUCT GOImageFormatInfo ##### -->
+<para>
+
+</para>
+
+@format: 
+@name: 
+@desc: 
+@ext: 
+@has_pixbuf_saver: 
+@is_dpi_useful: 
+@alpha_support: 
+
+<!-- ##### FUNCTION go_mime_to_image_format ##### -->
+<para>
+
+</para>
+
+@mime_type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_format_to_mime ##### -->
+<para>
+
+</para>
+
+@format: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_get_format_info ##### -->
+<para>
+
+</para>
+
+@format: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_get_format_from_name ##### -->
+<para>
+
+</para>
+
+@name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_get_formats_with_pixbuf_saver ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### MACRO GO_TYPE_IMAGE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_IMAGE ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_IMAGE ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### FUNCTION go_image_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_get_cairo ##### -->
+<para>
+
+</para>
+
+@image: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_create_cairo_pattern ##### -->
+<para>
+
+</para>
+
+@image: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_new_from_pixbuf ##### -->
+<para>
+
+</para>
+
+@pixbuf: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_get_pixbuf ##### -->
+<para>
+
+</para>
+
+@image: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_new_from_file ##### -->
+<para>
+
+</para>
+
+@filename: 
+@error: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_get_pixels ##### -->
+<para>
+
+</para>
+
+@image: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_get_rowstride ##### -->
+<para>
+
+</para>
+
+@image: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_fill ##### -->
+<para>
+
+</para>
+
+@image: 
+@color: 
+
+
+<!-- ##### FUNCTION go_image_get_name ##### -->
+<para>
+
+</para>
+
+@image: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_get_thumbnail ##### -->
+<para>
+
+</para>
+
+@image: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_load_attrs ##### -->
+<para>
+
+</para>
+
+@image: 
+@xin: 
+@attrs: 
+
+
+<!-- ##### FUNCTION go_image_load_data ##### -->
+<para>
+
+</para>
+
+@image: 
+@xin: 
+
+
+<!-- ##### FUNCTION go_image_same_pixbuf ##### -->
+<para>
+
+</para>
+
+@first: 
+@second: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_save ##### -->
+<para>
+
+</para>
+
+@image: 
+@output: 
+
+
+<!-- ##### FUNCTION go_image_sel_new ##### -->
+<para>
+
+</para>
+
+@doc: 
+@cc: 
+@image: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_image_set_name ##### -->
+<para>
+
+</para>
+
+@image: 
+@name: 
+
+

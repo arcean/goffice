@@ -1,0 +1,81 @@
+<!-- ##### SECTION Title ##### -->
+GOActionText
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOActionComboText ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GOActionComboText:case-sensitive ##### -->
+<para>
+
+</para>
+
+<!-- ##### ENUM GOActionComboTextSearchDir ##### -->
+<para>
+
+</para>
+
+@GO_ACTION_COMBO_SEARCH_FROM_TOP: 
+@GO_ACTION_COMBO_SEARCH_CURRENT: 
+@GO_ACTION_COMBO_SEARCH_NEXT: 
+
+<!-- ##### FUNCTION go_action_combo_text_add_item ##### -->
+<para>
+
+</para>
+
+@a: 
+@item: 
+
+
+<!-- ##### FUNCTION go_action_combo_text_set_width ##### -->
+<para>
+
+</para>
+
+@a: 
+@largest_elem: 
+
+
+<!-- ##### FUNCTION go_action_combo_text_get_entry ##### -->
+<para>
+
+</para>
+
+@a: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_action_combo_text_set_entry ##### -->
+<para>
+
+</para>
+
+@taction: 
+@text: 
+@dir: 
+
+

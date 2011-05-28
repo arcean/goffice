@@ -1,0 +1,195 @@
+<!-- ##### SECTION Title ##### -->
+GOGeometry
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_GEOMETRY_ANGLE_TOLERANCE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### ENUM GOGeometrySide ##### -->
+<para>
+
+</para>
+
+@GO_SIDE_LEFT: 
+@GO_SIDE_RIGHT: 
+@GO_SIDE_LEFT_RIGHT: 
+@GO_SIDE_TOP: 
+@GO_SIDE_BOTTOM: 
+@GO_SIDE_TOP_BOTTOM: 
+@GO_SIDE_AUTO: 
+
+<!-- ##### ENUM GOGeometryRotationType ##### -->
+<para>
+
+</para>
+
+@GO_ROTATE_NONE: 
+@GO_ROTATE_COUNTERCLOCKWISE: 
+@GO_ROTATE_UPSIDEDOWN: 
+@GO_ROTATE_CLOCKWISE: 
+@GO_ROTATE_FREE: 
+
+<!-- ##### STRUCT GOGeometryOBR ##### -->
+<para>
+
+</para>
+
+@x: 
+@y: 
+@w: 
+@h: 
+@alpha: 
+
+<!-- ##### TYPEDEF GOGeometryAABR ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION go_geometry_cartesian_to_polar ##### -->
+<para>
+
+</para>
+
+@x: 
+@y: 
+@rho: 
+@theta: 
+
+
+<!-- ##### FUNCTION go_geometry_point_to_segment ##### -->
+<para>
+
+</para>
+
+@xp: 
+@yp: 
+@xs: 
+@ys: 
+@w: 
+@h: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_geometry_AABR_add ##### -->
+<para>
+
+</para>
+
+@aabr0: 
+@aabr1: 
+
+
+<!-- ##### FUNCTION go_geometry_OBR_to_AABR ##### -->
+<para>
+
+</para>
+
+@obr: 
+@aabr: 
+
+
+<!-- ##### FUNCTION go_geometry_test_OBR_overlap ##### -->
+<para>
+
+</para>
+
+@obr0: 
+@obr1: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_geometry_get_rotation_type ##### -->
+<para>
+
+</para>
+
+@alpha: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_geometry_calc_label_position ##### -->
+<para>
+
+</para>
+
+@obr: 
+@alpha: 
+@offset: 
+@side: 
+@anchor: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_geometry_calc_label_anchor ##### -->
+<para>
+
+</para>
+
+@obr: 
+@alpha: 
+@Returns: 
+
+
+<!-- ##### ENUM GODirection ##### -->
+<para>
+
+</para>
+
+@GO_DIRECTION_UP: 
+@GO_DIRECTION_DOWN: 
+@GO_DIRECTION_LEFT: 
+@GO_DIRECTION_RIGHT: 
+@GO_DIRECTION_NONE: 
+
+<!-- ##### FUNCTION go_direction_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_direction_is_forward ##### -->
+<para>
+
+</para>
+
+@d: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_direction_is_horizontal ##### -->
+<para>
+
+</para>
+
+@d: 
+@Returns: 
+
+

@@ -1,0 +1,10 @@
+5ff9a30b8083def536d9a3638b1ba547  usr/lib/debug/usr/lib/libgoffice-0.8.so.8.0.8
+68b7fbad36db912c94ae6699050707a0  usr/lib/debug/usr/lib/goffice/0.8.8/plugins/plot_xy/xy.so
+67d44803349033c44552e308025de2aa  usr/lib/debug/usr/lib/goffice/0.8.8/plugins/plot_distrib/distrib.so
+a7c59416597f660080733a12650f33cc  usr/lib/debug/usr/lib/goffice/0.8.8/plugins/plot_barcol/barcol.so
+9a684233c62d478a2c99eff26aa8a105  usr/lib/debug/usr/lib/goffice/0.8.8/plugins/plot_surface/surface.so
+619b9b078fab09c8242b9d5b91095d16  usr/lib/debug/usr/lib/goffice/0.8.8/plugins/plot_radar/radar.so
+ac504a698ce362e0d2defb87ea08f384  usr/lib/debug/usr/lib/goffice/0.8.8/plugins/reg_linear/linreg.so
+ec19814706c808386e749102609bbbc1  usr/lib/debug/usr/lib/goffice/0.8.8/plugins/plot_pie/pie.so
+f4318b3bd156c62693237ad904893d2e  usr/lib/debug/usr/lib/goffice/0.8.8/plugins/smoothing/smoothing.so
+ae03df400ec5b1c0ec46f7e013c4f607  usr/lib/debug/usr/lib/goffice/0.8.8/plugins/reg_logfit/logfit.so

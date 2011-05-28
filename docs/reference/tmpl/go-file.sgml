@@ -1,0 +1,275 @@
+<!-- ##### SECTION Title ##### -->
+GOFile
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GOFilePermissions ##### -->
+<para>
+
+</para>
+
+@owner_read: 
+@owner_write: 
+@owner_execute: 
+@group_read: 
+@group_write: 
+@group_execute: 
+@others_read: 
+@others_write: 
+@others_execute: 
+
+<!-- ##### ENUM GOFileProbeLevel ##### -->
+<para>
+
+</para>
+
+@GO_FILE_PROBE_FILE_NAME: 
+@GO_FILE_PROBE_CONTENT: 
+@GO_FILE_PROBE_LAST: 
+
+<!-- ##### ENUM GOFileFormatLevel ##### -->
+<para>
+
+</para>
+
+@GO_FILE_FL_NONE: 
+@GO_FILE_FL_WRITE_ONLY: 
+@GO_FILE_FL_NEW: 
+@GO_FILE_FL_MANUAL: 
+@GO_FILE_FL_MANUAL_REMEMBER: 
+@GO_FILE_FL_AUTO: 
+@GO_FILE_FL_LAST: 
+
+<!-- ##### ENUM GODotDot ##### -->
+<para>
+
+</para>
+
+@GO_DOTDOT_SYNTACTIC: 
+@GO_DOTDOT_TEST: 
+@GO_DOTDOT_LEAVE: 
+
+<!-- ##### FUNCTION go_filename_simplify ##### -->
+<para>
+
+</para>
+
+@filename: 
+@dotdot: 
+@make_absolute: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_filename_from_uri ##### -->
+<para>
+
+</para>
+
+@uri: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_filename_to_uri ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_shell_arg_to_uri ##### -->
+<para>
+
+</para>
+
+@arg: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_basename_from_uri ##### -->
+<para>
+
+</para>
+
+@uri: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_dirname_from_uri ##### -->
+<para>
+
+</para>
+
+@uri: 
+@brief: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_shell_argv_to_glib_encoding ##### -->
+<para>
+
+</para>
+
+@argc: 
+@argv: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_shell_argv_to_glib_encoding_free ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION go_file_open ##### -->
+<para>
+
+</para>
+
+@uri: 
+@err: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_file_create ##### -->
+<para>
+
+</para>
+
+@uri: 
+@err: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_file_split_urls ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_file_get_owner_name ##### -->
+<para>
+
+</para>
+
+@uri: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_file_get_group_name ##### -->
+<para>
+
+</para>
+
+@uri: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_get_file_permissions ##### -->
+<para>
+
+</para>
+
+@uri: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_set_file_permissions ##### -->
+<para>
+
+</para>
+
+@uri: 
+@file_permissions: 
+
+
+<!-- ##### FUNCTION go_file_get_date_accessed ##### -->
+<para>
+
+</para>
+
+@uri: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_file_get_date_modified ##### -->
+<para>
+
+</para>
+
+@uri: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_file_get_date_changed ##### -->
+<para>
+
+</para>
+
+@uri: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_file_access ##### -->
+<para>
+
+</para>
+
+@uri: 
+@mode: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_get_mime_type ##### -->
+<para>
+
+</para>
+
+@uri: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_get_mime_type_for_data ##### -->
+<para>
+
+</para>
+
+@data: 
+@data_size: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_mime_type_get_description ##### -->
+<para>
+
+</para>
+
+@mime_type: 
+@Returns: 
+
+

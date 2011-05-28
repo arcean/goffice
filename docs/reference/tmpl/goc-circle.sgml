@@ -1,0 +1,51 @@
+<!-- ##### SECTION Title ##### -->
+GocCircle
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GocCircle ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GocCircle:radius ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocCircle:x ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocCircle:y ##### -->
+<para>
+
+</para>
+
+<!-- ##### TYPEDEF GocCircleClass ##### -->
+<para>
+
+</para>
+
+

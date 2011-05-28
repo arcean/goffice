@@ -1,0 +1,117 @@
+<!-- ##### SECTION Title ##### -->
+GOLocaleSel
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_LOCALE_SEL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_LOCALE_SEL ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+
+<!-- ##### MACRO GO_IS_LOCALE_SEL ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+
+<!-- ##### STRUCT GOLocaleSel ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOLocaleSel::locale-changed ##### -->
+<para>
+
+</para>
+
+@golocalesel: the object which received the signal.
+@arg1: 
+
+<!-- ##### FUNCTION go_locale_sel_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_sel_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_sel_get_locale ##### -->
+<para>
+
+</para>
+
+@cs: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_sel_set_locale ##### -->
+<para>
+
+</para>
+
+@cs: 
+@loc: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_locale_sel_set_sensitive ##### -->
+<para>
+
+</para>
+
+@cs: 
+@sensitive: 
+
+
+<!-- ##### FUNCTION go_locale_sel_get_locale_name ##### -->
+<para>
+
+</para>
+
+@cs: 
+@loc: 
+@Returns: 
+
+

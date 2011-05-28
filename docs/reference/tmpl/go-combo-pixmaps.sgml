@@ -1,0 +1,154 @@
+<!-- ##### SECTION Title ##### -->
+GOComboPixmaps
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GO_TYPE_COMBO_PIXMAPS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GO_COMBO_PIXMAPS ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### MACRO GO_IS_COMBO_PIXMAPS ##### -->
+<para>
+
+</para>
+
+@o: 
+
+
+<!-- ##### STRUCT GOComboPixmaps ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL GOComboPixmaps::changed ##### -->
+<para>
+
+</para>
+
+@gocombopixmaps: the object which received the signal.
+@arg1: 
+
+<!-- ##### STRUCT GOMenuPixmaps ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION go_combo_pixmaps_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_pixmaps_new ##### -->
+<para>
+
+</para>
+
+@ncols: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_pixmaps_add_element ##### -->
+<para>
+
+</para>
+
+@combo: 
+@pixbuf: 
+@id: 
+@tooltip: 
+
+
+<!-- ##### FUNCTION go_combo_pixmaps_select_index ##### -->
+<para>
+
+</para>
+
+@combo: 
+@index: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_pixmaps_select_id ##### -->
+<para>
+
+</para>
+
+@combo: 
+@id: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_pixmaps_get_selected ##### -->
+<para>
+
+</para>
+
+@combo: 
+@index: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_combo_pixmaps_get_preview ##### -->
+<para>
+
+</para>
+
+@combo: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_menu_pixmaps_new ##### -->
+<para>
+
+</para>
+
+@ncols: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_menu_pixmaps_add_element ##### -->
+<para>
+
+</para>
+
+@menu: 
+@pixbuf: 
+@id: 
+
+

@@ -1,0 +1,90 @@
+<!-- ##### SECTION Title ##### -->
+Other utilities
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GocPoints ##### -->
+<para>
+
+</para>
+
+@points: 
+
+<!-- ##### FUNCTION goc_points_new ##### -->
+<para>
+
+</para>
+
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_points_ref ##### -->
+<para>
+
+</para>
+
+@points: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_points_unref ##### -->
+<para>
+
+</para>
+
+@points: 
+
+
+<!-- ##### STRUCT GocIntArray ##### -->
+<para>
+
+</para>
+
+@vals: 
+
+<!-- ##### FUNCTION goc_int_array_new ##### -->
+<para>
+
+</para>
+
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_int_array_ref ##### -->
+<para>
+
+</para>
+
+@array: 
+@Returns: 
+
+
+<!-- ##### FUNCTION goc_int_array_unref ##### -->
+<para>
+
+</para>
+
+@array: 
+
+

@@ -1,0 +1,106 @@
+<!-- ##### SECTION Title ##### -->
+GODataMatrix
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT GODataMatrix ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GODataMatrixClass ##### -->
+<para>
+
+</para>
+
+@base: 
+@load_size: 
+@load_values: 
+@get_value: 
+@get_str: 
+
+<!-- ##### STRUCT GODataMatrixSize ##### -->
+<para>
+
+</para>
+
+@rows: 
+@columns: 
+
+<!-- ##### FUNCTION go_data_matrix_get_size ##### -->
+<para>
+
+</para>
+
+@mat: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_matrix_get_values ##### -->
+<para>
+
+</para>
+
+@mat: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_matrix_get_value ##### -->
+<para>
+
+</para>
+
+@mat: 
+@i: 
+@j: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_matrix_get_str ##### -->
+<para>
+
+</para>
+
+@mat: 
+@i: 
+@j: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_data_matrix_get_minmax ##### -->
+<para>
+
+</para>
+
+@mat: 
+@min: 
+@max: 
+
+
+<!-- ##### MACRO GO_DATA_MATRIX_SIZE_CACHED ##### -->
+<para>
+
+</para>
+
+
+

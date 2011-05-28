@@ -1,0 +1,56 @@
+<!-- ##### SECTION Title ##### -->
+GocPolygon
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### TYPEDEF GocPolygonClass ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT GocPolygon ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GocPolygon:fill-rule ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocPolygon:points ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocPolygon:sizes ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GocPolygon:use-spline ##### -->
+<para>
+
+</para>
+

@@ -1,0 +1,210 @@
+<!-- ##### SECTION Title ##### -->
+GORange
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION go_range_sum ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@res: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_sumsq ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@res: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_average ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@res: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_min ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@res: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_max ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@res: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_maxabs ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@res: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_devsq ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@res: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_fractile_inter ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@res: 
+@f: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_fractile_inter_nonconst ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@res: 
+@f: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_fractile_inter_sorted ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@res: 
+@f: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_increasing ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_median_inter ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@res: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_median_inter_nonconst ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@res: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_decreasing ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_median_inter_sorted ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@res: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_sort ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION go_range_vary_uniformly ##### -->
+<para>
+
+</para>
+
+@xs: 
+@n: 
+@Returns: 
+
+
