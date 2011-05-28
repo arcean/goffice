@@ -1,3 +1,19 @@
+2011-05-21  Morten Welinder <terra@gnome.org>
+
+	* Release 0.8.15
+
+2011-04-22  Jean Brefort  <jean.brefort@normalesup.org>
+
+	* fr.po: updated some strings.
+
+2011-04-16  Jean Brefort  <jean.brefort@normalesup.org>
+
+	* POTFILES.in: updated files list.
+
+2011-04-13  Jean Brefort  <jean.brefort@normalesup.org>
+
+	* POTFILES.in: updated files list.
+
 2011-03-24  Morten Welinder <terra@gnome.org>
 
 	* Release 0.8.14

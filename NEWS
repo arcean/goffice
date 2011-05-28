@@ -1,3 +1,20 @@
+goffice 0.8.15:
+
+Andreas:
+	* Fix format string parsing with localized colour names. [#647324]
+
+Jean:
+	* Fixed closed bezier spline evaluation. [#646700]
+	* Implement dropbar plots with linear or logarithmic index axis. [#646832]
+	* Fix legends for plots with marker only style. [#647367]
+	* Don't use badly rounded values when clipping markers. [#649485]
+	* Implement probability plots with data as y values. [#650515]
+
+Morten:
+	* Plug leaks.
+	* Detect more cases of linear-regression gone bad.
+
+--------------------------------------------------------------------------
 goffice 0.8.14:
 
 Jean:

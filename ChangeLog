@@ -1,3 +1,84 @@
+2011-05-21  Morten Welinder <terra@gnome.org>
+
+	* Release 0.8.15
+
+2011-05-19  Jean Brefort  <jean.brefort@normalesup.org>
+
+	* plugins/plot_distrib/gog-probability-plot.c
+	(data_as_y_toggled_cb), (gog_probability_plot_populate_editor),
+	(gog_probability_plot_update), (gog_probability_plot_set_property),
+	(gog_probability_plot_get_property),
+	(gog_probability_plot_class_init),
+	(gog_probability_plot_view_render): implement data-as-y-values property.
+	[#650515]
+	* plugins/plot_distrib/gog-probability-plot.h: ditto.
+
+2011-05-15  Jean Brefort  <jean.brefort@normalesup.org>
+
+	* goffice/utils/go-format.c (go_format_parse_sequential),
+	(go_format_output_date_to_odf),
+	(go_format_output_scientific_number_to_odf): fixed some gcc-4.6 warnings.
+	[#649355]
+
+2011-05-10  Morten Welinder  <terra@gnome.org>
+
+	* goffice/math/go-regression.c (general_linear_regression): Always
+	compute stat information.  If we get negative R-squared, mark
+	result as bad.
+
+2011-05-06  Jean Brefort  <jean.brefort@normalesup.org>
+
+	* goffice/utils/go-marker.c (go_marker_create_cairo_surface): don't
+	use badly rounded values when clipping markers. [#649485]
+
+2011-04-16  Jean Brefort  <jean.brefort@normalesup.org>
+
+	* goffice/utils/go-geometry.c (go_direction_get_type),
+	(go_direction_get_name): make nick names localizable since they are
+	used in a gnumeric dialog.
+	* goffice/utils/go-geometry.h: ditto.
+
+2011-04-10  Jean Brefort  <jean.brefort@normalesup.org>
+
+	* goffice/graph/gog-legend.c (cb_render_elements): fix legends for plots
+	with marker only style. [#647367]
+
+2011-04-09  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* goffice/utils/go-format.c (go_format_token2): localized colour
+	names need not start with an alphabetic ascii character.
+
+2011-04-08  Morten Welinder  <terra@gnome.org>
+
+	* goffice/canvas/goc-group.c: Cleanup list traversal.
+
+	* goffice/canvas/goc-item.c (goc_item_maybe_invalidate): New
+	function, extracted from goc_item_invalidate.  Avoid invalidating
+	invisible items.
+	(goc_item_set_visible): New function.
+	(goc_item_show, goc_item_hide): Base on goc_item_set_visible.
+	This avoids invalidation when nothing changes.
+
+2011-04-06  Jean Brefort  <jean.brefort@normalesup.org>
+
+	* plugins/plot_xy/gog-xy-dropbar-prefs.ui: implement dropbar plots with
+	linear or logarithmic index axis. [#646832]
+	* plugins/plot_xy/gog-xy-dropbar.c: ditto.
+	* plugins/plot_xy/gog-xy-dropbar.h: ditto.
+
+2011-04-04  Jean Brefort  <jean.brefort@normalesup.org>
+
+	* goffice/utils/go-bezier.c (go_bezier_spline_init): fixed closed bezier
+	spline evaluation. [#646700]
+
+2011-03-28  Morten Welinder  <terra@gnome.org>
+
+	* goffice/utils/go-style.c (fill_init): Don't leak the size group.
+
+2011-03-24  Morten Welinder <terra@gnome.org>
+
+	* configure.in: Post-release bump.
+
 2011-03-24  Morten Welinder <terra@gnome.org>
 
 	* Release 0.8.14

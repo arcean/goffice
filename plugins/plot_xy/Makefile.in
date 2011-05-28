@@ -75,9 +75,10 @@ am__installdirs = "$(DESTDIR)$(goffice_graph_xydir)" \
 LTLIBRARIES = $(goffice_graph_xy_LTLIBRARIES)
 am__DEPENDENCIES_1 =
 xy_la_DEPENDENCIES = $(am__DEPENDENCIES_1)
-am__xy_la_SOURCES_DIST = gog-xy.c gog-xy.h gog-bubble-prefs.c
+am__xy_la_SOURCES_DIST = gog-xy.c gog-xy.h gog-xy-dropbar.c \
+	gog-xy-dropbar.h gog-bubble-prefs.c
 @WITH_GTK_TRUE@am__objects_1 = gog-bubble-prefs.lo
-am_xy_la_OBJECTS = gog-xy.lo $(am__objects_1)
+am_xy_la_OBJECTS = gog-xy.lo gog-xy-dropbar.lo $(am__objects_1)
 xy_la_OBJECTS = $(am_xy_la_OBJECTS)
 AM_V_lt = $(am__v_lt_$(V))
 am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))
@@ -110,7 +111,8 @@ am__v_GEN_0 = @echo "  GEN   " $@;
 SOURCES = $(xy_la_SOURCES)
 DIST_SOURCES = $(am__xy_la_SOURCES_DIST)
 am__dist_ui_DATA_DIST = gog-bubble-prefs.ui gog-xy-prefs.ui \
-	gog-xy-color-prefs.ui gog-xy-series-prefs.ui
+	gog-xy-color-prefs.ui gog-xy-series-prefs.ui \
+	gog-xy-dropbar-prefs.ui
 DATA = $(dist_ui_DATA) $(xml_DATA)
 ETAGS = etags
 CTAGS = ctags
@@ -302,14 +304,16 @@ uidir = $(goffice_graph_xydir)
 goffice_graph_xy_LTLIBRARIES = xy.la
 xy_la_LDFLAGS = -module $(GOFFICE_PLUGIN_FLAGS)
 xy_la_LIBADD = $(GOFFICE_PLUGIN_LIBADD)
-xy_la_SOURCES = gog-xy.c gog-xy.h $(am__append_1)
+xy_la_SOURCES = gog-xy.c gog-xy.h gog-xy-dropbar.c gog-xy-dropbar.h \
+	$(am__append_1)
 xml_in_files = plugin.xml.in plot-types.xml.in
 xml_DATA = $(xml_in_files:.xml.in=.xml)
 @WITH_GTK_TRUE@dist_ui_DATA = \
 @WITH_GTK_TRUE@	gog-bubble-prefs.ui	\
 @WITH_GTK_TRUE@	gog-xy-prefs.ui	\
 @WITH_GTK_TRUE@	gog-xy-color-prefs.ui	\
-@WITH_GTK_TRUE@	gog-xy-series-prefs.ui
+@WITH_GTK_TRUE@	gog-xy-series-prefs.ui	\
+@WITH_GTK_TRUE@	gog-xy-dropbar-prefs.ui
 
 EXTRA_DIST = $(xml_in_files)
 DISTCLEANFILES = $(xml_in_files:.xml.in=.xml)
@@ -394,6 +398,7 @@ distclean-compile:
 	-rm -f *.tab.c
 
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/gog-bubble-prefs.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/gog-xy-dropbar.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/gog-xy.Plo@am__quote@
 
 .c.o:

@@ -196,6 +196,7 @@ typedef enum {
 } GOFormatOp;
 
 typedef enum {
+	TOK_NULL = 0,
 	TOK_GENERAL = 256,	/* General	*/
 
 	TOK_STRING,		/* "xyz"	*/
@@ -838,10 +839,7 @@ go_format_token2 (char const **pstr, GOFormatTokenType *ptt, gboolean localized)
 			break;
 
 		default:
-			if (g_ascii_isalpha (str[1]))
-				t = TOK_COLOR;
-			else
-				goto error;
+			t = TOK_COLOR;
 			break;
 		}
 
@@ -1197,7 +1195,7 @@ handle_common_token (const char *tstr, GOFormatToken t, GString *prg)
 		break;
 	}
 
-	case 0:
+	case TOK_NULL:
 		break;
 
 	default:
@@ -1231,7 +1229,6 @@ go_format_parse_sequential (const char *str, GString *prg,
 	gboolean seen_hour = FALSE;
 	gboolean seen_ampm = FALSE;
 	gboolean seen_minute = FALSE;
-	gboolean seen_second = FALSE;
 	gboolean seen_elapsed = FALSE;
 	gboolean m_is_minutes = FALSE;
 	gboolean seconds_trigger_minutes = TRUE;
@@ -1358,7 +1355,6 @@ go_format_parse_sequential (const char *str, GString *prg,
 
 			seen_time = TRUE;
 			ADD_OP (n == 1 ? OP_TIME_SECOND : OP_TIME_SECOND_2);
-			seen_second = TRUE;
 
 			break;
 		}
@@ -1425,7 +1421,6 @@ go_format_parse_sequential (const char *str, GString *prg,
 				goto error;
 			seen_time = TRUE;
 			seen_elapsed = TRUE;
-			seen_second = TRUE;
 			if (seconds_trigger_minutes) {
 				m_is_minutes = TRUE;
 				seconds_trigger_minutes = FALSE;
@@ -5607,7 +5602,6 @@ go_format_output_date_to_odf (GsfXMLOut *xout, GOFormat const *fmt,
 	gboolean seen_month = FALSE;
 	gboolean seen_day = FALSE;
 	gboolean seen_weekday = FALSE;
-	gboolean seen_time = FALSE;
 	gboolean seen_hour = FALSE;
 	gboolean seen_ampm = FALSE;
 	gboolean seen_minute = FALSE;
@@ -5864,7 +5858,6 @@ go_format_output_date_to_odf (GsfXMLOut *xout, GOFormat const *fmt,
 
 		case TOK_ELAPSED_S:
 			if (seen_elapsed || seen_ampm || seen_second) break;
-			seen_time = TRUE;
 			seen_elapsed = TRUE;
 			seen_second = TRUE;
 			if (seconds_trigger_minutes) {
@@ -6554,7 +6547,6 @@ go_format_output_scientific_number_to_odf (GsfXMLOut *xout, GOFormat const *fmt,
 	gboolean dot_seen = FALSE;
 
 	gboolean number_completed = FALSE;
-	gboolean number_seen = FALSE;
 	gboolean color_completed = FALSE;
 	gboolean string_is_open = FALSE;
 
@@ -6577,7 +6569,6 @@ go_format_output_scientific_number_to_odf (GsfXMLOut *xout, GOFormat const *fmt,
 			if (number_completed) break;
                         /* ODF allows only for a single number specification */
 			ODF_CLOSE_STRING;
-			number_seen = TRUE;
 			dot_seen = TRUE;
 			break;
 
@@ -6585,7 +6576,6 @@ go_format_output_scientific_number_to_odf (GsfXMLOut *xout, GOFormat const *fmt,
 			if (number_completed) break;
                         /* ODF allows only for a single number specification */
 			ODF_CLOSE_STRING;
-			number_seen = TRUE;
 			comma_seen = TRUE;
 			break;
 
@@ -6593,7 +6583,6 @@ go_format_output_scientific_number_to_odf (GsfXMLOut *xout, GOFormat const *fmt,
 			if (number_completed) break;
                         /* ODF allows only for a single number specification */
 			ODF_CLOSE_STRING;
-			number_seen = TRUE;
 			if (dot_seen)
 				min_decimal_digits++;
 			else
@@ -6604,14 +6593,12 @@ go_format_output_scientific_number_to_odf (GsfXMLOut *xout, GOFormat const *fmt,
 			if (number_completed) break;
                         /* ODF allows only for a single number specification */
 			ODF_CLOSE_STRING;
-			number_seen = TRUE;
 			break;
 
 		case '#':
 			if (number_completed) break;
                         /* ODF allows only for a single number specification */
 			ODF_CLOSE_STRING;
-			number_seen = TRUE;
 			if (!dot_seen)
 				hashes++;
 			break;
