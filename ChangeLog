@@ -1,3 +1,38 @@
+2011-06-16  Morten Welinder <terra@gnome.org>
+
+	* Release 0.8.16
+
+2011-06-10  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* configure.in: check for get_gsf_odf_version
+	* goffice/utils/go-format.c (go_format_output_fraction_to_odf): 
+	don't just assume that we are writing ODF 1.2
+
+2011-06-08  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* goffice/utils/go-format.c (go_format_output_fraction_to_odf): in
+	ODF 1.2 we do not need to use gnm:no-integer-part any more
+
+2011-05-24  Morten Welinder  <terra@gnome.org>
+
+	* goffice/utils/go-format.c (go_format_execute): Remove "-" from
+	"-0" even when no dot is present.  Fixes #650928.
+
+2011-05-23  Morten Welinder  <terra@gnome.org>
+
+	* goffice/math/go-complex.c (go_complex_invalid)
+	(go_complex_angle_pi): New functions.
+	(go_complex_pow): Improve accuracy.
+
+2011-05-22  Morten Welinder  <terra@gnome.org>
+
+	* goffice/math/go-complex.h (go_complexl): Only defined when
+	GOFFICE_WITH_LONG_DOUBLE.
+
+2011-05-21  Morten Welinder <terra@gnome.org>
+
+	* configure.in: Post-release bump.
+
 2011-05-21  Morten Welinder <terra@gnome.org>
 
 	* Release 0.8.15

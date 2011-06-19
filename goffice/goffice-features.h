@@ -35,7 +35,7 @@
 /* #undef GOFFICE_SUPPLIED_STRTOLD */
 
 /* The version number of this release, possibly with additional suffix */
-#define GOFFICE_VERSION "0.8.15"
+#define GOFFICE_VERSION "0.8.16"
 
 /* The Epoch of this release */
 #define GO_VERSION_EPOCH 0
@@ -44,7 +44,7 @@
 #define GO_VERSION_MAJOR 8
 
 /* The Minor version number of this release */
-#define GO_VERSION_MINOR 15
+#define GO_VERSION_MINOR 16
 
 /* Extra, possibly empty tag for this release */
 #define GO_VERSION_EXTRA ""
