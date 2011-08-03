@@ -200,6 +200,18 @@ cb_force_theme (GtkButton *button, GogGraph *graph)
 }
 
 static void
+unset_model (GtkComboBox *cb)
+{
+	/*
+	 * We shouldn't have to do this, but with certain versions of GTK+ it
+	 * appears we must.  (Specifically because (1) most of GtkComboBox's
+	 * finalizer should have been in the dispose method instead, and (2) it
+	 * somehow leaks the GtkComboBox.
+	 */
+	gtk_combo_box_set_model (cb, NULL);
+}
+
+static void
 gog_graph_populate_editor (GogObject *gobj,
 			   GOEditor *editor,
 			   G_GNUC_UNUSED GogDataAllocator *dalloc,
@@ -232,6 +244,9 @@ gog_graph_populate_editor (GogObject *gobj,
 		combo = go_gtk_builder_get_widget (gui, "theme_combo");
 		model = GTK_LIST_STORE (gtk_combo_box_get_model (GTK_COMBO_BOX (combo)));
 
+		g_signal_connect (G_OBJECT (combo), "destroy",
+				  G_CALLBACK (unset_model), NULL);
+
 		count = 0;
 		for (ptr = theme_names; ptr != NULL; ptr = ptr->next) {
 			theme = gog_theme_registry_lookup (ptr->data);
@@ -252,10 +267,10 @@ gog_graph_populate_editor (GogObject *gobj,
 
 		box = go_gtk_builder_get_widget (gui, "gog_graph_prefs");
 		go_editor_add_page (editor, box, _("Theme"));
-		g_object_unref (gui);
 
 		g_slist_free (theme_names);
 	}
+	g_object_unref (gui);
 
 	go_editor_set_store_page (editor, &graph_pref_page);
 }
